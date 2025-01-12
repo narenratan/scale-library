@@ -1,0 +1,12 @@
+! 692_S1.scl
+!
+Semi-tempered tetrachord 16/((9*sqrt(3))) * 16/((9*sqrt(3))) * 81/64
+ 3
+!
+ 45.1125
+ 256/243
+ 4/3
+!
+! [info]
+! source = Divisions of the Tetrachord
+! catalog_index = 692

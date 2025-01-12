@@ -1,0 +1,24 @@
+! rain159.scl
+Raintree scale tuned to 159-edo
+12
+!
+98.113208
+203.773585
+301.886792
+400.000000
+498.113208
+603.773585
+701.886792
+800.000000
+898.113208
+996.226415
+1101.886792
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_70511.html#70574
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 70511
+! msg_id = 70574

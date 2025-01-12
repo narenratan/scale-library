@@ -1,0 +1,28 @@
+! circ5120.scl
+Circle of seven minor, six major, and one subminor thirds in 531-et
+14
+!
+24.858757
+205.649718
+230.508475
+316.384181
+411.299435
+522.033898
+616.949153
+702.824859
+727.683616
+908.474576
+933.333333
+1019.209040
+1114.124294
+1200.000000
+! [11, 91, 102, 140, 182, 231, 273, 311, 322, 402, 413, 451, 493, 531]
+! [11, 80, 11, 38, 42, 49, 42, 38, 11, 80, 11, 38, 42, 38]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_15102.html#15103
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_12430-15927.json
+! topic_id = 15102
+! msg_id = 15103

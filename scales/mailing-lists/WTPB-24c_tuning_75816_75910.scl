@@ -1,0 +1,25 @@
+! WTPB-24c.scl
+!
+George Secor's 24-triad proportional-beating well-temperament (24c)
+ 12
+!
+ 96/91
+ 102/91
+ 108/91
+ 114/91
+ 243/182
+ 128/91
+ 545/364
+ 144/91
+ 305/182
+ 162/91
+ 683/364
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_75816.html#75910
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 75816
+! msg_id = 75910

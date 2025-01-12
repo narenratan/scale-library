@@ -1,0 +1,24 @@
+! akjmagic.scl
+TOP tuned magic tempering of akj.scl
+12
+!
+58.889588
+204.126953
+263.016542
+439.685307
+498.574895
+643.812260
+702.701848
+761.591437
+906.828801
+997.149791
+1142.387155
+1201.276744
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_53063.html#53063
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_52482-55189.json
+! topic_id = 53063
+! msg_id = 53063

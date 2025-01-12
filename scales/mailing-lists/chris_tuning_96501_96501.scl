@@ -1,0 +1,24 @@
+! chris.scl
+12-note 5-limit meantone lesfip
+12
+!
+71.99829
+191.39229
+306.33099
+384.18843
+503.58243
+575.58072
+695.11120
+769.76122
+887.79036
+1005.81950
+1080.46952
+1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_96501.html#96501
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 96501
+! msg_id = 96501

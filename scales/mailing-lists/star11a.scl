@@ -1,0 +1,24 @@
+! star11a.scl
+!
+Star11a hobbit block = prehobbit11
+ 11
+!
+ 25/24
+ 144/125
+ 6/5
+ 5/4
+ 25/18
+ 36/25
+ 8/5
+ 5/3
+ 125/72
+ 48/25
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_18174.html#18319
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_15928-18427.json
+! topic_id = 18174
+! msg_id = 18319

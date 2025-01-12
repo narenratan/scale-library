@@ -1,0 +1,25 @@
+! wendell1r.scl
+!
+Rational version of wendell1.scl by Gene Ward Smith
+ 12
+!
+ 24000/22729
+ 76460/68187
+ 27000/22729
+ 85600/68187
+ 4/3
+ 32100/22729
+ 102140/68187
+ 36000/22729
+ 114400/68187
+ 40500/22729
+ 42800/22729
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_59689.html#61735
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 59689
+! msg_id = 61735

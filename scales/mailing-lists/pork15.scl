@@ -1,0 +1,28 @@
+! pork15.scl
+!
+Porupine-related lesfip scale
+ 15
+!
+ 90.75957
+ 162.69064
+ 256.58844
+ 318.16312
+ 423.99014
+ 479.55828
+ 585.38530
+ 646.95998
+ 740.85778
+ 812.78885
+ 903.54842
+ 971.39229
+ 1051.77421
+ 1132.15613
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_102778.html#102778
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 102778
+! msg_id = 102778

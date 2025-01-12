@@ -1,0 +1,24 @@
+! meande12.scl
+chord-based detempering of 7-limit meantone
+12
+!
+21/20
+9/8
+7/6
+5/4
+21/16
+7/5
+3/2
+14/9
+5/3
+7/4
+15/8
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_11205.html#11207
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_9945-12429.json
+! topic_id = 11205
+! msg_id = 11207

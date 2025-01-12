@@ -1,0 +1,26 @@
+! bptemp.scl
+!
+Tempered version of the Bohlen-Pierce scale
+ 13
+!
+ 142.69792
+ 297.11635
+ 439.81427
+ 7/5
+ 75/49
+ 879.62854
+ 1022.32646
+ 49/25
+ 15/7
+ 1462.14073
+ 1604.83865
+ 1759.25708
+ 3/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_65371.html#65371
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 65371
+! msg_id = 65371

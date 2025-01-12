@@ -1,0 +1,23 @@
+! prelude_in_shur.scl
+!
+Tuning set for _Prelude in Shur for Erv Wilson_ (10)
+  10
+!
+  138.28126
+  264.84376
+  472.26562
+  495.70313
+  633.98438
+  703.12500
+  760.54688
+  841.40625
+  967.96876
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_92309.html#92363
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 92309
+! msg_id = 92363

@@ -1,0 +1,30 @@
+! met24-parapyth17-fokker_g.scl
+!
+MET-24 parapyth for Keenan Pepper's JI block; key 14 like pipedum_17c.scl
+  17
+!
+  57.42187
+  125.39062
+  207.42187
+  264.84375
+  345.70312
+  414.84375
+  472.26562
+  553.12500
+  622.26562
+  703.12499
+  760.54687
+  842.57812
+  910.54687
+  967.96875
+  1050.00000
+  1117.96875
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105023.html#105143
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105023
+! msg_id = 105143

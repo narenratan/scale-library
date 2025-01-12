@@ -1,0 +1,26 @@
+! SpWell420Hz.scl
+Sparschuh's almost-JI synchrone-beating well-tuning @ abs.-pitch 420Hz
+12
+!
+531/448   ! C# (135/128)*(944/945) = (256/243)*(14337/14336)
+47/42     ! D (10/9)*(141/140 ~+13.3C) = (9/8)*(188/189 ~-9.2C) 
+4479/3584 ! D# (32/27)*(14337/14336 +~0.120757092...Cents)
+5/4       ! E
+4/3       ! F
+177/112   ! F# (1024/729)*(14337/14336) = (45/32)*(944/945)
+3/2       ! G 
+1539/896  ! G# (128/81)*(14337/14336) = (135/128)*(944/945)
+5/3       ! A 
+16/9      ! Bb (405/256)*(32805/32768 = the schisma)
+15/8      ! B
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_88725.html#88754
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 88725
+! msg_id = 88754

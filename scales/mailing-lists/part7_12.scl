@@ -1,0 +1,25 @@
+! part7_12.scl
+!
+Partial 7-limit half-octave temperament
+12
+!
+29.27333
+130.55859
+231.84384
+314.97154
+416.25679
+600.00000
+629.27333
+730.55859
+831.84384
+914.97154
+1016.25679
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_100596.html#100608
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 100596
+! msg_id = 100608

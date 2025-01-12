@@ -1,0 +1,22 @@
+!Newton_ext_mixolydian.scl
+!
+kernel of the 8 pitch-classes core from N's 14 tones out of 53 
+8
+!1:1   GG unison prime ; 0 GAMMA-Ut
+!
+10/9 ! A\ ;  8 re\
+ 5/4 ! B\ ; 17 mi\
+ 4/3 ! C  ; 22 fa
+ 3/2 ! D  ; 31 sol 
+ 5/3 ! E\ ; 39 la\
+16/9 ! F  ; 44 te
+15/8!F#\=Gb;48 ti\ ?? blooper due to pen slip-up ??
+ 2/1 ! G  ; 53 ut'
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_71935.html#72165
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 71935
+! msg_id = 72165

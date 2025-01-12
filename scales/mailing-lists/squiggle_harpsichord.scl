@@ -1,0 +1,27 @@
+!squiggle_harpsichord.scl
+!
+A559:600E1796:1797H448:449F#C#G#568:567Eb428:427b640.5:641.5F766.4:767.4C1436:1437G200:201A
+!
+ 12
+!
+504/479 ! C#
+536/479 ! D
+568/479 ! Eb instead once D# 567 due to change in enharmonic dim-6th
+599/479 ! E
+1279/958 ! F 639.5 = 1297/2
+672/479 ! F#
+718/479 ! G
+756/479 ! G#
+800/479 ! A
+854/479 ! b that's barely 851 in the clavichord version
+898/479 ! H
+2/1
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_16756.html#16756
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_15928-18427.json
+! topic_id = 16756
+! msg_id = 16756

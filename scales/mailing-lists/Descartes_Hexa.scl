@@ -1,0 +1,28 @@
+!Descartes_Hexa.scl
+!
+Descartes 3 nested ~1650 hexachords:voices(B)-flat,naturall and in [B]
+!
+12
+!
+10/9 !_ d
+9/8 !__ D
+5/4 !__ e
+4/3 !__ F
+40/27 ! g
+3/2 !__ G
+5/3 !__ a
+27/16 ! A later added in order to yield totally a dozen pitches
+16/9 !_ b(b) round
+9/5 !__ B(b) ? probably meant ?
+15/8 !_ h or [B] quadratic
+2/1 !__ C'
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_82889.html#82979
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 82889
+! msg_id = 82979

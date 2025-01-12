@@ -1,0 +1,19 @@
+! Vietnam_Sa_Mac.scl
+!
+Measured scale M0139 in DaMuSc
+ 5
+!
+ 338.0
+ 504.0
+ 699.0
+ 1026.0
+ 1200.0 ! Octave added to measured scale
+!
+! D. H. Keefe, E. M. Burns, and P. Nguyen. Vietnamese modal scales of
+! the dan tranh. Music Percept., 8(4):449-468, 1991. doi:
+! 10.2307/40285522
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0139
+! ref_id = 24

@@ -1,0 +1,25 @@
+! lescirc13.scl
+!
+5-limit 13-cent lesfip of tweaked 12edo with 501.0 and 699.0 cent notes
+ 12
+!
+ 102.10558
+ 194.73604
+ 306.31675
+ 395.78884
+ 504.21116
+ 600.00000
+ 695.78884
+ 804.21116
+ 893.68325
+ 1005.26396
+ 1097.89442
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_104970.html#104970
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 104970
+! msg_id = 104970

@@ -1,0 +1,23 @@
+! qm3b.scl
+! [0, 7, 14, 23, 30, 37, 42, 49, 56, 65]
+Qm(3) 10-note quasi-miracle scale, mode B
+10
+!
+116.6666667
+233.3333333
+383.3333333
+500.
+616.6666667
+700.
+816.6666667
+933.3333333
+1083.333333
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_4301.html#4328
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_2440-7444.json
+! topic_id = 4301
+! msg_id = 4328

@@ -1,0 +1,28 @@
+! werckmeister3_eb89-l.scl
+!
+Harmonic equal-beating version of the famous Well Temperament
+  12
+!
+  2225/2112 ! C#
+  295/264 ! D
+  6675/5632 ! Eb
+  441/352 ! E
+  4/3 ! F
+  2225/1584 ! F#
+  148/99 ! G
+  2225/1408 ! G#
+  147/88 ! A
+  16/9 ! Bb
+  1323/704 ! B
+  2/1
+! achieved with Comptine recurrent sequence x^3 = (3/5)x^2 + 2
+! (x = 1.494929263  or 696.09266484 c.),  Dudon 2006
+! triple equal-beating property :  3A - 5C  =  4E - 5C  =  3D - 2A = 9
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_90126.html#90126
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 90126
+! msg_id = 90126

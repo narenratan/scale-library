@@ -1,0 +1,28 @@
+! meantune.scl
+Meantune scale/temperament
+16
+!
+77.186671
+116.099742
+193.485158
+309.606987
+386.992404
+425.905475
+503.092146
+580.123259
+620.006163
+695.751153
+812.878174
+890.213971
+1007.340993
+1083.085983
+1122.968886
+1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_44799.html#44799
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 44799
+! msg_id = 44799

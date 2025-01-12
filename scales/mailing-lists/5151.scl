@@ -1,0 +1,27 @@
+! 5151.scl
+!
+ 5151 temperament III (1197/709.5/696).
+ 12
+!
+ 97.5
+ 195.
+ 292.5
+ 390.
+ 487.5
+ 598.5
+ 696.
+ 793.5
+ 891.
+ 988.5
+ 1086.
+ 1197.
+!
+! Carl Lumma, June 2003.
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_44209.html#44209
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 44209
+! msg_id = 44209

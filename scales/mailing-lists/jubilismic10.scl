@@ -1,0 +1,37 @@
+! jubilismic10.scl
+Jubilismic[10] (50/49) hobbit minimax tuning
+10
+!
+101.95500
+222.43019
+377.56981
+498.04500
+600.00000
+701.95500
+822.43019
+977.56981
+1098.04500
+1200.00000
+!
+! ! prejubilismic10.scl
+! Jubilismic[10] transversal
+! 10
+! !
+! 15/14
+! 8/7
+! 5/4
+! 4/3
+! 7/5
+! 3/2
+! 8/5
+! 7/4
+! 28/15
+! 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_93336.html#93336
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 93336
+! msg_id = 93336

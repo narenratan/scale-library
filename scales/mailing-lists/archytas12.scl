@@ -1,0 +1,41 @@
+! archytas12.scl
+Archytas[12] (64/63) hobbit, 9-limit minimax
+12
+!
+98.09924
+217.54205
+315.64129
+393.12974
+491.22898
+589.32822
+708.77102
+806.87026
+884.35871
+982.45795
+1101.90076
+1200.00000
+!
+! ! prearchytas12.scl
+! Archytas[12] transversal
+! 12
+! !
+! 16/15
+! 9/8
+! 6/5
+! 5/4
+! 4/3
+! 64/45
+! 3/2
+! 8/5
+! 5/3
+! 16/9
+! 15/8
+! 2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_93336.html#93336
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 93336
+! msg_id = 93336

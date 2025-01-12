@@ -1,0 +1,27 @@
+! 12_o10-plus21,25.scl
+!
+ Harmonic series 10-20, plus 21/20 and 25/20.
+ 12
+!
+ 21/20
+ 11/10
+ 6/5
+ 5/4
+ 13/10
+ 7/5
+ 3/2
+ 8/5
+ 17/10
+ 9/5
+ 19/10
+ 2/1
+!
+! Carl Lumma, 1997.
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_20009.html#20030
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_19548-22047.json
+! topic_id = 20009
+! msg_id = 20030

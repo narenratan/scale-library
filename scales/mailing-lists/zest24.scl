@@ -1,0 +1,37 @@
+! zest24.scl
+!
+Zarlino Extraordinaire Spectrum Temperament (two circles at ~50.28c apart)
+ 24
+!
+ 50.27584
+ 25/24
+ 120.94826
+ 191.62069
+ 241.89653
+ 287.43104
+ 337.70688
+ 383.24139
+ 433.51722
+ 504.18965
+ 554.46549
+ 574.86208
+ 625.13792
+ 695.81035
+ 746.08619
+ 779.05173
+ 829.32757
+ 887.43104
+ 937.70688
+ 995.81035
+ 1046.08619
+ 1079.05173
+ 48/25
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_73833.html#73834
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 73833
+! msg_id = 73834

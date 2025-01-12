@@ -1,0 +1,25 @@
+! whelp2.scl
+!
+well-temperament with two pure thirds
+ 12
+!
+91.656592
+192.721296
+293.611776
+386.313714
+493.766642
+591.637234
+699.090162
+791.792100
+892.682580
+993.747284
+1085.403876
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_43989.html#43989
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 43989
+! msg_id = 43989

@@ -1,0 +1,26 @@
+!SpChoirTone456Hz.scl
+Sparschuh's [2010] Choir-tone modification of Werckmeister #3
+12
+!
+96/91   ! C# 
+47/42   ! D  (10/9)*(141/140~+12.3...C) = (9/8)*(188/189~-9.2...C)
+108/91  ! Eb
+683/546 ! E  (5/4)*(1366/1365 ~+1.2678389...Cents)
+243/182 ! F  (4/3)*(729/728  ~+2.3764369..Cents)
+128/91  ! F#
+682/455 ! G  (3/2)*[1364/1365 ~-1.26876814...Cents]
+144/91  ! G#
+152/91  ! A = F*(5/4)*[1216/1215 ~+1.4242...C] Erasthostenes's Comma
+162/91  ! Bb
+512/273 ! B = G*(5/4)*[1024/1023 ~+1.691484...Cents]
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_89066.html#89371
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 89066
+! msg_id = 89371

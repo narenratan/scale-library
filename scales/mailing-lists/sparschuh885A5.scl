@@ -1,0 +1,24 @@
+!Sparschuh885A5.scl 
+SC=80:81 inbetween F~C~G~D~A~E & schisma in E~B_F#_C#_G#~Eb~Bb~F
+12
+2790/2643 ! 279.0C#4 / 264.3C4
+2960/2643 ! 296.0D_4 / 264.3C4
+6275/4926 ! 627.5Eb4 / 528.6C5 
+6615/4926 ! 661.5E_4 / 264.3C4 = (5:4)(882:881) ~+1.964 Cents sharp
+3524/2643 ! 352.4F_4 / 264.3C4 = (4:3)(882:881) ~+1.964 Cents sharp
+3720/2643 ! 372.0F#4 / 264.3C4  
+3960/2643 ! 396.0G_4 / 264.3C4 = (3:2)(880:881) ~-1.966 Cents flat
+4185/2643 ! 418.5G#4 / 264.3C4 
+4425/2643 ! 442.5A_4 / 264.3C4 440Hz(+2.5Hz = 150 MetronomeBeats/min) 
+4705/2643 ! 470.5Bb4 / 264.3C4
+4960/2643 ! 496.0B_4 / 264.3C4
+2/1
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_77364.html#77900
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 77364
+! msg_id = 77900

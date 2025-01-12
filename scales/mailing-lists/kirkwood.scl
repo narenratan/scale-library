@@ -1,0 +1,20 @@
+! kirkwood.scl
+Scale based on Kirkwood gaps of the asteroid belt
+8
+!
+9/8
+7/6
+5/4
+4/3
+3/2
+5/3
+7/4
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_67748.html#67748
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 67748
+! msg_id = 67748

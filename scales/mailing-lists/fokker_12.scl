@@ -1,0 +1,25 @@
+! fokker_12.scl
+!
+Fokker's 7-limit 12-tone just scale                                             
+ 12
+!
+ 15/14
+ 9/8
+ 7/6
+ 5/4
+ 4/3
+ 45/32
+ 3/2
+ 45/28
+ 5/3
+ 7/4
+ 15/8
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_1194.html#1207
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 1194
+! msg_id = 1207

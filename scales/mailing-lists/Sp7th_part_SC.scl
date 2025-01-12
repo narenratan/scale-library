@@ -1,0 +1,25 @@
+!Sp7th_part_SC.scl
+Sparschuh's epimoric two- and one-7th part of Snytonic-Comma [2010]
+12
+59/56   ! C#=(256/243)(14337/14336 ~+0.12c)=(135/128)(944/945 +~0.12c)
+47/42   ! D = (9/8)(188/189 {~-9.18c}) = (10/9)(141/140 {~+12.23c})
+32/27   ! Eb
+561/448 ! E = (5/4)(561/560 {~+3.08c})
+4/3     ! F
+59/42   ! F#=(1024/729)(14337/14336 ~+0.12c)=(45/32)(944/945 +~0.12c)
+283/189 ! G =(3/2)(566/567 {~-3.06c})  
+128/81  ! G# 
+281/168 ! A = (5/3)(281/280 {~+6.17c})= (27/16)(112.4/113.4 {-15.33c})
+16/9    ! Bb
+15/8    ! B
+2/1
+!
+! [eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_91619.html#91726
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 91619
+! msg_id = 91726

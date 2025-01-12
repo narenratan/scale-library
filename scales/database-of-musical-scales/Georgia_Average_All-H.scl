@@ -1,0 +1,27 @@
+! Georgia_Average_All-H.scl
+!
+Measured scale M0303 in DaMuSc
+ 13
+!
+ 212.0
+ 384.0
+ 540.0
+ 726.0
+ 917.0
+ 1082.0
+ 1241.0
+ 1433.0
+ 1600.0
+ 1774.0
+ 1976.0
+ 2143.0
+ 2323.0
+!
+! Frank Scherbaum, Nana Mzhavanadze, Simha Arom, Sebastian Rosenzweig,
+! and Meinard Muller. Tonal Organization of the Erkomaishvili Dataset:
+! Pitches, Scales, Melodies and Harmonies.
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0303
+! ref_id = 55

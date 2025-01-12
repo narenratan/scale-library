@@ -1,0 +1,12 @@
+! 698_S7.scl
+!
+Semi-tempered tetrachord (4/3)**(1/5) * (4/3)**(1/10) * (4/3)**(7/10)
+ 3
+!
+ 99.609
+ 149.4135
+ 4/3
+!
+! [info]
+! source = Divisions of the Tetrachord
+! catalog_index = 698

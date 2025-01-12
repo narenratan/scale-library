@@ -1,0 +1,25 @@
+! 12-of-blackjack-11.scl
+!
+A 12-tone 11-limit subset of Blackjack
+ 12
+!
+ 33.33333333 ! C|
+ 150.0       ! D;
+ 266.6666667 ! D#
+ 383.3333333 ! E
+ 500.0       ! F
+ 583.3333333 ! F#
+ 700.0       ! G
+ 816.6666667 ! Ab
+ 933.3333333 ! A|
+ 1050.0      ! B;
+ 1083.333333 ! B
+ 1200.0      ! C
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_22532.html#22655
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_22050-25104.json
+! topic_id = 22532
+! msg_id = 22655

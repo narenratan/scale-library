@@ -1,0 +1,37 @@
+! lin76-34.scl
+!
+Two 12-note chains, ~704.160 cents, 34 4ths apart (32 4ths = 7:6)              
+ 24
+!
+ 58.55034
+ 129.12199
+ 187.67233
+ 208.32057
+ 266.87091
+ 287.51915
+ 346.06949
+ 416.64114
+ 475.19148
+ 495.83972
+ 554.39006
+ 624.96171
+ 683.51205
+ 704.16029
+ 762.71062
+ 833.28228
+ 891.83261
+ 912.48086
+ 971.03119
+ 991.67943
+ 1050.22977
+ 1120.80142
+ 1179.35176
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_41244.html#41275
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 41244
+! msg_id = 41275

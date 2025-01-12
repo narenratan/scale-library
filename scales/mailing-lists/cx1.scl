@@ -1,0 +1,23 @@
+! cx1.scl
+First 10/4 scale = erlich11 <10 16 23 28| epimorphic
+10
+!
+15/14
+7/6
+5/4
+4/3
+10/7
+3/2
+5/3
+7/4
+15/8
+2
+! [0, -1, -1], [0, -1, 0], [0, 0, 0], [0, 0, 1]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_65608.html#65610
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 65608
+! msg_id = 65610

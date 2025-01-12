@@ -1,0 +1,25 @@
+! archytas12.scl
+!
+A distributionally even scale in archytas (64/63 planar) temperament, ababacbababc
+ 12
+!
+ 121.03000
+ 218.09000
+ 271.35000
+ 392.38000
+ 489.44000
+ 610.47000
+ 707.53000
+ 828.56000
+ 881.82000
+ 978.88000
+ 1099.91000
+ 1196.97000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_19356.html#19356
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_18428-20927.json
+! topic_id = 19356
+! msg_id = 19356

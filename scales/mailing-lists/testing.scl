@@ -1,0 +1,22 @@
+! testing.scl
+!
+ Two #15 chords in 72-ET.
+ 8
+!
+ 383.3333333333333
+ 700.0
+ 1083.3333333333333
+ 1400.0
+ 1783.3333333333333
+ 2100.0
+ 2483.333333333333
+ 2500.0
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_76549.html#76715
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 76549
+! msg_id = 76715

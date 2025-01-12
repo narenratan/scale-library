@@ -1,0 +1,25 @@
+! orwell13.scl
+Orwell[13] in 115-et (7-limit poptimal)
+13
+!
+41.739130
+156.521739
+271.304348
+313.043478
+427.826087
+542.608696
+584.347826
+699.130435
+813.913044
+855.652174
+970.434783
+1085.217391
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_53902.html#53902
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_52482-55189.json
+! topic_id = 53902
+! msg_id = 53902

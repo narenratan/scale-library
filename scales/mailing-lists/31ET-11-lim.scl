@@ -1,0 +1,25 @@
+! 31ET-11-lim.scl
+!
+11-limit 31-equal subset
+ 12
+!
+ 38.70968
+ 193.54839
+ 270.96774
+ 387.09677
+ 464.51613
+ 541.93548
+ 696.77419
+ 774.19355
+ 890.32258
+ 967.74194
+ 1083.87097
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_87455.html#87902
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_85538-88076.json
+! topic_id = 87455
+! msg_id = 87902

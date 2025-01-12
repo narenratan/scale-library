@@ -1,0 +1,26 @@
+! 12_lumma_vrwt.scl
+!
+ [2 3 17 19] well temperament.
+ 12
+!
+ 19/18
+ 323/288
+ 19/16
+ 64/51
+ 4/3
+ 24/17
+ 3/2
+ 19/12
+ 57/34
+ 16/9
+ 32/17
+ 2/1
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_88708.html#88961
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 88708
+! msg_id = 88961

@@ -1,0 +1,67 @@
+!53out_of256ADO.scl
+!
+53-tones out of the harmonic partials 256...512Hz absolute
+53
+!
+! 1/1 ! 00; 256 C\\ middle C\\ unison root
+65/64 ! 01; 260 C\ mediant of the 13th partial
+33/32 ! 02; 264 C dominant of the 11th partial
+267/256 ! 03; 267 C/ 
+270/256 ! 04; 270 C// [r]
+17/16 ! 05; 272 Db\ 17th partial
+139/128 ! 06; 278 Db 
+281/256 ! 07; 281 C# 
+71/64 ! 08; 284 C#/ 
+9/8 ! 09; 288 D\\ 9th partial
+293/256 ! 10; 293 D\ 
+297/256 ! 11; 297 D 
+299/256 ! 12; 299 D/ [g=300]
+19/16 ! 13; 304 D// 19th partial
+77/64 ! 14; 308 Eb\ harmonic 7th of the 11th partial
+39/32 ! 15; 312 Eb dominant of the 13th partial 
+317/256 ! 16; 317 D# 
+5/4 ! 17; 329 D#/ 5th partial [m]
+81/64 ! 18; 324 E\\ ditone
+165/128 ! 19; 330 E\ dominantic mediant of the 11th partial
+167/128 ! 20; 334 E 
+21/16 ! 21; 336 E/ 21th partial=dominant of the 7th partial
+171/128 ! 22; 342 E// double-dominant of the 19th partial
+347/256 ! 23; 347 F\ 
+11/8 ! 24; 352 F 11th partial
+89/64 ! 25; 356 F/ 
+45/32 ! 26; 360 F// double-dominantic mediant [p]
+91/64 ! 27; 364 Gb\ 
+371/256 ! 28; 371 Gb 
+375/256 ! 29; 375 F# domiantic triple mediant
+189/128 ! 30; 378 F#/ 
+3/2 ! 31; 384 G\\ 3rd partial = domiant
+195/128 ! 32; 390 G\ mediant of the 19th partial
+99/64 ! 33; 396 G double-domiant of the 11th partial
+25/16 ! 34; 400 G\ double-mediant
+405/256 ! 35; 405 G// mediant of the ditone [d]
+205/128 ! 36; 410 Ab\ mediant of the 41th partial
+13/8 ! 37; 416 Ab 13th partial
+211/128 ! 38; 422 G# 
+213/128 ! 39; 426 G#/ 
+27/16 ! 40; 432 A\\ triple-dominant
+55/32 ! 41; 440 A\ http://en.wikipedia.org/wiki/A440 <http://en.wikipedia.org/wiki/A440> 
+445/256 ! 42; 445 A
+7/4 ! 43; 448 A/ 7th partial [n]
+57/32 ! 44; 456 A// dominant of the 19th partial
+231/128 ! 45; 462 Bb\ 
+117/64 ! 46; 468 Bb double-dominant of the 13th partial
+475/256 ! 47; 475 A# double-mediant of the 19th partial
+15/8 ! 48; 480 A#/ 15th partial = domiantic mediant [s]
+243/128 ! 49; 486 B\\ 3^5/2^7
+495/256 ! 50; 495 B\ double-dominant mediant of the 11th partial
+125/64 ! 51; 500 B triple mediant
+63/32 ! 52; 508 B/ double-dominant of the 7th partial
+2/1 ! 53; 512 B//=C//' octave
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_63593.html#72794
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 63593
+! msg_id = 72794

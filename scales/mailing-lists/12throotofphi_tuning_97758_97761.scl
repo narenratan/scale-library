@@ -1,0 +1,25 @@
+! C:\Program Files (x86)\Scala22\12th root of phi.scl
+!
+12th root of phi tuning (Chris Vaisvil's idea)
+  12
+!
+  69.42419
+  138.84838
+  208.27257
+  277.69677
+  347.12096
+  416.54515
+  485.96934
+  555.39353
+  624.81772
+  694.24191
+  763.66610
+  833.09030
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_97758.html#97761
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 97758
+! msg_id = 97761

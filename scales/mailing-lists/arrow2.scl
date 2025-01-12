@@ -1,0 +1,25 @@
+! arrow2.scl
+!
+"Arrow II" well-temperament
+ 12
+!
+ 93.75000
+ 196.87500
+ 295.31250
+ 392.57813
+ 499.21875
+ 591.79688
+ 698.43750
+ 795.70313
+ 894.14063
+ 997.26563
+ 1091.01560
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_47168.html#47168
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 47168
+! msg_id = 47168

@@ -1,0 +1,37 @@
+! zest24-Bbup.scl
+!
+Tuning set starting from Bb* (24)
+ 24
+!
+ 32.81250
+ 83.20312
+ 153.51562
+ 203.90624
+ 223.82812
+ 274.21874
+ 344.53124
+ 394.92187
+ 440.62500
+ 491.01562
+ 536.71875
+ 587.10937
+ 657.42187
+ 707.81249
+ 727.73437
+ 778.12500
+ 849.60937
+ 899.99999
+ 931.64062
+ 982.03124
+ 1040.62500
+ 1091.01562
+ 1149.60937
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_77364.html#77873
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 77364
+! msg_id = 77873

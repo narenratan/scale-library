@@ -1,0 +1,20 @@
+! dialeastsquares.scl
+!
+Least squares diatonic
+ 7
+!
+ 192.22706
+ 309.53714
+ 504.94761
+ 695.05239
+ 890.46286
+ 1007.77294
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_92040.html#92440
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 92040
+! msg_id = 92440

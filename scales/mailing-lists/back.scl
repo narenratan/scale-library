@@ -1,0 +1,25 @@
+! back.scl
+!
+backwards transform
+ 12
+!
+1100.000000
+1000.000000
+900.000000
+800.000000
+700.000000
+600.000000
+500.000000
+400.000000
+300.000000
+200.000000
+100.000000
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_43689.html#43693
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 43689
+! msg_id = 43693

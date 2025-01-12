@@ -1,0 +1,42 @@
+! Tolerant-Secor-29.scl
+!
+Tolerant temperament (rank 3: 324:325, 351:352, 363:364), Secor 29 mapping
+ 29
+!
+57.52045
+97.61917
+138.67803
+178.77674
+207.53697
+265.05742
+295.87007
+346.21500
+5/4
+415.07394
+472.59439
+496.23152
+553.75197
+593.85068
+634.90954
+680.13136
+703.76849
+761.28894
+801.38765
+842.44651
+882.54523
+911.30546
+7/4
+992.46303
+1049.98348
+1090.08220
+1118.84243
+1176.36288
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105210.html#105306
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105210
+! msg_id = 105306

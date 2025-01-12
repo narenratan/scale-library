@@ -1,0 +1,48 @@
+! chair.scl
+Iterated 13-limit 6 cent optimization of c'sHAIR2
+36
+!
+116.0592
+138.8353
+150.8356
+165.2569
+181.7300
+203.9256
+232.7218
+267.7890
+291.0589
+317.3625
+347.2432
+383.4950
+415.9699
+433.1917
+498.0496
+536.0634
+550.7055
+582.8485
+617.1122
+649.9992
+664.0179
+702.0033
+766.5434
+784.1618
+816.6461
+852.4854
+883.1151
+907.5949
+932.2082
+967.4072
+995.8160
+1018.6217
+1034.6500
+1049.1893
+1084.3259
+1200.0000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_92024.html#92121
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 92024
+! msg_id = 92121

@@ -1,0 +1,28 @@
+!well_Violin2Piano.scl
+!by A.Sparschuh
+temper from violin empty strings G 296/297 D 295/296 A 294/295 E 
+12
+! middle_C 264.5Hz = 529cps/2
+!
+558/529   ! C#
+598/529   ! D
+2511/2116 ! Eb = 627.75/529
+1323/1058 ! E  = 661.5/529
+706/529   ! F
+724/529   ! F#
+792/529   ! G
+837/529   ! G#
+885/523   ! A  = 442.5Hz*2 absolute a4
+1883/1058 ! Bb = 941.5/529
+992/529   ! B
+2/1
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_75816.html#76113
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 75816
+! msg_id = 76113

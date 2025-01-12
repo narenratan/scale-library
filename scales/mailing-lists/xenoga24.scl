@@ -1,0 +1,37 @@
+! xenoga24.scl
+!
+Xeno-Gothic rational adaptive tuning, 3-7 ratios (keyboards 64:63 apart) 
+24
+!
+ 64/63
+ 2187/2048
+ 243/224
+ 9/8 
+ 8/7
+ 32/27
+ 2048/1701
+ 81/64
+ 9/7
+ 4/3 
+ 256/189
+ 729/512
+ 81/56
+ 3/2
+ 32/21
+ 6561/4096
+ 729/448
+ 27/16
+ 12/7
+ 16/9
+ 1024/567
+ 243/128
+ 27/14
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_16640.html#16640
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 16640
+! msg_id = 16640

@@ -1,0 +1,23 @@
+! graham.scl
+Graham's 5-limit transversal
+11
+!
+3125/2916
+125/108
+5/4
+625/486
+25/18
+3/2
+81/50
+5/3
+9/5
+243/125
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_18174.html#18319
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_15928-18427.json
+! topic_id = 18174
+! msg_id = 18319

@@ -1,0 +1,25 @@
+! jioct12.scl
+!
+12-tone JI version of the Messiaens octatonic scale
+ 12
+!
+ 25/24
+ 27/25
+ 125/108
+ 6/5
+ 5/4
+ 25/18
+ 36/25
+ 3/2
+ 5/3
+ 125/72
+ 9/5
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_62776.html#62986
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 62776
+! msg_id = 62986

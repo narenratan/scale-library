@@ -1,0 +1,23 @@
+! jubilee10sym1.scl
+!
+A distributionally even scale in jubilee (50/49 planar) temperament, aabacaabac
+ 10
+!
+ 102.92000
+ 205.84000
+ 380.63000
+ 483.55000
+ 599.67000
+ 702.59000
+ 805.51000
+ 980.30000
+ 1083.22000
+ 1199.34000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_19356.html#19356
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_18428-20927.json
+! topic_id = 19356
+! msg_id = 19356

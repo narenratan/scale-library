@@ -1,0 +1,25 @@
+! mts12.scl
+!
+Meantone with stretched octaves
+ 12
+!
+ 25/24
+ 191.96206
+ 313.25170
+ 383.92413
+ 505.21376
+ 575.88619
+ 697.17583
+ 767.84825
+ 889.13789
+ 1010.42752
+ 1081.09995
+ 1202.38959
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_68086.html#68086
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 68086
+! msg_id = 68086

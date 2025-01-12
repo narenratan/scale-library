@@ -1,0 +1,25 @@
+! 12-of-blackjack-7-9-11.scl
+!
+A 12-tone subset of Blackjack with six 4-7-9-11 tetrads
+ 12
+!
+ 116.6666667 ! D;
+ 233.3333333 ! D#
+ 350.0       ! E
+ 433.3333333 ! F;
+ 466.6666667 ! F
+ 550.0       ! F#
+ 583.3333333 ! Gb
+ 666.6666667 ! G
+ 783.3333333 ! Ab
+ 900.0       ! A|
+ 1016.666667 ! B;
+ 2/1         ! C|
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_22532.html#22715
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_22050-25104.json
+! topic_id = 22532
+! msg_id = 22715

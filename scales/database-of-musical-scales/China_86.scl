@@ -1,0 +1,27 @@
+! China_86.scl
+!
+Measured scale M0144 in DaMuSc
+ 12
+!
+ 124.0
+ 339.0
+ 657.0
+ 853.0
+ 1058.0
+ 1159.0
+ 1343.0
+ 1526.0
+ 1844.0
+ 2038.0
+ 2204.0
+ 2668.0
+!
+! R. Yu-An, E. C. Carterette, and W. Yu-Kui. A comparison of the musical
+! scales of the ancient chinese bronze bell ensemble and the modern
+! bamboo flute. Percept. Psychophys., 41(6):547-562, 1987. doi:
+! 10.3758/BF03210489
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0144
+! ref_id = 23

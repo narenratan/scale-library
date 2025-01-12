@@ -1,0 +1,27 @@
+! coherent_shrutis-schismaticTranp.scl
+!
+complementing 11 shrutis: 96/95 transposition of coherent_shrutis.scl
+  12
+!
+  16/15
+  108/95
+  6/5
+  24/19
+  128/95
+  27/19
+  144/95
+  8/5
+  32/19
+  512/285
+  36/19
+  2/1
+! complements coherent_shrutis to 22+1 shrutis
+! NOTE: first and last pitch of scale is NOT transposed!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_90145.html#90207
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 90145
+! msg_id = 90207

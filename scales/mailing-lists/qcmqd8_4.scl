@@ -1,0 +1,25 @@
+! qcmqd8_4.scl
+!
+F-C# in 1/4-comma meantone, other 5ths ~4.888 cents wide or (2048/2025)^(1/4)
+ 12
+!
+ 76.04900
+ 193.15686
+ 289.73529
+ 5/4
+ 503.42157
+ 579.47057
+ 696.57843
+ 782.89214
+ 889.73529
+ 996.57843
+ 1082.89214
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_38919.html#38919
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_37193-39697.json
+! topic_id = 38919
+! msg_id = 38919

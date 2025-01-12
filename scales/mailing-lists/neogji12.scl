@@ -1,0 +1,25 @@
+! neogji12.scl
+!
+Neo-Gothic 12-note JI tuning (primes 2/3/7/11) F-F with Eb key as D+1
+12
+!
+ 392/363 
+ 9/8 
+ 147/121
+ 14/11
+ 4/3 
+ 63/44
+ 3/2
+ 196/121 
+ 27/16
+ 56/33
+ 21/11
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_12989.html#12989
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 12989
+! msg_id = 12989

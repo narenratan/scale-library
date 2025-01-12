@@ -1,0 +1,25 @@
+! johnson_ratwell.scl
+!
+a rational well-temperament with five 24/19's
+ 12
+!
+ 19/18
+ 103/92
+ 32/27
+ 361/288
+ 4/3
+ 38/27
+ 208/139
+ 19/12
+ 129/77
+ 16/9
+ 152/81
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_66654.html#66654
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 66654
+! msg_id = 66654

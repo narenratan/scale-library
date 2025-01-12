@@ -1,0 +1,27 @@
+! pum13marv.scl
+pum13 marvel tempered and in epimorphic order
+13
+!
+200.054240
+268.798787
+468.853027
+384.385833
+584.440075
+499.972880
+700.027121
+768.771666
+968.825906
+884.358713
+1084.412954
+1284.467194
+1200.000000
+! tempering of 5-limit scale ordered as [9/8, 75/64, 675/512, 
+! 5/4, 45/32, 4/3, 3/2, 25/16, 225/128, 5/3, 15/8, 135/64, 2]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_56017.html#56028
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 56017
+! msg_id = 56028

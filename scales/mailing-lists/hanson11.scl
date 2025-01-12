@@ -1,0 +1,24 @@
+! hanson11.scl
+!
+11-tone hanson MOS (1/1 is A)
+ 11
+!
+ 68.46135
+ 248.65399
+ 317.11534
+ 385.57669
+ 565.76932
+ 634.23068
+ 814.42331
+ 882.88466
+ 951.34601
+ 1131.53865
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_82736.html#82749
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 82736
+! msg_id = 82749

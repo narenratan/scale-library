@@ -1,0 +1,41 @@
+! majsyn3.scl
+!
+ 648/625 and 81/80 Fokker block, Gene Ward Smith.
+ 12
+!
+ 25/24
+ 9/8
+ 6/5
+ 5/4
+ 27/20
+ 25/18
+ 3/2
+ 25/16
+ 5/3
+ 9/5
+ 15/8
+ 2/1
+!
+! 6 major and 6 minor triads, strictly proper.
+!
+! 25/18---25/24---25/16
+!    \     / \     / \
+!     \   /   \   /   \
+!      \ /     \ /     \
+!      5/3-----5/4----15/8
+!        \     / \     / \
+!         \   /   \   /   \
+!          \ /     \ /     \
+!          1/1-----3/2-----9/8
+!            \     / \     / \
+!             \   /   \   /   \
+!              \ /     \ /     \
+!              6/5-----9/5----27/20
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_51116.html#51116
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 51116
+! msg_id = 51116

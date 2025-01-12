@@ -1,0 +1,41 @@
+! minvera12.scl
+Minvera[12] (99/98&176/175) 11-limit hobbit, POTE tuning
+12
+!
+113.18260
+226.36520
+273.37552
+386.55812
+499.74073
+587.07667
+700.25927
+813.44188
+926.62448
+973.63480
+1086.81740
+1200.00000
+!
+!! preminerva12.scl
+! Minerva[12] 5-limit transversal
+! 12
+!!
+! 16/15
+! 256/225
+! 75/64
+! 5/4
+! 4/3
+! 45/32
+! 3/2
+! 8/5
+! 128/75
+! 225/128
+! 15/8
+! 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_95569.html#95569
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 95569
+! msg_id = 95569

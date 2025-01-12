@@ -1,0 +1,20 @@
+! Sweden_Sweden_A.scl
+!
+Measured scale M0293 in DaMuSc
+ 6
+!
+ 355.0
+ 496.0
+ 675.0
+ 842.0
+ 977.0
+ 1168.0
+!
+! J. Sundberg and P. Tjernlund. Computer measurements of the tone scale
+! in performed music by means of frequency histograms. STL-QPS,
+! 10(2-3):33-35, 1969
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0293
+! ref_id = 52

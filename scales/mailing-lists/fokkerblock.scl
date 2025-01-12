@@ -1,0 +1,23 @@
+! fokkerblock.scl
+!
+2.7.13 Fokker block (Carl Lumma's definition) with UVs 343/338, 28672/28561
+ 10
+!
+ 14/13
+ 196/169
+ 2744/2197
+ 224/169
+ 3136/2197
+ 43904/28561
+ 3584/2197
+ 50176/28561
+ 702464/371293
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_19493.html#19576
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_18428-20927.json
+! topic_id = 19493
+! msg_id = 19576

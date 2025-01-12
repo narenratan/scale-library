@@ -1,0 +1,19 @@
+! phi_6.scl
+!
+Phi equal division by 6
+ 6
+!
+ 138.84838
+ 277.69677
+ 416.54515
+ 555.39353
+ 694.24191
+ 833.09030
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_83512.html#83526
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 83512
+! msg_id = 83526

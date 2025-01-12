@@ -1,0 +1,36 @@
+! diamond9plus-marvel.scl
+Marvel tempering of diamond9 plus secors up and down
+! Tuning is 1/6 septimal kleisma flat fifth
+! 1/3 septimal kleisma flat major third
+! Minimax over the 9-limit diamond
+21
+!
+115.58705
+182.40371
+201.33949
+231.17409
+268.15616
+316.92654
+383.74321
+432.51359
+499.33025
+585.08270
+614.91730
+700.66975
+767.48641
+816.25679
+883.07346
+931.84384
+968.82591
+998.66051
+1017.59629
+1084.41295
+1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_92097.html#92097
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 92097
+! msg_id = 92097

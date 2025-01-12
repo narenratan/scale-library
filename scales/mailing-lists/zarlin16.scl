@@ -1,0 +1,29 @@
+! zarlin16.scl
+!
+Zarlino's 16-note JI scale implemented on an instrument with split keys        
+ 16
+!
+ 25/24
+ 10/9
+ 9/8
+ 32/27
+ 6/5
+ 5/4
+ 4/3
+ 25/18
+ 45/32
+ 3/2
+ 25/16
+ 5/3
+ 16/9
+ 9/5
+ 15/8
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_26879.html#26909
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_25105-30000.json
+! topic_id = 26879
+! msg_id = 26909

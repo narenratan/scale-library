@@ -1,0 +1,28 @@
+!Neidhard1724rationalETapprox.scl
+!
+from his "Canone Harmonico" extracted and compiled by A.Sparschuh
+!
+12
+!
+99.9946105 ! C#:= 1200 * ln((256/243) * (527 255 / 524 288)) / ln(2)
+199.996435 ! D := 1200 * ln(( 9 / 8 ) * (530 241 / 531 441)) / ln(2)
+299.996140 ! Eb:= 1200 * ln((32 / 27) * (526 066 / 524 288)) / ln(2)
+399.997092 ! E := 1200 * ln((81 / 64) * (529 045 / 531 441)) / ln(2)
+499.998720 ! F := 1200 * ln(( 4 / 3 ) * ( 32 805 /  32 768)) / ln(2)
+599.995462 ! F#:= 1200 * ln((729/512) * (527 851 / 531 441)) / ln(2)
+699.996062 ! G := 1200 * ln(( 3 / 2 ) * (530 840 / 531 441)) / ln(2)
+799.998122 ! G#:= 1200 * ln((128/ 81) * (526 661 / 524 288)) / ln(2)
+899.994598 ! A := 1200 * ln((27 / 16) * (529 642 / 531 441)) / ln(2)
+999.998532 ! Bb:= 1200 * ln((16 / 9 ) * (525 473 / 524 288)) / ln(2)
+1099.99411 ! B := 1200 * ln((243/128) * (528 447 / 531 441)) / ln(2)
+2/1
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_78560.html#78607
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 78560
+! msg_id = 78607

@@ -1,0 +1,20 @@
+! beep9-pelog.scl
+!
+Beep-9 approximation of pelog scale
+ 7
+!
+ 101.30000
+ 260.26000
+ 520.52000
+ 679.48000
+ 780.78000
+ 939.74000
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_51439.html#51439
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 51439
+! msg_id = 51439

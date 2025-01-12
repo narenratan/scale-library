@@ -1,0 +1,27 @@
+! syncmt1a.scl
+!
+Synchronous meantone tuning for good major triads
+! June 2002 - Petr Parizek
+! In this tuning, C-A beats opposite of F-A
+ 12
+!
+ 71.53770
+ 191.86792
+ 312.19813
+ 383.73583
+ 504.06604
+ 575.60375
+ 695.93396
+ 767.47166
+ 887.80187
+ 1008.13208
+ 1079.66979
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_62320.html#62320
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 62320
+! msg_id = 62320

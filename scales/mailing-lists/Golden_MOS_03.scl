@@ -1,0 +1,20 @@
+! Golden_MOS_03.scl
+!
+period Phi, generator third successive golden section of Phi, Bobro
+ 7
+!
+ 110.00734
+ 235.77441
+ 345.78175
+ 471.54882
+ 581.55616
+ 707.32323
+ 833.09030
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_83307.html#83487
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 83307
+! msg_id = 83487

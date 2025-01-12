@@ -1,0 +1,29 @@
+! raven.scl
+!
+John O'Sullivan's raven scale
+12
+!
+!1/1  15/14  9/8  6/5  5/4  4/3  7/5  3/2  8/5  5/3  9/5  15/8  2/1
+!
+15/14 ! C#  ~113.7177
+9/8   ! D.  ~197.1342
+6/5   ! Eb  ~312.1318
+5/4   ! E.  ~389.8232
+4/3   ! F.  ~498.0450
+7/5   ! F#  ~577.4304
+3/2   ! G.  ~701.9550
+8/5   ! G#  ~811.8100
+5/3   ! A.  ~889.5014
+9/5   ! Bb  ~967.2840
+15/8  ! B. ~1081.4929
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_104807.html#104811
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 104807
+! msg_id = 104811

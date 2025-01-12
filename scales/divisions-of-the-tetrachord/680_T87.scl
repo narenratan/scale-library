@@ -1,0 +1,12 @@
+! 680_T87.scl
+!
+Tempered tetrachord in cents 110 + 140 + 250, Chapter 5
+ 3
+!
+ 110.0
+ 250.0
+ 500.0
+!
+! [info]
+! source = Divisions of the Tetrachord
+! catalog_index = 680

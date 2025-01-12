@@ -1,0 +1,26 @@
+!Sparschuh_proposal_Mietke.scl
+!absolute pitches from the middle_c' on:
+c'243#256 d'272#288 e'304 f'324#342 g'364#384 a'406#432 b'456
+!
+12
+!
+256/243 !   ~90.22...(cents)
+272/243 !  ~195.81... D
+32/27   !  ~294.13...
+304/243 !  ~387.74... E (5/4)*(1216/1215)
+4/3     !  ~498.04... F
+38/27   !  ~591.65...
+364/243 !  ~699.58... G (3/2)*(728/729)
+128/81  !  ~792.18...
+406/243 !  ~888.63... A4=406cps ~ Coeval Berlin, Coethen Cammer-thone 
+16/9    !  ~996.09...
+152/81  ! ~1089.69... B
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_78659.html#78677
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 78659
+! msg_id = 78677

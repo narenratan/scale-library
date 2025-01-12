@@ -1,0 +1,25 @@
+! Miracle-10.scl
+!
+The 10 "white notes" of Miracle mapped to 12 keys
+ 12
+!
+ 116.6666667 ! 3  L  C#\
+ 233.3333333 ! 4  D  D
+ 350.0       ! 5  N  Eb/
+ 466.6666667 ! 6  E  E|\
+ 583.3333333 ! 7  F  F|
+ 583.3333333 ! 7  F  F|
+ 700.0       ! 8  G  G;/
+ 816.6666667 ! 9  H  G#\
+ 966.6666667 ! 0  A  A|\
+ 1083.333333 ! 1  B  B;
+ 1083.333333 ! 1  B  B;
+ 2/1         ! 2  C  C;/
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_23187.html#23523
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_22050-25104.json
+! topic_id = 23187
+! msg_id = 23523

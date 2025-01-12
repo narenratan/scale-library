@@ -1,0 +1,36 @@
+! euler24.scl
+3^6 5^4 Euler genus tempered by 225/224-planar
+24
+!
+83.67670365
+152.1394612
+199.6830428
+268.1458003
+283.3597464
+351.8225040
+384.1521395
+399.3660856
+467.8288431
+583.8351823
+652.2979398
+667.5118859
+699.8415214
+768.3042789
+783.5182250
+851.9809826
+899.5245642
+967.9873217
+1051.664025
+1083.993661
+1099.207607
+1152.456418
+1167.670365
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_40113.html#40113
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 40113
+! msg_id = 40113

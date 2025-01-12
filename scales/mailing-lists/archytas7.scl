@@ -1,0 +1,31 @@
+! archytas7.scl
+Archytas (64/63) hobbit in POTE tuning
+7
+!
+218.64253
+393.37465
+490.67874
+709.32126
+806.62535
+981.35747
+1200.0000
+!
+!! prearchytas7.scl
+! Archytas[7] 5-limit transversal = hexany21a
+! 7
+!!
+! 9/8
+! 5/4
+! 4/3
+! 3/2
+! 8/5
+! 16/9
+! 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_95828.html#95831
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 95828
+! msg_id = 95831

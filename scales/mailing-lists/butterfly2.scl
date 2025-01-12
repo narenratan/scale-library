@@ -1,0 +1,25 @@
+! butterfly2.scl
+!
+"Butterfly II" well-temperament
+ 12
+!
+ 96.09375
+ 196.87500
+ 297.65625
+ 392.57813
+ 499.21875
+ 594.14063
+ 700.78125
+ 795.70313
+ 896.48438
+ 997.26565
+ 1093.35935
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_47202.html#47202
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 47202
+! msg_id = 47202

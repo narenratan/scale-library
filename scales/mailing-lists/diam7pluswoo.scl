@@ -1,0 +1,30 @@
+! diam7pluswoo.scl
+!
+Contains 7-limit diamond; in [10/3 7/2 11] marvel woo tuning
+17
+!
+116.23027
+200.69746
+232.46054
+267.51234
+316.92773
+383.74261
+499.97288
+584.44007
+616.20315
+700.67034
+816.90061
+883.71549
+933.13088
+968.18268
+999.94576
+1084.41295
+1200.64322
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_106400.html#106400
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_106394-106555.json
+! topic_id = 106400
+! msg_id = 106400

@@ -1,0 +1,41 @@
+! thrush12.scl
+Thrush[12] (126/125, 176/175) hobbit in the POTE tuning
+12
+!
+80.43583
+230.31897
+310.75480
+391.19062
+498.05458
+578.49041
+701.94542
+808.80938
+889.24520
+969.68103
+1119.56417
+1200.00000
+!
+!! prethrush12.scl
+! Thrush[12] 5-limit transversal
+! 12
+!!
+! 25/24
+! 144/125
+! 6/5
+! 5/4
+! 4/3
+! 25/18
+! 3/2
+! 8/5
+! 5/3
+! 125/72
+! 48/25
+! 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_95510.html#95682
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 95510
+! msg_id = 95682

@@ -1,0 +1,25 @@
+! meanquar.scl
+!
+1/4-comma meantone scale. Pietro Aaron's temperament (1523)
+ 12
+!
+ 76.04900
+ 193.15686
+ 310.26471
+ 5/4
+ 503.42157
+ 579.47057
+ 696.57843
+ 25/16
+ 889.73529
+ 1006.84314
+ 1082.89214
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_87066.html#87066
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_85538-88076.json
+! topic_id = 87066
+! msg_id = 87066

@@ -1,0 +1,36 @@
+! byzantine.scl
+!
+Superset of several Byzantine scales by Rami Vitale, TL 29-Aug-2001   
+ 23
+!
+ 21/20
+ 15/14
+ 9/8
+ 8/7
+ 7/6
+ 6/5
+ 5/4
+ 9/7
+ 21/16
+ 4/3
+ 7/5
+ 10/7
+ 3/2
+ 63/40
+ 45/28
+ 27/16
+ 12/7
+ 7/4
+ 9/5
+ 15/8
+ 27/14
+ 63/32
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_27464.html#27556
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_25105-30000.json
+! topic_id = 27464
+! msg_id = 27556

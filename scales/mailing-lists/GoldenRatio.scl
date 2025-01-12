@@ -1,0 +1,26 @@
+! C:\Program Files (x86)\Scala22\Golden Ratio.scl
+!
+Successive divisions of the octave by the Golden Section
+ 13
+!
+ 108.20393
+ 175.07764
+ 283.28157
+ 391.48551
+ 458.35921
+ 566.56315
+ 633.43685
+ 741.64079
+ 849.84472
+ 916.71843
+ 1024.92236
+ 1133.12629
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_97758.html#97853
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 97758
+! msg_id = 97853

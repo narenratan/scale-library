@@ -1,0 +1,25 @@
+! akj_temperament.scl 
+! 
+temperament based on 5/4, 24/19, and 19/15 filling the octave 
+ 12 
+! 
+ 89.64400 
+ 193.15700 
+ 293.06500 
+ 386.31400 
+ 497.68700 
+ 588.53400 
+ 696.57800 
+ 790.75400 
+ 889.73500 
+ 995.37600 
+ 1087.42400 
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_54975.html#54975
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_52482-55189.json
+! topic_id = 54975
+! msg_id = 54975

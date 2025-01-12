@@ -1,0 +1,30 @@
+! J_P_Mander.scl
+!
+John Pike Mander's Adlington-Hall organ tuning 
+! 
+!C -1/4 G -1/4 D -1/4 A -1/4 E -1/4 B -1/6 F# -1/5 C# -1/6 G# 
+!Ab +2/3 Eb 0 Bb 0 F 0 C 
+!
+12
+!
+78.0 ! C#
+192. ! D
+294. ! Eb
+384. ! E
+498. ! F
+578. ! F#
+696. ! G
+775. ! G#
+888. ! A
+996. ! Bb
+1080. ! B
+2/1
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_81835.html#81835
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 81835
+! msg_id = 81835

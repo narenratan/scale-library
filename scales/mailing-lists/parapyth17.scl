@@ -1,0 +1,30 @@
+! parapyth17.scl
+!
+A triple Fokker block of the 2.3.7.11.13 temperament called "parapyth" (TOP tuning)
+ 17
+!
+ 58.23604
+ 124.60238
+ 206.95866
+ 265.19471
+ 347.55099
+ 413.91733
+ 472.15337
+ 554.50965
+ 620.87599
+ 703.23227
+ 761.46832
+ 843.82460
+ 910.19094
+ 968.42698
+ 1050.78326
+ 1117.14960
+ 1199.50588
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105023.html#105132
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105023
+! msg_id = 105132

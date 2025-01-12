@@ -1,0 +1,45 @@
+! thrush15.scl
+Thrush[15] hobbit 7&9 limit minimax tuning
+15
+!
+79.86894
+159.73788
+231.17409
+311.04303
+390.91197
+498.04500
+577.91394
+622.08606
+701.95500
+809.08803
+888.95697
+968.82591
+1040.26212
+1120.13106
+1200.00000
+!
+! Scale in fractional monzo format
+! Commas 126/125, 176/175 
+! |-7/3 1/3 0 2/3 0> 
+! |-14/3 2/3 0 4/3 0> 
+! |3 0 0 -1 0> 
+! |2/3 1/3 0 -1/3 0> 
+! |-5/3 2/3 0 1/3 0> 
+! |2 -1 0 0 0> 
+! |-1/3 -2/3 0 2/3 0> 
+! |4/3 2/3 0 -2/3 0> 
+! |-1 1 0 0 0> 
+! |8/3 -2/3 0 -1/3 0>
+! |1/3 -1/3 0 1/3 0> 
+! |-2 0 0 1 0> 
+! |17/3 -2/3 0 -4/3 0> 
+! |10/3 -1/3 0 -2/3 0> 
+! |1 0 0 0 0>
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_93283.html#93283
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 93283
+! msg_id = 93283

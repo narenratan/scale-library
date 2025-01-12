@@ -1,0 +1,25 @@
+! bug.scl
+!
+"Bug I" well-temperament
+ 12
+!
+ 92.57812
+ 194.53125
+ 296.48438
+ 389.06250
+ 498.04688
+ 592.96875
+ 698.43750
+ 794.53125
+ 890.62500
+ 996.09375
+ 1091.01560
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_47202.html#47202
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 47202
+! msg_id = 47202

@@ -1,0 +1,40 @@
+! octacot27.scl
+!
+Octacot[27] in 88 cent (150et) tuning
+ 27
+!
+ 32.00000
+ 88.00000
+ 120.00000
+ 176.00000
+ 208.00000
+ 264.00000
+ 296.00000
+ 352.00000
+ 384.00000
+ 440.00000
+ 472.00000
+ 528.00000
+ 560.00000
+ 616.00000
+ 648.00000
+ 704.00000
+ 736.00000
+ 792.00000
+ 824.00000
+ 880.00000
+ 936.00000
+ 968.00000
+ 1024.00000
+ 1056.00000
+ 1112.00000
+ 1144.00000
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_92330.html#92463
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 92330
+! msg_id = 92463

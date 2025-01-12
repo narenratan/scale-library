@@ -1,0 +1,24 @@
+! aaron.scl
+Aaron Johnson scale
+12
+!
+16/15 ! 111.731 minor diatonic 
+17/15 ! 216.687
+6/5 ! 315.641 minor third
+19/15 ! 409.244 undevicesimal ditone
+4/3 ! 498.045 perfect fourth
+17/12 ! 603.000 2nd septendecimal tritone
+3/2 ! 701.955 perfect fifth
+8/5 ! 813.686 minor sixth
+17/10 ! 918.642 septendecimal diminished seventh
+9/5 ! 1017.596 just minor seventh, BP seventh
+19/10 ! 1111.199 undevicesimal major seventh
+2/1 ! 1200.000 octave
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_50719.html#50722
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 50719
+! msg_id = 50722

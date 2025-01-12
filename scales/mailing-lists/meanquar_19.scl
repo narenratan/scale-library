@@ -1,0 +1,32 @@
+! meanquar_19.scl
+!
+19 of 1/4-comma meantone scale
+ 19
+!
+ 76.04900
+ 117.10786
+ 193.15686
+ 269.20586
+ 310.26471
+ 5/4
+ 462.36271
+ 503.42157
+ 579.47057
+ 620.52943
+ 696.57843
+ 25/16
+ 8/5
+ 889.73529
+ 965.78428
+ 1006.84314
+ 1082.89214
+ 125/64
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_73833.html#74505
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 73833
+! msg_id = 74505

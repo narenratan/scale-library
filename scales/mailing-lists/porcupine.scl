@@ -1,0 +1,20 @@
+! /Users/mike/Desktop/porcupine.scl
+!
+POTE porcupine[7] MOS
+ 7
+!
+ 223.51496
+ 386.26247
+ 549.00997
+ 711.75748
+ 874.50499
+ 1037.25249
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_100699.html#100699
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 100699
+! msg_id = 100699

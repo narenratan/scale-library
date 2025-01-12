@@ -1,0 +1,20 @@
+! bug-pelog.scl
+!
+Pelog-like subset of bug[9]
+  7
+!
+  101.28399
+  260.25680
+  520.51359
+  679.48641
+  780.77039
+  939.74320
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_66861.html#66861
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 66861
+! msg_id = 66861

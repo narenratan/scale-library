@@ -1,0 +1,41 @@
+!SpOldVienna.scl
+Sparschuh's 'old-Vienna' classics for abs.pitch A4=421.5Hz [2008]
+!
+! c' 252 middle_C4
+! #' 268.5
+! d' 282
+! #' 298.6875
+! e' 315
+! f' 336
+! #' 354
+! g' 378
+! #' 398.25
+! a' 421.5 Hz ~absolute pitch of coeval Vienna [~1800] tunig-forks 
+! #' 448
+! b' 472.5
+! c" 504 tenor_C5
+!
+12
+!
+59/56   ! C# = (256/243)(14337/14336 {~+0.12c}) = (135/128)(944/945)
+47/42   ! D  = (9/8)(188/189 {~-9.18c}) = (10/9)(141/140 {~+12.23c})
+531/448 ! Eb = (32/27)(14337/14336 {~+0.12c}) = (1215/1024)(944/945)
+5/4     ! E
+4/3     ! F
+59/42   ! F# = (1024/729)(14337/14336 {~+0.12c}) = (45/32)(944/945)
+3/2     ! G
+177/112 ! G# = (128/125)(14337/14336 {~+0.12c}) = (405/256)(944/945)
+281/168 ! A  = (5/3)(281/280 {~+6.17c})= (27/16)(562/567 {-15.33c})
+16/9    ! Bb = (3645/2048)/schisma
+15/8    ! B
+2/1
+!
+! [eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_91619.html#91686
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 91619
+! msg_id = 91686

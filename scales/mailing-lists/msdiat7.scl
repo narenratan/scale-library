@@ -1,0 +1,20 @@
+! msdiat7.scl
+!
+Diatonic scale, symmetrical tetrachords based on 14:11 and 13:11 thirds
+ 7
+!
+ 44/39
+ 14/11
+ 4/3
+ 3/2
+ 22/13
+ 21/11
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_38646.html#38721
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_37193-39697.json
+! topic_id = 38646
+! msg_id = 38721

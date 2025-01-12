@@ -1,0 +1,31 @@
+! sctemp19.scl
+225/224-tempered Fokker block for <81/80, 3125/3072>
+19
+!
+68.46275753
+116.0063391
+184.4690967
+268.1458003
+315.6893819
+384.1521395
+431.6957211
+500.1584786
+568.6212361
+631.3787639
+699.8415214
+768.3042789
+815.8478605
+884.3106181
+931.8541997
+1015.530903
+1083.993661
+1131.537242
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_40195.html#40195
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 40195
+! msg_id = 40195

@@ -1,0 +1,26 @@
+! 12_fun.scl
+!
+ Rational well temperament based on 577/289, 3/2, and 19/16.
+ 12
+!
+ 19/18
+ 18464/16473
+ 19/16
+ 361/288
+ 1154/867
+ 361/256
+ 73856/49419
+ 10963/6936
+ 9232/5491
+ 4616/2601
+ 208297/110976
+ 577/289
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_66654.html#66673
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 66654
+! msg_id = 66673

@@ -1,0 +1,25 @@
+! orwell12_rms.scl
+!
+12 note Orwell scale, TOP-RMS tuning
+12
+114.353
+157.210
+271.563
+385.916
+! note from Orwell13 omitted 428.773
+543.126
+657.479
+700.335
+814.689
+929.042
+971.898
+1086.251
+1200.604
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_93562.html#93562
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 93562
+! msg_id = 93562

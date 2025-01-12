@@ -1,0 +1,21 @@
+! lemba.scl
+!
+Lemba temperament (4 down, 3 up)
+  8
+!
+  90.92429
+  139.95064
+  230.87493
+  279.90128
+  370.82557
+  461.74985
+  510.77621
+  601.70049
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_56285.html#56285
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 56285
+! msg_id = 56285

@@ -1,0 +1,31 @@
+! 7-and-12.scl
+!
+7-note and 12-note equal temperament, coinciding on Bb
+  18
+!
+  100.00000
+  142.85714
+  200.00000
+  300.00000
+  314.28571
+  400.00000
+  485.71429
+  500.00000
+  600.00000
+  657.14286
+  700.00000
+  800.00000
+  828.57143
+  900.00000
+  1000.00000
+  1100.00000
+  1171.42875
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_15868.html#15898
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_12292-17046.json
+! topic_id = 15868
+! msg_id = 15898

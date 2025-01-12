@@ -1,0 +1,31 @@
+! circ19.scl
+19 note circulating temperament
+19 
+!
+65.625000
+125.625000
+185.625000
+249.375000
+316.875000
+380.625000
+440.625000
+500.625000
+566.250000
+633.750000
+695.625000
+755.625000
+815.625000
+883.125000
+950.625000
+1010.625000
+1070.625000
+1132.500000
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_11142.html#11142
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_9945-12429.json
+! topic_id = 11142
+! msg_id = 11142

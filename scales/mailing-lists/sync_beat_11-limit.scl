@@ -1,0 +1,25 @@
+! sync_beat_11-limit.scl
+!
+synchronous beating 11-limit scale for C4=264Hz or A4=444Hz
+12
+!
+545/524
+9/8
+615/524
+5/4
+348/264 ! =(4/3)(87/88)
+11/8
+3/2
+273/176
+37/22 !  =(5/3)(111/110)
+7/4
+41/22 ! =(15/8)(164/165)
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_66384.html#66426
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 66384
+! msg_id = 66426

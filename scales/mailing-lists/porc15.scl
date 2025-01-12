@@ -1,0 +1,24 @@
+! porc15.scl
+Pocupine[15] in 7-limit minimax tuning
+12
+!
+60.839199
+162.737257
+223.576457
+325.474514
+386.313714
+488.211772
+549.050971
+650.949029
+711.788228
+813.686286
+874.525486
+976.423543
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_50585.html#50585
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 50585
+! msg_id = 50585

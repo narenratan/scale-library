@@ -1,0 +1,25 @@
+! LummaVRWT.scl
+!
+Carl Lumma's (2,3,17,19) VRWT (transposed 1/2-step downward)
+ 12
+!
+ 18/17
+ 64/57
+ 384/323
+ 64/51
+ 4/3
+ 24/17
+ 3/2
+ 512/323
+ 57/34
+ 576/323
+ 32/17
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_76291.html#76484
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 76291
+! msg_id = 76484

@@ -1,0 +1,25 @@
+! tre.scl
+!
+81/80 => 1029/512 => reduction
+ 12
+!
+-32.778000
+733.111000
+700.333000
+266.222000
+233.444000
+999.333000
+966.556000
+933.778000
+499.667000
+466.889000
+1232.778000
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_43689.html#43703
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 43689
+! msg_id = 43703

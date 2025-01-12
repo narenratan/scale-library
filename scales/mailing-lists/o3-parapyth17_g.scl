@@ -1,0 +1,30 @@
+! o3-parapyth17_g.scl
+!
+O3 parapyth17 for Fokker block, key 14 like pipedum_17c.scl
+  17
+!
+  57.42188
+  127.73437
+  208.59375
+  266.01563
+  346.87501
+  416.01563
+  473.43751
+  554.29688
+  623.43750
+  704.29688
+  761.71876
+  842.57813
+  911.71875
+  969.14063
+  1050.00000
+  1119.14063
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105023.html#105143
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105023
+! msg_id = 105143

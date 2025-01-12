@@ -1,0 +1,25 @@
+! jobbit12_5.scl
+! = albion.scl
+12-note 5-limit JI hobbit
+ 12
+!
+ 16/15
+ 9/8
+ 6/5
+ 5/4
+ 4/3
+ 64/45
+ 3/2
+ 8/5
+ 5/3
+ 16/9
+ 15/8
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_18534.html#18541
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_18428-20927.json
+! topic_id = 18534
+! msg_id = 18541

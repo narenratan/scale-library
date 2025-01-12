@@ -1,0 +1,28 @@
+! porcufip15.scl
+!
+Prcupine[15] lesfip scale, 11-limit diamond, 15 cents tolerance
+ 15
+!
+ 98.67069
+ 161.69600
+ 261.16244
+ 323.51020
+ 423.96853
+ 486.50591
+ 586.06832
+ 648.60570
+ 749.06403
+ 811.41179
+ 910.87823
+ 973.90355
+ 1072.57423
+ 1136.28712
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_102778.html#102793
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 102778
+! msg_id = 102793

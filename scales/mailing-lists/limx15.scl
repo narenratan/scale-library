@@ -1,0 +1,28 @@
+! limx15.scl
+!
+Linear 5-limit temperament with minor third as generator
+ 15
+!
+ 67.9700
+ 181.0525
+ 249.0225
+ 316.9925
+ 384.9625
+ 4/3
+ 566.0150
+ 633.9850
+ 3/2
+ 815.0375
+ 883.0075
+ 950.9775
+ 1018.9475
+ 1132.0300
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_67653.html#67653
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 67653
+! msg_id = 67653

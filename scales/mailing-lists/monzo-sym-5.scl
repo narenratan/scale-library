@@ -1,0 +1,28 @@
+!\monzo-sym-5.scl
+!
+Monzo symmetrical system: 5-limit
+ 13
+!
+ 16/15
+ 9/8
+ 6/5
+ 5/4
+ 32/25
+ 4/3
+ 3/2
+ 8/5
+ 5/3
+ 16/9
+ 15/8
+ 25/16
+ 2/1
+!
+!------------------- END SCALA FILE ---------------
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_2894.html#2894
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 2894
+! msg_id = 2894

@@ -1,0 +1,26 @@
+! kb2_118.scl
+! [9, 11, 9, 9, 11, 9, 11, 9, 10, 10, 9, 11]
+! [9, 20, 29, 38, 49, 58, 69, 78, 88, 98, 107, 118]
+118 equal version of Kirnberger 2
+ 12
+!
+91.525424
+203.389831
+294.915254
+386.440678
+498.305085
+589.830509
+701.694915
+793.220339
+894.915254
+996.610170
+1088.135593
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_43833.html#43833
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 43833
+! msg_id = 43833

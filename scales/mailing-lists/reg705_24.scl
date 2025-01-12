@@ -1,0 +1,37 @@
+! reg705_24.scl
+!
+Regular 705-cent temperament, 24 of 80-tET
+  24
+!
+  60.00000
+  135.00000
+  195.00000
+  210.00000
+  270.00000
+  285.00000
+  345.00000
+  420.00000
+  480.00000
+  495.00000
+  555.00000
+  630.00000
+  690.00000
+  705.00000
+  765.00000
+  840.00000
+  900.00000
+  915.00000
+  975.00000
+  990.00000
+  1050.00000
+  1125.00000
+  1185.00000
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_101815.html#101816
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 101815
+! msg_id = 101816

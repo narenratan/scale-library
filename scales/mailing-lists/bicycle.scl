@@ -1,0 +1,25 @@
+! bicycle.scl
+!
+13-limit harmonic bicycle, George Secor, 1963
+ 12
+!
+ 13/12
+ 9/8
+ 7/6
+ 5/4
+ 4/3
+ 11/8
+ 3/2
+ 13/8
+ 5/3
+ 7/4
+ 11/6
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_26222.html#26250
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_22048-29396.json
+! topic_id = 26222
+! msg_id = 26250

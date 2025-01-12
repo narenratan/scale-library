@@ -1,0 +1,22 @@
+! 08_kleismic.scl
+!
+ Proper subset of Kleismic (in 19-tET).
+ 8
+!
+ 63.158 !.....D
+ 315.789 !....E
+ 378.947 !....F
+ 631.579 !....G
+ 694.737 !....H
+ 947.368 !....A
+ 1010.526 !...B
+ 2/1 !........C
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_21432.html#50481
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 21432
+! msg_id = 50481

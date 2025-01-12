@@ -1,0 +1,23 @@
+! buzurg10decoid.scl
+!
+buzurg_al-erin10 in decoid temperament, POTE tuning
+ 10
+!
+ 128.91679
+ 231.08321
+ 360.00000
+ 497.83359
+ 626.75038
+ 702.16641
+ 831.08321
+ 933.24962
+ 1062.16641
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105598.html#105599
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105598
+! msg_id = 105599

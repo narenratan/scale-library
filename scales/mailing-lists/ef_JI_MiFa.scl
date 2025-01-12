@@ -1,0 +1,27 @@
+!ef_JI_MiFa.scl
+! 
+Sparschuh's 80:81 inbetween F-C-G-D-A-E and 32768:32805 in E B...Bb F
+!
+12
+!
+2790/2463
+2960/2463
+6275/2463 ! was > 3135/2463 formerly
+6615/4926 ! (5:4)(882:881)
+3524/2463 ! (4:3)(882:881) was > 3525/2463 ! (4:3)(3525:3524)
+3720/2463
+3960/2463 ! (3:2)(880:881)
+4185/2463 ! was > 4180/2463 formerly
+4425/2463
+4705/4700 ! was > 4700/2463 fromerly
+4960/2463
+2/1
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_77364.html#77882
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 77364
+! msg_id = 77882

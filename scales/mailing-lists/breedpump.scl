@@ -1,0 +1,31 @@
+! breedpump.scl
+Comma pump in breed (2401/2400 planar)
+16
+! four major and minor tetrads, three supermajor and subminor tetrads
+!
+50/49
+16807/16000
+343/320
+400/343
+20000/16807
+49/40
+5/4
+7/5
+10/7
+2401/1600
+49/32
+80/49
+4000/2401
+7/4
+25/14
+2
+! comma pump [[1, 1, -2]->[1, 1, -1]->[0, 1, -1]->[0, 0, -1]
+! ->[0, 0, 0]->[0, -1, 0],[0, -1, 1]->[0, -2, 1]->[-1, -2, 1]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_11482.html#11482
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_9945-12429.json
+! topic_id = 11482
+! msg_id = 11482

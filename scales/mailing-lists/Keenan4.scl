@@ -1,0 +1,23 @@
+! Keenan4.scl
+!
+Chain of quarter-4ths MOS, 6 tetrads, max abs err 18c
+ 10
+!
+ 124.51125
+ 249.02250
+ 373.53375
+ 4/3
+ 622.55625 ! or 577.44375 or none
+ 3/2
+ 826.46625
+ 950.97750
+ 1075.48875
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_4030.html#4030
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 4030
+! msg_id = 4030

@@ -1,0 +1,25 @@
+! Schlick1511_variation.scl
+!
+Variation on Schlick (1511), all 5ths within 7c of pure
+ 12
+!
+ 88.27000
+ 196.09000
+ 303.91000
+ 392.18000
+ 501.95500
+ 589.24750
+ 698.04500
+ 797.00000
+ 894.13500
+ 1002.93250
+ 1090.22500
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_73833.html#73903
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 73833
+! msg_id = 73903

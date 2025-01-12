@@ -1,0 +1,67 @@
+!SpDyadRat53.scl
+Sparschuh's [2010] Dyadic-Rational 53 in Philolaos/Boethius style
+53
+!
+65/64     !  1: C\
+527/512   !  2: C.
+533/512   !  3: C/
+135/128   !  4: C+
+547/512   !  5: DB
+277/256   !  6: Db
+281/256   !  7: C#
+569/512   !  8: C&
+9/8       !  9: D- tone
+73/64     ! 10: D\
+37/32     ! 11: D.
+75/64     ! 12: D/
+19/16     ! 13: D+
+77/64     ! 14: EB
+39/32     ! 15: Eb
+79/64     ! 16: D#
+5/4       ! 17: D& the "just" 3rd
+81/64     ! 18: E- Pythagorean "ditone"
+657/512   ! 19: E\
+333/256   ! 20: E.
+675/512   ! 21: E/
+171/128   ! 22: E+ = F- (4/3)*(513/512) an 4th of ratio 1.335,937,5
+693/512   ! 23: F\
+351/256   ! 24: F.
+711/512   ! 25: F/
+45/32     ! 26: F+ Syntonic 5-limit tritone
+729/512   ! 27: GB Pythagorean 3-limit tritone
+739/512   ! 28: Gb
+749/512   ! 29: F#
+379/256   ! 30: F&
+3/2       ! 31: G- the JI 5th
+195/128   ! 32: G\
+395/256   ! 33: G.
+25/16     ! 34: G/
+405/256   ! 35: G+
+821/512   ! 36: AB
+13/8      ! 37: Ab the 13th partial overtone
+843/512   ! 38: G#
+853/512   ! 39: G&
+27/16     ! 40: A- Pythagorean 6th
+219/128   ! 41: A\
+111/64    ! 42: A.  absolute-pitch @ A4=444Hz
+225/128   ! 43: A/  (7/4)*(225/224) ~natural~septime~
+57/32     ! 44: A+
+231/128   ! 45: BB
+117/64    ! 46: Bb
+237/128   ! 47: A#
+15/8      ! 48: A& Syntonic 5-limit 7th
+243/128   ! 49: B- Pythagoran 7th or octave/limma
+985/512   ! 50: B\ 
+499/256   ! 51: B.
+253/128   ! 52: B/
+2/1       ! 53: B+ = C-
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_89066.html#89403
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 89066
+! msg_id = 89403

@@ -1,0 +1,34 @@
+! pajcirc.scl
+circulating pajara/diaschismic based 22 note scale with integer brats
+22
+!
+54.745648
+108.867720
+164.400570
+217.995909
+272.853507
+327.109859
+382.152795
+436.631407
+490.863211
+546.803784
+600.000000
+654.745648
+708.867720
+764.400570
+817.995909
+872.853507
+927.109859
+982.152795
+1036.631407
+1090.863211
+1146.803784
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_62017.html#62017
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 62017
+! msg_id = 62017

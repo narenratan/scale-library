@@ -1,0 +1,23 @@
+! mecaa.scl
+! [5, 11, 7, 7, 5, 7, 11, 5, 7, 7]
+{225/224, 441/440} tempering of decad, 72-et version
+10
+!
+83.33333333
+266.6666667
+383.3333333
+500.0000000
+583.3333333
+700.0000000
+883.3333333
+966.6666667
+1083.333333
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_4563.html#4564
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_2440-7444.json
+! topic_id = 4563
+! msg_id = 4564

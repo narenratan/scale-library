@@ -1,0 +1,24 @@
+! dhexmarv.scl
+Dualhex in 11-limit minimax Marvel ({225/224, 385/384}-planar)
+12
+!
+115.802647
+151.994179
+267.796826
+383.599473
+468.992587
+535.593652
+700.597880
+767.198946
+852.592059
+968.394706
+1084.197353
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_50829.html#50829
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 50829
+! msg_id = 50829

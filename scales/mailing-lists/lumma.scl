@@ -1,0 +1,25 @@
+! lumma.scl
+!
+Carl Lumma, 7-limit, 6 tetrads + 4 triads within 2c of Just, TL 19-2-99          
+ 12
+!           5-limit       7-limit
+115.5870 ! 16/15 +3.9c,  15/14 -3.9c
+200.0542 !  9/8  +3.9c,  28/25 -3.9c
+268.7988 ! 75/64 -5.8c,   7/6  +1.9c
+384.3858 !  5/4  -1.9c,  56/45 +5.8c
+499.9729 !  4/3  +1.9c   75/56 -5.8c
+584.4401 ! 45/32 -5.8c    7/5  +1.9c
+700.0271 !  3/2  -1.9c, 112/75 +5.8c
+815.6142 !  8/5  +1.9c,  45/28 -5.8c
+5/3      !   884.3587c, 224/135+7.7c
+7/4      !225/128-7.7c,    968.8259c
+1084.4130! 15/8  -3.9c,  28/15 +3.9c
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_1012.html#1012
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 1012
+! msg_id = 1012

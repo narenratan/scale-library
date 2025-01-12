@@ -1,0 +1,31 @@
+! MersenneStar.scl
+Marin Mersenne's dodecatonic 5-limit Star compiled by A.Sparschuh
+! from source
+! http://3.bp.blogspot.com
+! /_WAOQD2JSStc/SxA5Dk6CRSI/AAAAAAAAACw/BmaisJ5D5uQ/s1600
+! /mersennestar.gif
+!
+12
+!
+25/24   ! C#
+10/9    ! D
+32/27   ! Eb
+5/4     ! E
+4/3     ! F
+25/18   ! F#  
+3/2     ! G
+25/16   ! G#
+5/3     ! A
+16/9    ! Bb
+15/8    ! B
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_90431.html#90445
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 90431
+! msg_id = 90445

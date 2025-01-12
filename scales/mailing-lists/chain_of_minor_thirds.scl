@@ -1,0 +1,32 @@
+! chain_of_minor_thirds.scl
+!
+19-note chain of minor thirds
+  19
+!
+  648/625
+  419904/390625
+  78125/69984
+  125/108
+  6/5
+  3888/3125
+  2519424/1953125
+  15625/11664
+  25/18
+  36/25
+  23328/15625
+  1953125/1259712
+  3125/1944
+  5/3
+  216/125
+  139968/78125
+  390625/209952
+  625/324
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_80686.html#80706
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_79117-81620.json
+! topic_id = 80686
+! msg_id = 80706

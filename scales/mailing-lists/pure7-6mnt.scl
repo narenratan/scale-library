@@ -1,0 +1,25 @@
+! pure7-6mnt.scl
+!
+Meantone with pure 7:6, based on 836.75 TU for 64:63
+ 12
+!
+ 74.23296
+ 192.63799
+ 311.04302
+ 385.27598
+ 503.68101
+ 577.91396
+ 696.31899
+ 770.55195
+ 888.95698
+ 1007.36201
+ 1081.59497
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_73833.html#74172
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 73833
+! msg_id = 74172

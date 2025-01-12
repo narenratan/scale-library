@@ -1,0 +1,35 @@
+! top-orwell-22.scl
+!
+TOP-MAX orwell[22]
+  22
+!
+  44.37751
+  113.55807
+  157.93558
+  227.11614
+  271.49365
+  315.87116
+  385.05172
+  429.42923
+  498.60978
+  542.98729
+  612.16785
+  656.54536
+  700.92287
+  770.10343
+  814.48094
+  883.66150
+  928.03901
+  972.41652
+  1041.59708
+  1085.97459
+  1155.15515
+  1199.53266
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_80686.html#80720
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_79117-81620.json
+! topic_id = 80686
+! msg_id = 80720

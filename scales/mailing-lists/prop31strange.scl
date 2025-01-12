@@ -1,0 +1,20 @@
+! prop31strange.scl
+Strange diatonic-like strictly proper scale
+7
+!
+116.129032
+387.096774
+425.806452
+696.774194
+812.903226
+1006.451613
+1200.000000
+! [0,-5,4,-8,1,-4,-2]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_15080.html#15082
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_12430-15927.json
+! topic_id = 15080
+! msg_id = 15082

@@ -1,0 +1,25 @@
+! monzo_sumerian_12edo_simp.scl
+!
+Monzo - simplified 2-place sexagesimal 12edo approximation
+ 12
+!
+ 300/283
+ 120/107
+ 120/101
+ 150/119
+ 4/3
+ 75/53
+ 3/2
+ 100/63
+ 180/107
+ 180/101
+ 100/53
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_45318.html#45318
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 45318
+! msg_id = 45318

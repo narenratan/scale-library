@@ -1,0 +1,11 @@
+[project]
+name = "scale-library"
+version = "0.0.0"
+description = "Generate scale-library scl files from sources"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "tuning-library",
+  "pandas",
+  "sympy",
+]

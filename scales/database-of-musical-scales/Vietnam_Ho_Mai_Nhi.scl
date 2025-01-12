@@ -1,0 +1,19 @@
+! Vietnam_Ho_Mai_Nhi.scl
+!
+Measured scale M0138 in DaMuSc
+ 5
+!
+ 166.0
+ 513.0
+ 695.0
+ 859.0
+ 1200.0 ! Octave added to measured scale
+!
+! D. H. Keefe, E. M. Burns, and P. Nguyen. Vietnamese modal scales of
+! the dan tranh. Music Percept., 8(4):449-468, 1991. doi:
+! 10.2307/40285522
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0138
+! ref_id = 24

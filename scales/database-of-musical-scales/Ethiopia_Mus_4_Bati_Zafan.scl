@@ -1,0 +1,19 @@
+! Ethiopia_Mus_4_Bati_Zafan.scl
+!
+Measured scale M0180 in DaMuSc
+ 5
+!
+ 351.0
+ 530.0
+ 712.0
+ 1063.0
+ 1200.0 ! Octave added to measured scale
+!
+! S. Weisser and F. Falceto. Investigating qanat in amhara secular
+! music: An acoustic and historical study. Annales d'thiopie,
+! 28(1):299-322, 2013. doi: 10.3406/ethio.2013.1539
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0180
+! ref_id = 40

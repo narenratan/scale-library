@@ -1,0 +1,24 @@
+! graileq.scl
+56% RMS grail + 44% JI grail 
+12
+!
+85.293194
+196.244721
+307.196247
+392.489441
+505.784825
+579.663091
+697.953206
+796.244721
+894.536236
+1012.826350
+1086.704616
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_44269.html#44269
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 44269
+! msg_id = 44269

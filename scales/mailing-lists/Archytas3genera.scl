@@ -1,0 +1,27 @@
+! Archytas3genera.scl
+!
+All three Archytas's gerenra at once: diatonic+chromatic+enharmonic 
+!
+11
+!
+28/27 ! F.  enh.+chr.+dia. introducing semitone
+16/15 ! Gbb enh.
+9/8   ! Gb  chr.
+32/27 ! G.  dia. 
+4/3   ! a.  quarte: enh.+chr.+dia.
+3/2   ! b.  quinte: enh.+chr.+dia.
+14/9  ! c.  enh.+chr.+dia.
+8/5   ! dbb enh.
+27/16 ! db  chr.  
+16/9  ! d.  dia.
+2/1   ! e.  octave: enh.+chr.+dia.
+!
+! [eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_104574.html#104623
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 104574
+! msg_id = 104623

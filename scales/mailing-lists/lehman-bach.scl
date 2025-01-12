@@ -1,0 +1,25 @@
+! lehman-bach.scl
+!
+Brad Lehman's Bach keyboard temperament
+ 12
+!
+ 98.04500
+ 196.09000
+ 298.04500
+ 392.18000
+ 501.95500
+ 596.09000
+ 698.04500
+ 798.04500
+ 894.13500
+ 998.04500
+ 1094.13500
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_59872.html#59876
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 59872
+! msg_id = 59876

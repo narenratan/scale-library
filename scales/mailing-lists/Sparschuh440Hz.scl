@@ -1,0 +1,26 @@
+!Sparschuh440Hz.scl
+!
+c"526#555 d"589#624 e"658 f"702#740 g"788#832 a"880#936 b"987
+12
+!
+555/526 
+589/526 ! d"
+624/526
+658/526 ! e"
+702/526 ! f"
+740/526 
+788/526 ! g"
+832/526
+880/526 ! a" := 2 * 440Hz
+936/526
+987/526 ! b"
+2/1
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_17406.html#17408
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_15928-18427.json
+! topic_id = 17406
+! msg_id = 17408

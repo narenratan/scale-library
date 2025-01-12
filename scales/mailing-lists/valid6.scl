@@ -1,0 +1,25 @@
+! valid6.scl
+!
+well-temperament with six pure fifths
+ 12
+!
+101.955001
+198.882856
+305.865004
+396.089998
+500.000000
+600.000000
+700.000000
+803.910002
+894.134997
+1001.117144
+1098.044999
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_43994.html#43994
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 43994
+! msg_id = 43994

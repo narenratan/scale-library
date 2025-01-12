@@ -1,0 +1,24 @@
+! mean441.scl
+7-limit JI meantone, 441-et detempered
+12
+!
+16384/15309
+262144/234375
+1225/1024
+5/4
+8192/6125
+65536/46875
+6125/4096
+8/5
+2048/1225
+234375/131072
+15309/8192
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_59379.html#59379
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 59379
+! msg_id = 59379

@@ -1,0 +1,25 @@
+! 10_serpent2.scl
+!
+ Two pentatonic chains of 3:2's rooted a 7:4 apart, tuned in 31-tet.
+ 10
+!
+ 154.839 !......4
+ 193.548 !......5
+ 387.097 !.....10
+ 464.516 !.....12
+ 658.065 !.....17
+ 696.774 !.....18
+ 890.323 !.....23
+ 967.742 !.....25
+ 1161.290 !....30
+ 2/1 !.........31
+!
+! Four 5-limit triads on 1-4-7, not proper.
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_15025.html#15025
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_12430-15927.json
+! topic_id = 15025
+! msg_id = 15025

@@ -1,0 +1,29 @@
+! valenporc15.scl
+!
+Valentine-porcupine circulating strictly proper 15-note lesfip scale, 11 limit diamond target, 13.8 to 15.5 cent tolerance
+! approximately 555556655555555 in 77edo
+ 15
+!
+ 79.99698
+ 158.13771
+ 233.53897
+ 314.10167
+ 389.50293
+ 467.64365
+ 547.64064
+ 623.18179
+ 701.41713
+ 780.49908
+ 873.82032
+ 967.14156
+ 1046.22350
+ 1124.45885
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_102778.html#102788
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 102778
+! msg_id = 102788

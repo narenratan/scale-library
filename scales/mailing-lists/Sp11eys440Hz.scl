@@ -1,0 +1,27 @@
+! Sp11eys440Hz.scl
+Sparschuh's rational '11-eyes' interpretation of Arnolt Schlick (1511)
+12
+!
+! @ middle  c' 263.1 Hz
+2772/2631 ! #' 277.2
+2944/2631 ! d' 294.4
+3120/2631 ! #' 312
+6585/5262 ! e' 329.25 := 658.5/2
+3516/2631 ! f' 351.6
+3696/2631 ! #' 369.6  
+7875/5262 ! g' 393.25 := 787.5/2
+4160/2631 ! #' 416
+4400/2631 ! a' 440 Hz absolute pitch reference from tuning fork
+4684/2631 ! #' 468.4
+9855/5262 ! b' 492.75 := 985.5/2
+2/1 ! tenor c" 526.3 
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_83189.html#87585
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_85538-88076.json
+! topic_id = 83189
+! msg_id = 87585

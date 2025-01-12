@@ -1,0 +1,24 @@
+! met24-quasi_11-EDO_Ebup.scl
+!
+Emulation of 11-EDO
+  11
+!
+  125.39063
+  207.42188
+  332.81250
+  414.84375
+  540.23438
+  645.70313
+  772.26563
+  853.12500
+  979.68750
+  1060.54687
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105598.html#105598
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105598
+! msg_id = 105598

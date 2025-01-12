@@ -1,0 +1,25 @@
+! pseudo_Odo_octatonics.scl
+!
+pyth. 3-limit 5ths chain of 8 pitch-classes: Bb-F-C-G-D-A-E-B
+8
+!
+! 1/1 @ GG=GAMMAut unison prime
+!
+ 9/8  ! A
+32/27 ! Bb
+81/64 ! B
+ 4/3  ! C
+ 3/2  ! D
+27/16 ! E
+16/9  ! F
+ 2/1  ! G
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_71935.html#72165
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 71935
+! msg_id = 72165

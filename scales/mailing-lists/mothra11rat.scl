@@ -1,0 +1,23 @@
+! mothra11rat.scl
+Mothra[11] with exact 8/7 as generator
+11
+!
+16807/16384
+8/7
+2401/2048
+64/49
+343/256
+512/343
+49/32
+4096/2401
+7/4
+32768/16807
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_88985.html#88997
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 88985
+! msg_id = 88997

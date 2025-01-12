@@ -1,0 +1,29 @@
+! mavsynch16.scl
+Mavilla[16] in synch (brat=-1) tuning
+! fifth satisfies f^4 + f^3 - 8 = 0
+16
+!
+65.639925
+152.674307
+218.314232
+305.348614
+370.988539
+458.022921
+523.662846
+610.697228
+676.337154
+741.977079
+829.011461
+894.651386
+981.685768
+1047.325693
+1134.360075
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_12859.html#12859
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_12430-15927.json
+! topic_id = 12859
+! msg_id = 12859

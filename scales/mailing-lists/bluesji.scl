@@ -1,0 +1,25 @@
+! bluesji.scl
+!
+7-limit JI version of Graham Breed's Blues scale
+ 12
+!
+ 27/25
+ 10/9
+ 5/4
+ 35/27
+ 4/3
+ 35/24
+ 40/27
+ 81/50
+ 5/3
+ 140/81
+ 35/18
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_100741.html#100741
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 100741
+! msg_id = 100741

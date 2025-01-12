@@ -1,0 +1,26 @@
+! Sp59limSchismatic.scl
+Sparschuh's 59-limit Schisma-decomposition into (945/944)(14337/14336)
+12
+!
+531/448   ! C# (135/128)*(944/945) = (256/243)*(14337/14336)
+141/126   ! D  (9/8)*(188/189)
+4479/3584 ! Eb (32/27)*(14337/14336 +~0.120757092...Cents)
+5/4       ! E
+4/3       ! F
+177/112   ! F# (1024/729)*(14337/14336) = (45/32)*(944/945)
+377/224   ! G  (3/2)*(377/378)
+1539/896  ! G# (128/81)*(14337/14336) = (135/128)*(944/945)
+843/448   ! A  (5/3)*(281/280)
+16/9      ! Bb
+15/8      ! B
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_87190.html#88532
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 87190
+! msg_id = 88532

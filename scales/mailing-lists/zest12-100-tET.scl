@@ -1,0 +1,25 @@
+! zest12-100-tET.scl
+!
+100-tET/EDO version of Zest-12 circle (two in Zest-24)
+ 12
+!
+ 72.00000
+ 192.00000
+ 288.00000
+ 384.00000
+ 504.00000
+ 576.00000
+ 696.00000
+ 780.00000
+ 888.00000
+ 996.00000
+ 1080.00000
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_77885.html#78333
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 77885
+! msg_id = 78333

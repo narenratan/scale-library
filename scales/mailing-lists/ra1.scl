@@ -1,0 +1,19 @@
+! ra1.scl
+random 1 scale, "Inverse quahog"
+7
+!
+154.83870967741935484
+309.67741935483870968
+464.51612903225806452
+696.77419354838709677
+851.61290322580645161
+967.74193548387096774
+1200.0000000000000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_89009.html#89053
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 89009
+! msg_id = 89053

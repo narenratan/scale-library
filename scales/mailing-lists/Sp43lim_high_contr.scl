@@ -1,0 +1,27 @@
+!Sp43lim_high_contr.scl
+Sparschuh's 43-limit 'high-key-contrast' bi-epimoric well-temp. [2010]
+!
+12
+!
+1376/1305    ! C# := 2^5 x 3^-2 x 5^-1 x                29^-1 x 43
+1462/1305    ! D  := 2   x 3^-2 x               17    x 29^-1 x 43
+172/145      ! Eb := 2^2 x        5^-1 x                29^-1 x 43
+344/275      ! E  := 2^3 x        5^-2 x 11^-1 
+29584/22185  ! F  := 2^4 x 3^-2 x 5^-1 x        17^-1 x 29^-1 x 43^2
+5504/3915    ! F# := 2^7 x 3^-3 x 5^-1 x                29^-1 x 43
+3784/2523    ! G  := 2^3 x 3^-1 x        11             29^-2 x 43
+688/435      ! G# := 2^4 x 3^-1 x 5^-1 x                29^-1 x 43
+4128/2465    ! A  := 2^5 x 3    x 5^-1 x                29^-1 x 43
+29240/16443  ! Bb := 2^3 x 3^4  x 5    x 7^-1 x 17    x 29^-1 x 43
+118366/63075 ! B  := 2^6 x 3^-1 x 5^-2 x                29^-2 x 43^2
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_91334.html#91762
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 91334
+! msg_id = 91762

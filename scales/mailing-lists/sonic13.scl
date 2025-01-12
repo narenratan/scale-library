@@ -1,0 +1,26 @@
+! sonic13.scl
+!
+A distributionally even scale in sonic temperament, ababababababc
+ 13
+!
+ 96.02000
+ 311.62000
+ 379.72000
+ 475.74000
+ 543.84000
+ 639.86000
+ 707.96000
+ 803.98000
+ 872.08000
+ 968.10000
+ 1036.20000
+ 1132.22000
+ 1200.32000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_19356.html#19356
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_18428-20927.json
+! topic_id = 19356
+! msg_id = 19356

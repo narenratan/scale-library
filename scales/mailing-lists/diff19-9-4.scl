@@ -1,0 +1,23 @@
+! diff19-9-4.scl
+!
+Scale derived from (19,9,4) Type Q cyclic difference set, 19edo
+ 10
+!
+ 63.15789
+ 252.63158
+ 315.78947
+ 378.94737
+ 442.10526
+ 568.42105
+ 694.73684
+ 1010.52632
+ 1073.68421
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_103689.html#103689
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 103689
+! msg_id = 103689

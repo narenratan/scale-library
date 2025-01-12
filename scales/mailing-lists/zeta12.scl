@@ -1,0 +1,25 @@
+! zeta12.scl
+!
+12 equal zeta tuning
+ 12
+!
+99.807
+199.614
+299.422
+399.229
+499.036
+598.843
+698.650
+798.457
+898.265
+998.072
+1097.879
+1197.686
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_6190.html#6232
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_2440-7444.json
+! topic_id = 6190
+! msg_id = 6232

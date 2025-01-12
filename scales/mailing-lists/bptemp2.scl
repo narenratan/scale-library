@@ -1,0 +1,26 @@
+! bptemp2.scl
+!
+BP tempered using a different generator
+ 13
+!
+ 150.22423
+ 300.44846
+ 433.68603
+ 583.91026
+ 734.13449
+ 5/3
+ 9/5
+ 1167.82052
+ 1318.04474
+ 1468.26897
+ 1601.50655
+ 1751.73077
+ 3/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_67588.html#67588
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 67588
+! msg_id = 67588

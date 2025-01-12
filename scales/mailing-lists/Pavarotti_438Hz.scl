@@ -1,0 +1,29 @@
+!Pavarotti_438Hz.scl
+!Proposal by A.Sparschuh for easier singing together with continuo
+!
+sounds best @ Luciano Pavarotti's own demanded absolute pitch: 438Hz
+!
+12
+!
+138/131 ! C#
+293/262 ! D
+156/131 ! Eb
+164/131 ! E
+175/131 ! F
+184/131 ! F#
+196/131 ! G
+415/262 ! G#
+219/131 ! A or 438Hz/262Hz = (abs. normal-pitch)/(abs. 'middle_C')       
+234/131 ! Bb
+491/262 ! B
+2/1     ! c
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_19159.html#76811
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 19159
+! msg_id = 76811

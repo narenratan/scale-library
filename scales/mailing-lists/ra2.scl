@@ -1,0 +1,19 @@
+! ra2.scl
+random 2
+7
+!
+193.54838709677419355
+387.09677419354838710
+503.22580645161290323
+696.77419354838709677
+890.32258064516129032
+1045.1612903225806452
+1200.0000000000000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_89009.html#89053
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 89009
+! msg_id = 89053

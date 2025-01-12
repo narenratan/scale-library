@@ -1,0 +1,19 @@
+! apol.scl
+synmav3 in apollo {100/99, 225/224} temperament
+7
+!
+207.252202
+381.116799
+496.373899
+703.626101
+877.490697
+992.747798
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_63252.html#63426
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 63252
+! msg_id = 63426

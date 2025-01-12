@@ -1,0 +1,42 @@
+! schisynch29.scl
+Schismatic[29] in synch (brat=-1) tuning
+! fifth satisfies f^9 + f^8 - 64 = 0
+29
+!
+70.626999
+91.360882
+112.094765
+182.721764
+203.455647
+274.082646
+294.816529
+315.550413
+386.177411
+406.911294
+477.538293
+498.272176
+519.006060
+589.633058
+610.366942
+680.993940
+701.727824
+772.354822
+793.088706
+813.822589
+884.449587
+905.183471
+975.810469
+996.544353
+1017.278236
+1087.905235
+1108.639118
+1179.266117
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_12860.html#12860
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_12430-15927.json
+! topic_id = 12860
+! msg_id = 12860

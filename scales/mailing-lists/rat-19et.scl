@@ -1,0 +1,32 @@
+! rat-19et.scl
+!
+Rational approximation of 19 equal temperament using 121/81 and 6/5
+ 19
+!
+ 3025/2916
+ 242/225
+ 135/121
+ 125/108
+ 6/5
+ 605/486
+ 484/375
+ 162/121
+ 25/18
+ 36/25
+ 121/81
+ 375/242
+ 972/605
+ 5/3
+ 216/125
+ 242/135
+ 225/121
+ 5832/3025
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_80686.html#80697
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_79117-81620.json
+! topic_id = 80686
+! msg_id = 80697

@@ -1,0 +1,38 @@
+!Bahratamuni22Shrutis.scl
+!
+http://www.22shrutiharmonium.com/research_topic_32.asp
+! by Dr. Vidyadhar Gopal Oke's (Univ. Mumbai, India) interpretation
+22
+!
+256/243 !  2: r1 = 2^8/3^5
+ 16/15  !  3: r2 = 2^4/5/3
+ 10/9   !  4: R1 = 5*2/3^2
+  9/8   !  5: R2 = 3^2/2^3
+ 32/27  !  6: g1 = 2^5/3^3
+  6/5   !  7: g2 = 3*2/5
+  5/4   !  8: G1 =   5/2^2
+ 81/64  !  9: G2 = 3^4/2^6
+  4/3   ! 10: M1 = 2^2/3
+ 27/10  ! 11: M2 = 3^3/5/2^2
+ 45/32  ! 12: m1 = 5*3^2/2^5
+729/512 ! 13: m2 = 3^6/2^9
+  3/2   ! 14: p
+128/81  ! 15: d1 = 2^7/3^4
+  8/5   ! 16: d2 = 2^3/5
+  5/3   ! 17: D1 
+ 27/16  ! 18: D2 = 3^3/2^4
+ 16/9   ! 19: n1 = 2^4/3^2
+  9/5   ! 20: n2 = 3^2/2^3
+ 15/8   ! 21: N2 = 5*3/2^3
+243/128 ! 22: N2 = 3^5/2^7
+2/1
+!
+! [End_of_file]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_74961.html#74973
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_71651-76216.json
+! topic_id = 74961
+! msg_id = 74973

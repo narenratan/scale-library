@@ -1,0 +1,29 @@
+! G66600011111C1G.scl
+! that's when expanded inbetween the corresponding 5ths
+G -6 D -6 A -6 E B F# -1 C# -1 G# -1 Eb -1 Bb -1 F -1 C -1 G.scl
+! PC variant
+!
+12
+!
+95.  ! C#
+197. !PC! D > [195. SC]
+297. ! Eb
+389. ! E
+499. ! F
+593. ! F#
+701. !PC! G < [699. SC] 
+796. ! G#
+893. !PC! A > [892, SC]
+998. ! Bb
+1091.! B
+2/1
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_80694.html#80713
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_79117-81620.json
+! topic_id = 80694
+! msg_id = 80713

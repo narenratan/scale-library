@@ -1,0 +1,30 @@
+! jot17.scl
+!
+Just octachord tuning -- 9:8-4:3-9:8 division, 17 steps (7 + 3 + 7), C-C
+ 17
+!
+ 91/88
+ 273/253
+ 273/242
+ 13/11
+ 364/297
+ 14/11
+ 117/88
+ 91/66
+ 63/44
+ 3/2
+ 273/176
+ 819/506
+ 819/484
+ 39/22
+ 182/99
+ 21/11
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_6632.html#6688
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_5960-7013.json
+! topic_id = 6632
+! msg_id = 6688

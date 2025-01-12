@@ -1,0 +1,25 @@
+! Lumma_in_72.scl
+!
+Carl Lumma's scale in 72-EDO
+ 12
+!
+ 116.6666667 ! Db
+ 200.0       ! D
+ 266.6666667 ! D#
+ 383.3333333 ! E
+ 500.0       ! F
+ 583.3333333 ! F#
+ 700.0       ! G
+ 816.6666667 ! Ab
+ 883.3333333 ! A
+ 966.6666667 ! A#
+ 1083.333333 ! B
+ 2/1         ! C
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_22532.html#22622
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_22050-25104.json
+! topic_id = 22532
+! msg_id = 22622

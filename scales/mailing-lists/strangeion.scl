@@ -1,0 +1,35 @@
+! strangeion.scl
+!
+ 19-limit "dodekaphonic" scale (19 & 17).
+ 12
+!
+ 17/16 !.......C#
+ 19/17 !........D
+ 19/16 !.......D#
+ 323/256 !......E
+ 8192/6137 !....F
+ 361/256 !.....F#
+ 6137/4096 !....G
+ 512/323 !.....G#
+ 32/19 !........A
+ 34/19 !.......A#
+ 32/17 !........B
+ 2/1 !..........C
+!
+!              F#--G
+!             / \ /
+!        D---D#--E
+!       / \ / \ /
+!      B---C---C#
+!     / \ / \ /
+!    G#--A---A#
+!   /
+!  F
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_49980.html#50138
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 49980
+! msg_id = 50138

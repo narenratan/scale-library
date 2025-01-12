@@ -1,0 +1,26 @@
+! stelhex-catakleismic.scl
+!
+stelhex tempered in 13-limit POTE-tuned catakleismic
+! generators: -5, 0, 1, 5, 6, 7, 16, 17, 18, 22, 23, 28
+ 12
+!
+ 84.96312
+ 267.80043
+ 316.73753
+ 383.68764
+ 468.65076
+ 584.53796
+ 700.42516
+ 816.31236
+ 901.27549
+ 968.22560
+ 1017.16269
+ 1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105357.html#105357
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105357
+! msg_id = 105357

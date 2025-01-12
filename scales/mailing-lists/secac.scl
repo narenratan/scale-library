@@ -1,0 +1,23 @@
+! secac.scl
+! [34, 29, 22, 51, 34, 22, 29, 34, 51, 22]
+{126/125, 176/175} tempering of decac, 328-et version
+10
+!
+124.3902439
+230.4878049
+310.9756098
+497.5609756
+621.9512195
+702.4390244
+808.5365854
+932.9268293
+1119.512195
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_4565.html#4565
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_2440-7444.json
+! topic_id = 4565
+! msg_id = 4565

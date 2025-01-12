@@ -1,0 +1,36 @@
+! perdeler23-symmetrical.scl
+!
+Maqam/Dastgah tuning, mirror symmetry, two flavors of neutral 2nd-3rd-6th-7th
+ 23
+!
+ 76.96546
+ 132.24835
+ 153.93092
+ 209.21381
+ 286.17928
+ 341.46217
+ 363.14474
+ 418.42763
+ 495.39309
+ 550.67598
+ 572.35855
+ 627.64145
+ 649.32401
+ 704.60691
+ 781.57237
+ 836.85526
+ 858.53783
+ 913.82072
+ 990.78618
+ 1046.06908
+ 1067.75165
+ 1123.03454
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_77885.html#78264
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 77885
+! msg_id = 78264

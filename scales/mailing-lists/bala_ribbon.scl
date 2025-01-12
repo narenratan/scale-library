@@ -1,0 +1,26 @@
+! bala_ribbon.scl
+!
+Parizekmic scale based on a double Bala sequence
+  12
+!
+  25/24
+  9/8
+  6/5
+  13/10
+  4/3
+  83/60
+  3/2
+  8/5
+  26/15
+  9/5
+39/20
+  2/1
+! Interleaved Bala -c recurrent sequences, x^8 - 2 = x
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_95448.html#95642
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 95448
+! msg_id = 95642

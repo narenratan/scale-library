@@ -1,0 +1,24 @@
+! grailrms.scl
+RMS optimized Holy Grail
+12
+!
+84.048251
+196.735887
+309.423522
+393.471773
+506.897045
+580.913009
+699.794113
+796.735887
+893.677661
+1012.558765
+1086.574729
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_44053.html#44062
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 44053
+! msg_id = 44062

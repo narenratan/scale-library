@@ -1,0 +1,15 @@
+! 427_D10.scl
+!
+Diatonic tetrachord 256/243 * 76/67 * 5427/4864, Euler
+ 3
+!
+ 256/243
+ 19456/16281
+ 4/3
+!
+! Chalmers, John H. Divisions of the Tetrachord.
+! Frog Peak Music, 1993.
+!
+! [info]
+! source = Divisions of the Tetrachord
+! catalog_index = 427

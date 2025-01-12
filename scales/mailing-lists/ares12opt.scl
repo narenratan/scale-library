@@ -1,0 +1,24 @@
+! ares12opt.scl
+Lesfip scale derived from Ares[12], 13 cents, 11-limit
+12
+!
+98.47604
+165.71169
+321.40156
+392.10465
+485.69654
+551.05641
+711.71088
+809.46455
+871.65772
+1030.05511
+1099.72190
+1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_95510.html#95510
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 95510
+! msg_id = 95510

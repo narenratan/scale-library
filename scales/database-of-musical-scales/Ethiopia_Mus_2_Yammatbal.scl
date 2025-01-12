@@ -1,0 +1,19 @@
+! Ethiopia_Mus_2_Yammatbal.scl
+!
+Measured scale M0183 in DaMuSc
+ 5
+!
+ 344.0
+ 538.0
+ 682.0
+ 1054.0
+ 1200.0 ! Octave added to measured scale
+!
+! S. Weisser and F. Falceto. Investigating qanat in amhara secular
+! music: An acoustic and historical study. Annales d'thiopie,
+! 28(1):299-322, 2013. doi: 10.3406/ethio.2013.1539
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0183
+! ref_id = 40

@@ -1,0 +1,38 @@
+! ssixth_tcp.scl
+!
+Semisixth tetradic comma pump
+ 25
+!
+ 386.84967
+ 499.11692
+ 885.96659
+ 72.81627
+ 185.08351
+ 571.93319
+ 684.20043
+ 1071.05011
+ 257.89978
+ 370.16703
+ 757.01670
+ 1143.86638
+ 56.13362
+ 442.98330
+ 829.83297
+ 942.10022
+ 128.94989
+ 515.79957
+ 628.06681
+ 1014.91649
+ 1127.18373
+ 314.03341
+ 700.88308
+ 813.15033
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_100759.html#100759
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 100759
+! msg_id = 100759

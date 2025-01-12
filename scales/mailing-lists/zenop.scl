@@ -1,0 +1,24 @@
+! zenop.scl
+Lesfip scale derived from Zen, using J O'S "good" intervals, 256/255
+12
+!
+116.56676
+204.62247
+266.88263
+435.27508
+497.53524
+585.59096
+702.15771
+761.02630
+885.22578
+1016.93193
+1141.13141
+1200.00000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_96424.html#96426
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 96424
+! msg_id = 96426

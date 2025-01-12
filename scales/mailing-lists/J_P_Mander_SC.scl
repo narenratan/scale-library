@@ -1,0 +1,35 @@
+!J_P_Mander_SC.scl
+!
+John Pike Mander's Adlington-Hall organ tuning compiled by A.Sparschuh
+!
+! C -1/4 G -1/4 D -1/4 A -1/4 E -1/4 B -1/6 F# -1/5 C# -1/6 G# ...
+! ... Ab +2/3 Eb 0 Bb 0 F 0 C as all in fractions of the SC=81/81
+!
+12
+!
+78.9165045 ! C# ! (135/128) / (81/80)^(-1/4 -1/6 -1/5) >~chroma 25/24
+193.156857 ! D  ! (9/8) / (81/80)^(1/2) standard meantonic whole-tone
+32/27      ! Eb ! Pythagorean minor-3rd from pure 5ths Eb-Bb-F-C
+5/4        ! E  ! just-major-3rd as in meantonics
+4/3        ! F  ! just-4th: C-F
+581.262762 ! F# ! (45/32) * (81/80)^(-1/4 -1/6) tritone
+696.578428 ! G  ! (3/2) * (81/80)^(-1/4) ordinary meantonic-5th
+777.842470 ! Ab ! (128/81) / (81/80)^(+2/3) minor-6th
+!777.28712 ! G# ! (405/256) * (81/80)^(-1/4 -1/6 -1/5 -1/6)
+889.735285 ! A  ! (5/3) * (81/80)^(1/4) ordinary meantonic-6th
+16/9       ! Bb ! just diminished-7th due to pure 5ths: Bb-F-C 
+1082.89214 ! B !  (15/8) / (81/80)^(1/4) ordinary meantonic-7th
+2/1
+!
+! Attend the tiny 'enharmonic' difference inbetween Ab - G# of about
+! 777.842470 - 777.28712 = ~ +0.555346...Cents only.
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_81835.html#88428
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 81835
+! msg_id = 88428

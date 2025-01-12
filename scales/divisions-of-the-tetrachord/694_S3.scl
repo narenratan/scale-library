@@ -1,0 +1,12 @@
+! 694_S3.scl
+!
+Semi-tempered tetrachord (4/3)**(1/10) * (4/3)**(1/10) * (4/3)**(8/10)
+ 3
+!
+ 49.8045
+ 99.609
+ 4/3
+!
+! [info]
+! source = Divisions of the Tetrachord
+! catalog_index = 694

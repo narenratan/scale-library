@@ -1,0 +1,20 @@
+! elfkeenanismic7.scl
+!
+Keenanismic tempered [8/7, 5/4, 4/3, 3/2, 8/5, 7/4, 2] = cross_7, 284et tuning
+ 7
+!
+ 232.39437
+ 384.50704
+ 498.59155
+ 701.40845
+ 815.49296
+ 967.60563
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105774.html#105779
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105774
+! msg_id = 105779

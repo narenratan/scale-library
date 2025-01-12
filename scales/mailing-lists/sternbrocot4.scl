@@ -1,0 +1,28 @@
+! sternbrocot4.scl
+level 4 of the Stern-Brocot tree
+16
+!
+6/5
+5/4
+9/7
+4/3
+11/8
+7/5
+10/7
+3/2
+11/7
+8/5
+13/8
+5/3
+12/7
+7/4
+9/5
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_89401.html#89401
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 89401
+! msg_id = 89401

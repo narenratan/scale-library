@@ -1,0 +1,33 @@
+! blackjb.scl
+marvel (1,1) tuning of pipedum_21b
+21
+!
+34.142571
+116.519709
+150.662280
+233.039418
+267.181988
+349.559126
+383.701697
+466.739177
+500.221406
+583.258885
+616.741115
+699.778594
+733.260823
+816.298303
+850.440874
+932.818012
+966.960582
+1049.337720
+1083.480291
+1116.962521
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_12870.html#12870
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_12430-15927.json
+! topic_id = 12870
+! msg_id = 12870

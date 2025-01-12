@@ -1,0 +1,56 @@
+!\monzo-sym-11.scl
+!
+Monzo symmetrical system: 11-limit
+ 41
+!
+ 16/15
+ 9/8
+ 6/5
+ 5/4
+ 4/3
+ 7/5
+ 3/2
+ 8/5
+ 5/3
+ 16/9
+ 15/8
+ 121/64
+ 33/32
+ 11/8
+ 11/6
+ 55/32
+ 11/7
+ 11/10
+ 77/64
+ 32/21
+ 8/7
+ 12/7
+ 64/49
+ 10/7
+ 25/16
+ 7/6
+ 7/4
+ 21/16
+ 32/25
+ 49/32
+ 35/32
+ 64/35
+ 128/77
+ 20/11
+ 64/33
+ 16/11
+ 12/11
+ 64/55
+ 14/11
+ 128/121
+ 2/1
+!
+!------------------- END SCALA FILE ---------------
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_2894.html#2894
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 2894
+! msg_id = 2894

@@ -1,0 +1,44 @@
+! rational_canasta.scl
+!
+Rational version of Canasta MIRACLE-31 scale by Joe Monzo
+ 31
+!
+ 729/715
+ 150/143
+ 5632/5265
+ 567/520
+ 432/385
+ 5005/4374
+ 7/6
+ 832/693
+ 891/728
+ 19712/15795
+ 32768/25515
+ 55/42
+ 10935/8192
+ 378/275
+ 416/297
+ 297/208
+ 275/189
+ 16384/10935
+ 84/55
+ 25515/16384
+ 15795/9856
+ 1456/891
+ 693/416
+ 12/7
+ 8748/5005
+ 385/216
+ 11/6
+ 243/130
+ 143/75
+ 1430/729
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_22793.html#23190
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_22050-25104.json
+! topic_id = 22793
+! msg_id = 23190

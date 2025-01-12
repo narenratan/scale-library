@@ -1,0 +1,37 @@
+! PerfDif24.scl
+!
+Perfect difference scale for 553-EDO
+24
+!
+ 19.52983725
+ 71.60940325
+ 80.28933092
+ 82.45931284
+ 210.4882459
+ 264.7377939
+ 279.9276673
+ 303.7974684
+ 308.1374322
+ 329.8372514
+ 414.4665461
+ 444.8462929
+ 451.3562387
+ 546.835443
+ 603.2549729
+ 620.6148282
+ 707.4141049
+ 720.4339964
+ 766.0036166
+ 798.5533454
+ 833.2730561
+ 874.5027125
+ 922.2423146
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_77364.html#77601
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_76217-79116.json
+! topic_id = 77364
+! msg_id = 77601

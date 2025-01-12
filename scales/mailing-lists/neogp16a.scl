@@ -1,0 +1,29 @@
+! neogp16a.scl
+!
+Scale from mainly prime-to-prime ratios and octave complements (Gb-D#)
+16
+!
+ 43/41
+ 6439/5989
+ 53/47
+ 13/11
+ 137/113
+ 47/37
+ 4/3
+ 7/5
+ 1781/1243
+ 3/2
+ 11/7
+ 21/13
+ 22/13
+ 946/533
+ 82/43
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_18180.html#18180
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 18180
+! msg_id = 18180

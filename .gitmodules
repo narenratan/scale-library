@@ -1,0 +1,7 @@
+[submodule "sources/YahooTuningGroupsUltimateBackup"]
+	path = sources/YahooTuningGroupsUltimateBackup
+	url = https://github.com/YahooTuningGroupsUltimateBackup/YahooTuningGroupsUltimateBackup.git
+[submodule "sources/DaMuSc"]
+	path = sources/DaMuSc
+	url = https://github.com/narenratan/DaMuSc.git
+	branch = update-reference

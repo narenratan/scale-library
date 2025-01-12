@@ -1,0 +1,17 @@
+! breedhf.scl
+!
+Breed with a half-fifth period
+ 4
+!
+ 84.22679
+ 168.45359
+ 266.75071
+ 350.97750
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_89290.html#89317
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 89290
+! msg_id = 89317

@@ -1,0 +1,37 @@
+! O3-ri24.scl
+!
+Rational intonation version of O3 (24), subdivision of 896:891
+  24
+!
+  91/88
+  1764/1639
+  40131/36058
+  168/149
+  1911/1639
+  176/149
+  182/149
+  567/446
+  51597/39248
+  297/223
+  2457/1784
+  14112/9845
+  160524/108295
+  1344/895
+  15288/9845
+  15876/9823
+  361179/216106
+  1512/893
+  17199/9823
+  1584/893
+  1638/893
+  21/11
+  1911/968
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105217.html#105227
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105217
+! msg_id = 105227

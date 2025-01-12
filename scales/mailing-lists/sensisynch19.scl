@@ -1,0 +1,32 @@
+! sensisynch19.scl
+Sensi[19] in synch (brat=-1) tuning
+! generator ~162/125 satisfies g^9 - g^7 - 4 = 0
+19
+!
+70.115372
+128.213283
+198.328655
+256.426567
+314.524478
+384.639850
+442.737761
+512.853133
+570.951044
+629.048956
+699.164328
+757.262239
+827.377611
+885.475522
+955.590894
+1013.688805
+1071.786717
+1141.902089
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_12862.html#12862
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_12430-15927.json
+! topic_id = 12862
+! msg_id = 12862

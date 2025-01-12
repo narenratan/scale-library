@@ -1,0 +1,24 @@
+! rainbow.scl
+Circulating 1/4-comma meantone
+12
+!
+76.048999
+193.156857
+296.578429
+386.313713
+503.421572
+579.470571
+696.578429
+786.313713
+889.735285
+1006.843143
+1082.892142
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_44289.html#44289
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 44289
+! msg_id = 44289

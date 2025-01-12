@@ -1,0 +1,25 @@
+! 11lwt.scl
+!
+11-limit Rational Well-temperament
+ 12
+!
+ 1323/1250
+ 55/49
+ 297/250
+ 63/50
+ 4/3
+ 99/70
+ 220/147
+ 100/63
+ 42/25
+ 5500/3087
+ 66/35
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_54796.html#54831
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_52482-55189.json
+! topic_id = 54796
+! msg_id = 54831

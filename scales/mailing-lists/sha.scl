@@ -1,0 +1,36 @@
+! sha.scl
+Three chains of sqrt(3/2) separated by 10/7
+24
+!
+34.975615
+119.442808
+147.067499
+182.043113
+203.910002
+238.885617
+266.510307
+350.977500
+385.953115
+470.420309
+498.044999
+533.020614
+617.487807
+701.955001
+736.930616
+764.555306
+821.397809
+849.022500
+883.998114
+968.465308
+1052.932501
+1087.908116
+1115.532807
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_68776.html#68814
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 68776
+! msg_id = 68814

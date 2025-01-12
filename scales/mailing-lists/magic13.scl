@@ -1,0 +1,25 @@
+! magic13.scl
+Magic[13] in 41-et (7-limit poptimal)
+13
+!
+204.878049
+263.414634
+321.951220
+380.487805
+585.365854
+643.902439
+702.439024
+760.975610
+965.853659
+1024.390244
+1082.926829
+1141.463415
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_53902.html#53902
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_52482-55189.json
+! topic_id = 53902
+! msg_id = 53902

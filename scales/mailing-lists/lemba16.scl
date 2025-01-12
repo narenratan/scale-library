@@ -1,0 +1,28 @@
+! lemba16.scl
+16 note lemba scale in 270 tuning (poptimal)
+16
+!
+93.333333
+137.777778
+231.111111
+324.444444
+368.888889
+462.222222
+506.666667
+600.000000
+693.333333
+737.777778
+831.111111
+924.444444
+968.888889
+1062.222222
+1106.666667
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_53752.html#53764
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_52482-55189.json
+! topic_id = 53752
+! msg_id = 53764

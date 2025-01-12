@@ -1,0 +1,25 @@
+! piaji-helmholtz.scl
+!
+"PiaJI" scale tempered to TOP helmholtz
+ 12
+!
+ 91.26203
+ 203.50821
+ 294.77024
+ 386.03227
+ 498.27845
+ 610.52464
+ 701.78667
+ 793.04869
+ 905.29488
+ 996.55691
+ 1087.81893
+ 1200.06512
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105325.html#105337
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105325
+! msg_id = 105337

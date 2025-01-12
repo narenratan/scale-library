@@ -1,0 +1,21 @@
+! brect33.scl
+3x3 breed rectangle scale, <9 15 22 26| epimorphic
+9
+!
+8/7
+6/5
+49/40
+7/5
+8/5
+49/30
+12/7
+49/25
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_12170.html#12171
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_9945-12429.json
+! topic_id = 12170
+! msg_id = 12171

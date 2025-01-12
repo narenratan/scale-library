@@ -1,0 +1,30 @@
+! pyth_17.scl
+!
+17-tone Pythagorean scale
+17
+!
+256/243
+2187/2048
+9/8
+32/27
+19683/16384
+81/64
+4/3
+1024/729
+729/512
+3/2
+128/81
+6561/4096
+27/16
+16/9
+59049/32768
+243/128
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_29301.html#29301
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_22048-29396.json
+! topic_id = 29301
+! msg_id = 29301

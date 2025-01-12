@@ -1,0 +1,26 @@
+!Sp_refi_Ki_3.scl
+Sparschuh's [2010] refined epimoric Kirnberger III variant
+12
+!
+256/243  ! 2^8/3^5 the limma
+161/144  ! (10/9)*(161/160) = (9/8)*(161/162) by halfing the SC 
+32/27    ! 2^5/3^3 Pyth. minor 3rd
+5/4     
+4/3
+1025/729 ! (1024/729)*(1025/1024) = (45/32)*(6560/6561) halfing the s
+323/216  ! (3/2)*(323/324)
+128/81   ! 2^7/3^4
+107/64   ! (5/3)*(321/320)
+16/9
+15/8
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_90656.html#91245
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 90656
+! msg_id = 91245

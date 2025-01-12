@@ -1,0 +1,23 @@
+! freefokkerblock.scl
+!
+2.7.13 Fokker block (free-floating parallelogram definition) with UVs 343/338, 28672/28561
+ 10
+!
+ 14/13
+ 1183/1024
+ 637/512
+ 169/128
+ 91/64
+ 49/32
+ 13/8
+ 7/4
+ 49/26
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_19493.html#19576
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_18428-20927.json
+! topic_id = 19493
+! msg_id = 19576

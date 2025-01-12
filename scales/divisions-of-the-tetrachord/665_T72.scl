@@ -1,0 +1,12 @@
+! 665_T72.scl
+!
+Tempered tetrachord in cents 62.5 + 62.5 + 375, Chapter 5
+ 3
+!
+ 62.5
+ 125.0
+ 500.0
+!
+! [info]
+! source = Divisions of the Tetrachord
+! catalog_index = 665

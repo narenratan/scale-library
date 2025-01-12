@@ -1,0 +1,20 @@
+! gorgo-pelog.scl
+!
+Pelog-like subset of gorgo[9]
+  7
+!
+  64.82352
+  293.02282
+  521.22213
+  684.59791
+  749.42143
+  977.62074
+  1205.82004
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_66861.html#66861
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 66861
+! msg_id = 66861

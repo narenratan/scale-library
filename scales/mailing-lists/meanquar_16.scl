@@ -1,0 +1,29 @@
+! meanquar_16.scl
+!
+1/4-comma mean-tone scale with split C#/Db, D#/Eb, G#/Ab and A#/Bb 
+ 16
+!
+ 76.04900
+ 117.10900
+ 193.15700
+ 269.20600
+ 310.26500
+ 5/4
+ 503.42200
+ 579.47100
+ 696.57800
+ 25/16
+ 8/5
+ 889.73500
+ 965.78400
+ 1006.84300
+ 1082.89200
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_17072.html#17072
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 17072
+! msg_id = 17072

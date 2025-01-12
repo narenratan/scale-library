@@ -1,0 +1,27 @@
+! Ensemble_almost_JI.scl
+!
+epimoric Ensemble ~JI @ A4=440Hz by Andreas Sparschuh
+12
+!
+2227/2112 ! (135/128)(4454/4455)
+37/33 ! (9/8)(296/297) = (10/9)(111/110)
+313/264 ! (32/27)(2817/2816)
+5/4
+4/3
+45/32
+3/2
+835/524
+5/3
+939/524 ! (16/9)(2817/2816)
+15/8
+2/1
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_81352.html#81648
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 81352
+! msg_id = 81648

@@ -1,0 +1,31 @@
+! miller19.scl
+Herman Miller circulating based on {225/224, 1029/1000}
+19
+!
+62.004635
+124.009271
+186.013906
+248.018542
+322.429409
+384.434045
+446.438680
+508.443315
+570.447951
+632.452586
+694.457222
+756.461857
+818.466492
+880.471128
+954.881995
+1016.886631
+1078.891266
+1140.895902
+1202.900537
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_9760.html#9762
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_7445-9944.json
+! topic_id = 9760
+! msg_id = 9762

@@ -1,0 +1,68 @@
+!Sp53rat.scl
+Sparschuh's [2010] rational 53-tone with some epimoric biased 5ths
+53
+!
+65/64  ! A 
+33/32  ! B
+26/25  ! C 
+20/19  ! D
+16/15  ! E
+13/12  ! F 
+11/10  ! G
+10/9   ! H
+9/8    ! I
+8/7    ! J
+52/45  ! K 
+7/6    ! L
+32/27  ! M
+6/5    ! N
+11/9   ! O
+16/13  ! P
+5/4    ! Q 
+81/64  ! R
+9/7    ! S
+57/44  ! T 
+21/16  ! U
+4/3    ! V 
+23/17  ! W
+11/8   ! X
+18/13  ! Y
+7/5    ! Z
+10/7   ! z'
+13/9   ! y'
+16/11  ! x'
+34/23  ! w'
+3/2    ! v'
+32/21  ! u'
+88/57  ! t'
+14/9   ! s'
+128/81 ! r'
+8/5    ! q'
+13/8   ! p'
+18/11  ! o'
+5/3    ! n'
+27/16  ! m'
+12/7   ! l'
+45/26  ! k'
+7/4    ! j'
+16/9   ! i'
+9/5    ! h'
+20/11  ! g'
+24/13  ! f'
+15/8   ! e'
+19/10  ! d'
+25/13  ! c'
+64/33  ! b'
+128/65 ! a'
+2/1    ! @'
+!
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_90883.html#92003
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 90883
+! msg_id = 92003

@@ -1,0 +1,30 @@
+! neogw17a.scl
+!
+Neo-Gothic well-temperament (14:11, 9:7 hypermeantone fifths)
+17
+!
+ 126/121
+ 130.638937 cents
+ 208.753982 cents
+ 286.869027 cents
+ 343.786952 cents
+ 14/11
+ 495.623009 cents
+ 561.329000 cents
+ 626.261946 cents
+ 704.376991 cents
+ 778.871047 cents
+ 196/121
+ 913.130973 cents
+ 991.246018 cents
+ 1052.557976 cents
+ 1121.884955 cents
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_12432.html#12432
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json
+! topic_id = 12432
+! msg_id = 12432

@@ -1,0 +1,24 @@
+! 08_o8.scl
+!
+ Mode 8 of the harmonic series.
+ 8
+!
+ 9/8
+ 5/4
+ 11/8
+ 3/2
+ 13/8
+ 7/4
+ 15/8
+ 2/1
+!
+! This entire scale is one 8-note chord, and any
+! four note subset of it should be consonant.
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_18544.html#18550
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_17047-19547.json
+! topic_id = 18544
+! msg_id = 18550

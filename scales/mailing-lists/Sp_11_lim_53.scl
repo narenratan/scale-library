@@ -1,0 +1,66 @@
+!Sp_11_lim_53.scl
+!
+Sparschuh's 11-limit cyclic 53-tone in terms of 'Dyadic fractions'
+53
+! 1/1 !     @
+65/64 !     A
+33/32 !     B
+133/128 !   C
+135/128 !   D
+547/512 !   E
+2227/2048 ! F
+281/256 !   G
+71/64 !     H
+9/8 !       I
+293/256 !   J
+297/256 !   K
+299/256 !   L
+1215/1024 ! M
+77/64 !     N
+313/256 !   O
+79/64 !     P
+5/4 !       Q
+81/64 !     R
+165/128 !   S
+667/512 !   T
+21/16 !     U
+683/512 !   V
+693/512 !   W
+11/8 !      X
+355/256 !   Y
+45/32 !     Z
+729/512 !   a
+1485/1024 ! b
+375/256 !   c
+189/128 !   d
+3/2 !       e
+195/128 !   f
+99/64 !     g
+399/256 !   h
+405/256 !   i
+821/512 !   j
+835/512 !   k
+843/512 !   l
+213/128 !   m
+27/16 !     n
+55/32 !     o  = 440Hz/256Hz := (A\):(C-)
+445/256 !   p
+7/4 !       q
+911/512 !   r
+231/128 !   s
+939/512 !   t
+237/128 !   u
+15/8 !      v
+243/128 !   w
+495/256 !   x
+125/64 !    y
+63/32 !     z
+2/1 !       @'
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_82079.html#82150
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 82079
+! msg_id = 82150

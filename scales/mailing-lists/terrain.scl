@@ -1,0 +1,25 @@
+! terrain.scl
+JI version of generated scale for 63/50 and 10/9
+! effectively 250047/250000 (landscape) tempering in 2.9/5.9/7 subgroup
+12
+!
+50/49
+10/9
+500/441
+63/50
+9/7
+7/5
+10/7
+100/63
+81/50
+441/250
+9/5
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_96783.html#96801
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 96783
+! msg_id = 96801

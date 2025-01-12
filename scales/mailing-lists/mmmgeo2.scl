@@ -1,0 +1,20 @@
+! mmmgeo2.scl
+!
+Scale for MakeMicroMusic in Peppermint 24, maybe a bit like Georgian tunings
+ 7
+!
+ 208.19121
+ 367.23515
+ 516.74667
+ 704.09561
+ 863.13954
+ 1071.33075
+ 1220.84228
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_3617.html#3619
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_2468-5959.json
+! topic_id = 3617
+! msg_id = 3619

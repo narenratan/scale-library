@@ -1,0 +1,25 @@
+! secor_WT2-11.scl
+!
+George Secor's 2/11-comma well-temperament, proportional beating
+ 12
+!
+ 92.13884
+ 196.08721
+ 296.01562
+ 392.17442
+ 499.92562
+ 590.20835
+ 698.04361
+ 794.06062
+ 894.13082
+ 997.97062
+ 1090.21803
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_59689.html#61800
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 59689
+! msg_id = 61800

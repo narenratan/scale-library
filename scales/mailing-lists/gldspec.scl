@@ -1,0 +1,25 @@
+! gldspec.scl
+!
+The golden spectrum
+ 12
+!
+ 99.27089
+ 198.54178
+ 267.63881
+ 366.90970
+ 466.18059
+ 565.45148
+ 634.54852
+ 733.81941
+ 833.09030
+ 932.36119
+ 1100.72911
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_65862.html#65869
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 65862
+! msg_id = 65869

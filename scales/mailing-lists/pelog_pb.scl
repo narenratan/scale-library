@@ -1,0 +1,20 @@
+! pelog_pb.scl
+!
+"Primitive" Pelog, step of blown semi-fourths, von Hornbostel, type b.
+ 7
+!
+ 105.000 cents
+ 261.000 cents
+ 522.000 cents
+ 678.000 cents
+ 783.000 cents
+ 939.000 cents
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_51439.html#51439
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 51439
+! msg_id = 51439

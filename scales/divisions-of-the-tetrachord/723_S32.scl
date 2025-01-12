@@ -1,0 +1,12 @@
+! 723_S32.scl
+!
+Semi-tempered tetrachord (4/3)**(2/5) * (4/3)**(3/10) * (4/3)**(3/10)
+ 3
+!
+ 199.218
+ 348.6315
+ 4/3
+!
+! [info]
+! source = Divisions of the Tetrachord
+! catalog_index = 723

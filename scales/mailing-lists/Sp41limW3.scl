@@ -1,0 +1,26 @@
+!Sp41limW3.scl 
+Sparschuh's 41-limit Werckmeister #3 interpretation for J.S.Bach
+12
+!
+256/243   ! C# |8,-5> the Pythagorean-Limma 
+272/243   ! D  |4,-5,0,0,0,0,1> = |4,-5>*17 
+32/27     ! Eb |5,-3>
+304/243   ! E  |1,-5,0,0,0,0,0,1> = |1,-5>*19
+4/3       ! F  |2,-1>
+1024/729  ! F# |10,-6>
+3280/2187 ! G  |4,-7,1,0,0,0,0,0,0,0,0,0,1> = |4,-7,1>*41 !JSB!
+128/81    ! G# |-7,4>
+1216/729  ! A  |6,-6,0,0,0,0,0,1> = |6,-6>*19
+16/9      ! Bb |4,-2>
+152/81    ! B  |3,-4,0,0,0,0,0,1> = |3,-4>*19 
+2/1
+!
+![eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_89550.html#89588
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_88077-89999.json
+! topic_id = 89550
+! msg_id = 89588

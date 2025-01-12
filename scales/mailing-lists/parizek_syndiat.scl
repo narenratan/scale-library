@@ -1,0 +1,25 @@
+! parizek_syndiat.scl
+!
+Petr Parizek, diatonic scale with syntonic alternatives
+ 12
+!
+ 10/9
+ 9/8
+ 5/4
+ 4/3
+ 27/20
+ 40/27
+ 3/2
+ 5/3
+ 27/16
+ 50/27
+ 15/8
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_55374.html#55412
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 55374
+! msg_id = 55412

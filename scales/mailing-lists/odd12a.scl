@@ -1,0 +1,25 @@
+! odd12a.scl
+!
+12-tone odd tuning 2
+ 12
+!
+ 25/21
+ 49/27
+ 175/81
+ 5/3
+ 9/7
+ 245/81
+ 7/3
+ 25/9
+ 15/7
+ 1225/243
+ 35/9
+ 3/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_64373.html#64373
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 64373
+! msg_id = 64373

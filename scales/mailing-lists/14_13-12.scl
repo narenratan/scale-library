@@ -1,0 +1,25 @@
+! 14_13-12.scl
+!
+Temperament with just 14/13 apotome, close to Pepper Noble Fifth
+  12
+!
+  128.29824
+  208.08521
+  287.87218
+  416.17043
+  495.95739
+  624.25564
+  704.04261
+  832.34085
+  912.12782
+  991.91479
+  1120.21303
+  2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105023.html#105060
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105023
+! msg_id = 105060

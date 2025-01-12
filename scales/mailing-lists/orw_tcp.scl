@@ -1,0 +1,40 @@
+! orw_tcp.scl
+!
+5-limit orwell tetradic comma pump
+ 27
+!
+ 884.14911
+ 701.32619
+ 385.26569
+ 69.20520
+ 1086.59188
+ 770.53139
+ 587.70847
+ 271.64797
+ 1155.79708
+ 972.97416
+ 656.91366
+ 340.85317
+ 158.03025
+ 1042.17936
+ 859.35644
+ 543.29594
+ 227.23545
+ 44.41252
+ 928.56163
+ 612.50114
+ 429.67822
+ 113.61772
+ 997.76683
+ 814.94391
+ 498.88342
+ 316.06050
+ 1200.20960
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_100759.html#100759
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 100759
+! msg_id = 100759

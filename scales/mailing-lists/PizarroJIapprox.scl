@@ -1,0 +1,27 @@
+! PizarroJIapprox.scl
+!
+Rational approximation of Mario Pizarro's JI, compiled by A.Sparschuh
+12
+!
+18/17
+28/25 ! 10/9 < 9.333333.../8.333333... < 9/8
+32/27
+5/4
+4/3
+45/32 ! lacking F# amended due to JI 5th "2C#/F# -- 1.5" specification
+3/2
+27/17 ! superparticular = 2.7/1.7  or more coarse ~19/12 ?
+97/58 ! near ~5/3
+16/9
+15/8
+2/1
+!
+!
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_82079.html#82095
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_81621-85537.json
+! topic_id = 82079
+! msg_id = 82095

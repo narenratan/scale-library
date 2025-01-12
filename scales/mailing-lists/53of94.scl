@@ -1,0 +1,66 @@
+! 53of94.scl
+!
+ garibaldi[53] MOS in 94-edo
+ 53
+!
+ 25.53191   ! 0/ (black, right edge)
+ 51.06383   ! 0^
+ 63.82979   ! 1\ (red, left edge)
+ 89.36170   ! 1  (red, center)
+ 114.89362  ! 1/ (red, right edge)
+ 140.42553  ! 1^
+ 153.19149  ! 2v
+ 178.72340  ! 2\ (blue, left edge)
+ 204.25532  ! 2  (blue, center)
+ 229.78723  ! 2/ (blue, right edge)
+ 255.31915  ! 2^
+ 268.08511  ! 3\ (red, left edge)
+ 293.61702  ! 3  (red, center)
+ 319.14894  ! 3/ (red, right edge)
+ 344.68085  ! 3^
+ 357.44681  ! 4v
+ 382.97872  ! 4\ (blue, left edge)
+ 408.51064  ! 4  (blue, center)
+ 434.04255  ! 4/ (blue, right edge)
+ 446.80851  ! 5v
+ 472.34043  ! 5\ (black, left edge)
+ 497.87234  ! 5  (black, center)
+ 523.40426  ! 5/ (black, right edge)
+ 548.93617  ! 5^
+ 561.70213  ! 6v (red, left edge)
+ 587.23404  ! 6\ (red, center / blue, left edge)
+ 612.76596  ! 6  (blue, center / red, right edge)
+ 638.29787  ! 6/ (blue, right edge)
+ 651.06383  ! 7v
+ 676.59574  ! 7\ (black, left edge)
+ 702.12766  ! 7  (black, center)
+ 727.65957  ! 7/ (black, right edge)
+ 753.19149  ! 7^
+ 765.95745  ! 8\ (red, left edge)
+ 791.48936  ! 8  (red, center)
+ 817.02128  ! 8/ (red, right edge)
+ 842.55319  ! 8^
+ 855.31915  ! 9v
+ 880.85106  ! 9\ (blue, left edge)
+ 906.38298  ! 9  (blue, center)
+ 931.91489  ! 9/ (blue, right edge)
+ 944.68085  ! 10v
+ 970.21277  ! 10\ (red, left edge)
+ 995.74468  ! 10  (red, center)
+ 1021.27660 ! 10/ (red, right edge)
+ 1046.80851 ! 10^
+ 1059.57447 ! 11v
+ 1085.10638 ! 11\ (blue, left edge)
+ 1110.63830 ! 11  (blue, center)
+ 1136.17021 ! 11/ (blue, right edge)
+ 1148.93617 ! 12v
+ 1174.46809 ! 12\ (black, left edge)
+ 2/1        ! 12  (black, center)
+!
+! https://yahootuninggroupsultimatebackup.github.io/makemicromusic/topicId_29123.html#29126
+!
+! [info]
+! source = Mailing lists
+! file = makemicromusic/messages/yahoo_makemicromusic_messages_api_raw_22048-29396.json
+! topic_id = 29123
+! msg_id = 29126

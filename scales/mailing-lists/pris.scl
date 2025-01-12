@@ -1,0 +1,28 @@
+! pris.scl
+!
+ Optimized (15/14)^3 (16/15)^4 (21/20)^3 (25/24)^2 scale.
+ 12
+!
+ 16/15
+ 28/25
+ 7/6
+ 5/4
+ 4/3
+ 7/5
+ 3/2
+ 8/5
+ 5/3
+ 7/4
+ 28/15
+ 2/1
+!
+! 30 intervals 25 triads 5 tetrads
+! Equivalent to lumma.scl under 225/224.
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_50781.html#50895
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_50001-52481.json
+! topic_id = 50781
+! msg_id = 50895

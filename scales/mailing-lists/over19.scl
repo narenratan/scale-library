@@ -1,0 +1,31 @@
+! over19.scl
+Dwarf scale for 43-limit patent val of 19edo
+19
+!
+33/32
+17/16
+9/8
+37/32
+19/16
+5/4
+21/16
+43/32
+11/8
+23/16
+3/2
+25/16
+13/8
+27/16
+7/4
+29/16
+15/8
+31/16
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_100224.html#100503
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 100224
+! msg_id = 100503

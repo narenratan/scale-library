@@ -1,0 +1,27 @@
+! brect35.scl
+3x5 breed rectangle scale, <15 25 36 43| epimorphic
+15
+!
+49/48
+8/7
+7/6
+6/5
+49/40
+5/4
+7/5
+10/7
+8/5
+49/30
+5/3
+12/7
+7/4
+49/25
+2
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_12170.html#12171
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_9945-12429.json
+! topic_id = 12170
+! msg_id = 12171

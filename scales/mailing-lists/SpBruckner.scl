@@ -1,0 +1,27 @@
+!SpBruckner.scl
+!
+Sparschuh's view of Bruckner's "dissonant 5th"D-A=40/27 in C-major key
+12
+!
+2227/2112 ! c#'''''/c''''' semi-tone
+9/8
+313/264 ! eb'/c' minor-3rd
+5/4
+4/3
+45/32 ! syntonic-tritone := 5*3^2/2^5
+3/2
+835/528 ! g#"/c" diminshed-6th
+5/3
+939/528 ! bb"/c" diminshed-7th
+15/8
+2/1
+!
+! [eof]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_87455.html#87623
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_85538-88076.json
+! topic_id = 87455
+! msg_id = 87623

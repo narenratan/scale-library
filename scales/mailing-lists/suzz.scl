@@ -1,0 +1,23 @@
+! suzz.scl
+!
+{385/384, 441/440} suzz in 190-et version
+10
+!
+82.10526316
+233.6842105
+315.7894737
+467.3684211
+581.0526316
+732.6315789
+814.7368421
+966.3157895
+1048.421053
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_4558.html#4558
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_2440-7444.json
+! topic_id = 4558
+! msg_id = 4558

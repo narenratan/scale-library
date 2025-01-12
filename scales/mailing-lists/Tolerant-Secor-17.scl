@@ -1,0 +1,30 @@
+! Tolerant-Secor-17.scl
+!
+Tolerant temperament (rank 3: 324:325, 351:352, 363:364), Secor 17 "triple delight" mapping
+ 17
+!
+28.76023
+138.67803
+207.53697
+265.05742
+346.21500
+5/4
+496.23152
+553.75197
+611.27242
+703.76849
+732.52871
+842.44651
+882.54523
+7/4
+1049.98348
+1090.0822
+2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_105210.html#105306
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_90000-106393.json
+! topic_id = 105210
+! msg_id = 105306

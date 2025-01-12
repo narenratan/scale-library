@@ -1,0 +1,27 @@
+! tripenta.scl
+6/31 generator supermajor seconds tripentatonic scale
+15
+!
+38.709677
+193.548387
+232.258065
+270.967742
+425.806452
+464.516129
+503.225806
+696.774194
+735.483871
+774.193548
+929.032258
+967.741935
+1006.451613
+1161.290323
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_47216.html#47216
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 47216
+! msg_id = 47216

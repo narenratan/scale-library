@@ -1,0 +1,24 @@
+! modmos12a.scl
+A 12-note modmos in 50-et meantone
+12
+!
+24.000000
+192.000000
+264.000000
+384.000000
+456.000000
+576.000000
+696.000000
+768.000000
+840.000000
+960.000000
+1080.000000
+1200.000000
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning-math/topicId_10807.html#10807
+!
+! [info]
+! source = Mailing lists
+! file = tuning-math/messages/yahoo_tuning-math_messages_api_raw_9945-12429.json
+! topic_id = 10807
+! msg_id = 10807

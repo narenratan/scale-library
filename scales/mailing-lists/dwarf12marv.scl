@@ -1,0 +1,26 @@
+! dwarf12marv.scl
+Marvelous dwarf: 1/4 kleismic tempered duodene
+12
+!
+131.309694
+200.054240
+315.641287
+431.228334
+515.695527
+631.282574
+700.027120
+815.614167
+900.081360
+1015.668407
+1131.255454
+1200.000000
+! four tetrads/pentads representible by
+! [[-1, 1, 2], [-1, 2, 2], [-1, 1, 1], [-2, 1, -1]]
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_63543.html#63561
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_55190-71650.json
+! topic_id = 63543
+! msg_id = 63561

@@ -1,0 +1,20 @@
+! ragaldoj.scl
+!
+Raga-like medieval European Dorian mode with 7/6 and 7/4, just version
+ 7
+!
+ 44/39
+ 7/6
+ 4/3
+ 3/2
+ 22/13
+ 7/4
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_42424.html#42424
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 42424
+! msg_id = 42424

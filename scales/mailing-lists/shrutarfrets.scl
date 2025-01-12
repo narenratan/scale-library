@@ -1,0 +1,35 @@
+! shrutarfrets.scl
+!
+Paul Erlich's Shrutar fretting, tempered in cooperation with Dave Keenan
+ 22
+!
+ 58.11692355 ! 33/32 * (896/891)^(1/2)
+ 106.8431431 ! 16/15 / (2048/2025)^(1/4)
+ 12/11
+ 9/8
+ 7/6
+ 6/5
+ 5/4
+ 439.9280756 ! 9/7   * (896/891)^(1/2)
+ 4/3
+ 11/8
+ 600.0       ! 45/32 * (2048/2025)^(1/2)
+ 16/11
+ 3/2
+ 760.0719244 ! 14/9  / (896/891)^(1/2)
+ 8/5
+ 5/3
+ 12/7
+ 16/9
+ 11/6
+ 1093.156857 ! 15/8  * (2048/2025)^(1/4)
+ 1141.883076 ! 64/33 / (896/891)^(1/2)
+ 2/1
+!
+! https://yahootuninggroupsultimatebackup.github.io/tuning/topicId_45243.html#45340
+!
+! [info]
+! source = Mailing lists
+! file = tuning/messages/yahoo_tuning_messages_api_raw_40000-49986.json
+! topic_id = 45243
+! msg_id = 45340
