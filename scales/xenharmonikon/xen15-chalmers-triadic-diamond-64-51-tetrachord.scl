@@ -1,0 +1,16 @@
+! xen15-chalmers-triadic-diamond-64-51-tetrachord.scl
+!
+Upper tetrachord 17/16 * 8192/7803 * 153/128 of triadic diamond for M=64/51, D=3/2
+ 3
+!
+ 17/16
+ 512/459
+ 4/3
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.64
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

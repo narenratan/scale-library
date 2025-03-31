@@ -1,0 +1,27 @@
+! xen03-wilson-positive-12.scl
+!
+Positive, linear-mapped intonational system, 12 notes
+ 12
+!
+ 256/243
+ 9/8
+ 32/27
+ 81/64
+ 4/3
+ 1024/729
+ 3/2
+ 128/81
+ 27/16
+ 16/9
+ 243/128
+ 2/1
+!
+! Erv Wilson
+! On the development of intonational systems by extended linear mapping
+! Xenharmonikon 3 (1975)
+!
+! Diagram 5
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 3

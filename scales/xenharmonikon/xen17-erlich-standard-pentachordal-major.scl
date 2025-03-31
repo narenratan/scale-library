@@ -1,0 +1,23 @@
+! xen17-erlich-standard-pentachordal-major.scl
+!
+Decatonic mode: Standard Pentachordal Major
+ 10
+!
+ 109.090909  !  2
+ 218.181818  !  4
+ 381.818182  !  7
+ 490.909091  !  9
+ 600.0       ! 11
+ 709.090909  ! 13
+ 872.727273  ! 16
+ 981.818182  ! 18
+ 1090.909091 ! 20
+ 1200.0      ! 22
+!
+! Paul Erlich
+! Tuning, Tonality, and Twenty-Two-Tone Temperament
+! Xenharmonikon 17 (1998), p.23
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 17

@@ -1,0 +1,29 @@
+! xen16-mclaren-nonoctave-16-5.scl
+!
+16th root of 5, 6.8908 tones/octave
+ 16
+!
+ 174.144607
+ 348.289214
+ 522.433821
+ 696.578428
+ 870.723036
+ 1044.867643
+ 1219.01225
+ 1393.156857
+ 1567.301464
+ 1741.446071
+ 1915.590678
+ 2089.735285
+ 2263.879893
+ 2438.0245
+ 2612.169107
+ 5/1
+!
+! B. McLaren
+! More About Non-Octave Scales
+! Xenharmonikon 16 (1995), p.49
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 16

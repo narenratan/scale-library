@@ -1,0 +1,20 @@
+! xen18-erlich-flattone-07.scl
+!
+5L 2s MOS for Flattone, L=188.26, s=130.62
+ 7
+!
+ 188.26  ! L
+ 318.88  ! s
+ 507.14  ! L
+ 695.40  ! L
+ 883.66  ! L
+ 1014.28 ! s
+ 1202.54 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.186
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

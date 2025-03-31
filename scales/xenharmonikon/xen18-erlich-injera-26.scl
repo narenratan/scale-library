@@ -1,0 +1,39 @@
+! xen18-erlich-injera-26.scl
+!
+12L 14s MOS for Injera, L=54.38, s=39.23
+ 26
+!
+ 39.23   ! s
+ 93.61   ! L
+ 132.84  ! s
+ 187.22  ! L
+ 226.45  ! s
+ 280.83  ! L
+ 320.06  ! s
+ 374.44  ! L
+ 413.67  ! s
+ 468.05  ! L
+ 507.28  ! s
+ 561.66  ! L
+ 600.89  ! s
+ 640.12  ! s
+ 694.50  ! L
+ 733.73  ! s
+ 788.11  ! L
+ 827.34  ! s
+ 881.72  ! L
+ 920.95  ! s
+ 975.33  ! L
+ 1014.56 ! s
+ 1068.94 ! L
+ 1108.17 ! s
+ 1162.55 ! L
+ 1201.78 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.188
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

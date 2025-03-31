@@ -1,0 +1,21 @@
+! xen18-ayers-table-37.scl
+!
+7 Iterated Harmonic Square Means between 1/1 and 2/1
+ 8
+!
+ 16384/14321
+ 4096/3281
+ 32768/24305
+ 128/89
+ 4096/2705
+ 64/41
+ 8/5
+ 2/1
+!
+! Lydia Ayers
+! Making Scales from Mathematical Means
+! Xenharmonikon 18 (2006), p.213
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

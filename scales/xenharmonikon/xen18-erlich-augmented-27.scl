@@ -1,0 +1,40 @@
+! xen18-erlich-augmented-27.scl
+!
+12L 15s MOS for Augmented, L=66.73, s=26.42
+ 27
+!
+ 26.42   ! s
+ 93.15   ! L
+ 119.57  ! s
+ 186.30  ! L
+ 212.72  ! s
+ 279.45  ! L
+ 305.87  ! s
+ 372.60  ! L
+ 399.02  ! s
+ 425.44  ! s
+ 492.17  ! L
+ 518.59  ! s
+ 585.32  ! L
+ 611.74  ! s
+ 678.47  ! L
+ 704.89  ! s
+ 771.62  ! L
+ 798.04  ! s
+ 824.46  ! s
+ 891.19  ! L
+ 917.61  ! s
+ 984.34  ! L
+ 1010.76 ! s
+ 1077.49 ! L
+ 1103.91 ! s
+ 1170.64 ! L
+ 1197.06 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.182
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

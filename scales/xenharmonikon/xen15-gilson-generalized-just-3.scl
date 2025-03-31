@@ -1,0 +1,23 @@
+! xen15-gilson-generalized-just-3.scl
+!
+Scale based on product (21/20)**3 * (16/15)**2 * (15/14)**3 * (10/9)**2 = 2
+ 10
+!
+ 15/14 !  100 moc
+ 8/7   !  193 moc
+ 6/5   !  263 moc
+ 9/7   !  363 moc
+ 10/7  !  515 moc
+ 3/2   !  585 moc
+ 8/5   !  678 moc
+ 12/7  !  778 moc
+ 9/5   !  848 moc
+ 2/1   ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.121
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

@@ -18,6 +18,7 @@ from typing import Optional
 from sympy import Expr, Integer, Rational, evaluate, simplify, sqrt
 
 from scale_library import SCALES_DIR, utils
+from scale_library.xenharmonikon import Author
 
 logger = logging.getLogger(__name__)
 
@@ -27,6 +28,12 @@ Step = Fraction | float
 OUTPUT_DIR = SCALES_DIR / "divisions-of-the-tetrachord"
 EPSILON = 1e-12
 FILENAME = "{:03}_{}.scl"
+
+REFERENCE_LINES = [
+    "!",
+    f"! {Author.chalmers}, Divisions of the Tetrachord.",
+    "! Frog Peak Music, 1993.",
+]
 
 
 class Genus:
@@ -271,10 +278,7 @@ class Tetrachord:
         if self.comment is not None:
             scl_lines += ["!", f"! {self.comment}"]
 
-        scl_lines += [
-            "!",
-            "! Chalmers, John H. Divisions of the Tetrachord.",
-            "! Frog Peak Music, 1993.",
+        scl_lines += REFERENCE_LINES + [
             "!",
             "! [info]",
             "! source = Divisions of the Tetrachord",
@@ -334,7 +338,7 @@ class PartsTetrachord:
         if self.comment is not None:
             scl_lines += ["!", f"! {self.comment}"]
 
-        scl_lines += [
+        scl_lines += REFERENCE_LINES + [
             "!",
             "! [info]",
             "! source = Divisions of the Tetrachord",
@@ -383,7 +387,7 @@ class CentsTetrachord:
         if self.comment is not None:
             scl_lines += ["!", f"! {self.comment}"]
 
-        scl_lines += [
+        scl_lines += REFERENCE_LINES + [
             "!",
             "! [info]",
             "! source = Divisions of the Tetrachord",
@@ -450,7 +454,7 @@ class SemiTemperedTetrachord:
         if self.comment is not None:
             scl_lines += ["!", f"! {self.comment}"]
 
-        scl_lines += [
+        scl_lines += REFERENCE_LINES + [
             "!",
             "! [info]",
             "! source = Divisions of the Tetrachord",
@@ -4176,6 +4180,7 @@ def category(t: Tetrachord):
 def write_tetrachord_scl(t: Tetrachord):
     filename, scl_text = t.to_scl()
     (OUTPUT_DIR / filename).write_text(scl_text)
+    return filename
 
 
 def main():
@@ -4183,10 +4188,15 @@ def main():
     shutil.rmtree(OUTPUT_DIR, ignore_errors=True)
     OUTPUT_DIR.mkdir()
     validate_catalog()
+    references = {}
+    reference = (
+        f"{Author.chalmers}, Divisions of the Tetrachord, Frog Peak Music, 1993."
+    )
     for tetrachord in CATALOG:
-        write_tetrachord_scl(tetrachord)
+        filename = write_tetrachord_scl(tetrachord)
+        references[filename] = reference
 
-    return utils.check_scl_dir(OUTPUT_DIR)
+    return utils.check_scl_dir(OUTPUT_DIR), references
 
 
 if __name__ == "__main__":

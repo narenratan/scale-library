@@ -1,0 +1,22 @@
+! xen11-wolf-pelog-extended.scl
+!
+Pelog based on stacking 7/6, extended to 9 tones
+ 9
+!
+ 134.5
+ 266.9
+ 401.4
+ 533.8
+ 666.0
+ 800.7
+ 932.9
+ 1067.6
+ 1202.1
+!
+! Daniel J. Wolf
+! Tetrachordal Scales and Complexes
+! Xenharmonikon 11 (1988)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 11

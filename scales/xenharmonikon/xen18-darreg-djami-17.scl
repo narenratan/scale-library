@@ -1,0 +1,30 @@
+! xen18-darreg-djami-17.scl
+!
+Seventeen-tone system
+ 17
+!
+ 90.0
+ 180.0
+ 204.0
+ 294.0
+ 384.0
+ 408.0
+ 498.0
+ 588.0
+ 678.0
+ 702.0
+ 792.0
+ 882.0
+ 906.0
+ 996.0
+ 1086.0
+ 1176.0
+ 1200.0
+!
+! Ivor Darreg
+! Abdurakhman Djami's "Treatise on Music", translated from the Russian by Ivor Darreg
+! Xenharmonikon 18 (2006), p.228
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

@@ -1,0 +1,31 @@
+! xen18-erlich-vishnu-18.scl
+!
+16L 2s MOS for Vishnu, L=71.15, s=30.77
+ 18
+!
+ 71.15   ! L
+ 142.30  ! L
+ 213.45  ! L
+ 284.60  ! L
+ 315.37  ! s
+ 386.52  ! L
+ 457.67  ! L
+ 528.82  ! L
+ 599.97  ! L
+ 671.12  ! L
+ 742.27  ! L
+ 813.42  ! L
+ 884.57  ! L
+ 915.34  ! s
+ 986.49  ! L
+ 1057.64 ! L
+ 1128.79 ! L
+ 1199.94 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.199
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

@@ -1,0 +1,16 @@
+! xen15-chalmers-triadic-reversed-diamond-81-64-tetrachord.scl
+!
+Tetrachord 256/243 * 19683/16384 * 256/243 of triadic reversed diamond for M=81/64, D=3/2
+ 3
+!
+ 256/243
+ 81/64
+ 4/3
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.65
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

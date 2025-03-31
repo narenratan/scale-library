@@ -1,0 +1,25 @@
+! xen15-gilson-generalized-pythagorean-3-2-12.scl
+!
+Generalized Pythagorean Scale, 3/2 stacked 12=7+5 times
+ 12
+!
+ 2187/2048     !   95 moc
+ 9/8           !  170 moc
+ 19683/16384   !  265 moc
+ 81/64         !  340 moc
+ 177147/131072 !  435 moc
+ 729/512       !  510 moc
+ 3/2           !  585 moc
+ 6561/4096     !  680 moc
+ 27/16         !  755 moc
+ 59049/32768   !  850 moc
+ 243/128       !  925 moc
+ 2/1           ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.118
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

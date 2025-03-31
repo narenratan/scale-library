@@ -1,0 +1,42 @@
+! xen18-erlich-helmholtz-29.scl
+!
+12L 17s MOS for Helmholtz, L=70.27, s=20.99
+ 29
+!
+ 20.99   ! s
+ 91.26   ! L
+ 112.25  ! s
+ 182.52  ! L
+ 203.51  ! s
+ 224.50  ! s
+ 294.77  ! L
+ 315.76  ! s
+ 386.03  ! L
+ 407.02  ! s
+ 477.29  ! L
+ 498.28  ! s
+ 519.27  ! s
+ 589.54  ! L
+ 610.53  ! s
+ 680.80  ! L
+ 701.79  ! s
+ 722.78  ! s
+ 793.05  ! L
+ 814.04  ! s
+ 884.31  ! L
+ 905.30  ! s
+ 975.57  ! L
+ 996.56  ! s
+ 1017.55 ! s
+ 1087.82 ! L
+ 1108.81 ! s
+ 1179.08 ! L
+ 1200.07 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.188
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

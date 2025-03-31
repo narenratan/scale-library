@@ -1,0 +1,17 @@
+! xen18-erlich-magic-04.scl
+!
+3L 1s MOS for Magic, L=380.80, s=58.88
+ 4
+!
+ 380.80  ! L
+ 439.68  ! s
+ 820.48  ! L
+ 1201.28 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.190
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

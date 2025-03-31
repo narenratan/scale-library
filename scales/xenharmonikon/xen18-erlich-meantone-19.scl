@@ -1,0 +1,32 @@
+! xen18-erlich-meantone-19.scl
+!
+12L 7s MOS for Meantone, L=76.19, s=41.06
+ 19
+!
+ 76.19   ! L
+ 117.25  ! s
+ 193.44  ! L
+ 269.63  ! L
+ 310.69  ! s
+ 386.88  ! L
+ 427.94  ! s
+ 504.13  ! L
+ 580.32  ! L
+ 621.38  ! s
+ 697.57  ! L
+ 773.76  ! L
+ 814.82  ! s
+ 891.01  ! L
+ 932.07  ! s
+ 1008.26 ! L
+ 1084.45 ! L
+ 1125.51 ! s
+ 1201.70 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.190
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

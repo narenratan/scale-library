@@ -1,0 +1,17 @@
+! xen18-erlich-amity-04.scl
+!
+3L 1s MOS for Amity, L=339.47, s=181.44
+ 4
+!
+ 339.47  ! L
+ 678.94  ! L
+ 860.38  ! s
+ 1199.85 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.182
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

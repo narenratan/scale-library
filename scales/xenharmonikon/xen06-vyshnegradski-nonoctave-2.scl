@@ -1,0 +1,18 @@
+! xen06-vyshnegradski-nonoctave-2.scl
+!
+Non-octave scale based on the neutral sixth
+ 5
+!
+ 250.0
+ 450.0
+ 600.0
+ 700.0
+ 850.0
+!
+! Ivan Vyshnegradski
+! Manual of Quartertone Harmony, translated by Ivor Darreg
+! Xenharmonikon 6 (1977)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 6

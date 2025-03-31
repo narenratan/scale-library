@@ -1,0 +1,28 @@
+! xen12-wilson-25-6C2-pentadekany.scl
+!
+1.3.5.7.9.11 6C2 Pentadekany, Figure 25
+ 15
+!
+ 35/33 ! 5*7
+ 12/11 ! 1*9
+ 7/6   ! 7*11
+ 40/33 ! 1*5
+ 14/11 ! 3*7
+ 4/3   ! 1*11
+ 15/11 ! 5*9
+ 16/11 ! 1*3
+ 3/2   ! 9*11
+ 18/11 ! 3*9
+ 5/3   ! 5*11
+ 56/33 ! 1*7
+ 20/11 ! 3*5
+ 21/11 ! 7*9
+ 2/1   ! 3*11
+!
+! Erv Wilson
+! D'Alessandro, like a Hurricane
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

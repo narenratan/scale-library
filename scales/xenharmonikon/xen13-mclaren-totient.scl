@@ -1,0 +1,25 @@
+! xen13-mclaren-totient.scl
+!
+n/totient(n) scale
+ 12
+!
+ 31/30
+ 29/28
+ 19/18
+ 17/16
+ 13/12
+ 11/10
+ 7/6
+ 5/4
+ 29/22
+ 3/2
+ 7/4
+ 15/8
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.23
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

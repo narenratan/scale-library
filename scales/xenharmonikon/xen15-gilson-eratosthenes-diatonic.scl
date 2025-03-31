@@ -1,0 +1,20 @@
+! xen15-gilson-eratosthenes-diatonic.scl
+!
+Eratosthenes' Diatonic (or Ptolemy's Diatonic Ditonaion)
+ 7
+!
+ 256/243 !   75 moc
+ 32/27   !  245 moc
+ 4/3     !  415 moc
+ 3/2     !  585 moc
+ 128/81  !  660 moc
+ 16/9    !  830 moc
+ 2/1     ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.131
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

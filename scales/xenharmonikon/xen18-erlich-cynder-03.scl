@@ -1,0 +1,16 @@
+! xen18-erlich-cynder-03.scl
+!
+1L 2s MOS for Cynder, L=736.66, s=232.52
+ 3
+!
+ 232.52 ! s
+ 969.18 ! L
+ 1201.7 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.184
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

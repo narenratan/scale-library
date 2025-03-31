@@ -1,0 +1,20 @@
+! xen15-gilson-ptolemy-diatonic-syntonon.scl
+!
+Ptolemy's Diatonic Syntonon
+ 7
+!
+ 16/15 !   93 moc
+ 6/5   !  263 moc
+ 4/3   !  415 moc
+ 3/2   !  585 moc
+ 8/5   !  678 moc
+ 9/5   !  848 moc
+ 2/1   ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.131
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

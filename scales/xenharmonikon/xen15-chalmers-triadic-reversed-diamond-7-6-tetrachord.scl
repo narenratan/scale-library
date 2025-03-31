@@ -1,0 +1,16 @@
+! xen15-chalmers-triadic-reversed-diamond-7-6-tetrachord.scl
+!
+Tetrachord 8/7 * 49/48 * 8/7 of triadic reversed diamond for M=7/6, D=3/2
+ 3
+!
+ 8/7
+ 7/6
+ 4/3
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.65
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

@@ -1,0 +1,20 @@
+! xen13-mclaren-recurrence-2.scl
+!
+Recurrence scale #2
+ 7
+!
+ 65/64
+ 2273/2048
+ 321/256
+ 3/2
+ 107587/65536 ! Cents originally printed as 749.3669
+ 7/4
+ 2/1
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.31
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

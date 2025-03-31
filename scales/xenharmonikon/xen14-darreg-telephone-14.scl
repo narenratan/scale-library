@@ -1,0 +1,27 @@
+! xen14-darreg-telephone-14.scl
+!
+Streched 14-tone equal temperament approximating push-button telephone tones
+ 14
+!
+ 86.79
+ 173.57
+ 260.36
+ 347.14
+ 433.93
+ 520.71
+ 607.5
+ 694.29
+ 781.07
+ 867.86
+ 954.64
+ 1041.43
+ 1128.21
+ 1215.0
+!
+! Ivor Darreg
+! Xenharmonic Bulletin No. 12
+! Xenharmonikon 14 (1993), p.76
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 14

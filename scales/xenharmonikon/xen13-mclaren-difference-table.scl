@@ -1,0 +1,22 @@
+! xen13-mclaren-difference-table.scl
+!
+9-tone difference table scale
+ 9
+!
+ 119.4428
+ 203.91
+ 266.8699
+ 315.6413
+ 354.547
+ 412.7453
+ 767.9233
+ 1017.5963
+ 1200.0
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.41
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

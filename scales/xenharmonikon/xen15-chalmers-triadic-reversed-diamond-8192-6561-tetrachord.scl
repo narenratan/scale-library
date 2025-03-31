@@ -1,0 +1,16 @@
+! xen15-chalmers-triadic-reversed-diamond-8192-6561-tetrachord.scl
+!
+Tetrachord 2187/2048 * 16777216/14348907 * 2187/2048 of triadic reversed diamond for M=8192/6561, D=3/2
+ 3
+!
+ 2187/2048
+ 8192/6561
+ 4/3
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.65
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

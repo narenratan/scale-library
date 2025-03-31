@@ -1,0 +1,23 @@
+! xen18-erlich-beatles-10.scl
+!
+7L 3s MOS for Beatles, L=132.94, s=88.84
+ 10
+!
+ 132.94  ! L
+ 221.78  ! s
+ 354.72  ! L
+ 487.66  ! L
+ 576.50  ! s
+ 709.44  ! L
+ 842.38  ! L
+ 975.32  ! L
+ 1064.16 ! s
+ 1197.10 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.183
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

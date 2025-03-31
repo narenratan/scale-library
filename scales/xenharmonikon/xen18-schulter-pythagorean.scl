@@ -1,0 +1,25 @@
+! xen18-schulter-pythagorean.scl
+!
+12-note Pythagorean tuning
+ 12
+!
+ 2187/2048 ! C#
+ 9/8       ! D
+ 32/27     ! Eb
+ 81/64     ! E
+ 4/3       ! F
+ 729/512   ! F#, originally printed as 729:612
+ 3/2       ! G
+ 6561/4096 ! G#
+ 27/16     ! A
+ 16/9      ! Bb
+ 243/128   ! B, originally printed as 256:243
+ 2/1       ! C
+!
+! Margo Schulter
+! George Secor's 17-Tone Well-Temperament and Neo-Medieval Music
+! Xenharmonikon 18 (2006), p.83
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

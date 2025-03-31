@@ -1,0 +1,16 @@
+! xen18-erlich-liese-03.scl
+!
+2L 1s MOS for Liese, L=569.05, s=64.52
+ 3
+!
+ 569.05  ! L
+ 633.57  ! s
+ 1202.62 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.189
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

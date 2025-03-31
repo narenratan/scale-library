@@ -1,0 +1,20 @@
+! xen15-mclaren-root-7.scl
+!
+Square root of 7 scale
+ 7
+!
+ 4.9107
+ 12.992
+ 34.375
+ 90.949
+ 240.628
+ 636.643
+ 1684.412
+!
+! B. McLaren
+! The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales
+! Xenharmonikon 15 (1993), p.30
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

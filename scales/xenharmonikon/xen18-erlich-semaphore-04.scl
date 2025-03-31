@@ -1,0 +1,17 @@
+! xen18-erlich-semaphore-04.scl
+!
+1L 3s MOS for Semaphore, L=446.23, s=252.48
+ 4
+!
+ 252.48  ! s
+ 698.71  ! L
+ 951.19  ! s
+ 1203.67 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.197
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

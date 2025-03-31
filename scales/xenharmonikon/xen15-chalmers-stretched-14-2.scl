@@ -1,0 +1,27 @@
+! xen15-chalmers-stretched-14-2.scl
+!
+Least-Squares Stretched 14-Tone Equal Temperament, Table 6
+ 14
+!
+ 86.39
+ 172.79
+ 259.18
+ 345.58
+ 431.97
+ 518.36
+ 604.76
+ 691.15
+ 777.55
+ 863.94
+ 950.33
+ 1036.73
+ 1123.12
+ 1209.52
+!
+! John H. Chalmers, Jr.
+! The TOUCH-TONE(R) Signal Pitches as Subsets of Stretched 14-Tone ET's
+! Xenharmonikon 15 (1993), p.80
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

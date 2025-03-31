@@ -1,0 +1,30 @@
+! xen18-schulter-707-17.scl
+!
+Temperament with fifth of 707.22045
+ 17
+!
+ 63.89775   ! Db
+ 150.54315  ! C#
+ 214.4409   ! D
+ 278.33865  ! Eb
+ 364.98405  ! D#
+ 428.8818   ! E
+ 492.77955  ! F
+ 556.6773   ! Gb
+ 643.3227   ! F#
+ 707.22045  ! G
+ 771.1182   ! Ab
+ 857.7636   ! G#
+ 921.66135  ! A
+ 985.5591   ! Bb
+ 1072.2045  ! A#
+ 1136.10225 ! B
+ 1200.0     ! C
+!
+! Margo Schulter
+! George Secor's 17-Tone Well-Temperament and Neo-Medieval Music
+! Xenharmonikon 18 (2006), p.90
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

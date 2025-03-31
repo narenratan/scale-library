@@ -1,0 +1,34 @@
+! xen18-keenan-blackjack-guitar.scl
+!
+Fret tunings for a blackjack guitar fretboard
+ 21
+!
+ 33.0
+ 117.0
+ 150.0
+ 233.0
+ 267.0
+ 350.0
+ 383.0
+ 467.0
+ 500.0
+ 583.0
+ 617.0
+ 700.0
+ 733.0
+ 817.0
+ 850.0
+ 883.0
+ 967.0
+ 1000.0
+ 1083.0
+ 1117.0
+ 1200.0
+!
+! Dave Keenan
+! Optimising JI guitar designs using linear microtemperaments
+! Xenharmonikon 18 (2006), p.146
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

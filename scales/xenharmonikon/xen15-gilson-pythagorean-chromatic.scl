@@ -1,0 +1,25 @@
+! xen15-gilson-pythagorean-chromatic.scl
+!
+Pythagorean Intonation Chromatic Scale (PICS)
+ 12
+!
+ 2187/2048   !   95 moc
+ 9/8         !  170 moc
+ 19683/16384 !  265 moc
+ 81/64       !  340 moc
+ 4/3         !  415 moc
+ 729/512     !  510 moc
+ 3/2         !  585 moc
+ 6561/4096   !  680 moc
+ 27/16       !  755 moc
+ 59049/32768 !  850 moc
+ 243/128     !  925 moc
+ 2/1         ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.102
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

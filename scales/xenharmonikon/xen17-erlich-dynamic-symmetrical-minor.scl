@@ -1,0 +1,23 @@
+! xen17-erlich-dynamic-symmetrical-minor.scl
+!
+Decatonic mode: Dynamic Symmetrical Minor
+ 10
+!
+ 109.090909  !  2
+ 218.181818  !  4
+ 327.272727  !  6
+ 436.363636  !  8
+ 600.0       ! 11
+ 709.090909  ! 13
+ 818.181818  ! 15
+ 927.272727  ! 17
+ 1036.363636 ! 19
+ 1200.0      ! 22
+!
+! Paul Erlich
+! Tuning, Tonality, and Twenty-Two-Tone Temperament
+! Xenharmonikon 17 (1998), p.24
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 17

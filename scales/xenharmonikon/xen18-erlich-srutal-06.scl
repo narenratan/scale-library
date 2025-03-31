@@ -1,0 +1,19 @@
+! xen18-erlich-srutal-06.scl
+!
+2L 4s MOS for Srutal, L=390.16, s=104.70
+ 6
+!
+ 104.70  ! s
+ 494.86  ! L
+ 599.56  ! s
+ 704.26  ! s
+ 1094.42 ! L
+ 1199.12 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.198
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

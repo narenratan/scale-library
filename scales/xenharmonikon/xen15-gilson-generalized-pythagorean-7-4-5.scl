@@ -1,0 +1,18 @@
+! xen15-gilson-generalized-pythagorean-7-4-5.scl
+!
+Generalized Pythagorean Scale, 7/4 stacked 5=4+1 times
+ 5
+!
+ 2401/2048 !  229 moc
+ 343/256   !  422 moc
+ 49/32     !  615 moc
+ 7/4       !  807 moc
+ 2/1       ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.118
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

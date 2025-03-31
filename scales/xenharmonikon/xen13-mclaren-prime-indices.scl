@@ -1,0 +1,25 @@
+! xen13-mclaren-prime-indices.scl
+!
+Prime indices scale
+ 12
+!
+ 362880/360448
+ 720/704
+ 24/22
+ 125/112
+ 6/5
+ 3628800/2883584 ! Cents originally printed as 426.5893
+ 4/3
+ 125/88
+ 16/11
+ 8/5
+ 12/7
+ 40320/22528
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.32
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

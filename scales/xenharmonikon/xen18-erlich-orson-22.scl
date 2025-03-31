@@ -1,0 +1,35 @@
+! xen18-erlich-orson-22.scl
+!
+9L 13s MOS for Orson, L=69.27, s=44.37
+ 22
+!
+ 44.37   ! s
+ 113.64  ! L
+ 158.01  ! s
+ 227.28  ! L
+ 271.65  ! s
+ 316.02  ! s
+ 385.29  ! L
+ 429.66  ! s
+ 498.93  ! L
+ 543.30  ! s
+ 612.57  ! L
+ 656.94  ! s
+ 701.31  ! s
+ 770.58  ! L
+ 814.95  ! s
+ 884.22  ! L
+ 928.59  ! s
+ 972.96  ! s
+ 1042.23 ! L
+ 1086.60 ! s
+ 1155.87 ! L
+ 1200.24 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.194
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

@@ -1,0 +1,26 @@
+! xen16-burt-commas.scl
+!
+Tuning for COMMAS
+ 13
+!
+ 10/9
+ 8/7
+ 32/27
+ 1215/1024
+ 5/4
+ 81/64
+ 1024/729
+ 729/512
+ 25/16
+ 8/5
+ 7/4
+ 16/9
+ 2/1
+!
+! Warren Burt
+! COMMAS
+! Xenharmonikon 16 (1995), p.103
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 16

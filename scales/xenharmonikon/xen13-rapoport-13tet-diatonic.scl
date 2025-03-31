@@ -1,0 +1,23 @@
+! xen13-rapoport-13tet-diatonic.scl
+!
+13-tet diatonic scale
+ 10
+!
+ 92.0   ! K
+ 185.0  ! A
+ 277.0  ! B
+ 462.0  ! C
+ 554.0  ! D
+ 646.0  ! E
+ 831.0  ! F
+ 923.0  ! G
+ 1015.0 ! H
+ 1200.0 ! J
+!
+! Paul Rapoport
+! Notes Towards Quasi-Tonal Treiskaidekaphilia
+! Xenharmonikon 13 (1991), p.47
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

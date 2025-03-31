@@ -1,0 +1,30 @@
+! xen18-erlich-dicot-17.scl
+!
+7L 10s MOS for Dicot, L=90.78, s=57.22
+ 17
+!
+ 57.22   ! s
+ 148.00  ! L
+ 205.22  ! s
+ 296.00  ! L
+ 353.22  ! s
+ 410.44  ! s
+ 501.22  ! L
+ 558.44  ! s
+ 649.22  ! L
+ 706.44  ! s
+ 797.22  ! L
+ 854.44  ! s
+ 911.66  ! s
+ 1002.44 ! L
+ 1059.66 ! s
+ 1150.44 ! L
+ 1207.66 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.185
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

@@ -1,0 +1,20 @@
+! xen15-gilson-didymus-diatonic.scl
+!
+Didymus' Diatonic
+ 7
+!
+ 16/15 !   93 moc
+ 32/27 !  245 moc
+ 4/3   !  415 moc
+ 3/2   !  585 moc
+ 8/5   !  678 moc
+ 16/9  !  830 moc
+ 2/1   ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.131
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

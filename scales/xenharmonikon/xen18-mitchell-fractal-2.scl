@@ -1,0 +1,23 @@
+! xen18-mitchell-fractal-2.scl
+!
+Geordan's Scale, Erv Wilson's calculation
+ 10
+!
+ 57.19972   ! 96.75
+ 177.217785 ! 90.27
+ 306.180025 ! 83.79
+ 445.527668 ! 77.31
+ 597.081063 ! 70.83
+ 714.116253 ! 66.2
+ 839.640632 ! 61.57
+ 974.982722 ! 56.94
+ 1121.80959 ! 52.31
+ 1200.0     ! 50.0
+!
+! Geordan Mitchell
+! Fractal Tone Monochord Octave
+! Xenharmonikon 18 (2006), p.245
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

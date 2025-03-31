@@ -1,0 +1,24 @@
+! xen18-erlich-miracle-11.scl
+!
+10L 1s MOS for Miracle, L=116.72, s=33.43
+ 11
+!
+ 116.72  ! L
+ 233.44  ! L
+ 350.16  ! L
+ 466.88  ! L
+ 583.60  ! L
+ 617.03  ! s
+ 733.75  ! L
+ 850.47  ! L
+ 967.19  ! L
+ 1083.91 ! L
+ 1200.63 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.191
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

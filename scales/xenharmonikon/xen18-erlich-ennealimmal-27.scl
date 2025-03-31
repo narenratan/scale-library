@@ -1,0 +1,40 @@
+! xen18-erlich-ennealimmal-27.scl
+!
+18L 9s MOS for Ennealimmal, L=49.024, s=35.289
+ 27
+!
+ 49.024   ! L
+ 84.313   ! s
+ 133.337  ! L
+ 182.361  ! L
+ 217.650  ! s
+ 266.674  ! L
+ 315.698  ! L
+ 350.987  ! s
+ 400.011  ! L
+ 449.035  ! L
+ 484.324  ! s
+ 533.348  ! L
+ 582.372  ! L
+ 617.661  ! s
+ 666.685  ! L
+ 715.709  ! L
+ 750.998  ! s
+ 800.022  ! L
+ 849.046  ! L
+ 884.335  ! s
+ 933.359  ! L
+ 982.383  ! L
+ 1017.672 ! s
+ 1066.696 ! L
+ 1115.720 ! L
+ 1151.009 ! s
+ 1200.033 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.186
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

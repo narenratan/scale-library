@@ -1,0 +1,16 @@
+! xen15-chalmers-triadic-reversed-diamond-15-13-tetrachord.scl
+!
+Tetrachord 15/13 * 676/675 * 15/13 of triadic reversed diamond for M=15/13, D=3/2
+ 3
+!
+ 15/13
+ 52/45
+ 4/3
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.66
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

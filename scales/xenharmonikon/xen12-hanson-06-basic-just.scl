@@ -1,0 +1,32 @@
+! xen12-hanson-06-basic-just.scl
+!
+Basic group of 19 of 53 tones, tonal function, Figure 6
+ 19
+!
+ 25/24
+ 27/25
+ 9/8
+ 144/125
+ 6/5
+ 5/4
+ 125/96
+ 4/3
+ 25/18
+ 36/25
+ 3/2
+ 25/16
+ 8/5
+ 5/3
+ 125/72
+ 9/5
+ 15/8
+ 48/25
+ 2/1
+!
+! Larry A. Hanson
+! Development of a 53-Tone Keyboard Layout
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

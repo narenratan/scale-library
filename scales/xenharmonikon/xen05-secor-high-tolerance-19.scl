@@ -1,0 +1,32 @@
+! xen05-secor-high-tolerance-19.scl
+!
+Secor 15-limit high tolerance temperament, 19-tone subset
+ 19
+!
+ 28.0
+ 86.11
+ 168.197
+ 207.157
+ 317.264
+ 375.354
+ 457.461
+ 524.422
+ 582.512
+ 664.618
+ 703.578
+ 789.669
+ 813.686
+ 871.776
+ 910.736
+ 1020.843
+ 1078.933
+ 1161.04
+ 1200.0
+!
+! George Secor
+! The Trouble with Equal Temperaments
+! Xenharmonikon 5 (1976)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 5

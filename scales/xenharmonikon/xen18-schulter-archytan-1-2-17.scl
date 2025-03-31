@@ -1,0 +1,30 @@
+! xen18-schulter-archytan-1-2-17.scl
+!
+1/2-Archytan temperament
+ 17
+!
+ 22.064766   ! Db
+ 209.109327  ! C#
+ 231.174094  ! D
+ 253.23886   ! Eb
+ 440.283421  ! D#
+ 462.348187  ! E
+ 484.412953  ! F
+ 506.477719  ! Gb
+ 693.522281  ! F#
+ 715.587047  ! G
+ 737.651813  ! Ab
+ 924.696374  ! G#
+ 946.76114   ! A
+ 968.825906  ! Bb
+ 1155.870468 ! A#
+ 1177.935234 ! B
+ 1200.0      ! C
+!
+! Margo Schulter
+! George Secor's 17-Tone Well-Temperament and Neo-Medieval Music
+! Xenharmonikon 18 (2006), p.88
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

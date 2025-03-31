@@ -1,0 +1,17 @@
+! xen12-wilson-38-4C3-tetrany-06.scl
+!
+1-5-7-9 4C3 Tetrany, Figure 38
+ 4
+!
+ 9/8 ! 5*7*9
+ 9/7 ! 1*5*9
+ 9/5 ! 1*7*9
+ 2/1 ! 1*5*7
+!
+! Erv Wilson
+! D'Alessandro, like a Hurricane
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

@@ -1,0 +1,18 @@
+! xen13-mclaren-factorable-numbers.scl
+!
+Factorable numbers scale
+ 5
+!
+ 11/10
+ 5/4
+ 13/10
+ 7/5
+ 5/3
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.22
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

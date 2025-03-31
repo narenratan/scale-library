@@ -1,0 +1,37 @@
+! xen18-erlich-catler-24.scl
+!
+12L 12s MOS for Catler, L=75.22, s=24.59
+ 24
+!
+ 24.59   ! s
+ 99.81   ! L
+ 124.40  ! s
+ 199.62  ! L
+ 224.21  ! s
+ 299.43  ! L
+ 324.02  ! s
+ 399.24  ! L
+ 423.83  ! s
+ 499.05  ! L
+ 523.64  ! s
+ 598.86  ! L
+ 623.45  ! s
+ 698.67  ! L
+ 723.26  ! s
+ 798.48  ! L
+ 823.07  ! s
+ 898.29  ! L
+ 922.88  ! s
+ 998.10  ! L
+ 1022.69 ! s
+ 1097.91 ! L
+ 1122.50 ! s
+ 1197.72 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.183
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

@@ -1,0 +1,20 @@
+! xen15-chalmers-triadic-reversed-diamond-24-19.scl
+!
+Triadic reversed diamond for M=24/19, D=3/2
+ 7
+!
+ 19/18
+ 24/19
+ 4/3
+ 3/2
+ 19/12
+ 36/19
+ 2/1
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.66
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

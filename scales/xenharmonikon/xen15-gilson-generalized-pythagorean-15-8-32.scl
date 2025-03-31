@@ -1,0 +1,45 @@
+! xen15-gilson-generalized-pythagorean-15-8-32.scl
+!
+Generalized Pythagorean Scale, 15/8 stacked 32=29+3 times
+ 32
+!
+ 53.643009           !   45 moc
+ 82.687147           !   69 moc
+ 136.330157          !  114 moc
+ 165.374295          !  138 moc
+ 194.418433          !  162 moc
+ 248.061442          !  207 moc
+ 277.10558           !  231 moc
+ 306.149718          !  255 moc
+ 359.792727          !  300 moc
+ 388.836865          !  324 moc
+ 170859375/134217728 !  348 moc
+ 471.524012          !  393 moc
+ 500.56815           !  417 moc
+ 11390625/8388608    !  441 moc
+ 583.255298          !  486 moc
+ 612.299436          !  510 moc
+ 759375/524288       !  534 moc
+ 694.986583          !  579 moc
+ 724.030721          !  603 moc
+ 50625/32768         !  628 moc
+ 806.717868          !  672 moc
+ 835.762006          !  696 moc
+ 3375/2048           !  721 moc
+ 918.449154          !  765 moc
+ 947.493291          !  790 moc
+ 225/128             !  814 moc
+ 1030.180439         !  858 moc
+ 1059.224577         !  883 moc
+ 15/8                !  907 moc
+ 1141.911724         !  952 moc
+ 1170.955862         !  976 moc
+ 2/1                 ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.118
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

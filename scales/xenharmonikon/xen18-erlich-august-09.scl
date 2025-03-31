@@ -1,0 +1,22 @@
+! xen18-erlich-august-09.scl
+!
+3L 6s MOS for August, L=185.37, s=107.31
+ 9
+!
+ 107.31  ! s
+ 292.68  ! L
+ 399.99  ! s
+ 507.30  ! s
+ 692.67  ! L
+ 799.98  ! s
+ 907.29  ! s
+ 1092.66 ! L
+ 1199.97 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.183
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

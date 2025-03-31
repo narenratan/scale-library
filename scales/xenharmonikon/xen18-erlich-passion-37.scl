@@ -1,0 +1,50 @@
+! xen18-erlich-passion-37.scl
+!
+12L 25s MOS for Passion, L=63.38, s=17.51
+ 37
+!
+ 17.51   ! s
+ 80.89   ! L
+ 98.40   ! s
+ 115.91  ! s
+ 179.29  ! L
+ 196.80  ! s
+ 214.31  ! s
+ 277.69  ! L
+ 295.20  ! s
+ 312.71  ! s
+ 376.09  ! L
+ 393.60  ! s
+ 411.11  ! s
+ 474.49  ! L
+ 492.00  ! s
+ 509.51  ! s
+ 572.89  ! L
+ 590.40  ! s
+ 607.91  ! s
+ 625.42  ! s
+ 688.80  ! L
+ 706.31  ! s
+ 723.82  ! s
+ 787.20  ! L
+ 804.71  ! s
+ 822.22  ! s
+ 885.60  ! L
+ 903.11  ! s
+ 920.62  ! s
+ 984.00  ! L
+ 1001.51 ! s
+ 1019.02 ! s
+ 1082.40 ! L
+ 1099.91 ! s
+ 1117.42 ! s
+ 1180.80 ! L
+ 1198.31 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.195
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

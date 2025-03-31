@@ -1,0 +1,33 @@
+! xen18-erlich-dimipent-20.scl
+!
+12L 8s MOS for Dimipent, L=95.82, s=5.85
+ 20
+!
+ 95.82   ! L
+ 101.67  ! s
+ 197.49  ! L
+ 203.34  ! s
+ 299.16  ! L
+ 394.98  ! L
+ 400.83  ! s
+ 496.65  ! L
+ 502.50  ! s
+ 598.32  ! L
+ 694.14  ! L
+ 699.99  ! s
+ 795.81  ! L
+ 801.66  ! s
+ 897.48  ! L
+ 993.30  ! L
+ 999.15  ! s
+ 1094.97 ! L
+ 1100.82 ! s
+ 1196.64 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.185
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

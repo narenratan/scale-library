@@ -1,0 +1,58 @@
+! xen18-erlich-flattone-45.scl
+!
+19L 26s MOS for Flattone, L=42.30, s=15.34
+ 45
+!
+ 15.34   ! s
+ 57.64   ! L
+ 72.98   ! s
+ 115.28  ! L
+ 130.62  ! s
+ 172.92  ! L
+ 188.26  ! s
+ 203.60  ! s
+ 245.90  ! L
+ 261.24  ! s
+ 303.54  ! L
+ 318.88  ! s
+ 334.22  ! s
+ 376.52  ! L
+ 391.86  ! s
+ 434.16  ! L
+ 449.50  ! s
+ 491.80  ! L
+ 507.14  ! s
+ 522.48  ! s
+ 564.78  ! L
+ 580.12  ! s
+ 622.42  ! L
+ 637.76  ! s
+ 680.06  ! L
+ 695.40  ! s
+ 710.74  ! s
+ 753.04  ! L
+ 768.38  ! s
+ 810.68  ! L
+ 826.02  ! s
+ 868.32  ! L
+ 883.66  ! s
+ 899.00  ! s
+ 941.30  ! L
+ 956.64  ! s
+ 998.94  ! L
+ 1014.28 ! s
+ 1029.62 ! s
+ 1071.92 ! L
+ 1087.26 ! s
+ 1129.56 ! L
+ 1144.90 ! s
+ 1187.20 ! L
+ 1202.54 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.186
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

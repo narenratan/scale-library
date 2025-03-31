@@ -1,0 +1,24 @@
+! xen16-burt-drones-11.scl
+!
+Scale 11 from Drones 1994 #2
+ 11
+!
+ 81/80  ! 81/80
+ 9/8    ! 81/36
+ 81/70  ! 81/35
+ 81/64  ! 81/64
+ 9/7    ! 81/63
+ 81/50  ! 81/50
+ 81/49  ! 81/49
+ 140/81 ! 70/81
+ 16/9   ! 72/81
+ 160/81 ! 160/81
+ 2/1    ! 81/81, 162/81
+!
+! Warren Burt
+! Drones 1994 #2: Old Commas Inverted and Revisited
+! Xenharmonikon 16 (1995), p.100
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 16

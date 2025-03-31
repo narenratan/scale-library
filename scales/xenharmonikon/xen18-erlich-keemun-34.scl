@@ -1,0 +1,47 @@
+! xen18-erlich-keemun-34.scl
+!
+19L 15s MOS for Keemun, L=45.16, s=23.01
+ 34
+!
+ 45.16   ! L
+ 68.17   ! s
+ 113.33  ! L
+ 136.34  ! s
+ 181.50  ! L
+ 204.51  ! s
+ 249.67  ! L
+ 272.68  ! s
+ 317.84  ! L
+ 363.00  ! L
+ 386.01  ! s
+ 431.17  ! L
+ 454.18  ! s
+ 499.34  ! L
+ 522.35  ! s
+ 567.51  ! L
+ 612.67  ! L
+ 635.68  ! s
+ 680.84  ! L
+ 703.85  ! s
+ 749.01  ! L
+ 772.02  ! s
+ 817.18  ! L
+ 840.19  ! s
+ 885.35  ! L
+ 930.51  ! L
+ 953.52  ! s
+ 998.68  ! L
+ 1021.69 ! s
+ 1066.85 ! L
+ 1089.86 ! s
+ 1135.02 ! L
+ 1158.03 ! s
+ 1203.19 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.188
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

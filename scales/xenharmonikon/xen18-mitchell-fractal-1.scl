@@ -1,0 +1,23 @@
+! xen18-mitchell-fractal-1.scl
+!
+Geordan's Scale, by eyeball
+ 10
+!
+ 58.094646   ! 96.7
+ 175.684193  ! 90.35
+ 305.560288  ! 83.82
+ 443.513434  ! 77.4
+ 600.016603  ! 70.71
+ 715.424326  ! 66.15
+ 843.018101  ! 61.45
+ 971.64145   ! 57.05
+ 1117.182387 ! 52.45
+ 1200.0      ! 50.0
+!
+! Geordan Mitchell
+! Fractal Tone Monochord Octave
+! Xenharmonikon 18 (2006), p.245
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

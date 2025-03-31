@@ -1,0 +1,32 @@
+! xen07-chalmers-rvf-3.scl
+!
+RVF-3
+ 19
+!
+ 73.6
+ 106.3  ! Originally printed as 110.3, see XH18 errata p.299
+ 191.9
+ 271.9
+ 306.2  ! Originally printed as 308.6, see XH18 errata p.299
+ 382.2
+ 473.4
+ 502.9  ! Originally printed as 503.7, see XH18 errata p.299
+ 575.6
+ 605.1  ! Originally printed as 609.9, see XH18 errata p.299
+ 696.3
+ 772.3
+ 806.6  ! Originally printed as 809.8, see XH18 errata p.299
+ 886.6
+ 972.2
+ 1004.9 ! Originally printed as 1006.5, see XH18 errata p.299
+ 1078.5
+ 1175.3
+ 1200.0
+!
+! John H. Chalmers, Jr.
+! A Collection of Scales With Nineteen Tones
+! Xenharmonikon 7 & 8 (1979)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 7 & 8

@@ -1,0 +1,28 @@
+! xen18-erlich-nautilus-15.scl
+!
+14L 1s MOS for Nautilus, L=82.97, s=41.08
+ 15
+!
+ 82.97   ! L
+ 165.94  ! L
+ 248.91  ! L
+ 331.88  ! L
+ 414.85  ! L
+ 497.82  ! L
+ 580.79  ! L
+ 621.87  ! s
+ 704.84  ! L
+ 787.81  ! L
+ 870.78  ! L
+ 953.75  ! L
+ 1036.72 ! L
+ 1119.69 ! L
+ 1202.66 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.192
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

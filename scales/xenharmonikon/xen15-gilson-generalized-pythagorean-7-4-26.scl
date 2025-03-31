@@ -1,0 +1,39 @@
+! xen15-gilson-generalized-pythagorean-7-4-26.scl
+!
+Generalized Pythagorean Scale, 7/4 stacked 26=21+5 times
+ 26
+!
+ 16807/16384           !   37 moc
+ 282475249/268435456   !   74 moc
+ 132.388597            !  110 moc
+ 176.518129            !  147 moc
+ 220.647662            !  184 moc
+ 2401/2048             !  229 moc
+ 40353607/33554432     !  266 moc
+ 363.562691            !  303 moc
+ 407.692223            !  340 moc
+ 451.821755            !  377 moc
+ 343/256               !  422 moc
+ 5764801/4194304       !  459 moc
+ 594.736784            !  496 moc
+ 638.866316            !  532 moc
+ 682.995849            !  569 moc
+ 49/32                 !  615 moc
+ 823543/524288         !  651 moc
+ 825.910878            !  688 moc
+ 870.04041             !  725 moc
+ 914.169942            !  762 moc
+ 7/4                   !  807 moc
+ 117649/65536          !  844 moc
+ 1977326743/1073741824 !  881 moc
+ 1101.214504           !  918 moc
+ 1145.344036           !  954 moc
+ 2/1                   ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.118
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

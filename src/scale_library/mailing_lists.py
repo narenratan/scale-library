@@ -126,6 +126,7 @@ def write_out_results(results):
         }
         return (order[result.list_name], result.message["msgId"])
 
+    references = {}
     for i, result in enumerate(sorted(results, key=sort_key)):
         scale = result.scale
         list_name = result.list_name
@@ -169,12 +170,14 @@ def write_out_results(results):
         filenames.add(filename)
         topicId = message["topicId"]
         msgId = message["msgId"]
+        url = f"https://yahootuninggroupsultimatebackup.github.io/{list_name}/topicId_{topicId}.html#{msgId}"
+        references[filename.name] = url
         text = (
             "\n".join(
                 [
                     scale.raw_text.rstrip(),
                     "!",
-                    f"! https://yahootuninggroupsultimatebackup.github.io/{list_name}/topicId_{topicId}.html#{msgId}",
+                    f"! {url}",
                     "!",
                     "! [info]",
                     "! source = Mailing lists",
@@ -187,7 +190,7 @@ def write_out_results(results):
         )
         (result_dir / filename).write_text(text)
 
-    return check_scl_dir(result_dir)
+    return check_scl_dir(result_dir), references
 
 
 def main():

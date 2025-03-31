@@ -1,0 +1,25 @@
+! xen15-gilson-just-chromatic.scl
+!
+Just Intonation Chromatic Scale (JICS)
+ 12
+!
+ 25/24   !   59 moc
+ 9/8     !  170 moc
+ 75/64   !  229 moc
+ 5/4     !  322 moc
+ 4/3     !  415 moc
+ 45/32   !  492 moc
+ 3/2     !  585 moc
+ 25/16   !  644 moc
+ 5/3     !  737 moc
+ 225/128 !  814 moc
+ 15/8    !  907 moc
+ 2/1     ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.105
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

@@ -1,0 +1,29 @@
+! xen12-wilson-41-hexadic-tileburst-3.scl
+!
+Four Hexadic Tilebursts, Figure 41, bottom left
+ 16
+!
+ 11/10 ! 11/5
+ 10/9  ! 5/9
+ 7/6   ! 7/3
+ 6/5   ! 3/5
+ 14/11 ! 7/11
+ 4/3   ! 1/3
+ 10/7  ! 5/7
+ 3/2   ! 9*1/3
+ 14/9  ! 7/9
+ 11/7  ! 11/7
+ 18/11 ! 9/11
+ 12/7  ! 3/7
+ 9/5   ! 9/5
+ 20/11 ! 5/11
+ 11/6  ! 11/3
+ 2/1   ! 1
+!
+! Erv Wilson
+! D'Alessandro, like a Hurricane
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

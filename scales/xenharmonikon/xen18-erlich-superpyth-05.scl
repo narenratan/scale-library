@@ -1,0 +1,18 @@
+! xen18-erlich-superpyth-05.scl
+!
+2L 3s MOS for Superpyth, L=270.69, s=218.74
+ 5
+!
+ 218.74  ! s
+ 489.43  ! L
+ 708.17  ! s
+ 978.86  ! L
+ 1197.60 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.198
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

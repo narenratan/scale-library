@@ -1,0 +1,20 @@
+! xen15-gilson-didymus-chromatic.scl
+!
+Didymus Chromatic
+ 7
+!
+ 16/15 !   93 moc
+ 10/9  !  152 moc
+ 4/3   !  415 moc
+ 3/2   !  585 moc
+ 8/5   !  678 moc
+ 5/3   !  737 moc
+ 2/1   ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.132
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

@@ -1,0 +1,18 @@
+! xen18-erlich-blacksmith-05.scl
+!
+5L MOS for Blacksmith, L=239.18
+ 5
+!
+ 239.18  ! L
+ 478.36  ! L
+ 717.54  ! L
+ 956.72  ! L
+ 1195.90 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.183
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

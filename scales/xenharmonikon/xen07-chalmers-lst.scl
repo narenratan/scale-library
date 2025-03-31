@@ -1,0 +1,32 @@
+! xen07-chalmers-lst.scl
+!
+3.5.7 LST
+ 19
+!
+ 78.2
+ 115.6
+ 193.8
+ 271.9
+ 309.4
+ 387.5
+ 465.7  ! Originally printed as 424.9, see XH18 errata p.299
+ 503.1
+ 581.3  ! Originally printed as 583.1, see XH18 errata p.299
+ 618.7
+ 696.9
+ 775.1
+ 812.5
+ 890.7  ! Originally printed as 890.6, see XH18 errata p.299
+ 968.8
+ 1006.2
+ 1084.4
+ 1162.6
+ 1200.0
+!
+! John H. Chalmers, Jr.
+! A Collection of Scales With Nineteen Tones
+! Xenharmonikon 7 & 8 (1979)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 7 & 8

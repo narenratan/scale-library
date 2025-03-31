@@ -1,0 +1,27 @@
+! xen13-mclaren-infinite-continued-fraction-1.scl
+!
+Infinite continued fraction scale #1
+ 14
+!
+ 17.585
+ 35.32    ! Originally printed as 35.23, period=period, see XH18 errata p.300
+ 144.5
+ 170.032
+ 262.821
+ 393.346
+ 466.179
+ 591.807
+ 692.772
+ 770.282
+ 818.652
+ 932.361
+ 1049.642
+ 1080.763
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.26
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

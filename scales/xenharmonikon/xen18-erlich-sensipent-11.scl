@@ -1,0 +1,24 @@
+! xen18-erlich-sensipent-11.scl
+!
+8L 3s MOS for Sensipent, L=129.38, s=54.85
+ 11
+!
+ 129.38  ! L
+ 184.23  ! s
+ 313.61  ! L
+ 442.99  ! L
+ 572.37  ! L
+ 627.22  ! s
+ 756.60  ! L
+ 885.98  ! L
+ 1015.36 ! L
+ 1070.21 ! s
+ 1199.59 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.197
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

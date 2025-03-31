@@ -1,0 +1,35 @@
+! xen17-erlich-unequal-22.scl
+!
+Unequal 22-tone tuning, Table 5
+ 22
+!
+ 50.25
+ 105.75  ! or 100.5 or 111
+ 161.25
+ 211.5
+ 272.25
+ 322.5
+ 383.25
+ 428.25
+ 494.25
+ 539.25
+ 594.75
+ 650.25
+ 705.75
+ 761.25
+ 816.75
+ 872.25
+ 917.25
+ 983.25
+ 1028.25
+ 1089.0
+ 1139.25
+ 1200.0
+!
+! Paul Erlich
+! Tuning, Tonality, and Twenty-Two-Tone Temperament
+! Xenharmonikon 17 (1998), p.39
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 17

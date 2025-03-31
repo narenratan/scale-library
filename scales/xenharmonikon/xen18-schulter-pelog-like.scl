@@ -1,0 +1,18 @@
+! xen18-schulter-pelog-like.scl
+!
+A Pelog-like pentatonic in 17-WT
+ 5
+!
+ 63.9   ! F
+ 278.34 ! G
+ 707.22 ! B
+ 771.12 ! C
+ 1200.0 ! E
+!
+! Margo Schulter
+! George Secor's 17-Tone Well-Temperament and Neo-Medieval Music
+! Xenharmonikon 18 (2006), p.108
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

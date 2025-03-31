@@ -1,0 +1,17 @@
+! xen18-erlich-dimisept-04.scl
+!
+4L MOS for Dimisept, L=298.53
+ 4
+!
+ 298.53  ! L
+ 597.06  ! L
+ 895.59  ! L
+ 1194.12 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.185
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

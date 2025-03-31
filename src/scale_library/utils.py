@@ -2,6 +2,7 @@
 Utility functions used in several places.
 """
 
+import configparser
 import io
 import logging
 import os
@@ -37,6 +38,11 @@ def check_count_line(scl_text):
     return True
 
 
+def base_tone_string(tone_str):
+    """Get basic tone string without comments"""
+    return tone_str.split("!")[0].strip().removesuffix("cents")
+
+
 def validate_scale(scale):
     if not check_count_line(scale.raw_text):
         return False
@@ -47,7 +53,7 @@ def validate_scale(scale):
         logger.debug("Failed from <p> in scale")
         return False
     for t in scale.tones:
-        tone_text = t.string_rep.split("!")[0].strip().removesuffix("cents")
+        tone_text = base_tone_string(t.string_rep)
         if not re.fullmatch(r"[0-9./\s-]*", tone_text):
             logger.debug("Failed tone %s", t)
             return False
@@ -63,6 +69,17 @@ def validate_scale(scale):
         if abs(cent_value - t.cents) > 1e-3:
             logger.debug("Failed cent check for %s", t)
             return False
+
+        # Check for large integer values
+        # Sometimes cent values are input without decimal point, e.g. 1094
+        # These are interpreted as frequency ratios 1094/1 - probably not intended
+        try:
+            int_value = int(tone_text)
+            if int_value >= 100:
+                logger.debug("Failed large integer check for %s", t)
+                return False
+        except ValueError:
+            pass
     return True
 
 
@@ -89,3 +106,22 @@ def setup_logging():
         format="[%(levelname)s %(asctime)s] %(message)s",
         datefmt="%H:%M:%S",
     )
+
+
+def parse_info(text):
+    started = False
+    info_lines = []
+    for line in text.splitlines():
+        stripped_line = line.replace("!", "").strip()
+        if not started and stripped_line == "[info]":
+            started = True
+        if started:
+            info_lines.append(stripped_line)
+
+    info = None
+    if info_lines:
+        c = configparser.ConfigParser()
+        c.read_string("\n".join(info_lines))
+        info = dict(c["info"])
+
+    return info

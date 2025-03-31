@@ -1,0 +1,17 @@
+! xen18-erlich-negripent-04.scl
+!
+1L 3s MOS for Negripent, L=823.40, s=126.14
+ 4
+!
+ 126.14  ! s
+ 252.28  ! s
+ 1075.68 ! L
+ 1201.82 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.193
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

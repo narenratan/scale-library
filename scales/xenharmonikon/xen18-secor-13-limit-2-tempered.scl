@@ -1,0 +1,20 @@
+! xen18-secor-13-limit-2-tempered.scl
+!
+13-limit tempered scale, enharmonic alteration
+ 7
+!
+ 144.856 ! Dd
+ 278.339 ! Eb
+ 492.78  ! F
+ 707.22  ! G
+ 849.233 ! Ad
+ 985.559 ! Bb
+ 1200.0  ! C
+!
+! George Secor
+! The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It
+! Xenharmonikon 18 (2006), p.75
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

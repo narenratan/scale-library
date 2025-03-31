@@ -1,0 +1,20 @@
+! xen15-gilson-generalized-pythagorean-13-8-7.scl
+!
+Generalized Pythagorean Scale, 13/8 stacked 7=5+2 times
+ 7
+!
+ 2197/2048       !  101 moc
+ 4826809/4194304 !  203 moc
+ 169/128         !  401 moc
+ 371293/262144   !  502 moc
+ 13/8            !  700 moc
+ 28561/16384     !  802 moc
+ 2/1             ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.118
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

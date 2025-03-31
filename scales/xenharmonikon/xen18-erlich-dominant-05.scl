@@ -1,0 +1,18 @@
+! xen18-erlich-dominant-05.scl
+!
+2L 3s MOS for Dominant, L=292.41, s=203.47
+ 5
+!
+ 203.47  ! s
+ 495.88  ! L
+ 699.35  ! s
+ 991.76  ! L
+ 1195.23 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.185
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

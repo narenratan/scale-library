@@ -1,0 +1,30 @@
+! xen18-schulter-circulating.scl
+!
+17-note circulating temperament
+ 17
+!
+ 70.1     ! Db, 126:121
+ 130.639  ! C#
+ 208.754  ! D
+ 286.869  ! Eb
+ 343.787  ! D#
+ 417.508  ! E, 14:11
+ 495.623  ! F
+ 561.329  ! Gb
+ 626.262  ! F#
+ 704.377  ! G
+ 778.871  ! Ab
+ 853.016  ! G#, 196:121
+ 913.131  ! A
+ 991.247  ! Bb
+ 1052.558 ! A#
+ 1121.885 ! B
+ 1200.0   ! C, 2:1
+!
+! Margo Schulter
+! George Secor's 17-Tone Well-Temperament and Neo-Medieval Music
+! Xenharmonikon 18 (2006), p.123
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

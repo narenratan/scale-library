@@ -1,0 +1,18 @@
+! xen13-mclaren-log-factorial-2.scl
+!
+Log factorial scale #2
+ 5
+!
+ 448.558
+ 550.386
+ 709.348
+ 992.114
+ 1644.17
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.21
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

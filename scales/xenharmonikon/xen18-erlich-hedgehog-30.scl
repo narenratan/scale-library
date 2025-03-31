@@ -1,0 +1,43 @@
+! xen18-erlich-hedgehog-30.scl
+!
+22L 8s MOS for Hedgehog, L=50.83, s=9.83
+ 30
+!
+ 50.83   ! L
+ 60.66   ! s
+ 111.49  ! L
+ 162.32  ! L
+ 213.15  ! L
+ 222.98  ! s
+ 273.81  ! L
+ 324.64  ! L
+ 375.47  ! L
+ 385.30  ! s
+ 436.13  ! L
+ 486.96  ! L
+ 537.79  ! L
+ 547.62  ! s
+ 598.45  ! L
+ 649.28  ! L
+ 659.11  ! s
+ 709.94  ! L
+ 760.77  ! L
+ 811.60  ! L
+ 821.43  ! s
+ 872.26  ! L
+ 923.09  ! L
+ 973.92  ! L
+ 983.75  ! s
+ 1034.58 ! L
+ 1085.41 ! L
+ 1136.24 ! L
+ 1146.07 ! s
+ 1196.90 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.187
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

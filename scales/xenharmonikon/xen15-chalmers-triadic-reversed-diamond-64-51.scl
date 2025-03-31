@@ -1,0 +1,20 @@
+! xen15-chalmers-triadic-reversed-diamond-64-51.scl
+!
+Triadic reversed diamond for M=64/51, D=3/2
+ 7
+!
+ 17/16
+ 64/51
+ 4/3
+ 3/2
+ 51/32
+ 32/17
+ 2/1
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.65
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

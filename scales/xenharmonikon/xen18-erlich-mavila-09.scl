@@ -1,0 +1,22 @@
+! xen18-erlich-mavila-09.scl
+!
+7L 2s MOS for Mavila, L=163.51, s=30.99
+ 9
+!
+ 163.51  ! L
+ 327.02  ! L
+ 358.01  ! s
+ 521.52  ! L
+ 685.03  ! L
+ 848.54  ! L
+ 879.53  ! s
+ 1043.04 ! L
+ 1206.55 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.190
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

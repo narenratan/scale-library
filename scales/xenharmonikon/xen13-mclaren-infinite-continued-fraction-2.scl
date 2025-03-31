@@ -1,0 +1,27 @@
+! xen13-mclaren-infinite-continued-fraction-2.scl
+!
+Infinite continued fraction scale #2
+ 14
+!
+ 45.985
+ 143.132
+ 164.847
+ 257.353
+ 272.964
+ 400.012
+ 518.435
+ 646.615
+ 704.861
+ 841.88
+ 871.559
+ 1024.862
+ 1064.796
+ 1187.298
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.28
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

@@ -1,0 +1,32 @@
+! xen12-hanson-11-chain-72.scl
+!
+Chain of minor thirds in 72EDO, Figure 11
+ 19
+!
+ 66.666667   ! 4
+ 133.333333  ! 8
+ 200.0       ! 12
+ 250.0       ! 15
+ 316.666667  ! 19
+ 383.333333  ! 23
+ 450.0       ! 27
+ 500.0       ! 30
+ 566.666667  ! 34
+ 633.333333  ! 38
+ 700.0       ! 42
+ 766.666667  ! 46
+ 816.666667  ! 49
+ 883.333333  ! 53
+ 950.0       ! 57
+ 1016.666667 ! 61
+ 1083.333333 ! 65
+ 1133.333333 ! 68
+ 1200.0      ! 72
+!
+! Larry A. Hanson
+! Development of a 53-Tone Keyboard Layout
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

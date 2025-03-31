@@ -1,0 +1,18 @@
+! xen18-erlich-meantone-05.scl
+!
+2L 3s MOS for Meantone, L=310.69, s=193.44
+ 5
+!
+ 193.44  ! s
+ 504.13  ! L
+ 697.57  ! s
+ 1008.26 ! L
+ 1201.70 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.190
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

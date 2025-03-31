@@ -1,0 +1,20 @@
+! xen15-chalmers-triadic-diamond-8-7.scl
+!
+Triadic diamond for M=8/7, D=3/2
+ 7
+!
+ 8/7
+ 21/16
+ 4/3
+ 3/2
+ 32/21
+ 7/4
+ 2/1
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.64
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

@@ -1,0 +1,23 @@
+! xen18-erlich-blackwood-10.scl
+!
+5L 5s MOS for Blackwood, L=158.78, s=80.09
+ 10
+!
+ 80.09   ! s
+ 238.87  ! L
+ 318.96  ! s
+ 477.74  ! L
+ 557.83  ! s
+ 716.61  ! L
+ 796.70  ! s
+ 955.48  ! L
+ 1035.57 ! s
+ 1194.35 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.183
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

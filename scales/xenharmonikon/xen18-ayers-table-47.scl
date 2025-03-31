@@ -1,0 +1,18 @@
+! xen18-ayers-table-47.scl
+!
+Reciprocals of Golden Mean in Octave
+ 5
+!
+ 175.078
+ 283.282
+ 458.359
+ 741.641
+ 1200.0
+!
+! Lydia Ayers
+! Making Scales from Mathematical Means
+! Xenharmonikon 18 (2006), p.215
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

@@ -1,0 +1,37 @@
+! xen18-erlich-compton-24.scl
+!
+12L 12s MOS for Compton, L=84.92, s=15.13
+ 24
+!
+ 84.92   ! L
+ 100.05  ! s
+ 184.97  ! L
+ 200.10  ! s
+ 285.02  ! L
+ 300.15  ! s
+ 385.07  ! L
+ 400.20  ! s
+ 485.12  ! L
+ 500.25  ! s
+ 585.17  ! L
+ 600.30  ! s
+ 685.22  ! L
+ 700.35  ! s
+ 785.27  ! L
+ 800.40  ! s
+ 885.32  ! L
+ 900.45  ! s
+ 985.37  ! L
+ 1000.50 ! s
+ 1085.42 ! L
+ 1100.55 ! s
+ 1185.47 ! L
+ 1200.60 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.184
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

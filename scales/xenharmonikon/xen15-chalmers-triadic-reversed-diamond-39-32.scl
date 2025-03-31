@@ -1,0 +1,20 @@
+! xen15-chalmers-triadic-reversed-diamond-39-32.scl
+!
+Triadic reversed diamond for M=39/32, D=3/2
+ 7
+!
+ 128/117
+ 39/32
+ 4/3
+ 3/2
+ 64/39
+ 117/64
+ 2/1
+!
+! John H. Chalmers, Jr.
+! The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2
+! Xenharmonikon 15 (1993), p.66
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

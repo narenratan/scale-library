@@ -1,0 +1,22 @@
+! xen13-mclaren-finite-continued-fraction-1.scl
+!
+Finite continued fraction scale #1
+ 9
+!
+ 48.7646
+ 82.4037
+ 231.1724
+ 266.8758
+ 315.6412
+ 498.0449
+ 884.3586
+ 933.1284
+ 1151.3156
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.33
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

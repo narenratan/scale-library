@@ -1,0 +1,23 @@
+! xen12-wilson-40-5C2-dekany-05.scl
+!
+3-5-7-9-11 5C2 Dekany, Figure 40
+ 10
+!
+ 21/20 ! 7*9
+ 11/10 ! 3*11
+ 7/6   ! 5*7
+ 77/60 ! 7*11
+ 7/5   ! 3*7
+ 3/2   ! 5*9
+ 33/20 ! 9*11
+ 9/5   ! 3*9
+ 11/6  ! 5*11
+ 2/1   ! 3*5
+!
+! Erv Wilson
+! D'Alessandro, like a Hurricane
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

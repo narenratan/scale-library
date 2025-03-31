@@ -1,0 +1,38 @@
+! xen18-erlich-wurschmidt-25.scl
+!
+3L 22s MOS for Wurschmidt, L=130.25, s=36.77
+ 25
+!
+ 36.77   ! s
+ 73.54   ! s
+ 110.31  ! s
+ 147.08  ! s
+ 277.33  ! L
+ 314.10  ! s
+ 350.87  ! s
+ 387.64  ! s
+ 424.41  ! s
+ 461.18  ! s
+ 497.95  ! s
+ 534.72  ! s
+ 664.97  ! L
+ 701.74  ! s
+ 738.51  ! s
+ 775.28  ! s
+ 812.05  ! s
+ 848.82  ! s
+ 885.59  ! s
+ 922.36  ! s
+ 1052.61 ! L
+ 1089.38 ! s
+ 1126.15 ! s
+ 1162.92 ! s
+ 1199.69 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.199
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

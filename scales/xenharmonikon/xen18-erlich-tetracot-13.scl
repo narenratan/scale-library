@@ -1,0 +1,26 @@
+! xen18-erlich-tetracot-13.scl
+!
+7L 6s MOS for Tetracot, L=142.37, s=33.74
+ 13
+!
+ 142.37  ! L
+ 176.11  ! s
+ 318.48  ! L
+ 352.22  ! s
+ 494.59  ! L
+ 528.33  ! s
+ 670.70  ! L
+ 704.44  ! s
+ 846.81  ! L
+ 880.55  ! s
+ 1022.92 ! L
+ 1056.66 ! s
+ 1199.03 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.198
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

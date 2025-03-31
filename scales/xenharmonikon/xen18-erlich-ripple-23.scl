@@ -1,0 +1,36 @@
+! xen18-erlich-ripple-23.scl
+!
+12L 11s MOS for Ripple, L=81.43, s=20.56
+ 23
+!
+ 81.43   ! L
+ 101.99  ! s
+ 183.42  ! L
+ 203.98  ! s
+ 285.41  ! L
+ 305.97  ! s
+ 387.40  ! L
+ 407.96  ! s
+ 489.39  ! L
+ 509.95  ! s
+ 591.38  ! L
+ 611.94  ! s
+ 693.37  ! L
+ 713.93  ! s
+ 795.36  ! L
+ 815.92  ! s
+ 897.35  ! L
+ 917.91  ! s
+ 999.34  ! L
+ 1019.90 ! s
+ 1101.33 ! L
+ 1121.89 ! s
+ 1203.32 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.196
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

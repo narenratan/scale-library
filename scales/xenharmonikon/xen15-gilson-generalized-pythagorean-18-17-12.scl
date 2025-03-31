@@ -1,0 +1,25 @@
+! xen15-gilson-generalized-pythagorean-18-17-12.scl
+!
+Generalized Pythagorean Scale, 18/17 stacked 12=1+11 times
+ 12
+!
+ 18/17               !   82 moc
+ 324/289             !  165 moc
+ 5832/4913           !  247 moc
+ 104976/83521        !  330 moc
+ 1889568/1419857     !  412 moc
+ 34012224/24137569   !  495 moc
+ 612220032/410338673 !  577 moc
+ 791.636738          !  660 moc
+ 890.59133           !  742 moc
+ 989.545922          !  825 moc
+ 1088.500515         !  907 moc
+ 2/1                 ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.118
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

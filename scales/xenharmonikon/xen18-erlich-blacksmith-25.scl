@@ -1,0 +1,38 @@
+! xen18-erlich-blacksmith-25.scl
+!
+15L 10s MOS for Blacksmith, L=71.52, s=12.31
+ 25
+!
+ 71.52   ! L
+ 83.83   ! s
+ 155.35  ! L
+ 167.66  ! s
+ 239.18  ! L
+ 310.70  ! L
+ 323.01  ! s
+ 394.53  ! L
+ 406.84  ! s
+ 478.36  ! L
+ 549.88  ! L
+ 562.19  ! s
+ 633.71  ! L
+ 646.02  ! s
+ 717.54  ! L
+ 789.06  ! L
+ 801.37  ! s
+ 872.89  ! L
+ 885.20  ! s
+ 956.72  ! L
+ 1028.24 ! L
+ 1040.55 ! s
+ 1112.07 ! L
+ 1124.38 ! s
+ 1195.90 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.183
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

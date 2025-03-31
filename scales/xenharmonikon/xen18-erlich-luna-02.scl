@@ -1,0 +1,15 @@
+! xen18-erlich-luna-02.scl
+!
+1L 1s MOS for Luna, L=1006.784, s=193.196
+ 2
+!
+ 1006.784 ! L
+ 1199.98  ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.189
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

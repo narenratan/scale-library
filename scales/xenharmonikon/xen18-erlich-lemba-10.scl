@@ -1,0 +1,23 @@
+! xen18-erlich-lemba-10.scl
+!
+6L 4s MOS for Lemba, L=139.96, s=90.91
+ 10
+!
+ 139.96  ! L
+ 230.87  ! s
+ 370.83  ! L
+ 461.74  ! s
+ 601.70  ! L
+ 741.66  ! L
+ 832.57  ! s
+ 972.53  ! L
+ 1063.44 ! s
+ 1203.40 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.189
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

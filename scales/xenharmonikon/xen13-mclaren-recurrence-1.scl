@@ -1,0 +1,21 @@
+! xen13-mclaren-recurrence-1.scl
+!
+Fibonacci scale (recurrence scale #1)
+ 8
+!
+ 17/16
+ 5/4
+ 21/16
+ 89/64
+ 3/2
+ 13/8
+ 55/32
+ 2/1
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.30
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

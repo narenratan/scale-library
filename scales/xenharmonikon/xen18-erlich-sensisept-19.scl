@@ -1,0 +1,32 @@
+! xen18-erlich-sensisept-19.scl
+!
+8L 11s MOS for Sensisept, L=81.20, s=49.89
+ 19
+!
+ 49.89   ! s
+ 131.09  ! L
+ 180.98  ! s
+ 262.18  ! L
+ 312.07  ! s
+ 393.27  ! L
+ 443.16  ! s
+ 493.05  ! s
+ 574.25  ! L
+ 624.14  ! s
+ 705.34  ! L
+ 755.23  ! s
+ 805.12  ! s
+ 886.32  ! L
+ 936.21  ! s
+ 1017.41 ! L
+ 1067.30 ! s
+ 1148.50 ! L
+ 1198.39 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.197
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

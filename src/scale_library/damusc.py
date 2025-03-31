@@ -85,7 +85,8 @@ def measured_df_to_scl(df, filenames):
         logger.debug("Using filename %s", filename)
     filenames.add(filename)
 
-    reference_lines = ["! " + x for x in textwrap.wrap(info[C.reference])]
+    reference = info[C.reference]
+    reference_lines = ["! " + x for x in textwrap.wrap(reference)]
 
     scl_lines = (
         [
@@ -109,7 +110,7 @@ def measured_df_to_scl(df, filenames):
 
     scl_text = "\n".join(scl_lines) + "\n"
 
-    return filename, scl_text
+    return filename, scl_text, reference
 
 
 def write_measured_scales():
@@ -118,9 +119,11 @@ def write_measured_scales():
     df = measured_scales.merge(sources[[C.ref_id, C.authors, C.year, C.title]])
 
     filenames = set()
+    references = {}
     tones_to_scl = defaultdict(lambda: [])
     for _, scale_df in df.groupby(C.measured_id):
-        filename, scl_text = measured_df_to_scl(scale_df, filenames)
+        filename, scl_text, reference = measured_df_to_scl(scale_df, filenames)
+        references[filename] = reference
         tones = tuple(
             sorted(round(tone.cents, 5) for tone in tl.parse_scl_data(scl_text).tones)
         )
@@ -140,6 +143,8 @@ def write_measured_scales():
             for filename, scl_text in scales:
                 if rechberger not in scl_text:
                     (OUTPUT_DIR / filename).write_text(scl_text)
+
+    return references
 
 
 def theory_df_to_scl(df):
@@ -219,12 +224,12 @@ def main():
     logger.info("Building DaMuSc scales")
     shutil.rmtree(OUTPUT_DIR, ignore_errors=True)
     OUTPUT_DIR.mkdir()
-    write_measured_scales()
+    references = write_measured_scales()
 
     # TODO: Check tunings of theory scales in sources
     # write_theory_scales()
 
-    return utils.check_scl_dir(OUTPUT_DIR)
+    return utils.check_scl_dir(OUTPUT_DIR), references
 
 
 if __name__ == "__main__":

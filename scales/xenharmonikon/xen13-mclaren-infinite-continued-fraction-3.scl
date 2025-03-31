@@ -1,0 +1,29 @@
+! xen13-mclaren-infinite-continued-fraction-3.scl
+!
+Infinite continued fraction scale #3
+ 16
+!
+ 17.5914
+ 35.3231
+ 170.0317
+ 198.5402
+ 313.7431
+ 477.4963
+ 477.8234
+ 619.5159
+ 669.1979
+ 797.0003
+ 818.6521
+ 879.3628
+ 932.3607
+ 998.4472
+ 1033.1992
+ 1174.4849
+!
+! B. McLaren
+! General Methods for Generating Musical Scales
+! Xenharmonikon 13 (1991), p.29
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 13

@@ -1,0 +1,20 @@
+! xen15-oconnell-golden-section-7.scl
+!
+7-note scale in 25 parts of Golden Section
+ 7
+!
+ 133.294447 ! 4
+ 233.265283 ! 7
+ 366.55973  ! 11
+ 466.530566 ! 14
+ 599.825013 ! 18
+ 699.795849 ! 21
+ 833.090296 ! 25
+!
+! Walter O'Connell
+! The Tonality of the Golden Section
+! Xenharmonikon 15 (1993), p.9
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

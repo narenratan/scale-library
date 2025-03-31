@@ -1,0 +1,25 @@
+! xen18-schulter-didymic-1-4-12.scl
+!
+1/4-Didymic temperament
+ 12
+!
+ 76.048999   ! C#
+ 193.156857  ! D
+ 310.264715  ! Eb
+ 386.313714  ! E
+ 503.421572  ! F
+ 579.470571  ! F#
+ 696.578428  ! G
+ 772.627428  ! G#
+ 889.735285  ! A
+ 1006.843143 ! Bb
+ 1082.892142 ! B
+ 1200.0      ! C
+!
+! Margo Schulter
+! George Secor's 17-Tone Well-Temperament and Neo-Medieval Music
+! Xenharmonikon 18 (2006), p.89
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

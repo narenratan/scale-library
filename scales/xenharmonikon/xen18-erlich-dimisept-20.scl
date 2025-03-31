@@ -1,0 +1,33 @@
+! xen18-erlich-dimisept-20.scl
+!
+12L 8s MOS for Dimisept, L=95.63, s=5.82
+ 20
+!
+ 95.63   ! L
+ 101.45  ! s
+ 197.08  ! L
+ 202.90  ! s
+ 298.53  ! L
+ 394.16  ! L
+ 399.98  ! s
+ 495.61  ! L
+ 501.43  ! s
+ 597.06  ! L
+ 692.69  ! L
+ 698.51  ! s
+ 794.14  ! L
+ 799.96  ! s
+ 895.59  ! L
+ 991.22  ! L
+ 997.04  ! s
+ 1092.67 ! L
+ 1098.49 ! s
+ 1194.12 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.185
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

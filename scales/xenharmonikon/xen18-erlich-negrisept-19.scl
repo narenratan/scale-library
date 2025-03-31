@@ -1,0 +1,32 @@
+! xen18-erlich-negrisept-19.scl
+!
+10L 9s MOS for Negrisept, L=79.63, s=45.21
+ 19
+!
+ 79.63   ! L
+ 124.84  ! s
+ 204.47  ! L
+ 249.68  ! s
+ 329.31  ! L
+ 374.52  ! s
+ 454.15  ! L
+ 499.36  ! s
+ 578.99  ! L
+ 624.20  ! s
+ 703.83  ! L
+ 749.04  ! s
+ 828.67  ! L
+ 873.88  ! s
+ 953.51  ! L
+ 998.72  ! s
+ 1078.35 ! L
+ 1123.56 ! s
+ 1203.19 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.193
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

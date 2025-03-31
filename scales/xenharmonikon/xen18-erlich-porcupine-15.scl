@@ -1,0 +1,28 @@
+! xen18-erlich-porcupine-15.scl
+!
+7L 8s MOS for Porcupine, L=101.65, s=60.67
+ 15
+!
+ 60.67   ! s
+ 162.32  ! L
+ 222.99  ! s
+ 324.64  ! L
+ 385.31  ! s
+ 486.96  ! L
+ 547.63  ! s
+ 649.28  ! L
+ 709.95  ! s
+ 811.60  ! L
+ 872.27  ! s
+ 973.92  ! L
+ 1034.59 ! s
+ 1136.24 ! L
+ 1196.91 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.196
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

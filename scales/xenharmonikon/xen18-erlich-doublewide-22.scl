@@ -1,0 +1,35 @@
+! xen18-erlich-doublewide-22.scl
+!
+18L 4s MOS for Doublewide, L=54.64, s=53.76
+ 22
+!
+ 54.64   ! L
+ 109.28  ! L
+ 163.04  ! s
+ 217.68  ! L
+ 272.32  ! L
+ 326.96  ! L
+ 381.60  ! L
+ 436.24  ! L
+ 490.00  ! s
+ 544.64  ! L
+ 599.28  ! L
+ 653.92  ! L
+ 708.56  ! L
+ 762.32  ! s
+ 816.96  ! L
+ 871.60  ! L
+ 926.24  ! L
+ 980.88  ! L
+ 1035.52 ! L
+ 1089.28 ! s
+ 1143.92 ! L
+ 1198.56 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.185
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

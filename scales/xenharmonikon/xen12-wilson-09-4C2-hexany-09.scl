@@ -1,0 +1,19 @@
+! xen12-wilson-09-4C2-hexany-09.scl
+!
+1-9-11-15 4C2 Hexany, Figure 9
+ 6
+!
+ 55/48 ! 11*15
+ 11/9  ! 1*11
+ 11/8  ! 9*11
+ 5/3   ! 1*15
+ 15/8  ! 9*15
+ 2/1   ! 1*9
+!
+! Erv Wilson
+! D'Alessandro, like a Hurricane
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

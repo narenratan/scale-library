@@ -1,0 +1,21 @@
+! xen15-mclaren-root-5.scl
+!
+Square root of 5 scale
+ 8
+!
+ 4.98
+ 11.14
+ 24.92
+ 55.72
+ 124.6
+ 278.63
+ 623.03
+ 1393.15
+!
+! B. McLaren
+! The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales
+! Xenharmonikon 15 (1993), p.30
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

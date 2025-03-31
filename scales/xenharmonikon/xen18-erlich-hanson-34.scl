@@ -1,0 +1,47 @@
+! xen18-erlich-hanson-34.scl
+!
+19L 15s MOS for Hanson, L=45.11, s=22.88
+ 34
+!
+ 45.11   ! L
+ 67.99   ! s
+ 113.10  ! L
+ 135.98  ! s
+ 181.09  ! L
+ 203.97  ! s
+ 249.08  ! L
+ 271.96  ! s
+ 317.07  ! L
+ 362.18  ! L
+ 385.06  ! s
+ 430.17  ! L
+ 453.05  ! s
+ 498.16  ! L
+ 521.04  ! s
+ 566.15  ! L
+ 611.26  ! L
+ 634.14  ! s
+ 679.25  ! L
+ 702.13  ! s
+ 747.24  ! L
+ 770.12  ! s
+ 815.23  ! L
+ 838.11  ! s
+ 883.22  ! L
+ 928.33  ! L
+ 951.21  ! s
+ 996.32  ! L
+ 1019.20 ! s
+ 1064.31 ! L
+ 1087.19 ! s
+ 1132.30 ! L
+ 1155.18 ! s
+ 1200.29 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.187
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

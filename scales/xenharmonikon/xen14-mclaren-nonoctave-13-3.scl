@@ -1,0 +1,26 @@
+! xen14-mclaren-nonoctave-13-3.scl
+!
+Pierce-Bohlen scale, 13th root of 3
+ 13
+!
+ 146.304231
+ 292.608462
+ 438.912693
+ 585.216923
+ 731.521154
+ 877.825385
+ 1024.129616
+ 1170.433847
+ 1316.738078
+ 1463.042308
+ 1609.346539
+ 1755.65077
+ 3/1
+!
+! B. McLaren
+! The Uses and Characteristics of Non-Octave Scales
+! Xenharmonikon 14 (1993), p.13
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 14

@@ -1,0 +1,20 @@
+! xen15-mclaren-pi.scl
+!
+pi scale
+ 7
+!
+ 2.061
+ 6.476
+ 20.34
+ 63.915
+ 200.79
+ 630.825
+ 1981.795
+!
+! B. McLaren
+! The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales
+! Xenharmonikon 15 (1993), p.29
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

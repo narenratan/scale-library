@@ -1,0 +1,22 @@
+! xen18-erlich-orwell-09.scl
+!
+4L 5s MOS for Orwell, L=157.92, s=113.57
+ 9
+!
+ 113.57  ! s
+ 271.49  ! L
+ 385.06  ! s
+ 542.98  ! L
+ 656.55  ! s
+ 814.47  ! L
+ 928.04  ! s
+ 1085.96 ! L
+ 1199.53 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.194
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

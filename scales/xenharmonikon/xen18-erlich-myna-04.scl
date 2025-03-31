@@ -1,0 +1,17 @@
+! xen18-erlich-myna-04.scl
+!
+3L 1s MOS for Myna, L=309.89, s=269.16
+ 4
+!
+ 309.89  ! L
+ 619.78  ! L
+ 888.94  ! s
+ 1198.83 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.191
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

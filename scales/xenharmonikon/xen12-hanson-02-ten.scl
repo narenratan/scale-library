@@ -1,0 +1,23 @@
+! xen12-hanson-02-ten.scl
+!
+Ten tones, Figure 2
+ 10
+!
+ 9/8
+ 6/5
+ 5/4
+ 4/3
+ 3/2
+ 8/5
+ 5/3
+ 9/5
+ 15/8
+ 2/1
+!
+! Larry A. Hanson
+! Development of a 53-Tone Keyboard Layout
+! Xenharmonikon 12 (1989)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 12

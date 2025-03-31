@@ -1,0 +1,35 @@
+! xen18-erlich-pajara-22.scl
+!
+12L 10s MOS for Pajara, L=65.60, s=40.97
+ 22
+!
+ 65.60   ! L
+ 106.57  ! s
+ 172.17  ! L
+ 213.14  ! s
+ 278.74  ! L
+ 319.71  ! s
+ 385.31  ! L
+ 426.28  ! s
+ 491.88  ! L
+ 532.85  ! s
+ 598.45  ! L
+ 664.05  ! L
+ 705.02  ! s
+ 770.62  ! L
+ 811.59  ! s
+ 877.19  ! L
+ 918.16  ! s
+ 983.76  ! L
+ 1024.73 ! s
+ 1090.33 ! L
+ 1131.30 ! s
+ 1196.90 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.194
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

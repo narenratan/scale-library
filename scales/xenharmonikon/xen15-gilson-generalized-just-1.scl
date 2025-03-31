@@ -1,0 +1,23 @@
+! xen15-gilson-generalized-just-1.scl
+!
+Ten note just scale, two rows and five columns of chart on p.119
+ 10
+!
+ 75/64 !  229 moc
+ 6/5   !  263 moc
+ 5/4   !  322 moc
+ 32/25 !  356 moc
+ 3/2   !  585 moc
+ 25/16 !  644 moc
+ 8/5   !  678 moc
+ 15/8  !  907 moc
+ 48/25 !  941 moc
+ 2/1   ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.120
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

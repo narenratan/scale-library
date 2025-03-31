@@ -1,0 +1,26 @@
+! xen17-bohlen-harmonic-1.scl
+!
+13-tone non-tempered scale
+ 13
+!
+ 27/25
+ 25/21
+ 9/7
+ 7/5
+ 75/49
+ 5/3
+ 9/5
+ 49/25
+ 15/7
+ 7/3
+ 63/25
+ 25/9
+ 3/1
+!
+! Henz Bohlen
+! Letter to the Editor
+! Xenharmonikon 17 (1998), p.124
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 17

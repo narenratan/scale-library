@@ -1,0 +1,30 @@
+! xen03-wilson-baglama.scl
+!
+Turkish Baglama Scale (as inferred from string lengths by E.W.)
+ 17
+!
+ 256/243
+ 12/11
+ 9/8
+ 32/27
+ 5/4
+ 81/64
+ 4/3
+ 1024/729
+ 16/11
+ 3/2
+ 128/81
+ 5/3
+ 27/16
+ 16/9
+ 15/8
+ 243/128
+ 2/1
+!
+! Erv Wilson
+! On the development of intonational systems by extended linear mapping
+! Xenharmonikon 3 (1975)
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 3

@@ -1,0 +1,18 @@
+! xen15-gilson-just-pentatonic.scl
+!
+Just Intonation Pentatonic Scale (JIPS)
+ 5
+!
+ 9/8 !  170 moc
+ 4/3 !  415 moc
+ 3/2 !  585 moc
+ 5/3 !  737 moc
+ 2/1 ! 1000 moc
+!
+! Bruce R. Gilson
+! A Numerical Theory of Scale Invention
+! Xenharmonikon 15 (1993), p.114
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 15

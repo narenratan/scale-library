@@ -1,0 +1,20 @@
+! xen18-erlich-helmholtz-07.scl
+!
+5L 2s MOS for Helmholtz, L=203.51, s=91.26
+ 7
+!
+ 203.51  ! L
+ 294.77  ! s
+ 498.28  ! L
+ 701.79  ! L
+ 905.30  ! L
+ 996.56  ! s
+ 1200.07 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.188
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

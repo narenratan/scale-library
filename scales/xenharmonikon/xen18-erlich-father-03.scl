@@ -1,0 +1,16 @@
+! xen18-erlich-father-03.scl
+!
+2L 1s MOS for Father, L=447.4, s=291.1
+ 3
+!
+ 447.4  ! L
+ 738.5  ! s
+ 1185.9 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.186
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

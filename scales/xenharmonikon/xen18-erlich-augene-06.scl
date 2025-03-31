@@ -1,0 +1,19 @@
+! xen18-erlich-augene-06.scl
+!
+3L 3s MOS for Augene, L=306.56, s=92.46
+ 6
+!
+ 306.56  ! L
+ 399.02  ! s
+ 705.58  ! L
+ 798.04  ! s
+ 1104.60 ! L
+ 1197.06 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.182
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

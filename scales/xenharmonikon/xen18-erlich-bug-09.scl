@@ -1,0 +1,22 @@
+! xen18-erlich-bug-09.scl
+!
+5L 4s MOS for Bug, L=158.8, s=101.5
+ 9
+!
+ 158.8  ! L
+ 260.3  ! s
+ 419.1  ! L
+ 520.6  ! s
+ 679.4  ! L
+ 780.9  ! s
+ 939.7  ! L
+ 1041.2 ! s
+ 1200.0 ! L
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.183
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

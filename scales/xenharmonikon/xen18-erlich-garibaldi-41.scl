@@ -1,0 +1,54 @@
+! xen18-erlich-garibaldi-41.scl
+!
+12L 29s MOS for Garibaldi, L=36.36, s=26.36
+ 41
+!
+ 26.36   ! s
+ 62.72   ! L
+ 89.08   ! s
+ 115.44  ! s
+ 141.80  ! s
+ 178.16  ! L
+ 204.52  ! s
+ 230.88  ! s
+ 267.24  ! L
+ 293.60  ! s
+ 319.96  ! s
+ 356.32  ! L
+ 382.68  ! s
+ 409.04  ! s
+ 435.40  ! s
+ 471.76  ! L
+ 498.12  ! s
+ 524.48  ! s
+ 560.84  ! L
+ 587.20  ! s
+ 613.56  ! s
+ 639.92  ! s
+ 676.28  ! L
+ 702.64  ! s
+ 729.00  ! s
+ 765.36  ! L
+ 791.72  ! s
+ 818.08  ! s
+ 844.44  ! s
+ 880.80  ! L
+ 907.16  ! s
+ 933.52  ! s
+ 969.88  ! L
+ 996.24  ! s
+ 1022.60 ! s
+ 1058.96 ! L
+ 1085.32 ! s
+ 1111.68 ! s
+ 1138.04 ! s
+ 1174.40 ! L
+ 1200.76 ! s
+!
+! Paul Erlich
+! A Middle Path Between Just Intonation and the Equal Temperaments Part 1
+! Xenharmonikon 18 (2006), p.187
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18

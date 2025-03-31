@@ -1,0 +1,30 @@
+! xen18-schulter-pure-11-14-17.scl
+!
+Temperament with pure 11:14 major thirds, fifth of 704.377 cents
+ 17
+!
+ 78.115   ! Db
+ 130.639  ! C#
+ 208.754  ! D
+ 286.869  ! Eb
+ 339.393  ! D#
+ 417.508  ! E
+ 495.623  ! F
+ 573.738  ! Gb
+ 626.262  ! F#
+ 704.377  ! G
+ 782.492  ! Ab
+ 835.016  ! G#
+ 913.131  ! A
+ 991.246  ! Bb
+ 1043.77  ! A#
+ 1121.885 ! B
+ 1200.0   ! C
+!
+! Margo Schulter
+! George Secor's 17-Tone Well-Temperament and Neo-Medieval Music
+! Xenharmonikon 18 (2006), p.85
+!
+! [info]
+! source = Xenharmonikon
+! whole_number = 18
