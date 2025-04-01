@@ -41,7 +41,7 @@ def cprod(x):
 
 class Author:
     ayers = "Lydia Ayers"
-    bohlen = "Henz Bohlen"
+    bohlen = "Heinz Bohlen"
     burt = "Warren Burt"
     chalmers = "John H. Chalmers, Jr."
     colvig = "William Colvig"
