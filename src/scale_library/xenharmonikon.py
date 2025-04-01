@@ -69,7 +69,7 @@ class Author:
     vyshnegradski = "Ivan Vyshnegradski"
     walker = "Douglas Walker"
     wilson = "Erv Wilson"
-    wilsonsmithgrady = "Erv Wilson, Steven Smith, Kraig Grady"
+    wilsonsmithgrady = "Erv Wilson, Stephen Smith, Kraig Grady"
     wolf = "Daniel J. Wolf"
 
 
