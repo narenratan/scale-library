@@ -1,6 +1,6 @@
 ! Cambodia_Roneat_Ek.scl
 !
-Measured scale M0213 in DaMuSc
+Roneat Ek (Roneat Ek), Cambodia
  19
 !
  141.0
@@ -31,3 +31,5 @@ Measured scale M0213 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0213
 ! ref_id = 37
+! country = Cambodia
+! doi = https://doi.org/10.1007/978-3-030-02695-0

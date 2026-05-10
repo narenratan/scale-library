@@ -1,0 +1,20 @@
+! Benin_Trombone_02.scl
+!
+Benin 2 (Trombone), Benin
+ 5
+!
+ 227.0
+ 387.0
+ 694.0
+ 886.0
+ 1200.0 ! Octave added to measured scale
+!
+! Copeland, Lyndsey (2018). Pitch and tuning in Beninese brass bands.
+! Ethnomusicology Forum, 27(2):213-240.
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0296
+! ref_id = 53
+! country = Benin
+! doi = https://doi.org/10.1080/17411912.2018.1518151

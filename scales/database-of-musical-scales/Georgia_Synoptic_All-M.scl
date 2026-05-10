@@ -1,6 +1,6 @@
 ! Georgia_Synoptic_All-M.scl
 !
-Measured scale M0305 in DaMuSc
+Synoptic All-M (Voice), Georgia
  9
 !
  176.0
@@ -21,3 +21,4 @@ Measured scale M0305 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0305
 ! ref_id = 55
+! country = Georgia

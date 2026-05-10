@@ -1,6 +1,6 @@
 ! Guatemala_Kwaiker.scl
 !
-Measured scale M0264 in DaMuSc
+Kwaiker (Xylophone), Guatemala
  13
 !
  162.0
@@ -17,10 +17,12 @@ Measured scale M0264 in DaMuSc
  2072.0
  2206.0
 !
-! A. M. Jones. A kwaiker indian xylophone. Ethnomusicology, 10(1):43-47,
-! 1966
+! Jones, A. M. (1966). A Kwaiker Indian Xylophone. Ethnomusicology,
+! 10(1):43.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0264
 ! ref_id = 45
+! country = Guatemala
+! doi = https://doi.org/10.2307/924184

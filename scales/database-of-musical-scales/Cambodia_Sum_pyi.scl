@@ -1,6 +1,6 @@
 ! Cambodia_Sum_pyi.scl
 !
-Measured scale M0215 in DaMuSc
+Sum pyi (Sum Pyi), Cambodia
  7
 !
  226.0
@@ -19,3 +19,5 @@ Measured scale M0215 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0215
 ! ref_id = 37
+! country = Cambodia
+! doi = https://doi.org/10.1007/978-3-030-02695-0

@@ -1,6 +1,6 @@
 ! Angola_Chisende_10450.scl
 !
-Measured scale M0195 in DaMuSc
+Chisende 10450 (Likembe), Angola
  6
 !
  183.0
@@ -10,10 +10,13 @@ Measured scale M0195 in DaMuSc
  860.0
  1187.0
 !
-! Gerhard Kubik. Likembe tunings of kufuna kandonga (angola). Afr.
-! Music, 6(1):70-88, 1980
+! Kubik, Gerhard (1980). Likembe tunings of Kufuna Kandonga (Angola).
+! African Music: Journal of the International Library of African Music,
+! 6(1):70-88.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0195
 ! ref_id = 15
+! country = Angola
+! doi = https://doi.org/10.21504/amj.v6i1.1097

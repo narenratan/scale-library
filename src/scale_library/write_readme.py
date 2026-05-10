@@ -22,7 +22,7 @@ def write_readme(
 ):
     readme_path = Path(__file__).parents[2] / "README.md"
     logger.info("Writing README to %s", readme_path.relative_to(Path.cwd()))
-    readme_text = f"""# Scale library
+    readme_text = f"""# scale-library
 A library of microtonal scales with sources attributed.
 
 The `scales` directory contains the scl files for each scale. The scl files are
@@ -132,7 +132,7 @@ the scale's source. For example:
 ```
 ! Georgia_GVM206-M.scl
 !
-Measured scale M0311 in DaMuSc
+GVM206-M (Voice), Georgia
  7
 !
  179.0
@@ -143,14 +143,16 @@ Measured scale M0311 in DaMuSc
  1067.0
  1189.0
 !
-! N. Mzhavanadze and F. Scherbaum. Svan funeral dirges (zar): Musical
-! acoustical analysis of a new collection of field recordings.
-! Musicologist, 4(2):138-167, 2020. doi: 10.33906/musicologist.782094
+! Scherbaum, Frank; Mzhavanadze, Nana (2020). Svan Funeral Dirges (Zär):
+! Musical Acoustical Analysis of a New Collection of Field Recordings.
+! Musicologist, 4(2):138-167.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0311
 ! ref_id = 56
+! country = Georgia
+! doi = https://doi.org/10.33906/musicologist.782094
 ```
 
 ### Divisions of the Tetrachord: {divisions_scl_count} scl files
@@ -213,10 +215,13 @@ scales which are all Fokker blocks according to the subject.
 These great scale libraries may also be of interest:
 
 - The tunings in [Leimma](https://isartum.net/leimma). These all come with sources attributed.
+- Sevish's [tuning files](https://sevish.com/music-resources/#tuning-files) give sources in the accompanying PDFs
 - The [Scala scale archive](https://www.huygens-fokker.org/microtonality/scales.html)
 - Wilson's garden, a scale collection built into [Wilsonic](https://github.com/marcus-w-hobbs/Wilsonic-MTS-ESP)
 - The [tuning library](https://github.com/surge-synthesizer/surge/tree/main/resources/data/tuning_library) included with Surge XT
 - The tunings which come with [Semantic Daniélou-53](https://www.semantic-danielou.com/semantic-danielou-53/download-and-installation-semantic-danielou-53/)
 - Ableton comes with a library of [tunings](https://tuning.ableton.com)
+
+In case it isn't clear, `scale-library` is independent of the Scala scale archive.
 """
     readme_path.write_text(readme_text)

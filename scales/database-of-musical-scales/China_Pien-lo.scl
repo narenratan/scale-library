@@ -1,6 +1,6 @@
 ! China_Pien-lo.scl
 !
-Measured scale M0412 in DaMuSc
+Pien-lo (Yunluo), China
  7
 !
  169.0
@@ -18,3 +18,4 @@ Measured scale M0412 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0412
 ! ref_id = 3
+! country = China

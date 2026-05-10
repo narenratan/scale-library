@@ -1,6 +1,6 @@
 ! China_Sheng.scl
 !
-Measured scale M0411 in DaMuSc
+Sheng (Sheng), China
  10
 !
  210.0
@@ -21,3 +21,4 @@ Measured scale M0411 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0411
 ! ref_id = 3
+! country = China

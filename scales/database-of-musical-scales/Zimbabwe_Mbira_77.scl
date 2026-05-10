@@ -1,0 +1,36 @@
+! Zimbabwe_Mbira_77.scl
+!
+77 (Mbira), Zimbabwe
+ 20
+!
+ 323.0
+ 453.0
+ 657.0
+ 849.0
+ 1030.0
+ 1201.0
+ 1383.0
+ 1560.0
+ 1687.0
+ 1912.0
+ 2093.0
+ 2212.0
+ 2421.0
+ 2598.0
+ 2791.0
+ 2916.0
+ 3106.0
+ 3301.0
+ 3436.0
+ 3621.0
+!
+! McNeil, L. E.; Mitran, S. (2008). Vibrational frequencies and tuning
+! of the African mbira. The Journal of the Acoustical Society of
+! America, 123(2):1169-1178.
+!
+! [info]
+! source = DaMuSc
+! measured_id = M0130
+! ref_id = 31
+! country = Zimbabwe
+! doi = https://doi.org/10.1121/1.2828063

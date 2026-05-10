@@ -1,6 +1,6 @@
 ! Japan_Koto_master.scl
 !
-Measured scale M0420 in DaMuSc
+Koto master (Koto), Japan
  6
 !
  683.0
@@ -17,3 +17,4 @@ Measured scale M0420 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0420
 ! ref_id = 3
+! country = Japan

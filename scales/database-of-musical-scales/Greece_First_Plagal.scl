@@ -1,6 +1,6 @@
 ! Greece_First_Plagal.scl
 !
-Measured scale M0428 in DaMuSc
+First Plagal (Voice), Greece
  7
 !
  195.0
@@ -11,12 +11,14 @@ Measured scale M0428 in DaMuSc
  1001.0
  1201.0
 !
-! Maria Panteli and Hendrik Purwins. A quantitative comparison of
-! chrysanthine theory and performance practice of scale tuning, steps,
-! and prominence of the octoechos in byzantine chant. J. New Music Res.,
-! 42(3):205-221, 2013. doi: 10.1080/09298215. 2013.827215
+! Panteli, Maria; Purwins, Hendrik (2013). A Quantitative Comparison of
+! Chrysanthine Theory and Performance Practice of Scale Tuning, Steps,
+! and Prominence of the Octoechos in Byzantine Chant. Journal of New
+! Music Research, 42(3):205-221.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0428
 ! ref_id = 60
+! country = Greece
+! doi = https://doi.org/10.1080/09298215.2013.827215

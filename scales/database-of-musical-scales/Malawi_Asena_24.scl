@@ -1,6 +1,6 @@
 ! Malawi_Asena_24.scl
 !
-Measured scale M0117 in DaMuSc
+Asena 24 (Valimba), Malawi
  13
 !
  255.0
@@ -17,10 +17,13 @@ Measured scale M0117 in DaMuSc
  2126.0
  2291.0
 !
-! W. Van Zanten. The equidistant heptatonic scale of the asena in
-! malawi. Afr. Music, 6(1):107-125, 1980. doi: 10.21504/amj. V6i1.1099
+! Van Zanten, Wim (1980). The equidistant heptatonic scale of the Asena
+! in Malawi. African Music: Journal of the International Library of
+! African Music, 6(1):107-125.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0117
 ! ref_id = 16
+! country = Malawi
+! doi = https://doi.org/10.21504/amj.V6i1.1099

@@ -1,6 +1,6 @@
 ! Indonesia_Gamelan_Swastigitha_Slendro.scl
 !
-Measured scale M0073 in DaMuSc
+Gamelan Swastigitha Slendro (Many Gamelan), Indonesia
  17
 !
  191.0
@@ -21,10 +21,11 @@ Measured scale M0073 in DaMuSc
  3820.0
  4075.0
 !
-! W. A. Sethares. Tuning, Timbre, Spectrum, Scale. Springer Science and
-! Business Media, 2005
+! Sethares (2005). Tuning, Timbre, Spectrum, Scale. Springer-Verlag.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0073
 ! ref_id = 30
+! country = Indonesia
+! doi = https://doi.org/10.1007/b138848

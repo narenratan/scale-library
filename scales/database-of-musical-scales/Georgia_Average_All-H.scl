@@ -1,6 +1,6 @@
 ! Georgia_Average_All-H.scl
 !
-Measured scale M0303 in DaMuSc
+Average All-H (Voice), Georgia
  13
 !
  212.0
@@ -25,3 +25,4 @@ Measured scale M0303 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0303
 ! ref_id = 55
+! country = Georgia

@@ -1,6 +1,6 @@
 ! Congo_Mouth_Bow.scl
 !
-Measured scale M0223 in DaMuSc
+Mouth Bow (Mouth Bow), Congo
  3
 !
  256.0
@@ -15,3 +15,4 @@ Measured scale M0223 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0223
 ! ref_id = 6
+! country = Congo

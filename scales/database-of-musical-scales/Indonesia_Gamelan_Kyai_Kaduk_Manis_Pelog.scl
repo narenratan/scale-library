@@ -1,6 +1,6 @@
 ! Indonesia_Gamelan_Kyai_Kaduk_Manis_Pelog.scl
 !
-Measured scale M0076 in DaMuSc
+Gamelan Kyai Kaduk Manis Pelog (Many Gamelan), Indonesia
  25
 !
  203.0
@@ -29,10 +29,11 @@ Measured scale M0076 in DaMuSc
  4125.0
  4272.0
 !
-! W. A. Sethares. Tuning, Timbre, Spectrum, Scale. Springer Science and
-! Business Media, 2005
+! Sethares (2005). Tuning, Timbre, Spectrum, Scale. Springer-Verlag.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0076
 ! ref_id = 30
+! country = Indonesia
+! doi = https://doi.org/10.1007/b138848

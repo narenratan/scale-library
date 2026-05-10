@@ -1,6 +1,6 @@
 ! Myanmar_Sum_pyi.scl
 !
-Measured scale M0214 in DaMuSc
+Sum pyi (Sum Pyi), Myanmar
  7
 !
  193.0
@@ -19,3 +19,5 @@ Measured scale M0214 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0214
 ! ref_id = 37
+! country = Myanmar
+! doi = https://doi.org/10.1007/978-3-030-02695-0

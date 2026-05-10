@@ -1,6 +1,6 @@
 ! Egypt_Qanun.scl
 !
-Measured scale M0426 in DaMuSc
+Qanun (Qanun), Egypt
  14
 !
  96.0
@@ -18,10 +18,12 @@ Measured scale M0426 in DaMuSc
  1093.0
  1200.0
 !
-! M. Mokhtar and A. M. Mosharrafa. Modes in modern egyptian music.
-! Nature, 140(3543):548-549, 1937. doi: 10.1038/140548b0
+! Mokhtar, M.; Mosharrafa, A. M. (1937). Modes in Modern Egyptian Music.
+! Nature, 140(3543):548-549.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0426
 ! ref_id = 57
+! country = Egypt
+! doi = https://doi.org/10.1038/140548b0

@@ -1,6 +1,6 @@
 ! China_So-na.scl
 !
-Measured scale M0410 in DaMuSc
+So-na (Suona), China
  7
 !
  145.0
@@ -18,3 +18,4 @@ Measured scale M0410 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0410
 ! ref_id = 3
+! country = China

@@ -1,6 +1,6 @@
 ! Georgia_GCH-ID_008_All-H.scl
 !
-Measured scale M0301 in DaMuSc
+GCH-ID 008 All-H (Voice), Georgia
  12
 !
  173.0
@@ -24,3 +24,4 @@ Measured scale M0301 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0301
 ! ref_id = 55
+! country = Georgia

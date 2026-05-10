@@ -1,6 +1,6 @@
 ! Indonesia_Gamelan_Kyai_Kaduk_Manis_Slendro.scl
 !
-Measured scale M0074 in DaMuSc
+Gamelan Kyai Kaduk Manis Slendro (Many Gamelan), Indonesia
  17
 !
  266.0
@@ -21,10 +21,11 @@ Measured scale M0074 in DaMuSc
  3850.0
  4087.0
 !
-! W. A. Sethares. Tuning, Timbre, Spectrum, Scale. Springer Science and
-! Business Media, 2005
+! Sethares (2005). Tuning, Timbre, Spectrum, Scale. Springer-Verlag.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0074
 ! ref_id = 30
+! country = Indonesia
+! doi = https://doi.org/10.1007/b138848

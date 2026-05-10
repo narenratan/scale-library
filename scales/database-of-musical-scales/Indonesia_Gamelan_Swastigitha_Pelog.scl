@@ -1,6 +1,6 @@
 ! Indonesia_Gamelan_Swastigitha_Pelog.scl
 !
-Measured scale M0075 in DaMuSc
+Gamelan Swastigitha Pelog (Many Gamelan), Indonesia
  24
 !
  397.0
@@ -28,10 +28,11 @@ Measured scale M0075 in DaMuSc
  4274.0
  4551.0
 !
-! W. A. Sethares. Tuning, Timbre, Spectrum, Scale. Springer Science and
-! Business Media, 2005
+! Sethares (2005). Tuning, Timbre, Spectrum, Scale. Springer-Verlag.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0075
 ! ref_id = 30
+! country = Indonesia
+! doi = https://doi.org/10.1007/b138848

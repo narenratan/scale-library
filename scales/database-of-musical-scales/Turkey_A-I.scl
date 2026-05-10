@@ -1,6 +1,6 @@
 ! Turkey_A-I.scl
 !
-Measured scale M0331 in DaMuSc
+A-I (Ney), Turkey
  7
 !
  210.0
@@ -18,3 +18,4 @@ Measured scale M0331 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0331
 ! ref_id = 58
+! country = Turkey

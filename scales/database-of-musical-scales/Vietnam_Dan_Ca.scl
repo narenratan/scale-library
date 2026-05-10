@@ -1,6 +1,6 @@
 ! Vietnam_Dan_Ca.scl
 !
-Measured scale M0137 in DaMuSc
+Dan Ca (Dan Tranh), Vietnam
  5
 !
  182.0
@@ -9,11 +9,12 @@ Measured scale M0137 in DaMuSc
  883.0
  1200.0 ! Octave added to measured scale
 !
-! D. H. Keefe, E. M. Burns, and P. Nguyen. Vietnamese modal scales of
-! the dan tranh. Music Percept., 8(4):449-468, 1991. doi:
-! 10.2307/40285522
+! Keefe, Douglas H.; Burns, Edward M.; Nguyen, Phong (1991). Vietnamese
+! Modal Scales of the Dan Tranh. Music Perception, 8(4):449-468.
 !
 ! [info]
 ! source = DaMuSc
 ! measured_id = M0137
 ! ref_id = 24
+! country = Vietnam
+! doi = https://doi.org/10.2307/40285522

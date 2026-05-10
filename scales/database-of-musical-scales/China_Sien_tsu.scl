@@ -1,6 +1,6 @@
 ! China_Sien_tsu.scl
 !
-Measured scale M0415 in DaMuSc
+Sien tsu (Sanxian), China
  5
 !
  189.0
@@ -16,3 +16,4 @@ Measured scale M0415 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0415
 ! ref_id = 3
+! country = China

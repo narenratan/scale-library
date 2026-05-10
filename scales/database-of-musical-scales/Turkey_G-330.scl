@@ -1,6 +1,6 @@
 ! Turkey_G-330.scl
 !
-Measured scale M0330 in DaMuSc
+G-330 (Ney), Turkey
  7
 !
  249.0
@@ -18,3 +18,4 @@ Measured scale M0330 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0330
 ! ref_id = 58
+! country = Turkey

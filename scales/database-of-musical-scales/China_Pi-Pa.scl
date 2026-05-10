@@ -1,6 +1,6 @@
 ! China_Pi-Pa.scl
 !
-Measured scale M0416 in DaMuSc
+Pi-Pa (Pipa), China
  5
 !
  145.0
@@ -16,3 +16,4 @@ Measured scale M0416 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0416
 ! ref_id = 3
+! country = China

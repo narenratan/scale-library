@@ -1,6 +1,6 @@
 ! Thailand_Ranad_thum_lek.scl
 !
-Measured scale M0212 in DaMuSc
+Ranad thum lek (Ranat Thum Lek), Thailand
  16
 !
  145.0
@@ -27,3 +27,4 @@ Measured scale M0212 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0212
 ! ref_id = 34
+! country = Thailand

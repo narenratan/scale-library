@@ -1,6 +1,6 @@
 ! Georgia_Average_All-M.scl
 !
-Measured scale M0302 in DaMuSc
+Average All-M (Voice), Georgia
  14
 !
  197.0
@@ -26,3 +26,4 @@ Measured scale M0302 in DaMuSc
 ! source = DaMuSc
 ! measured_id = M0302
 ! ref_id = 55
+! country = Georgia
