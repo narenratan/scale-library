@@ -10,7 +10,7 @@ Run in the top-level repo directory as:
 import logging
 import shutil
 
-from scale_library import damusc, divisions, mailing_lists, xenharmonikon
+from scale_library import damusc, divisions, edos, mailing_lists, xenharmonikon
 from scale_library import SCALES_DIR, utils
 from scale_library.write_readme import write_readme
 from scale_library.index import build_index
@@ -24,6 +24,7 @@ def main():
     SCALES_DIR.mkdir()
     damusc_scl_count, damusc_references = damusc.main()
     divisions_scl_count, divisions_references = divisions.main()
+    edos_scl_count, edos_references = edos.main()
     mailing_lists_scl_count, mailing_lists_references = mailing_lists.main()
     xenharmonikon_scl_count, xenharmonikon_references = xenharmonikon.main()
 
@@ -32,6 +33,7 @@ def main():
         total_scl_count
         == damusc_scl_count
         + divisions_scl_count
+        + edos_scl_count
         + mailing_lists_scl_count
         + xenharmonikon_scl_count
     )
@@ -39,6 +41,7 @@ def main():
         total_scl_count=total_scl_count,
         damusc_scl_count=damusc_scl_count,
         divisions_scl_count=divisions_scl_count,
+        edos_scl_count=edos_scl_count,
         mailing_lists_scl_count=mailing_lists_scl_count,
         xenharmonikon_scl_count=xenharmonikon_scl_count,
     )
@@ -48,10 +51,11 @@ def main():
         | mailing_lists_references
         | damusc_references
         | divisions_references
+        | edos_references
     )
     assert len(references) == len(xenharmonikon_references) + len(
         mailing_lists_references
-    ) + len(damusc_references) + len(divisions_references)
+    ) + len(damusc_references) + len(divisions_references) + len(edos_references)
     scale_index = build_index(SCALES_DIR, references)
     scale_index.to_csv("scale-index.csv", index=False)
 

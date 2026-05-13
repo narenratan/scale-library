@@ -1,0 +1,14 @@
+! edo-04.scl
+!
+4 equal divisions of the octave
+ 4
+!
+ 300.0  ! 1\4
+ 600.0  ! 2\4
+ 900.0  ! 3\4
+ 1200.0 ! 4\4
+!
+! Augusto Novaro, Sistema Natural de la Música, 1951.
+!
+! [info]
+! source = EDO

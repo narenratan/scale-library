@@ -17,6 +17,7 @@ def write_readme(
     total_scl_count,
     damusc_scl_count,
     divisions_scl_count,
+    edos_scl_count,
     mailing_lists_scl_count,
     xenharmonikon_scl_count,
 ):
@@ -178,6 +179,37 @@ Diatonic tetrachord 10/9 * 10/9 * 27/25, Al-Farabi
 ! source = Divisions of the Tetrachord
 ! catalog_index = 475
 ```
+
+### EDOs: {edos_scl_count} scl files
+The `scales/edos` directory contains scl files for equal divisions of the
+octave from 1 through 72. For example:
+```
+! edo-09.scl
+!
+9 equal divisions of the octave
+ 9
+!
+ 133.333333  ! 1\\9
+ 266.666667  ! 2\\9
+ 400.0       ! 3\\9
+ 533.333333  ! 4\\9
+ 666.666667  ! 5\\9
+ 800.0       ! 6\\9
+ 933.333333  ! 7\\9
+ 1066.666667 ! 8\\9
+ 1200.0      ! 9\\9
+!
+! Augusto Novaro, Sistema Natural de la Música, 1951.
+!
+! [info]
+! source = EDO
+```
+On 9-EDO, Novaro wrote: "Los nueve sonidos proporcionan aproximaciones a los
+intervalos 13/12, 34/27, 27/17 y 24/13; puede decirse que se obtienen perfectas
+las relaciones 7/6 y 12/7." (The nine sounds provide approximations to the
+intervals 13/12, 34/27, 27/17 and 24/13; one can say that the relations 7/6 and
+12/7 are obtained perfectly.)
+
 
 ## Scale index
 The scales come with an [index](scale-index.csv) giving each scale along with

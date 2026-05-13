@@ -27,6 +27,7 @@ import itertools
 import operator
 
 from scale_library import SCALES_DIR, utils
+from scale_library.utils import Tone
 
 logger = logging.getLogger(__name__)
 
@@ -92,66 +93,6 @@ JOURNAL = {
     "xen17": (17, "Xenharmonikon 17 (1998)"),
     "xen18": (18, "Xenharmonikon 18 (2006)"),
 }
-
-
-class Tone:
-    def __init__(self, x, y=None, comment=None, *, period=1200.0, cents=None):
-        if y is None:
-            self.cents = x
-            self.ratio_n = None
-            self.ratio_d = None
-        else:
-            self.ratio_n = x
-            self.ratio_d = y
-            self.cents = 1200 * log2(x / y)
-            if cents is not None:
-                assert abs(cents - self.cents) <= 0.5
-        self.comment = comment
-        assert (
-            0.0 < self.cents <= period
-        ), f"Interval '{self}' outside period, check this"
-
-    @property
-    def is_ratio(self):
-        return self.ratio_n is not None
-
-    @classmethod
-    def from_fraction(cls, x, **kwargs):
-        return cls(x.numerator, x.denominator, **kwargs)
-
-    def __lt__(self, other):
-        if not isinstance(other, Tone):
-            return NotImplemented
-        return self.cents < other.cents
-
-    def _tone_string(self):
-        # scl spec says integers up to 2**31 - 1 should be supported in ratios
-        nmax = 2**31 - 1
-        rounding = 6
-        rounded_cents_str = str(round(self.cents, rounding))
-        if self.is_ratio:
-            if self.ratio_n <= nmax and self.ratio_d <= nmax:
-                return f"{self.ratio_n}/{self.ratio_d}"
-            return rounded_cents_str
-        elif isinstance(self.cents, float):
-            return rounded_cents_str
-        elif isinstance(self.cents, Decimal):
-            # Rounding a Decimal adds trailing zeros
-            if self.cents.as_tuple().exponent >= -rounding:
-                return str(self.cents)
-            return rounded_cents_str
-
-    def __repr__(self):
-        return self._tone_string()
-
-    def scl_line(self, pad=None):
-        r = self._tone_string()
-        if self.comment is not None:
-            n = 1
-            if pad is not None:
-                n = max(pad - len(r), n)
-            r += n * " " + f"! {self.comment}"
-        return r
 
 
 T = Tone

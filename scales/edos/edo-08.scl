@@ -1,0 +1,18 @@
+! edo-08.scl
+!
+8 equal divisions of the octave
+ 8
+!
+ 150.0  ! 1\8
+ 300.0  ! 2\8
+ 450.0  ! 3\8
+ 600.0  ! 4\8
+ 750.0  ! 5\8
+ 900.0  ! 6\8
+ 1050.0 ! 7\8
+ 1200.0 ! 8\8
+!
+! Augusto Novaro, Sistema Natural de la Música, 1951.
+!
+! [info]
+! source = EDO

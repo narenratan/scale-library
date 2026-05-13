@@ -8,6 +8,7 @@ import logging
 import os
 import re
 from collections import Counter
+from decimal import Decimal
 from fractions import Fraction
 from math import log2
 
@@ -106,6 +107,95 @@ def setup_logging():
         format="[%(levelname)s %(asctime)s] %(message)s",
         datefmt="%H:%M:%S",
     )
+
+
+class Tone:
+    """A scale tone, stored as cents and optionally as an exact ratio."""
+
+    def __init__(self, x, y=None, comment=None, *, period=1200.0, cents=None):
+        if y is None:
+            self.cents = x
+            self.ratio_n = None
+            self.ratio_d = None
+        else:
+            self.ratio_n = x
+            self.ratio_d = y
+            self.cents = 1200 * log2(x / y)
+            if cents is not None:
+                assert abs(cents - self.cents) <= 0.5
+        self.comment = comment
+        assert 0.0 < self.cents <= period, f"Interval '{self}' outside period"
+
+    @property
+    def is_ratio(self):
+        return self.ratio_n is not None
+
+    @classmethod
+    def from_fraction(cls, x, **kwargs):
+        return cls(x.numerator, x.denominator, **kwargs)
+
+    def __lt__(self, other):
+        if not isinstance(other, Tone):
+            return NotImplemented
+        return self.cents < other.cents
+
+    def _tone_string(self):
+        nmax = 2**31 - 1
+        rounding = 6
+        rounded_cents_str = str(round(self.cents, rounding))
+        if self.is_ratio:
+            if self.ratio_n <= nmax and self.ratio_d <= nmax:
+                return f"{self.ratio_n}/{self.ratio_d}"
+            return rounded_cents_str
+        elif isinstance(self.cents, float):
+            return rounded_cents_str
+        elif isinstance(self.cents, Decimal):
+            if self.cents.as_tuple().exponent >= -rounding:
+                return str(self.cents)
+            return rounded_cents_str
+        else:
+            return str(self.cents)
+
+    def __repr__(self):
+        return self._tone_string()
+
+    def scl_line(self, pad=None):
+        r = self._tone_string()
+        if self.comment is not None:
+            n = 1
+            if pad is not None:
+                n = max(pad - len(r), n)
+            r += n * " " + f"! {self.comment}"
+        return r
+
+
+def build_scl(filename, description, tones, info, comments=None):
+    """
+    Build scl file text from components.
+
+    Args:
+        filename: scl filename (e.g. "12-edo.scl")
+        description: one-line scale description (scl line 2)
+        tones: list of Tone objects or plain strings
+        info: dict of [info] block key-value pairs
+        comments: optional list of extra comment lines before [info]
+
+    Returns:
+        str: complete scl file text
+    """
+    tone_strings = [str(x) for x in sorted(tones)]
+    max_len = max(len(x) for x in tone_strings)
+    tone_lines = [
+        " " + (t.scl_line(pad=max_len + 1) if isinstance(t, Tone) else str(t))
+        for t in sorted(tones)
+    ]
+    scl_lines = [f"! {filename}", "!", description, f" {len(tones)}", "!"]
+    scl_lines += tone_lines
+    scl_lines += ["!"]
+    if comments:
+        scl_lines += [f"! {c}" for c in comments] + ["!"]
+    scl_lines += ["! [info]"] + [f"! {k} = {v}" for k, v in info.items()]
+    return "\n".join(scl_lines) + "\n"
 
 
 def parse_info(text):

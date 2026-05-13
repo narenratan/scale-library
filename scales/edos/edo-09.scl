@@ -1,0 +1,19 @@
+! edo-09.scl
+!
+9 equal divisions of the octave
+ 9
+!
+ 133.333333  ! 1\9
+ 266.666667  ! 2\9
+ 400.0       ! 3\9
+ 533.333333  ! 4\9
+ 666.666667  ! 5\9
+ 800.0       ! 6\9
+ 933.333333  ! 7\9
+ 1066.666667 ! 8\9
+ 1200.0      ! 9\9
+!
+! Augusto Novaro, Sistema Natural de la Música, 1951.
+!
+! [info]
+! source = EDO
