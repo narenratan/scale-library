@@ -1,0 +1,24 @@
+! CD03_06_Egypt.scl
+!
+Elle apparut d'entre les voiles / Occupe-toi de nous, ô Échanson - Darwîsh Muhammad al-Harîrî (ushshaq misri, Egypt)
+ 6
+!
+ 200.413281
+ 428.985414
+ 693.550756
+ 890.802288
+ 1014.590327
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 3
+! track = 6
+! mbid = f5fea1df-607a-4a48-a232-5a4ed0075324
+! maqam = ushshaq misri
+! region = Egypt
+! tonic_ref = lowest_peak

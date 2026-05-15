@@ -1,0 +1,25 @@
+! CD03_05_Egypt.scl
+!
+Nous voyons le collier / Lève-toi et viens vers la taverne - Darwîsh Muhammad al-Harîrî (ushshaq misri, Egypt)
+ 7
+!
+ 139.164813
+ 341.069893
+ 490.181263
+ 643.785309
+ 801.571336
+ 1033.25654
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 3
+! track = 5
+! mbid = 2b4121d6-4cb8-44ff-8896-911cf874a5f3
+! maqam = ushshaq misri
+! region = Egypt
+! tonic_ref = lowest_peak

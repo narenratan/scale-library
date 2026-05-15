@@ -1,0 +1,25 @@
+! CD05_01_bayati_Egypt.scl
+!
+Dis-moi : qu'as-tu gagné avec tes caprices ? - ‘Abduh al-Ḥāmūlī (bayati, Egypt)
+ 6
+!
+ 149.660005
+ 310.602434
+ 506.445052
+ 617.534314
+ 1009.303062
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 1
+! mbid = a1970ff0-9181-41a4-9cd3-6df7451413ec
+! maqam = bayati
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 126.12

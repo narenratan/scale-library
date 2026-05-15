@@ -1,0 +1,25 @@
+! CD04_10_Egypt.scl
+!
+Suite - Dâwûd Khudr Husnî (zunjuran, Egypt)
+ 7
+!
+ 109.580719
+ 381.892712
+ 489.662224
+ 706.178613
+ 887.379881
+ 1059.751448
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 10
+! mbid = 527aae16-ed30-4f6b-9ed6-f6da012ed71b
+! maqam = zunjuran
+! region = Egypt
+! tonic_ref = lowest_peak

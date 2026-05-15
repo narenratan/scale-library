@@ -1,0 +1,25 @@
+! CD04_07_Egypt.scl
+!
+Le prisonnier de l'amour - Dâwûd Khudr Husnî (zunjuran, Egypt)
+ 7
+!
+ 96.706998
+ 405.098732
+ 495.852974
+ 701.200132
+ 905.249072
+ 978.450094
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 7
+! mbid = 0775bb77-ff13-4616-a0cd-7a82fd677d9b
+! maqam = zunjuran
+! region = Egypt
+! tonic_ref = lowest_peak

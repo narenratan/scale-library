@@ -1,0 +1,24 @@
+! CD13_03_Iraq.scl
+!
+Suite - Ensemble de Muhammad Al-Qubbbânjî (dukah, Iraq)
+ 6
+!
+ 151.867081
+ 350.732366
+ 556.820607
+ 844.813466
+ 1049.683921
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 3
+! mbid = 06f39b86-6e71-4f11-9463-3c0d53743395
+! maqam = dukah
+! region = Iraq
+! tonic_ref = lowest_peak

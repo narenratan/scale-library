@@ -1,0 +1,25 @@
+! CD05_07_Egypt.scl
+!
+Mon coeur, par ton regard / Ô liaison qui honore - ‘Abduh al-Ḥāmūlī (bayati, Egypt)
+ 7
+!
+ 203.392261
+ 311.489966
+ 587.337167
+ 705.345546
+ 917.816148
+ 1060.038093
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 7
+! mbid = 06cb9592-3a9f-408c-aa0f-69b4913e5491
+! maqam = bayati
+! region = Egypt
+! tonic_ref = lowest_peak

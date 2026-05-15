@@ -1,0 +1,26 @@
+! CD01_19_rast_Egypt.scl
+!
+Pour l'amour / Celle dont tu étais amoureux - Darwîsh Muhammad al-Harîrî (rast, Egypt)
+ 7
+!
+ 205.151844
+ 347.409409
+ 498.819749
+ 702.711525
+ 905.816005
+ 1048.585406
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 1
+! track = 19
+! mbid = b18cbbae-6cc0-44b1-a29e-9d5dd0597977
+! maqam = rast
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 119.32

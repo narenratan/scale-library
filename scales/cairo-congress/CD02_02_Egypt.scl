@@ -1,0 +1,25 @@
+! CD02_02_Egypt.scl
+!
+Celui à la taille gracile est apparu / Détourne ton chemin vers la gazelle / Quelle sera ma ruse ? - Darwîsh Muhammad al-Harîrî (hicazkar, Egypt)
+ 7
+!
+ 193.7921
+ 328.806894
+ 584.953697
+ 688.727567
+ 913.129909
+ 1045.616611
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 2
+! mbid = 6104507c-61fd-449f-ad56-7c3fa1cdac6b
+! maqam = hicazkar
+! region = Egypt
+! tonic_ref = lowest_peak

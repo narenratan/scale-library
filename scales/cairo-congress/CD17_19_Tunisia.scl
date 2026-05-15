@@ -1,0 +1,24 @@
+! CD17_19_Tunisia.scl
+!
+Je vois une petite gazelle - L'ensemble de Muhammad Ghânim (unknown maqam, Tunisia)
+ 7
+!
+ 118.976096
+ 296.362998
+ 492.510025
+ 638.958739
+ 826.577839
+ 987.025601
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 17
+! track = 19
+! mbid = f5656c6a-e8f0-49d5-afde-f4cf91504d58
+! region = Tunisia
+! tonic_ref = lowest_peak

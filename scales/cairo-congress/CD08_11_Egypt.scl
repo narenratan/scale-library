@@ -1,0 +1,26 @@
+! CD08_11_Egypt.scl
+!
+Le quatrième salut - Mustafa Fahreddin Dede (udhdhal, Egypt)
+ 8
+!
+ 155.544308
+ 297.433
+ 495.312637
+ 648.643415
+ 787.794668
+ 894.584508
+ 992.063541
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 8
+! track = 11
+! mbid = c89ac166-c232-4755-8a1f-c0b5c35360b6
+! maqam = udhdhal
+! region = Egypt
+! tonic_ref = lowest_peak

@@ -1,0 +1,24 @@
+! CD16_17_Morocco.scl
+!
+Mon amour, lorsque je le contemple - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 6
+!
+ 217.191277
+ 504.396978
+ 715.15568
+ 917.422204
+ 1004.333655
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 17
+! mbid = a1233236-4f28-4f1e-aa41-96fa7f076a2d
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

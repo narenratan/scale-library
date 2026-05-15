@@ -1,0 +1,26 @@
+! CD01_14_saba_Egypt.scl
+!
+Baisse tes paupières / J'aime un astre - Darwîsh Muhammad al-Harîrî (saba, Egypt)
+ 7
+!
+ 141.315273
+ 272.599735
+ 412.757387
+ 664.868211
+ 817.532005
+ 961.945098
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 1
+! track = 14
+! mbid = 4cf54a59-ee90-4fb2-88cd-e67e5c963918
+! maqam = saba
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 202.04

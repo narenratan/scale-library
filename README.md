@@ -4,7 +4,7 @@ A library of microtonal scales with sources attributed.
 The `scales` directory contains the scl files for each scale. The scl files are
 also available for download as a zip on the [releases
 page](https://github.com/narenratan/scale-library/releases). The library
-currently contains 4236 scl files.
+currently contains 4569 scl files.
 
 ## Sources
 The scales come from the following sources:
@@ -130,6 +130,48 @@ GVM206-M (Voice), Georgia
 ! country = Georgia
 ! doi = https://doi.org/10.33906/musicologist.782094
 ```
+
+### ORD-CC32: 333 scl files
+[ORD-CC32](https://zenodo.org/records/15682346) is the Open Research Dataset of
+the 1932 Cairo Congress of Arab Music. It contains cent values computationally
+extracted from the audio recordings available in the [Internet
+Archive](https://archive.org/details/13.PsaumeDeLaTristesse). The
+`scales/cairo-congress` directory contains the scl files for the scale tones
+derived from each track.
+```
+! CD01_01_hijaz_Egypt.scl
+!
+Les nuits d'amour / Ô mon Commensal - Darwîsh Muhammad al-Harîrî (hijaz, Egypt)
+ 7
+!
+ 134.661786
+ 390.582837
+ 502.627574
+ 717.672797
+ 851.945267
+ 1009.856558
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 1
+! track = 1
+! mbid = d64461bb-c41b-4396-a671-caf846205b34
+! maqam = hijaz
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 135.23
+```
+Tracks where the tonic was annotated in the dataset (e.g.
+`CD01_01_hijaz_Egypt.scl`) are marked `tonic_ref = annotated`; the remaining
+tracks did not have the tonic annotated, so their scl files (e.g.
+`CD02_03_Egypt.scl`) omit the maqam from the filename and use the lowest
+detected peak as the tonic reference, so might not be the expected mode of the
+maqam.
 
 ### Divisions of the Tetrachord: 723 scl files
 John Chalmers' book *Divisions of the Tetrachord*, available online

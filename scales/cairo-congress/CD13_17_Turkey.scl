@@ -1,0 +1,25 @@
+! CD13_17_Turkey.scl
+!
+Peçrev - Mesut Cemil Bey (kurdili hicazkar, Turkey)
+ 7
+!
+ 87.365166
+ 297.887917
+ 501.806306
+ 598.648691
+ 786.231274
+ 995.544602
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 17
+! mbid = c530a6ed-a097-4c1f-bbf8-de31d4908765
+! maqam = kurdili hicazkar
+! region = Turkey
+! tonic_ref = lowest_peak

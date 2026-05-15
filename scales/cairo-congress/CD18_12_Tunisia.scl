@@ -1,0 +1,24 @@
+! CD18_12_Tunisia.scl
+!
+Chantez la grandeur de Dieu - L'ensemble de Muhammad Ghânim (isfahan, Tunisia)
+ 6
+!
+ 200.319128
+ 500.030325
+ 716.870233
+ 868.336062
+ 1057.403628
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 18
+! track = 12
+! mbid = 8f91516e-d33f-462a-9c87-9c280b8e69e7
+! maqam = isfahan
+! region = Tunisia
+! tonic_ref = lowest_peak

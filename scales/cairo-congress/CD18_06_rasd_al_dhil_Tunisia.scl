@@ -1,0 +1,27 @@
+! CD18_06_rasd_al_dhil_Tunisia.scl
+!
+Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî - L'ensemble de Muhammad Ghânim (rasd al-dhil, Tunisia)
+ 8
+!
+ 191.563133
+ 295.387835
+ 362.501938
+ 578.215593
+ 701.729019
+ 904.07149
+ 1069.155411
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 18
+! track = 6
+! mbid = e99cffab-eafd-4eef-ab83-fee985aa358c
+! maqam = rasd al-dhil
+! region = Tunisia
+! tonic_ref = annotated
+! tonic_hz = 118.60

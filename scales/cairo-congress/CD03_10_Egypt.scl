@@ -1,0 +1,27 @@
+! CD03_10_Egypt.scl
+!
+Suite - Aziz 'Uthmân (nahawand, Egypt)
+ 9
+!
+ 96.861862
+ 311.486269
+ 401.077705
+ 497.637451
+ 610.580247
+ 722.094217
+ 889.12462
+ 1002.975151
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 3
+! track = 10
+! mbid = 2cba6e72-5354-47fb-98cf-d531bf8450be
+! maqam = nahawand
+! region = Egypt
+! tonic_ref = lowest_peak

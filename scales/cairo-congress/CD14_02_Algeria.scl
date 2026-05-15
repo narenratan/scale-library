@@ -1,0 +1,27 @@
+! CD14_02_Algeria.scl
+!
+Tûshiya - L'ensemble d'Al-'Arabî Ben Sârî (raml al-ashiyya, Algeria)
+ 9
+!
+ 109.330371
+ 203.737962
+ 304.571842
+ 490.859907
+ 589.51153
+ 695.71926
+ 790.080778
+ 984.798741
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 14
+! track = 2
+! mbid = 7660c1e8-fef6-456f-aa51-e5f58ac5d85c
+! maqam = raml al-ashiyya
+! region = Algeria
+! tonic_ref = lowest_peak

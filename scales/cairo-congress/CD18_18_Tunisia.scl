@@ -1,0 +1,23 @@
+! CD18_18_Tunisia.scl
+!
+Ô mon enfer, ma grande souffrance - L'ensemble de Muhammad Ghânim (unknown maqam, Tunisia)
+ 6
+!
+ 192.462622
+ 355.182949
+ 492.270406
+ 684.474335
+ 993.851429
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 18
+! track = 18
+! mbid = fb0c35b7-db2f-4e53-8560-1ffe384966b3
+! region = Tunisia
+! tonic_ref = lowest_peak

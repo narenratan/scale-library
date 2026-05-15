@@ -1,0 +1,26 @@
+! CD13_11_Iraq.scl
+!
+Taqsîm mesuré, santûr - Ensemble de Muhammad Al-Qubbbânjî (sikah, hulaylawi, Iraq)
+ 8
+!
+ 171.567742
+ 275.421214
+ 359.651335
+ 610.659149
+ 742.677758
+ 844.483012
+ 1065.376481
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 11
+! mbid = c1c6cde0-daca-4262-9c60-4c319751f959
+! maqam = sikah, hulaylawi
+! region = Iraq
+! tonic_ref = lowest_peak

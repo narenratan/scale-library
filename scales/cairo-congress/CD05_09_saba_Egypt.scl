@@ -1,0 +1,26 @@
+! CD05_09_saba_Egypt.scl
+!
+Tu es le prince des beaux jeunes gens - ‘Abduh al-Ḥāmūlī (saba, Egypt)
+ 7
+!
+ 145.463759
+ 302.605487
+ 405.973282
+ 719.640675
+ 787.676068
+ 997.272554
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 9
+! mbid = c9d6673a-e6e9-43d8-b60b-8666cd433e94
+! maqam = saba
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 126.63

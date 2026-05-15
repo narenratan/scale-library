@@ -1,0 +1,25 @@
+! CD03_09_Egypt.scl
+!
+L'amour m'a Alangui - Aziz 'Uthmân (nahawand, Egypt)
+ 7
+!
+ 85.905462
+ 300.183203
+ 494.740251
+ 603.913152
+ 905.486546
+ 998.834889
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 3
+! track = 9
+! mbid = 19244b85-4657-44a5-b7c1-95349db76850
+! maqam = nahawand
+! region = Egypt
+! tonic_ref = lowest_peak

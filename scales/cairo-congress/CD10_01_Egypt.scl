@@ -1,0 +1,23 @@
+! CD10_01_Egypt.scl
+!
+Nous nous prosternons / Salut à Marie / Alléluia - Mîkhâ'îl Jirjis al-Batânûnî (unknown maqam, Egypt)
+ 6
+!
+ 100.086149
+ 332.714607
+ 381.688185
+ 533.170709
+ 829.005304
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 10
+! track = 1
+! mbid = 61bebb5b-867e-4701-84b4-06617d2529a1
+! region = Egypt
+! tonic_ref = lowest_peak

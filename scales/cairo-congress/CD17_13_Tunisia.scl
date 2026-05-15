@@ -1,0 +1,24 @@
+! CD17_13_Tunisia.scl
+!
+Au nom de Dieu et par Dieu - L'ensemble de Muhammad Ghânim (rast, Tunisia)
+ 6
+!
+ 280.424843
+ 484.371822
+ 564.418874
+ 879.854602
+ 975.173011
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 17
+! track = 13
+! mbid = 26fdb007-a447-439a-88b8-c2f525ba7c53
+! maqam = rast
+! region = Tunisia
+! tonic_ref = lowest_peak

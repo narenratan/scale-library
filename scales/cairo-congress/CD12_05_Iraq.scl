@@ -1,0 +1,24 @@
+! CD12_05_Iraq.scl
+!
+Comment me salues-tu sans évoquer la mémoire de mes parents ? - Ensemble de Muhammad Al-Qubbbânjî (mukhalif, Iraq)
+ 6
+!
+ 124.276319
+ 278.972222
+ 380.473173
+ 609.661105
+ 848.888889
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 12
+! track = 5
+! mbid = 72082dec-c45e-47bc-b533-99f05ab0cb2c
+! maqam = mukhalif
+! region = Iraq
+! tonic_ref = lowest_peak

@@ -1,0 +1,24 @@
+! CD08_07_Egypt.scl
+!
+Suite - Mustafa Fahreddin Dede (isfahan, Egypt)
+ 6
+!
+ 249.064085
+ 476.035081
+ 639.083694
+ 775.199994
+ 979.580214
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 8
+! track = 7
+! mbid = 8e71df7c-8f43-4c2a-94b6-51c4c8f9ebfe
+! maqam = isfahan
+! region = Egypt
+! tonic_ref = lowest_peak

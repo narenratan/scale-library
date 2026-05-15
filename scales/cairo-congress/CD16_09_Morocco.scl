@@ -1,0 +1,24 @@
+! CD16_09_Morocco.scl
+!
+Les lunes m'ont fait souffrir - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 6
+!
+ 202.715356
+ 500.695099
+ 697.085204
+ 901.680879
+ 997.363045
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 9
+! mbid = ac9f01d4-f111-4d72-a808-132af47a1593
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

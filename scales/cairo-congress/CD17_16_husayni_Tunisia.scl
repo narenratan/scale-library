@@ -1,0 +1,26 @@
+! CD17_16_husayni_Tunisia.scl
+!
+La pleine lune est apparue au matin / Toi qui es brun - L'ensemble de Muhammad Ghânim (husayni, Tunisia)
+ 7
+!
+ 176.503609
+ 294.12844
+ 491.874714
+ 704.535808
+ 875.676624
+ 996.031471
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 17
+! track = 16
+! mbid = 165ff51a-aa22-4684-86a4-cb17df06fd0e
+! maqam = husayni
+! region = Tunisia
+! tonic_ref = annotated
+! tonic_hz = 145.92

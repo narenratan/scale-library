@@ -1,0 +1,24 @@
+! CD13_01_Iraq.scl
+!
+Toi aux paupières langoureuses - Ensemble de Muhammad Al-Qubbbânjî (dukah, Iraq)
+ 6
+!
+ 127.083558
+ 342.410061
+ 554.292349
+ 833.071944
+ 1042.986037
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 1
+! mbid = af84aeec-ecf3-493f-af60-613616e95f02
+! maqam = dukah
+! region = Iraq
+! tonic_ref = lowest_peak

@@ -1,0 +1,24 @@
+! CD09_01_Egypt.scl
+!
+Ô Dieu, par l'ami très cher, muhammad - La Confrérie Laythiyya (unknown maqam, Egypt)
+ 7
+!
+ 194.179697
+ 291.225486
+ 558.33778
+ 683.388471
+ 907.161796
+ 1063.732309
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 9
+! track = 1
+! mbid = ca13aba9-9cfe-446e-8d27-25267586106e
+! region = Egypt
+! tonic_ref = lowest_peak

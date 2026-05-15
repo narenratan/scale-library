@@ -1,0 +1,27 @@
+! CD13_18_Turkey.scl
+!
+Suite - Mesut Cemil Bey (kurdili hicazkar, Turkey)
+ 9
+!
+ 85.454678
+ 291.750425
+ 351.461089
+ 495.42593
+ 595.272475
+ 710.768541
+ 791.315996
+ 995.400905
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 18
+! mbid = 047de0aa-ce55-4ac3-88bb-ca4a650613c6
+! maqam = kurdili hicazkar
+! region = Turkey
+! tonic_ref = lowest_peak

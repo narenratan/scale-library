@@ -1,0 +1,25 @@
+! CD15_13_Morocco.scl
+!
+Ne trouble pas mon bonheur avec elle / Ô soleil du crepuscule - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (unknown maqam, Morocco)
+ 8
+!
+ 190.347962
+ 274.287522
+ 382.411133
+ 507.86965
+ 707.141941
+ 892.457135
+ 988.944263
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 15
+! track = 13
+! mbid = 954c8e74-f629-4b84-8b5b-fb4f1e5f7b40
+! region = Morocco
+! tonic_ref = lowest_peak

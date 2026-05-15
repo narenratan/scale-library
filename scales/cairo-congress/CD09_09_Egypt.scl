@@ -1,0 +1,24 @@
+! CD09_09_Egypt.scl
+!
+Mon amour pour toi m'a fait citer en exemple / Un amour ayant enduré de la peine / Consacre-toi à Dieu - La Confrérie Laythiyya (unknown maqam, Egypt)
+ 7
+!
+ 196.839518
+ 427.619103
+ 563.629522
+ 690.015063
+ 922.164702
+ 1050.813611
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 9
+! track = 9
+! mbid = 4fba5c28-f106-44eb-a7d9-bb2e06114c0c
+! region = Egypt
+! tonic_ref = lowest_peak

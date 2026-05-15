@@ -1,0 +1,27 @@
+! CD02_16_Egypt.scl
+!
+Pourquoi donc ? / De longues nuits - Darwîsh Muhammad al-Harîrî (shawrak, Egypt)
+ 9
+!
+ 131.78805
+ 271.376133
+ 479.328015
+ 601.808007
+ 672.972973
+ 754.361028
+ 865.748101
+ 958.602203
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 16
+! mbid = f26c5bbc-bff9-4268-be35-9763dc048277
+! maqam = shawrak
+! region = Egypt
+! tonic_ref = lowest_peak

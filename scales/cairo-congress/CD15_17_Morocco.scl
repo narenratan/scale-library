@@ -1,0 +1,23 @@
+! CD15_17_Morocco.scl
+!
+Dieu lui révéla tous les secrets - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (unknown maqam, Morocco)
+ 6
+!
+ 208.962166
+ 505.402657
+ 716.918422
+ 901.308826
+ 996.377966
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 15
+! track = 17
+! mbid = bf7635bc-b7d6-4eb3-8063-22f961eded9d
+! region = Morocco
+! tonic_ref = lowest_peak

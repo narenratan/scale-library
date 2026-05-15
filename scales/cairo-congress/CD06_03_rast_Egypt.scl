@@ -1,0 +1,26 @@
+! CD06_03_rast_Egypt.scl
+!
+Voici le soleil et la lune - Muhammad al-Bahr (rast, Egypt)
+ 7
+!
+ 200.882831
+ 362.975833
+ 504.77559
+ 700.681215
+ 914.831228
+ 1072.320034
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 6
+! track = 3
+! mbid = ac62ce25-bdfe-4377-9177-c09ce2def5c2
+! maqam = rast
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 116.11

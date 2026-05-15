@@ -1,0 +1,25 @@
+! CD15_12_Morocco.scl
+!
+Vous êtes le refuge du mystique / Sans toi, je ne me serai pas consumé de passion - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (raml al-maya, Morocco)
+ 7
+!
+ 221.612795
+ 402.109946
+ 511.304755
+ 726.674333
+ 880.060352
+ 1005.315735
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 15
+! track = 12
+! mbid = 8a1f8ae4-21e9-4461-8d3c-3ee40afa294c
+! maqam = raml al-maya
+! region = Morocco
+! tonic_ref = lowest_peak

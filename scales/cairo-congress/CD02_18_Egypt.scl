@@ -1,0 +1,25 @@
+! CD02_18_Egypt.scl
+!
+Faon qui / Par le regard, par mon père, ô sublime beauté - Darwîsh Muhammad al-Harîrî (iraq, Egypt)
+ 7
+!
+ 123.368436
+ 298.844638
+ 486.113356
+ 700.908845
+ 851.067733
+ 998.503851
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 18
+! mbid = 6498cf1d-27f3-4933-a06e-0f0b73d7951b
+! maqam = iraq
+! region = Egypt
+! tonic_ref = lowest_peak

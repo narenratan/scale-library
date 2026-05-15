@@ -1,0 +1,26 @@
+! CD12_01_Iraq.scl
+!
+Pourquoi [te] vois-je soucieux ? - Ensemble de Muhammad Al-Qubbbânjî (mukhalif, Iraq)
+ 8
+!
+ 88.666667
+ 236.343931
+ 383.837838
+ 499.659574
+ 715.535135
+ 873.589744
+ 1070.719424
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 12
+! track = 1
+! mbid = c3861466-0383-440c-a19c-aac9e5a846e1
+! maqam = mukhalif
+! region = Iraq
+! tonic_ref = lowest_peak

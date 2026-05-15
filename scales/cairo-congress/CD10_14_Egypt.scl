@@ -1,0 +1,26 @@
+! CD10_14_Egypt.scl
+!
+Obi et Khen Bi / Omonogis / Golgotha - Mîkhâ'îl Jirjis al-Batânûnî (unknown maqam, Egypt)
+ 9
+!
+ 44.729438
+ 116.10144
+ 266.397883
+ 399.906377
+ 628.94003
+ 813.416264
+ 1006.154916
+ 1112.052955
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 10
+! track = 14
+! mbid = 310ecf56-d460-4624-be33-f3c902fcf6e7
+! region = Egypt
+! tonic_ref = lowest_peak

@@ -1,0 +1,27 @@
+! CD02_07_Egypt.scl
+!
+L'être au visage superbe m'a rendu visite - Darwîsh Muhammad al-Harîrî (sikah arabi, Egypt)
+ 9
+!
+ 217.495152
+ 363.208723
+ 511.908934
+ 712.60085
+ 826.828259
+ 925.139107
+ 947.658125
+ 1071.558964
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 7
+! mbid = 31da860a-8185-4c00-bc0c-abb96951ab16
+! maqam = sikah arabi
+! region = Egypt
+! tonic_ref = lowest_peak

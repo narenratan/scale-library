@@ -1,0 +1,26 @@
+! CD05_04_bayati_Egypt.scl
+!
+Suite - ‘Abduh al-Ḥāmūlī (bayati, Egypt)
+ 7
+!
+ 149.35045
+ 303.440689
+ 505.509906
+ 619.630614
+ 876.575448
+ 994.798875
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 4
+! mbid = 83f132ee-1116-4dcf-9e68-73a7876d1289
+! maqam = bayati
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 126.55

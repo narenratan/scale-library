@@ -1,0 +1,25 @@
+! CD02_10_Egypt.scl
+!
+Ayez Pitié de moi / Les mains du Zéphyr ont agité - Darwîsh Muhammad al-Harîrî (sikah arabi, Egypt)
+ 7
+!
+ 110.471565
+ 331.827122
+ 478.797154
+ 620.700707
+ 818.116778
+ 946.046501
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 10
+! mbid = b543b5c9-6d29-4aac-b792-f83e2427ad13
+! maqam = sikah arabi
+! region = Egypt
+! tonic_ref = lowest_peak

@@ -1,0 +1,25 @@
+! CD12_09_Iraq.scl
+!
+Taqsîm, santûr - Ensemble de Muhammad Al-Qubbbânjî (awj, Iraq)
+ 7
+!
+ 162.072356
+ 293.853115
+ 504.173509
+ 674.344685
+ 793.381493
+ 993.862104
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 12
+! track = 9
+! mbid = 7ccd0468-804b-470e-a4fa-9ea4c3af20e1
+! maqam = awj
+! region = Iraq
+! tonic_ref = lowest_peak

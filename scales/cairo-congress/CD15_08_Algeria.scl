@@ -1,0 +1,26 @@
+! CD15_08_Algeria.scl
+!
+Tu m'as meurtri sans raison - L'ensemble d'Al-'Arabî Ben Sârî (raml al-maya, Algeria)
+ 8
+!
+ 99.211137
+ 305.001983
+ 503.146945
+ 592.793402
+ 712.709032
+ 798.208859
+ 1000.228346
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 15
+! track = 8
+! mbid = 3c653ea8-45c0-444d-bcf9-2a6e47b1f83d
+! maqam = raml al-maya
+! region = Algeria
+! tonic_ref = lowest_peak

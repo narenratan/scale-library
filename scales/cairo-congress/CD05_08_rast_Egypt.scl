@@ -1,0 +1,26 @@
+! CD05_08_rast_Egypt.scl
+!
+Elle a trop duré, la froideur de mon Aimé - ‘Abduh al-Ḥāmūlī (rast, Egypt)
+ 7
+!
+ 212.702935
+ 356.323465
+ 491.401517
+ 699.112372
+ 813.652302
+ 1096.271375
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 8
+! mbid = 86fb578b-b33b-4bbd-a8ce-029d6b1e451d
+! maqam = rast
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 169.59

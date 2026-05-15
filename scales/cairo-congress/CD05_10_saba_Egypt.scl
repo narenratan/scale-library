@@ -1,0 +1,26 @@
+! CD05_10_saba_Egypt.scl
+!
+Suite - ‘Abduh al-Ḥāmūlī (saba, Egypt)
+ 7
+!
+ 146.952011
+ 304.210233
+ 414.631436
+ 731.953264
+ 802.30487
+ 1006.416788
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 10
+! mbid = d45c7b60-1266-4f62-bfba-5c0058c6a1e7
+! maqam = saba
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 126.44

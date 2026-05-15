@@ -1,0 +1,25 @@
+! CD02_04_Egypt.scl
+!
+Celui qui a unetaille élégante / Il m'a décoché la flèche - Darwîsh Muhammad al-Harîrî (nahawand, Egypt)
+ 7
+!
+ 100.870667
+ 313.509335
+ 396.849387
+ 624.856751
+ 796.670277
+ 907.384705
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 4
+! mbid = caf49d71-ef4c-4678-b877-16919266ede1
+! maqam = nahawand
+! region = Egypt
+! tonic_ref = lowest_peak

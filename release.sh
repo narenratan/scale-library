@@ -1,8 +1,7 @@
 #!/bin/bash
 set -eux
-HASH=$(git rev-parse HEAD)
 DATE=$(date +"%Y%m%d")
-DIR=scale-library-$DATE-${HASH:0:8}
+DIR=scale-library-$DATE
 rm -rf "$DIR"
 mkdir "$DIR"
 cp -r scales "$DIR"

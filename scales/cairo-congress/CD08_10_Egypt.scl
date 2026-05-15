@@ -1,0 +1,26 @@
+! CD08_10_Egypt.scl
+!
+Le bas monde a été illuminé - Mustafa Fahreddin Dede (hijaz, Egypt)
+ 8
+!
+ 136.158635
+ 280.686923
+ 471.587077
+ 637.563995
+ 783.554421
+ 886.654971
+ 983.768672
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 8
+! track = 10
+! mbid = 3d0949ae-9906-45af-9a97-d1b16f3b9987
+! maqam = hijaz
+! region = Egypt
+! tonic_ref = lowest_peak

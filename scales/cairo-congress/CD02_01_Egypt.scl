@@ -1,0 +1,26 @@
+! CD02_01_Egypt.scl
+!
+Le soleil de la perfection est apparu - Darwîsh Muhammad al-Harîrî (hicazkar, Egypt)
+ 8
+!
+ 141.719857
+ 344.364409
+ 469.303067
+ 633.973796
+ 751.287075
+ 841.026401
+ 1060.266395
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 1
+! mbid = 6bd9f26b-e820-4b29-b108-0dd43f0cc15a
+! maqam = hicazkar
+! region = Egypt
+! tonic_ref = lowest_peak

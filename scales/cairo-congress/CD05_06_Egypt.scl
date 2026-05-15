@@ -1,0 +1,25 @@
+! CD05_06_Egypt.scl
+!
+Celui qui t'a aimé mérite d'être auprès de toi - ‘Abduh al-Ḥāmūlī (bayati, Egypt)
+ 7
+!
+ 194.945519
+ 343.626513
+ 490.223093
+ 697.305099
+ 928.375731
+ 983.131904
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 6
+! mbid = 9537fc72-dc32-4261-87dc-fd392b3efa72
+! maqam = bayati
+! region = Egypt
+! tonic_ref = lowest_peak

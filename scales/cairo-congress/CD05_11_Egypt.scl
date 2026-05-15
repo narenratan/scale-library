@@ -1,0 +1,25 @@
+! CD05_11_Egypt.scl
+!
+La chance de la vie - ‘Abduh al-Ḥāmūlī (bayati, Egypt)
+ 7
+!
+ 218.819067
+ 357.977507
+ 504.786142
+ 709.637
+ 919.502416
+ 1061.074503
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 11
+! mbid = 04544421-fcb0-4a72-a3ef-14d94758534c
+! maqam = bayati
+! region = Egypt
+! tonic_ref = lowest_peak

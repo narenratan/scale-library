@@ -1,0 +1,23 @@
+! CD06_09_Egypt.scl
+!
+Patron, fais-moi Trvaerser le Nil - Muhammad Awad Al-Arabî (unknown maqam, Egypt)
+ 6
+!
+ 140.055765
+ 286.990068
+ 465.736098
+ 674.453977
+ 965.455124
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 6
+! track = 9
+! mbid = 9903a28f-b9f8-4aae-9e1e-06dbdc5bbb25
+! region = Egypt
+! tonic_ref = lowest_peak

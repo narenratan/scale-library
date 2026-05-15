@@ -1,0 +1,24 @@
+! CD06_10_Egypt.scl
+!
+Danse des princesses - Muhammad Awad Al-Arabî (unknown maqam, Egypt)
+ 7
+!
+ 132.085591
+ 275.868156
+ 479.122738
+ 614.169606
+ 826.77943
+ 966.230581
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 6
+! track = 10
+! mbid = a0e711fb-8650-4fa1-8745-332c6f6c9c25
+! region = Egypt
+! tonic_ref = lowest_peak

@@ -1,0 +1,23 @@
+! CD07_20_Egypt.scl
+!
+Observe de tes propres yeux - Annûsa Al-Misriyya (unknown maqam, Egypt)
+ 6
+!
+ 242.26087
+ 272.0
+ 560.546392
+ 677.063803
+ 916.302026
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 7
+! track = 20
+! mbid = d990bc67-3461-4a09-8048-630269f5ad5c
+! region = Egypt
+! tonic_ref = lowest_peak

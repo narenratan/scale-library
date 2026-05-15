@@ -1,0 +1,24 @@
+! CD14_08_Algeria.scl
+!
+Suite - L'ensemble d'Al-'Arabî Ben Sârî (raml al-ashiyya, Algeria)
+ 6
+!
+ 348.358671
+ 552.40814
+ 753.476521
+ 848.303877
+ 1051.058902
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 14
+! track = 8
+! mbid = 777a5ebd-57e6-46b8-936d-43391bd1be47
+! maqam = raml al-ashiyya
+! region = Algeria
+! tonic_ref = lowest_peak

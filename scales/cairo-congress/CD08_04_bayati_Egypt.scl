@@ -1,0 +1,26 @@
+! CD08_04_bayati_Egypt.scl
+!
+Pièce instrumentale, Bashraf - Mustafa Fahreddin Dede (bayati, Egypt)
+ 7
+!
+ 211.577144
+ 370.782581
+ 524.125936
+ 728.370994
+ 931.693487
+ 1094.09743
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 8
+! track = 4
+! mbid = d46a0df0-65d7-4adb-b06f-6a6e5ee1ab7f
+! maqam = bayati
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 144.42

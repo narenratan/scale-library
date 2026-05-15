@@ -1,0 +1,24 @@
+! CD16_14_Morocco.scl
+!
+Ô amoureux - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 6
+!
+ 201.764733
+ 509.440004
+ 717.507513
+ 914.143422
+ 991.160729
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 14
+! mbid = b2c2794f-f7ed-4e16-bac9-dd6fd3518f90
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

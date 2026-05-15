@@ -1,0 +1,28 @@
+! CD18_08_muhayyar_sikah_Tunisia.scl
+!
+Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî - L'ensemble de Muhammad Ghânim (muhayyar sikah, Tunisia)
+ 9
+!
+ 196.844412
+ 370.007471
+ 492.629281
+ 703.508091
+ 789.682485
+ 899.803115
+ 1023.084186
+ 1062.624019
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 18
+! track = 8
+! mbid = 4915da10-62ab-460f-9e1f-99426eee83d2
+! maqam = muhayyar sikah
+! region = Tunisia
+! tonic_ref = annotated
+! tonic_hz = 118.80

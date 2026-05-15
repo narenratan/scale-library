@@ -1,0 +1,24 @@
+! CD04_01_Egypt.scl
+!
+L'être aux beautés uniques est apparu - Dâwûd Khudr Husnî (hijaz, Egypt)
+ 6
+!
+ 138.591528
+ 345.430319
+ 742.019701
+ 844.118452
+ 1057.815568
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 1
+! mbid = 5499eb30-546f-4d0d-9645-17b0d2453b21
+! maqam = hijaz
+! region = Egypt
+! tonic_ref = lowest_peak

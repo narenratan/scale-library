@@ -1,0 +1,25 @@
+! CD04_06_Egypt.scl
+!
+Suite - Dâwûd Khudr Husnî (ushshaq misri, Egypt)
+ 7
+!
+ 142.345304
+ 345.682414
+ 596.362717
+ 638.583463
+ 843.456597
+ 1060.067289
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 6
+! mbid = 5d50c278-e216-4d1a-aa35-cb6c651ac988
+! maqam = ushshaq misri
+! region = Egypt
+! tonic_ref = lowest_peak

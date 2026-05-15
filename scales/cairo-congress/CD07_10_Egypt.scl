@@ -1,0 +1,24 @@
+! CD07_10_Egypt.scl
+!
+Danse lente - Taha Abû Mandûr (unknown maqam, Egypt)
+ 7
+!
+ 180.051113
+ 247.977039
+ 516.103985
+ 723.725732
+ 861.853813
+ 976.441649
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 7
+! track = 10
+! mbid = 279ad1be-658a-4f21-b3c5-f503310e7270
+! region = Egypt
+! tonic_ref = lowest_peak

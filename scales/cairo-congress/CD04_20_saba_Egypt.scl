@@ -1,0 +1,26 @@
+! CD04_20_saba_Egypt.scl
+!
+Suite - Dâwûd Khudr Husnî (saba, Egypt)
+ 7
+!
+ 167.38974
+ 303.802385
+ 410.789487
+ 709.280785
+ 789.557404
+ 1003.456002
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 20
+! mbid = fd833ffa-0e98-47a1-af11-9a2eeafdc651
+! maqam = saba
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 163.86

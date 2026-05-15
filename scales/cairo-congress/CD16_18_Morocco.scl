@@ -1,0 +1,24 @@
+! CD16_18_Morocco.scl
+!
+Parcours le Monde, tu en saisiras les secrets - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 6
+!
+ 213.146692
+ 504.808386
+ 705.733203
+ 908.647596
+ 994.398922
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 18
+! mbid = ce9afa36-9670-451f-a1e1-f645693f3c11
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

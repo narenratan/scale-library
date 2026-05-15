@@ -1,0 +1,28 @@
+! CD13_16_rast_segah_Syria.scl
+!
+Taqsîm, qânûn - Fawzî al-Qaltaqjî (rast, segah, Syria)
+ 9
+!
+ 199.899677
+ 363.127627
+ 480.60501
+ 702.435673
+ 791.571002
+ 899.870182
+ 986.298233
+ 1095.669789
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 16
+! mbid = 8cd91410-d47f-4fef-849d-7fcc6e86bc97
+! maqam = rast, segah
+! region = Syria
+! tonic_ref = annotated
+! tonic_hz = 140.94

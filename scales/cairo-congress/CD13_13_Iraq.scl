@@ -1,0 +1,28 @@
+! CD13_13_Iraq.scl
+!
+Taqsîm mesuré, Jôza, Dumbakk - Ensemble de Muhammad Al-Qubbbânjî (jabburi, awshar, Iraq)
+ 10
+!
+ 84.0867
+ 195.930966
+ 270.734057
+ 365.780181
+ 520.191024
+ 600.927657
+ 752.045167
+ 878.809851
+ 1101.244373
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 13
+! mbid = 732f5d44-e64e-4ee1-8e2c-1c875b965ccb
+! maqam = jabburi, awshar
+! region = Iraq
+! tonic_ref = lowest_peak

@@ -1,0 +1,23 @@
+! CD09_14_Egypt.scl
+!
+L'homme au miroir - Fâtima Al-Shâmiyya (unknown maqam, Egypt)
+ 6
+!
+ 133.77437
+ 273.589793
+ 506.317099
+ 822.628916
+ 973.411101
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 9
+! track = 14
+! mbid = 7a45023d-0b32-4abf-90e7-befe8d473ecb
+! region = Egypt
+! tonic_ref = lowest_peak

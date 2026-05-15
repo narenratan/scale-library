@@ -1,0 +1,24 @@
+! CD14_19_Algeria.scl
+!
+Les violettes embaument - L'ensemble d'Al-'Arabî Ben Sârî (sikah, Algeria)
+ 6
+!
+ 95.634087
+ 294.501092
+ 449.633318
+ 783.53173
+ 991.821701
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 14
+! track = 19
+! mbid = 807226e5-be14-4698-b1f7-7c5888f31d3f
+! maqam = sikah
+! region = Algeria
+! tonic_ref = lowest_peak

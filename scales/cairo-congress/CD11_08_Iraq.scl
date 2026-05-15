@@ -1,0 +1,24 @@
+! CD11_08_Iraq.scl
+!
+Suite - Ensemble de Muhammad Al-Qubbbânjî (ibrahimi, Iraq)
+ 6
+!
+ 166.978815
+ 303.672554
+ 498.748467
+ 705.394604
+ 986.778936
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 11
+! track = 8
+! mbid = 040cb727-9aea-4e2f-b538-4c180d172f4c
+! maqam = ibrahimi
+! region = Iraq
+! tonic_ref = lowest_peak

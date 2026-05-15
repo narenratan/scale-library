@@ -1,0 +1,26 @@
+! CD13_15_Syria.scl
+!
+Taqsîm, qânûn - Fawzî al-Qaltaqjî (hicazkar, saba, Syria)
+ 8
+!
+ 113.587956
+ 287.359273
+ 411.415939
+ 527.901457
+ 826.260492
+ 889.730479
+ 1110.59298
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 15
+! mbid = 22ef2b6a-0211-4a79-be70-f4ed781a15af
+! maqam = hicazkar, saba
+! region = Syria
+! tonic_ref = lowest_peak

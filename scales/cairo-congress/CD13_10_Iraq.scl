@@ -1,0 +1,26 @@
+! CD13_10_Iraq.scl
+!
+Taqsîm mesuré, santûr - Ensemble de Muhammad Al-Qubbbânjî (tahir, hadidi, Iraq)
+ 8
+!
+ 181.746203
+ 374.064444
+ 594.978785
+ 746.377759
+ 871.362622
+ 976.167076
+ 1080.357362
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 13
+! track = 10
+! mbid = 10f74914-b908-4fab-ba7e-8d48f5e36f0a
+! maqam = tahir, hadidi
+! region = Iraq
+! tonic_ref = lowest_peak

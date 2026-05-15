@@ -1,0 +1,25 @@
+! CD02_05_Egypt.scl
+!
+Ô nuit d'amour / Elle ranime les âmes - Darwîsh Muhammad al-Harîrî (jaharkah, Egypt)
+ 7
+!
+ 146.199842
+ 353.464656
+ 538.977809
+ 611.462384
+ 850.371147
+ 1038.722835
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 5
+! mbid = dd934074-8b05-4ac5-961e-2bb2ac6eb788
+! maqam = jaharkah
+! region = Egypt
+! tonic_ref = lowest_peak

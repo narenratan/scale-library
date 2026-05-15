@@ -1,0 +1,24 @@
+! CD12_15_Iraq.scl
+!
+Depuis le jour de ton départ - Ensemble de Muhammad Al-Qubbbânjî (bherzawi, Iraq)
+ 6
+!
+ 150.816183
+ 297.523833
+ 503.449266
+ 714.636397
+ 991.495005
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 12
+! track = 15
+! mbid = ca80038d-9786-4fa0-89e4-54eff6c90154
+! maqam = bherzawi
+! region = Iraq
+! tonic_ref = lowest_peak

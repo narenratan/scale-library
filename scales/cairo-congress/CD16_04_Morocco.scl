@@ -1,0 +1,25 @@
+! CD16_04_Morocco.scl
+!
+Mon amour est avec moi - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 7
+!
+ 207.95914
+ 413.144293
+ 502.520384
+ 708.974206
+ 882.529676
+ 987.442492
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 4
+! mbid = 8c86e1f6-1791-4cd4-b383-faf847378c61
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

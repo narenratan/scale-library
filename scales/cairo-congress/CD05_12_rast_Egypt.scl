@@ -1,0 +1,26 @@
+! CD05_12_rast_Egypt.scl
+!
+Mon seigneur, je suis ton esclave - ‘Abduh al-Ḥāmūlī (rast, Egypt)
+ 7
+!
+ 214.376235
+ 348.660596
+ 487.512008
+ 706.18858
+ 822.01651
+ 1099.028516
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 5
+! track = 12
+! mbid = aed35543-2368-4a14-a27d-532e2a5b4529
+! maqam = rast
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 114.48

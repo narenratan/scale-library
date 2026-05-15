@@ -1,0 +1,24 @@
+! CD06_08_Egypt.scl
+!
+Elles sont douces les grenades de son pays - Muhammad Awad Al-Arabî (unknown maqam, Egypt)
+ 7
+!
+ 136.643107
+ 287.088857
+ 471.572413
+ 680.657803
+ 853.411698
+ 974.118997
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 6
+! track = 8
+! mbid = e52b088d-3a22-4a40-b489-00b61e790744
+! region = Egypt
+! tonic_ref = lowest_peak

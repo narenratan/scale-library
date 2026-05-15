@@ -1,0 +1,26 @@
+! CD04_17_saba_Egypt.scl
+!
+Aime celui qui est fou de toi - Dâwûd Khudr Husnî (saba, Egypt)
+ 7
+!
+ 150.014675
+ 300.099482
+ 388.281343
+ 685.905952
+ 871.62998
+ 1004.654798
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 17
+! mbid = dd65f8e6-51c2-4a76-ac2d-f2a1dfdcbbfe
+! maqam = saba
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 163.69

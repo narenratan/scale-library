@@ -1,0 +1,26 @@
+! CD16_16_Morocco.scl
+!
+La pléïade s'est détournée / Comment se reposerait-il ? - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 8
+!
+ 212.912598
+ 418.824395
+ 507.437216
+ 714.390746
+ 911.471529
+ 1012.995494
+ 1103.007447
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 16
+! mbid = 5b39e783-6028-4837-8b1b-a22fe2091fb3
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

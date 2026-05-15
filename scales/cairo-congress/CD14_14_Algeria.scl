@@ -1,0 +1,25 @@
+! CD14_14_Algeria.scl
+!
+Nous avons vécu dans le bonheur - L'ensemble d'Al-'Arabî Ben Sârî (raml al-maya, Algeria)
+ 7
+!
+ 97.710319
+ 285.175584
+ 481.743866
+ 690.729982
+ 783.864177
+ 981.800554
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 14
+! track = 14
+! mbid = 06ffb23f-474f-4443-8350-384328041145
+! maqam = raml al-maya
+! region = Algeria
+! tonic_ref = lowest_peak

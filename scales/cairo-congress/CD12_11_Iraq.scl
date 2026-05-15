@@ -1,0 +1,24 @@
+! CD12_11_Iraq.scl
+!
+Taqsîm, 'ûd - Ensemble de Muhammad Al-Qubbbânjî (lami, Iraq)
+ 6
+!
+ 290.421452
+ 495.688337
+ 681.757564
+ 785.140927
+ 992.3724
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 12
+! track = 11
+! mbid = c4d66836-02b3-48f2-ab84-8195c3c3286d
+! maqam = lami
+! region = Iraq
+! tonic_ref = lowest_peak

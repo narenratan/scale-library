@@ -1,0 +1,27 @@
+! CD04_03_bayati_Egypt.scl
+!
+Depuis le jour où j'ai connu l'amour - Dâwûd Khudr Husnî (bayati, Egypt)
+ 8
+!
+ 151.632633
+ 310.977654
+ 498.42075
+ 616.618097
+ 716.06365
+ 802.668745
+ 996.053265
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 3
+! mbid = d65dd592-ca4c-4ceb-8f08-760cdc185d6c
+! maqam = bayati
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 137.72

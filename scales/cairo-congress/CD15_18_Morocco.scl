@@ -1,0 +1,22 @@
+! CD15_18_Morocco.scl
+!
+Dieu leur fit apparaître / Une lune parfaite - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (unknown maqam, Morocco)
+ 5
+!
+ 210.951455
+ 504.504279
+ 704.232264
+ 1006.135512
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 15
+! track = 18
+! mbid = f0aae8b9-cfed-4185-8552-bac8bd3c4a1e
+! region = Morocco
+! tonic_ref = lowest_peak

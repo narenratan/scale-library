@@ -1,0 +1,26 @@
+! CD15_02_Algeria.scl
+!
+Ô amoureux - L'ensemble d'Al-'Arabî Ben Sârî (rasd al-dhil, Algeria)
+ 8
+!
+ 96.696319
+ 289.960927
+ 420.969119
+ 487.843699
+ 691.122841
+ 782.098547
+ 991.156162
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 15
+! track = 2
+! mbid = c9eb1627-03fb-489a-93ce-e94e769e8d93
+! maqam = rasd al-dhil
+! region = Algeria
+! tonic_ref = lowest_peak

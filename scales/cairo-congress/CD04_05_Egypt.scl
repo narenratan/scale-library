@@ -1,0 +1,24 @@
+! CD04_05_Egypt.scl
+!
+J'ai bu la patience jusqu'à la lie - Dâwûd Khudr Husnî (ushshaq misri, Egypt)
+ 6
+!
+ 194.129453
+ 449.538462
+ 483.43957
+ 702.625873
+ 909.10989
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 5
+! mbid = 80382db4-d960-485f-baa6-fe9ef77bf29d
+! maqam = ushshaq misri
+! region = Egypt
+! tonic_ref = lowest_peak

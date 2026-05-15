@@ -1,0 +1,23 @@
+! CD12_21_Iraq.scl
+!
+(Suite) Ô toi qui traverses la steppe - Ensemble de Muhammad Al-Qubbbânjî (unknown maqam, Iraq)
+ 6
+!
+ 210.288817
+ 292.112416
+ 484.635436
+ 691.282676
+ 817.09328
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 12
+! track = 21
+! mbid = e2009386-0e31-40c5-826e-8b1d8cc8c335
+! region = Iraq
+! tonic_ref = lowest_peak

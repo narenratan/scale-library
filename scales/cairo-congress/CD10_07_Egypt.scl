@@ -1,0 +1,24 @@
+! CD10_07_Egypt.scl
+!
+Agyos Esheros / Tralmustos Avi - Mîkhâ'îl Jirjis al-Batânûnî (unknown maqam, Egypt)
+ 7
+!
+ 174.834849
+ 393.775153
+ 498.502426
+ 547.896365
+ 665.588673
+ 942.793335
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 10
+! track = 7
+! mbid = 49f39450-91a3-420f-b0d7-b6af480f6443
+! region = Egypt
+! tonic_ref = lowest_peak

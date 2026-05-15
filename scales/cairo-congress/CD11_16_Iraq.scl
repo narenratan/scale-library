@@ -1,0 +1,25 @@
+! CD11_16_Iraq.scl
+!
+Comment un passionné peut-il triompher de ta froideur ? - Ensemble de Muhammad Al-Qubbbânjî (mansuri, Iraq)
+ 7
+!
+ 152.572194
+ 347.264064
+ 545.735932
+ 693.02472
+ 841.105528
+ 1046.325346
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 11
+! track = 16
+! mbid = b10309d5-426b-45a0-b879-e71d9b0ea671
+! maqam = mansuri
+! region = Iraq
+! tonic_ref = lowest_peak

@@ -1,0 +1,26 @@
+! CD01_02_hijaz_Egypt.scl
+!
+Mon amour m'a quitté alors que je n'ai aucun tort / Toi qui as la taille comme une branche - Darwîsh Muhammad al-Harîrî (hijaz, Egypt)
+ 7
+!
+ 104.181863
+ 396.171372
+ 499.967001
+ 717.958195
+ 842.522887
+ 1015.847084
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 1
+! track = 2
+! mbid = 1f30773c-6699-484a-8f56-d9a2704f53cb
+! maqam = hijaz
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 134.59

@@ -1,0 +1,24 @@
+! CD09_06_Egypt.scl
+!
+Je t'ai supplié au nom de Dieu - La Confrérie Laythiyya (unknown maqam, Egypt)
+ 7
+!
+ 219.121433
+ 345.156054
+ 585.523123
+ 735.935564
+ 870.373192
+ 1079.410934
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 9
+! track = 6
+! mbid = 72f2129a-98ad-47a6-ab6d-5ce5f3553e5f
+! region = Egypt
+! tonic_ref = lowest_peak

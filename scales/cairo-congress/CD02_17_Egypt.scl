@@ -1,0 +1,25 @@
+! CD02_17_Egypt.scl
+!
+Gloire à celui qui a créé ta beauté - Darwîsh Muhammad al-Harîrî (iraq, Egypt)
+ 7
+!
+ 153.364437
+ 305.641617
+ 489.103867
+ 717.008018
+ 848.371855
+ 991.463169
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 2
+! track = 17
+! mbid = 6a8a1fa9-0723-4075-984e-4df74c29bf9a
+! maqam = iraq
+! region = Egypt
+! tonic_ref = lowest_peak

@@ -1,0 +1,27 @@
+! CD04_19_saba_Egypt.scl
+!
+Je n'aime que toi - Dâwûd Khudr Husnî (saba, Egypt)
+ 8
+!
+ 154.653168
+ 309.09922
+ 403.880597
+ 690.987011
+ 764.103141
+ 856.068953
+ 999.080733
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 19
+! mbid = 9483542f-2015-4ce8-a5e9-269226266873
+! maqam = saba
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 163.82

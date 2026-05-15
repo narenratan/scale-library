@@ -1,0 +1,24 @@
+! CD03_02_Egypt.scl
+!
+Ah, comme les êtres chers sont injustes ! / Toi qui a décroché une flèche au coeur / Qu'ont donc observé mes yeux ? - Darwîsh Muhammad al-Harîrî (ajam ushayran, Egypt)
+ 6
+!
+ 182.543634
+ 495.060969
+ 689.426734
+ 900.726596
+ 985.736409
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 3
+! track = 2
+! mbid = d3f97096-833e-4183-8ff3-ccf509e11a45
+! maqam = ajam ushayran
+! region = Egypt
+! tonic_ref = lowest_peak

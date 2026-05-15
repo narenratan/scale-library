@@ -1,0 +1,25 @@
+! CD16_10_Morocco.scl
+!
+Quiconque aime - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 7
+!
+ 202.253011
+ 377.487114
+ 502.667813
+ 692.676079
+ 791.442511
+ 984.39553
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 10
+! mbid = 8009bac0-073e-4c94-8d79-ade68860a901
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

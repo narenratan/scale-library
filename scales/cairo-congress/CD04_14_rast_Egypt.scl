@@ -1,0 +1,26 @@
+! CD04_14_rast_Egypt.scl
+!
+Suite - Dâwûd Khudr Husnî (rast, Egypt)
+ 7
+!
+ 211.62103
+ 351.899935
+ 506.2436
+ 715.720387
+ 861.347312
+ 1012.772858
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 14
+! mbid = cffc5643-bed9-430f-bdb1-631d4ff05b82
+! maqam = rast
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 122.04

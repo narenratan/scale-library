@@ -1,0 +1,27 @@
+! CD01_18_rast_Egypt.scl
+!
+Il apparut et dans sa main - Darwîsh Muhammad al-Harîrî (rast, Egypt)
+ 8
+!
+ 205.792504
+ 343.214669
+ 498.740606
+ 696.434676
+ 805.166819
+ 924.493427
+ 1042.033396
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 1
+! track = 18
+! mbid = 8beca646-a433-47bb-aede-af1cdbc4e4b8
+! maqam = rast
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 119.92

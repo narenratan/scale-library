@@ -1,0 +1,24 @@
+! CD14_03_Algeria.scl
+!
+Le soleil du crépuscule - L'ensemble d'Al-'Arabî Ben Sârî (raml al-ashiyya, Algeria)
+ 6
+!
+ 294.897323
+ 505.353735
+ 690.712494
+ 797.506017
+ 995.165023
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 14
+! track = 3
+! mbid = 00d52d26-79e6-4881-8ab0-1928f0a61700
+! maqam = raml al-ashiyya
+! region = Algeria
+! tonic_ref = lowest_peak

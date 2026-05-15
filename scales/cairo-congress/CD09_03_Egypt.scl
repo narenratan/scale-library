@@ -1,0 +1,21 @@
+! CD09_03_Egypt.scl
+!
+Les âmes de nu'Mân ne sont-elles qu'un souffle ? - La Confrérie Laythiyya (unknown maqam, Egypt)
+ 4
+!
+ 462.485604
+ 611.646422
+ 970.553185
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 9
+! track = 3
+! mbid = 0ac744ca-8f2e-42db-b2bd-f8c2ffe994d8
+! region = Egypt
+! tonic_ref = lowest_peak

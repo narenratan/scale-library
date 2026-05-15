@@ -1,0 +1,24 @@
+! CD16_07_Morocco.scl
+!
+Une lune parfaite - L'ensemble de 'Umar Fâ'id Al-Ju'aydî (ushshaq, Morocco)
+ 6
+!
+ 200.119611
+ 486.750577
+ 699.598904
+ 889.005186
+ 991.967023
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 16
+! track = 7
+! mbid = 51676d86-8ff2-4afc-a6c0-14e9a383fe0f
+! maqam = ushshaq
+! region = Morocco
+! tonic_ref = lowest_peak

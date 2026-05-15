@@ -1,0 +1,26 @@
+! CD12_23_Iraq.scl
+!
+Purifie ton coeur avec des coupes de vin - Ensemble de Muhammad Al-Qubbbânjî (humayun, Iraq)
+ 8
+!
+ 139.28432
+ 341.750945
+ 458.973729
+ 706.533538
+ 828.732998
+ 939.428274
+ 1045.440503
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 12
+! track = 23
+! mbid = 64f625d3-e55d-4575-87d0-82bc8244250b
+! maqam = humayun
+! region = Iraq
+! tonic_ref = lowest_peak

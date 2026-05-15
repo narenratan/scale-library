@@ -1,0 +1,24 @@
+! CD04_11_Egypt.scl
+!
+Chaque jour, je me plains de la blessure de mon coeur - Dâwûd Khudr Husnî (nahawand, Egypt)
+ 6
+!
+ 212.781397
+ 316.324574
+ 611.123081
+ 706.719475
+ 811.654054
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 4
+! track = 11
+! mbid = 6e42c6f5-6613-45be-aca4-4cf944d08540
+! maqam = nahawand
+! region = Egypt
+! tonic_ref = lowest_peak

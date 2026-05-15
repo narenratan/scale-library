@@ -1,0 +1,26 @@
+! CD15_05_rast_Algeria.scl
+!
+Pourquoi le nuage pleure-t-il ? - L'ensemble d'Al-'Arabî Ben Sârî (rast, Algeria)
+ 7
+!
+ 206.696821
+ 309.386406
+ 502.927652
+ 705.551575
+ 906.353459
+ 1009.15048
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 15
+! track = 5
+! mbid = 408a02eb-84d9-48ce-953d-1928dd12e097
+! maqam = rast
+! region = Algeria
+! tonic_ref = annotated
+! tonic_hz = 212.73

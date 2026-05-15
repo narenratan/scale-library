@@ -1,0 +1,25 @@
+! CD01_03_hijaz_Egypt.scl
+!
+Ô Gazelle qui a fait honte aux faons / Emplis ma coupe, ô mon précieux amour - Darwîsh Muhammad al-Harîrî (hijaz, Egypt)
+ 6
+!
+ 113.279233
+ 498.05506
+ 717.002372
+ 851.769743
+ 1001.879972
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 1
+! track = 3
+! mbid = ce1c9cde-699d-4970-bd42-c200affa0872
+! maqam = hijaz
+! region = Egypt
+! tonic_ref = annotated
+! tonic_hz = 135.49

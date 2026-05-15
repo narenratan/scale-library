@@ -1,0 +1,23 @@
+! CD09_02_Egypt.scl
+!
+Le seuil de ton sanctuaire est le but / Est-ce que la flamme de Laylâ ? - La Confrérie Laythiyya (unknown maqam, Egypt)
+ 6
+!
+ 179.148401
+ 583.641383
+ 730.214679
+ 843.950489
+ 997.099134
+ 1200.0
+!
+! Bozkurt, B. (2025). An Open Research Dataset of the 1932 Cairo
+! Congress of Arab Music. arXiv:2506.14503.
+!
+! [info]
+! source = ORD-CC32
+! doi = https://doi.org/10.5281/zenodo.15682346
+! cd = 9
+! track = 2
+! mbid = d4dd9084-5457-4191-bb28-80e6c2e1fc95
+! region = Egypt
+! tonic_ref = lowest_peak
