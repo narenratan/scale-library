@@ -81,6 +81,25 @@ def validate_scale(scale):
                 return False
         except ValueError:
             pass
+
+    cents_values = [t.cents for t in scale.tones]
+    if cents_values != sorted(cents_values):
+        logger.debug("Failed sorted pitches check")
+        return False
+
+    if cents_values and cents_values[0] < 0:
+        logger.debug("Failed negative pitch check")
+        return False
+
+    if cents_values and abs(cents_values[0]) < 1e-3:
+        logger.debug("Failed zero first pitch check")
+        return False
+
+    rounded = [round(c, 5) for c in cents_values]
+    if len(rounded) != len(set(rounded)):
+        logger.debug("Failed duplicate pitches check")
+        return False
+
     return True
 
 

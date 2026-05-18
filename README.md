@@ -4,7 +4,7 @@ A library of microtonal scales with sources attributed.
 The `scales` directory contains the scl files for each scale. The scl files are
 also available for download as a zip on the [releases
 page](https://github.com/narenratan/scale-library/releases). The library
-currently contains 4569 scl files.
+currently contains 4520 scl files.
 
 ## Sources
 The scales come from the following sources:
@@ -50,7 +50,7 @@ find while reading the 18 printed issues of Xenharmonikon published 1974-2006
 ! whole_number = 12
 ```
 
-### Mailing lists: 1320 scl files
+### Mailing lists: 1271 scl files
 The `scales/mailing-lists` directory contains scl files extracted from the
 [Yahoo tuning groups ultimate
 backup](https://github.com/YahooTuningGroupsUltimateBackup/YahooTuningGroupsUltimateBackup),
