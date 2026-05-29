@@ -28,8 +28,6 @@ best_title, best_authors, and best_year.  The upstream sources.csv is never
 modified.
 """
 
-from __future__ import annotations
-
 import argparse
 import csv
 import html

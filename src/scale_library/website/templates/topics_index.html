@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Microtonal mailing list topics | scale-library{% endblock %}
+
+{% block meta_description %}{{ topics | length }} threads from the tuning mailing lists (Yahoo Tuning Groups archive) that contain extracted scales.{% endblock %}
+
+{% block content %}
+<h1>Mailing list topics</h1>
+<p>{{ topics | length }} threads from the mailing lists that contain extracted scales.</p>
+<p>See the <a href="https://yahootuninggroupsultimatebackup.github.io">Yahoo Tuning Groups Ultimate Backup</a> for the full archive.</p>
+<table class="auto">
+  <thead>
+    <tr><th>Topic</th><th>List</th><th>Date</th><th>Scales</th></tr>
+  </thead>
+  <tbody>
+    {% for t in topics %}
+    <tr>
+      <td><a href="/source/mailing-lists/{{ t.list_name }}/{{ t.topic_id }}/">{{ t.subject }}</a></td>
+      <td>{{ t.list_name }}</td>
+      <td class="nowrap">{{ t.date }}</td>
+      <td>{{ t.count }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

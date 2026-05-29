@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}All recordings | scale-library{% endblock %}
+
+{% block meta_description %}Recordings using scales from scale-library, organised by artist and album.{% endblock %}
+
+{% block content %}
+<h1>All recordings</h1>
+<p><a href="/recordings/">Scales with recordings</a></p>
+
+<table class="auto spacious">
+  <thead>
+    <tr>
+      <th>Artist</th>
+      <th>Album</th>
+      <th>Year</th>
+      <th>Title</th>
+      <th>Scale</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for artist in artists %}
+    {% for album in artist.albums %}
+    {% for track in album.tracks %}
+    <tr>
+      <td>{{ artist.artist }}</td>
+      <td>{{ album.album }}</td>
+      <td class="nowrap">{{ album.year }}</td>
+      <td><a href="{{ track.url }}">{{ track.title }}</a></td>
+      <td class="nowrap"><a href="/scales/{{ track.scale.stem }}/">{{ track.scale.scl_file[:-4] }}</a></td>
+    </tr>
+    {% endfor %}
+    {% endfor %}
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

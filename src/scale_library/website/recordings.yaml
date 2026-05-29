@@ -1,0 +1,2471 @@
+- artist: Elaine Walker
+  album: Drum 'n' Space
+  year: 2011
+  tracks:
+    - url: https://ziaspace.bandcamp.com/track/love-song-bohlen-pierce-scale
+      title: Love Song (Bohlen-Pierce Scale)
+      scales:
+        - xenharmonikon/xen14-mclaren-nonoctave-13-3
+    - url: https://ziaspace.bandcamp.com/track/greater-good-bohlen-pierce-scale
+      title: Greater Good (Bohlen-Pierce Scale)
+      scales:
+        - xenharmonikon/xen14-mclaren-nonoctave-13-3
+- artist: Sevish
+  album: Harmony Hacker
+  year: 2017
+  reference: Liner notes
+  tracks:
+    - url: https://sevish.bandcamp.com/track/orbital
+      title: Orbital
+      scales:
+        - xenharmonikon/xen14-mclaren-nonoctave-13-3
+    - url: https://sevish.bandcamp.com/track/same-old
+      title: Same Old
+      scales:
+        - mailing-lists/08_o8
+    - url: https://sevish.bandcamp.com/track/freathy
+      title: Freathy
+      scales:
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-03
+- artist: Sevish
+  album: Bubble
+  year: 2021
+  reference: https://sevish.com/stuff/Bubble_Liner_Notes.pdf
+  tracks:
+    - url: https://sevish.bandcamp.com/track/you-tell-me
+      title: You Tell Me
+      scales:
+        - xenharmonikon/xen16-grady-centaur
+- artist: Sevish
+  album: Horixens
+  year: 2019
+  reference: https://sevish.com/stuff/Horixens_Liner_Notes.pdf
+  tracks:
+    - url: https://sevish.bandcamp.com/track/unreality
+      title: Unreality
+      scales:
+        - xenharmonikon/xen18-secor-13-limit-2-just
+- artist: Sevish
+  album: Murmurations
+  year: 2023
+  reference: https://sevish.com/stuff/Murmurations_Liner_Notes.txt
+  tracks:
+    - url: https://sevish.bandcamp.com/track/murmurations-1-3-5-9
+      title: Murmurations 1 3 5 9
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-01
+    - url: https://sevish.bandcamp.com/track/murmurations-3-5-7-9
+      title: Murmurations 3 5 7 9
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-10
+    - url: https://sevish.bandcamp.com/track/murmurations-1-3-7-9
+      title: Murmurations 1 3 7 9
+      scales:
+        - xenharmonikon/xen12-wilson-09-4C2-hexany-00
+    - url: https://sevish.bandcamp.com/track/murmurations-1-5-7-9
+      title: Murmurations 1 5 7 9
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-06
+    - url: https://sevish.bandcamp.com/track/murmurations-1-3-5-7
+      title: Murmurations 1 3 5 7
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-00
+    - url: https://sevish.bandcamp.com/track/murmurations-1-3-5-9-reprise
+      title: Murmurations 1 3 5 9 Reprise
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-01
+- artist: Honk Yonder
+  album: The Honk Tapes
+  year: 2025
+  tracks:
+    - url: https://reverb10000.com/the-honk-tapes/
+      title: The Honk Tapes
+      scales:
+        - mailing-lists/zarvo30
+- artist: Greg Schiemer
+  album: Six Dekanies
+  year: 2023
+  tracks:
+    - url: https://gregschiemer.bandcamp.com/track/six-dekanies
+      title: Six Dekanies
+      scales:
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-03
+        - xenharmonikon/xen12-wilson-32-dekany
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-00
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-01
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-02
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-05
+- artist: Greg Schiemer
+  album: Tempered Dekanies
+  year: 2002
+  tracks:
+    - url: https://gregschiemer.bandcamp.com/track/tempered-dekanies-2002
+      title: Tempered Dekanies
+      scales:
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-00
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-04
+- artist: Larry Polansky
+  album: Simple Harmonic Motion
+  year: 1994
+  reference: Score
+  tracks:
+    - url: https://artifactrecordings.bandcamp.com/track/horn
+      title: Horn
+      scales:
+        - xenharmonikon/xen14-polansky-horn
+- artist: Larry Polansky
+  album: CHANGE
+  year: 2002
+  reference: Score
+  tracks:
+    - url: https://artifactrecordings.bandcamp.com/track/piano-study-5-for-just-fender-rhodes
+      title: "Piano Study #5 (for Just Fender Rhodes)"
+      scales:
+        - xenharmonikon/xen06-polansky-study-1
+        - xenharmonikon/xen06-polansky-study-3
+        - xenharmonikon/xen06-polansky-study-4
+        - xenharmonikon/xen06-polansky-study-full
+- artist: Andrew C. Smith
+  album: "Larry Polansky: Piano Study #5"
+  year: 2017
+  reference: Score
+  tracks:
+    - url: https://indexical.bandcamp.com/album/larry-polansky-piano-study-5
+      title: "Piano Study #5 (for Just Fender Rhodes)"
+      scales:
+        - xenharmonikon/xen06-polansky-study-1
+        - xenharmonikon/xen06-polansky-study-3
+        - xenharmonikon/xen06-polansky-study-4
+        - xenharmonikon/xen06-polansky-study-full
+- artist: Linda Burman-Hall
+  album: Lou Harrison - Complete Harpsichord Works / Music For Tack Piano & Fortepiano In Historic And Experimental Tunings
+  year: 2002
+  reference: Score
+  tracks:
+    - url: https://archive.org/details/OM8HarrisonIncidentalMusic
+      title: Incidental Music For Corneille's 'Cinna' (Suite For Tack Piano)
+      scales:
+        - xenharmonikon/xen05-harrison-cinna
+- artist: Phexioenesystems
+  album: "Studies in Hexany I: Consonant Relations"
+  year: 2021
+  tracks:
+    - url: https://phexioenesystems.bandcamp.com/track/shining-sea-hexany-1-3-5-7
+      title: Shining Sea (Hexany 1-3-5-7)
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-00
+    - url: https://phexioenesystems.bandcamp.com/track/squid-axon-canon-hexany-1-3-7-9
+      title: Squid Axon Canon (Hexany 1-3-7-9)
+      scales:
+        - xenharmonikon/xen12-wilson-09-4C2-hexany-00
+    - url: https://phexioenesystems.bandcamp.com/track/conversant-expansive-hexany-1-3-5-9
+      title: Conversant/Expansive (Hexany 1-3-5-9)
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-01
+- artist: Phexioenesystems
+  album: "Studies in Hexany II: Modal Plasticity"
+  year: 2022
+  tracks:
+    - url: https://phexioenesystems.bandcamp.com/track/still-life-circling-hexany-1-3-7-11
+      title: Still Life, Circling (Hexany 1-3-7-11)
+      scales:
+        - xenharmonikon/xen12-wilson-09-4C2-hexany-01
+    - url: https://phexioenesystems.bandcamp.com/track/boreal-nonlinear-ii-hexany-1-3-5-11
+      title: Boreal Nonlinear II (Hexany 1-3-5-11)
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-02
+    - url: https://phexioenesystems.bandcamp.com/track/mimic-enclosure-hexany-1-3-9-11
+      title: Mimic Enclosure (Hexany 1-3-9-11)
+      scales:
+        - xenharmonikon/xen12-wilson-09-4C2-hexany-03
+- artist: James Wyness
+  album: UK MicroFest 2 CD2
+  year: 2021
+  tracks:
+    - url: https://microtonalprojects.bandcamp.com/track/hannah-throwing-stones-extract-by-james-wyness
+      title: Hannah Throwing Stones (Extract)
+      scales:
+        - xenharmonikon/xen12-wilson-13-eikosany
+- artist: James Wyness
+  album: Music Born of Solitude
+  year: 2026
+  tracks:
+    - url: https://jameswyness.bandcamp.com/album/music-born-of-solitude-3
+      title: Music Born of Solitude
+      scales:
+        - xenharmonikon/xen12-wilson-13-eikosany
+- artist: Warren Burt
+  album: Drones 1994
+  year: 1995
+  tracks:
+    - url: https://mrwarrenburt.bandcamp.com/track/old-commas-inverted-and-revisited
+      title: Old Commas Inverted and Revisited
+      scales:
+        - xenharmonikon/xen16-burt-drones-01
+        - xenharmonikon/xen16-burt-drones-02
+        - xenharmonikon/xen16-burt-drones-03
+        - xenharmonikon/xen16-burt-drones-04
+        - xenharmonikon/xen16-burt-drones-05
+        - xenharmonikon/xen16-burt-drones-06
+        - xenharmonikon/xen16-burt-drones-07
+        - xenharmonikon/xen16-burt-drones-08
+        - xenharmonikon/xen16-burt-drones-09
+        - xenharmonikon/xen16-burt-drones-10
+        - xenharmonikon/xen16-burt-drones-11
+        - xenharmonikon/xen16-burt-drones-12
+        - xenharmonikon/xen16-burt-drones-all
+- artist: dotuXil
+  album: Collected Refractions
+  year: 2024
+  reference: https://dotuxil.github.io/cr_booklet.pdf
+  tracks:
+    - url: https://dotuxil.bandcamp.com/track/odd-harmonic
+      title: Odd Harmonic
+      scales:
+        - xenharmonikon/xen14-mclaren-nonoctave-13-3
+    - url: https://dotuxil.bandcamp.com/track/waterpad
+      title: waterpad
+      scales:
+        - xenharmonikon/xen12-wilson-40-5C2-dekany-00
+- artist: Dave Seidel
+  album: Involution
+  year: 2021
+  tracks:
+    - url: https://mysterybear.bandcamp.com/track/involution-2
+      title: Involution 2
+      scales:
+        - xenharmonikon/xen16-grady-centaur
+- artist: Daniel Corral
+  album: Four of Wands
+  year: 2025
+  tracks:
+    - url: https://spinalfrog.bandcamp.com/track/hexany-one-1-3-7-9
+      title: Hexany One (1•3•7•9)
+      scales:
+        - xenharmonikon/xen12-wilson-09-4C2-hexany-00
+    - url: https://spinalfrog.bandcamp.com/track/hexany-three-1-3-7-9-transposed-by-20-11
+      title: Hexany Three (1•3•7•9, transposed by 20/11)
+      scales:
+        - xenharmonikon/xen12-wilson-09-4C2-hexany-00
+    - url: https://spinalfrog.bandcamp.com/track/hexany-four-1-5-7-9
+      title: Hexany Four (1•5•7•9)
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-06
+    - url: https://spinalfrog.bandcamp.com/track/hexany-six-1-5-7-9-transposed-by-11-6
+      title: Hexany Six (1•5•7•9, transposed by 11/6)
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-06
+    - url: https://spinalfrog.bandcamp.com/track/hexany-seven-3-5-7-9
+      title: Hexany Seven (3•5•7•9)
+      scales:
+        - xenharmonikon/xen12-wilson-39-4C2-hexany-10
+- artist: Para Niyaga Paku Alaman
+  album: Indonesian Music Archive, Cornell University Library
+  year: 1977
+  tracks:
+    - url: https://digital.library.cornell.edu/catalog/ss:9905133
+      title: Ktw. Puspawarna SM (Kyai Pengawe Sari)
+      scales:
+        - damusc/Indonesia_Pengawesari
+- artist: Para Niyaga Kraton Ngayogyakarta
+  album: Indonesian Music Archive, Cornell University Library
+  year: 1976
+  tracks:
+    - url: https://digital.library.cornell.edu/catalog/ss:9905076
+      title: Gd. bedhaya Pramugari PB (Kyai Harjamulya)
+      scales:
+        - damusc/Indonesia_Harjamulya
+- artist: Para Niyaga Kraton Ngayogyakarta
+  album: Indonesian Music Archive, Cornell University Library
+  year: 1977
+  tracks:
+    - url: https://digital.library.cornell.edu/catalog/ss:9905063
+      title: Gd. Andhong-Andhong P5 (Kyai Nagawilaga)
+      scales:
+        - damusc/Indonesia_Nagawilaga
+- artist: Para Niyaga Kraton Surakarta
+  album: Indonesian Music Archive, Cornell University Library
+  year: 1965
+  tracks:
+    - url: https://digital.library.cornell.edu/catalog/ss:9905194
+      title: Gd. Bedhaya Duradasih (Kyai Kaduk Manis / Kyai Manis Rengga)
+      scales:
+        - damusc/Indonesia_Kadukmanis
+        - damusc/Indonesia_Manisrengga
+- artist: Para Niyaga Kraton Surakarta
+  album: Indonesian Music Archive, Cornell University Library
+  year: 1976
+  tracks:
+    - url: https://digital.library.cornell.edu/catalog/ss:9904762
+      title: Gd. bonang Denggung Smarandana k4k/mg. 8 P5 (Kyai Guntur Madu)
+      scales:
+        - damusc/Indonesia_Gunturmadu
+    - url: https://digital.library.cornell.edu/catalog/ss:9905102
+      title: Soundscape recording of Sekaten festival (Kyai Guntur Madu and Kyai Guntur Sari)
+      scales:
+        - damusc/Indonesia_Gunturmadu
+        - damusc/Indonesia_Guntursari
+- artist: Para Niyaga Kraton Surakarta
+  album: Indonesian Music Archive, Cornell University Library
+  year: 1977
+  tracks:
+    - url: https://digital.library.cornell.edu/catalog/ss:9904756
+      title: Gd. Endhol-Endhol k2k/mg. 4 klj. ldr. Manis Betawen PB (Kyai Semar Ngigel / Kyai Lokananta)
+      scales:
+        - damusc/Indonesia_Semarngigel
+        - damusc/Indonesia_Lokananta
+- artist: Para Niyaga Mangkunegaran
+  album: Indonesian Music Archive, Cornell University Library
+  year: 1975
+  tracks:
+    - url: https://digital.library.cornell.edu/catalog/ss:9904703
+      title: Gd. Miyanggong (Kyai Kanyut Mesem)
+      scales:
+        - damusc/Indonesia_Kanyutmesem_a
+        - damusc/Indonesia_Kanyutmesem_b
+    - url: https://digital.library.cornell.edu/catalog/ss:9905007
+      title: Gd. bonang Gondrong (Kyai Udan Arum)
+      scales:
+        - damusc/Indonesia_Udanarum
+- artist: Gamelan Kjahi Kanjoet Mèsem of the Mangkunegaran Palace
+  album: Gamelan in the Mangkunegaran Court, Surakarta, Java, 1931-37
+  year: 1931
+  tracks:
+    - url: https://canary-records.bandcamp.com/album/gamelan-in-the-mangkunegaran-court-surakarta-java-1931-37
+      title: Gamelan in the Mangkunegaran Court, Surakarta, Java, 1931-37
+      scales:
+        - damusc/Indonesia_Kanyutmesem_a
+        - damusc/Indonesia_Kanyutmesem_b
+- artist: "Funeral Singers Kala"
+  album: Georgian Vocal Music (GVM) Dataset
+  year: 2016
+  tracks:
+    - url: https://lazardb.gbv.de/detail/9074
+      title: "Zari Kala — Kala Village (video)"
+      scales:
+        - damusc/Georgia_GVM198-H
+        - damusc/Georgia_GVM198-M
+    - url: https://lazardb.gbv.de/detail/10554
+      title: "Zari Kala — Kala Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM198-H
+        - damusc/Georgia_GVM198-M
+    - url: https://lazardb.gbv.de/detail/10555
+      title: "Zari Kala — Kala Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM198-H
+        - damusc/Georgia_GVM198-M
+    - url: https://lazardb.gbv.de/detail/10556
+      title: "Zari Kala — Kala Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM198-H
+        - damusc/Georgia_GVM198-M
+    - url: https://lazardb.gbv.de/detail/9073
+      title: "Zari Ushguli — Kala Village (video)"
+      scales:
+        - damusc/Georgia_GVM207-H
+        - damusc/Georgia_GVM207-M
+    - url: https://lazardb.gbv.de/detail/10557
+      title: "Zari Ushguli — Kala Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM207-H
+        - damusc/Georgia_GVM207-M
+    - url: https://lazardb.gbv.de/detail/10558
+      title: "Zari Ushguli — Kala Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM207-H
+        - damusc/Georgia_GVM207-M
+    - url: https://lazardb.gbv.de/detail/10559
+      title: "Zari Ushguli — Kala Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM207-H
+        - damusc/Georgia_GVM207-M
+- artist: "Funeral Singers Latali"
+  album: Georgian Vocal Music (GVM) Dataset
+  year: 2016
+  tracks:
+    - url: https://lazardb.gbv.de/detail/9101
+      title: "Zari Latali — Latali Village (video)"
+      scales:
+        - damusc/Georgia_GVM199-H
+        - damusc/Georgia_GVM199-M
+    - url: https://lazardb.gbv.de/detail/10561
+      title: "Zari Latali — Latali Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM199-H
+        - damusc/Georgia_GVM199-M
+    - url: https://lazardb.gbv.de/detail/10562
+      title: "Zari Latali — Latali Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM199-H
+        - damusc/Georgia_GVM199-M
+    - url: https://lazardb.gbv.de/detail/10563
+      title: "Zari Latali — Latali Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM199-H
+        - damusc/Georgia_GVM199-M
+    - url: https://lazardb.gbv.de/detail/10564
+      title: "Zari Latali — Latali Village (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM199-H
+        - damusc/Georgia_GVM199-M
+    - url: https://lazardb.gbv.de/detail/9102
+      title: "Zari Lower Bal — Latali Village (video)"
+      scales:
+        - damusc/Georgia_GVM203-H
+        - damusc/Georgia_GVM203-M
+    - url: https://lazardb.gbv.de/detail/10565
+      title: "Zari Lower Bal — Latali Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM203-H
+        - damusc/Georgia_GVM203-M
+    - url: https://lazardb.gbv.de/detail/10566
+      title: "Zari Lower Bal — Latali Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM203-H
+        - damusc/Georgia_GVM203-M
+    - url: https://lazardb.gbv.de/detail/10567
+      title: "Zari Lower Bal — Latali Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM203-H
+        - damusc/Georgia_GVM203-M
+    - url: https://lazardb.gbv.de/detail/10568
+      title: "Zari Lower Bal — Latali Village (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM203-H
+        - damusc/Georgia_GVM203-M
+- artist: "Kaltid"
+  album: Georgian Vocal Music (GVM) Dataset
+  year: 2016
+  tracks:
+    - url: https://lazardb.gbv.de/detail/9065
+      title: "Zari Lower Bal — Etseri Village (video)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10361
+      title: "Zari Lower Bal — Etseri Village (singer 1, headset mic)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10362
+      title: "Zari Lower Bal — Etseri Village (singer 2, headset mic)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10363
+      title: "Zari Lower Bal — Etseri Village (singer 3, headset mic)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10364
+      title: "Zari Lower Bal — Etseri Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10365
+      title: "Zari Lower Bal — Etseri Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10366
+      title: "Zari Lower Bal — Etseri Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10367
+      title: "Zari Lower Bal — Etseri Village (singer 4, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+    - url: https://lazardb.gbv.de/detail/10331
+      title: "Zari Lower Bal — Etseri Village (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM202-H
+        - damusc/Georgia_GVM202-M
+- artist: "Mestia Singers"
+  album: Georgian Vocal Music (GVM) Dataset
+  year: 2016
+  tracks:
+    - url: https://lazardb.gbv.de/detail/9063
+      title: "Zari Mestia Take 1 — Zargash (video)"
+      scales:
+        - damusc/Georgia_GVM205-H
+        - damusc/Georgia_GVM205-M
+    - url: https://lazardb.gbv.de/detail/11117
+      title: "Zari Mestia Take 1 — Zargash (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM205-H
+        - damusc/Georgia_GVM205-M
+    - url: https://lazardb.gbv.de/detail/11118
+      title: "Zari Mestia Take 1 — Zargash (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM205-H
+        - damusc/Georgia_GVM205-M
+    - url: https://lazardb.gbv.de/detail/11119
+      title: "Zari Mestia Take 1 — Zargash (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM205-H
+        - damusc/Georgia_GVM205-M
+    - url: https://lazardb.gbv.de/detail/11120
+      title: "Zari Mestia Take 1 — Zargash (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM205-H
+        - damusc/Georgia_GVM205-M
+    - url: https://lazardb.gbv.de/detail/9062
+      title: "Zari Mestia Take 2 — Zargash (video)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+    - url: https://lazardb.gbv.de/detail/11121
+      title: "Zari Mestia Take 2 — Zargash (singer 1, headset mic)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+    - url: https://lazardb.gbv.de/detail/11122
+      title: "Zari Mestia Take 2 — Zargash (singer 2, headset mic)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+    - url: https://lazardb.gbv.de/detail/11123
+      title: "Zari Mestia Take 2 — Zargash (singer 3, headset mic)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+    - url: https://lazardb.gbv.de/detail/11124
+      title: "Zari Mestia Take 2 — Zargash (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+    - url: https://lazardb.gbv.de/detail/11125
+      title: "Zari Mestia Take 2 — Zargash (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+    - url: https://lazardb.gbv.de/detail/11126
+      title: "Zari Mestia Take 2 — Zargash (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+    - url: https://lazardb.gbv.de/detail/11127
+      title: "Zari Mestia Take 2 — Zargash (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM206-H
+        - damusc/Georgia_GVM206-M
+- artist: "Riho Members"
+  album: Georgian Vocal Music (GVM) Dataset
+  year: 2016
+  tracks:
+    - url: https://lazardb.gbv.de/detail/8219
+      title: "Zari Lenjeri — Mestia (video)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+    - url: https://lazardb.gbv.de/detail/10667
+      title: "Zari Lenjeri — Mestia (singer 1, headset mic)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+    - url: https://lazardb.gbv.de/detail/10668
+      title: "Zari Lenjeri — Mestia (singer 2, headset mic)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+    - url: https://lazardb.gbv.de/detail/10669
+      title: "Zari Lenjeri — Mestia (singer 3, headset mic)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+    - url: https://lazardb.gbv.de/detail/10670
+      title: "Zari Lenjeri — Mestia (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+    - url: https://lazardb.gbv.de/detail/10671
+      title: "Zari Lenjeri — Mestia (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+    - url: https://lazardb.gbv.de/detail/10672
+      title: "Zari Lenjeri — Mestia (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+    - url: https://lazardb.gbv.de/detail/10673
+      title: "Zari Lenjeri — Mestia (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM201-H
+        - damusc/Georgia_GVM201-M
+- artist: "Tsalka People"
+  album: Georgian Vocal Music (GVM) Dataset
+  year: 2016
+  tracks:
+    - url: https://lazardb.gbv.de/detail/9053
+      title: "Zari Lower Bal — Tsalka Village (video)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+    - url: https://lazardb.gbv.de/detail/11538
+      title: "Zari Lower Bal — Tsalka Village (singer 1, headset mic)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+    - url: https://lazardb.gbv.de/detail/11539
+      title: "Zari Lower Bal — Tsalka Village (singer 2, headset mic)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+    - url: https://lazardb.gbv.de/detail/11540
+      title: "Zari Lower Bal — Tsalka Village (singer 3, headset mic)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+    - url: https://lazardb.gbv.de/detail/11541
+      title: "Zari Lower Bal — Tsalka Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+    - url: https://lazardb.gbv.de/detail/11542
+      title: "Zari Lower Bal — Tsalka Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+    - url: https://lazardb.gbv.de/detail/11543
+      title: "Zari Lower Bal — Tsalka Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+    - url: https://lazardb.gbv.de/detail/11544
+      title: "Zari Lower Bal — Tsalka Village (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM204-H
+        - damusc/Georgia_GVM204-M
+- artist: "Udabno Men"
+  album: Georgian Vocal Music (GVM) Dataset
+  year: 2016
+  tracks:
+    - url: https://lazardb.gbv.de/detail/8166
+      title: "Zari Latali — Udabno Village (video)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/11091
+      title: "Zari Latali — Udabno Village (singer 1, headset mic)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/11092
+      title: "Zari Latali — Udabno Village (singer 2, headset mic)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/11093
+      title: "Zari Latali — Udabno Village (singer 3, headset mic)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/11094
+      title: "Zari Latali — Udabno Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/11095
+      title: "Zari Latali — Udabno Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/11096
+      title: "Zari Latali — Udabno Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/11097
+      title: "Zari Latali — Udabno Village (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM200-H
+        - damusc/Georgia_GVM200-M
+    - url: https://lazardb.gbv.de/detail/8165
+      title: "Zari Ushguli — Udabno Village (video)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+    - url: https://lazardb.gbv.de/detail/11098
+      title: "Zari Ushguli — Udabno Village (singer 1, headset mic)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+    - url: https://lazardb.gbv.de/detail/11099
+      title: "Zari Ushguli — Udabno Village (singer 2, headset mic)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+    - url: https://lazardb.gbv.de/detail/11100
+      title: "Zari Ushguli — Udabno Village (singer 3, headset mic)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+    - url: https://lazardb.gbv.de/detail/11101
+      title: "Zari Ushguli — Udabno Village (singer 1, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+    - url: https://lazardb.gbv.de/detail/11102
+      title: "Zari Ushguli — Udabno Village (singer 2, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+    - url: https://lazardb.gbv.de/detail/11103
+      title: "Zari Ushguli — Udabno Village (singer 3, larynx mic)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+    - url: https://lazardb.gbv.de/detail/11104
+      title: "Zari Ushguli — Udabno Village (ambient stereo)"
+      scales:
+        - damusc/Georgia_GVM208-H
+        - damusc/Georgia_GVM208-M
+- artist: Harry Partch
+  album: Plectra and Percussion Dances
+  year: 2014
+  tracks:
+    - url: https://bridgerecords.bandcamp.com/album/harry-partch-plectra-and-percussion-dances
+      title: Plectra and Percussion Dances
+      scales: 
+        - xenharmonikon/xen03-secor-partch
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 1
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/01.%20Les%20nuits%20damour.mp3
+    title: "Les nuits d'amour / Ô mon Commensal"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_01_hijaz_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/02.%20Mon%20amour%20ma%20quitt%C3%A9%20alors%20que%20je%20nai%20aucun%20tort.mp3
+    title: "Mon amour m'a quitté alors que je n'ai aucun tort / Toi qui as la taille comme une branche"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_02_hijaz_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/03.%20%C3%94%20gazelle%20qui%20a%20fait%20honte%20aux%20faons.mp3
+    title: Ô Gazelle qui a fait honte aux faons / Emplis ma coupe, ô mon précieux amour
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_03_hijaz_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/04.%20%C3%94%20mon%20astre%2C%20fais%20circuler%20la%20coupe%20de%20vin.mp3
+    title: Ô mon astre, fais circuler la coupe de vin / Celui qui a les membres graciles
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_04_hijaz_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/05.%20Tr%C3%A8s%20d%C3%A9daigneux.mp3
+    title: "Très dédaigneux / Les vents de l'amour ont soufflé"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/06.%20Il%20ma%20quitt%C3%A9%20-%20laisse-moi%20donc.mp3
+    title: "Il m'a quitté : laisse moi donc / Ô Gazelle se pavanant"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/07.%20%C3%94%20toi%20qui%20as%20les%20joues%20roses%20et%20douces.mp3
+    title: Ô toi qui a les joues roses et douces / Donne, ô mon astre / Le soleil de ma coupe / Gloire à celui qui a crée cet astre
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/08.%20Il%20a%20circul%C3%A9%20avec%20les%20coupes.mp3
+    title: Il a circulé avec les coupes
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_08_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/09.%20Les%20tristesses%20sont%20pass%C3%A9es.mp3
+    title: Les tristesses sont passées
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_09_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/10.%20Toi%20qui%20fais%20honte%20aux%20astres.mp3
+    title: Toi qui fait honte aux astres / Emplis-moi les coupes / De taille élégante / Toi qui a de belles lèvres
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_10_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/11.%20Moi%2C%20je%20n%C3%A9coute%20pas%20le%20bl%C3%A2meur.mp3
+    title: "Moi, je n'écoute pas le blâmeur / Mon espoir est en ta vie / Ô croissant de lune"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_11_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/12.%20Y-a-t-il%20une%20d%C3%A9chirure%20sur%20les%20voiles.mp3
+    title: "Y-a-t-il une déchirure sur les voiles ? / Elle m'a quitté alors que je n'ai aucun tort"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_12_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/13.%20La%20magie%20a%20cern%C3%A9%20les%20yeux.mp3
+    title: La magie a cerné les yeux / Par celui qui a enivré
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_13_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/14.%20Baisse%20tes%20paupi%C3%A8res.mp3
+    title: "Baisse tes paupières / J'aime un astre"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_14_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/15.%20Le%20jour%20o%C3%B9%20tu%20me%20rendras%20visite.mp3
+    title: "Le jour où tu me rendras visite / Gloire à Dieu qui t'a rendu parfait / Le soucis par Hasard"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_15_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/16.%20Toi%20qui%20as%20de%20belles%20paroles.mp3
+    title: "Toi qui a de belles paroles / Seigneur, fais ce qu'il te plait"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_16_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/17.%20Gazelle%20du%20d%C3%A9sert.mp3
+    title: Gazelle du désert / Il se leva et fit circuler les coupes
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_17_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/18.%20Il%20apparut%20et%2C%20dans%20sa%20main.mp3
+    title: Il apparut et dans sa main
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_18_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/19.%20Pour%20lamour.mp3
+    title: "Pour l'amour / Celle dont tu étais amoureux"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_19_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%201/20.%20Largent%20fut%20incrust%C3%A9%20dhyacinthe.mp3
+    title: "L'argent fut incrusté d'hyacinthe / Toi qui te refuses à moi / Je me sacrifierais pour lui et le secourrais"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD01_20_rast_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 2
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/01.%20Le%20soleil%20de%20la%20perfection%20est%20apparu.mp3
+    title: Le soleil de la perfection est apparu
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_01_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/02.%20Celui%20%C3%A0%20la%20taille%20gracile%20est%20apparu.mp3
+    title: Celui à la taille gracile est apparu / Détourne ton chemin vers la gazelle / Quelle sera ma ruse ?
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_02_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/03.%20Par%20le%20grand%20mode%20Nah%C3%A2wand.mp3
+    title: Par le grand mode Nahâwand
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_03_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/04.%20Celui%20qui%20a%20une%20taille%20%C3%A9l%C3%A9gante.mp3
+    title: "Celui qui a unetaille élégante / Il m'a décoché la flèche"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_04_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/05.%20%C3%94%20nuit%20damour.mp3
+    title: "Ô nuit d'amour / Elle ranime les âmes"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/06.%20Gloire%20%C3%A0%20celui%20qui%20a%20cr%C3%A9%C3%A9%20ta%20beaut%C3%A9.mp3
+    title: "Gloire à celui qui a créé ta beauté / Mon amour m'a rendu visite / Couronnez ô nuages"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/07.%20L%C3%AAtre%20au%20visage%20superbe%20ma%20rendu%20visite.mp3
+    title: "L'être au visage superbe m'a rendu visite"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/08.%20Suite.mp3
+    title: Suite
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_08_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/09.%20Lastre%20pour%20qui%20je%20me%20sacrifierai%20est%20apparu.mp3
+    title: "L'astre pour qui je me sacrifierai est apparu"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/10.%20Ayez%20piti%C3%A9%20de%20moi.mp3
+    title: Ayez Pitié de moi / Les mains du Zéphyr ont agité
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/11.%20Si%20l%C3%A9chanson.mp3
+    title: "Si l'échanson / Sa majesté le bonheur"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_11_husayni_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/12.%20Dis%20%C3%A0%20celui%20dont%20tout%20le%20monde%20aime%20les%20vertus.mp3
+    title: Dis à celui dont tout le monde aime les vertus / Je me sacrifierai pour cette gazelle / Mon amour a Désiré me faire de la peine
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_12_husayni_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/13.%20Le%20jardin%20a%20%C3%A9t%C3%A9%20d%C3%A9sert%C3%A9.mp3
+    title: "Le jardin a été déserté / Ma nuit s'est prolongée"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_13_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/14.%20H%C3%A9%20%20Une%20beaut%C3%A9%20qui%20appara%C3%AEt%20.mp3
+    title: Hé ! une beauté qui apparaît ! / Toi qui a une taille fine
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_14_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/15.%20Emplis%20ma%20coupe%20et%20abreuve-moi.mp3
+    title: Emplis ma coupe et Abreuve-moi / Ô petit croissant de lune
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_15_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/16.%20Pourquoi%20donc.mp3
+    title: Pourquoi donc ? / De longues nuits
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_16_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/17.%20Gloire%20%C3%A0%20celui%20qui%20a%20cr%C3%A9%C3%A9%20ta%20beaut%C3%A9.mp3
+    title: Gloire à celui qui a créé ta beauté
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_17_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/18.%20Faon%20qui%2C%20par%20le%20regard.mp3
+    title: Faon qui / Par le regard, par mon père, ô sublime beauté
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_18_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%202/19.%20Lorsque%20mon%20amour%20en%20col%C3%A8re%20est%20apparu.mp3
+    title: Lorsque mon amour en colère est apparu
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD02_19_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 3
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/01.%20Darw%C3%AEsh%20Muhammad%20al-Har%C3%AEr%C3%AE%20-%20L%C3%A8ve-toi%20et%20suis.mp3
+    title: Lève-toi et suis
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD03_01_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/02.%20Darw%C3%AEsh%20Muhammad%20al-Har%C3%AEr%C3%AE%20-%20Ah%2C%20comme%20les%20%C3%AAtres%20chers%20sont%20injustes%20.mp3
+    title: "Ah, comme les êtres chers sont injustes ! / Toi qui a décroché une flèche au coeur / Qu'ont donc observé mes yeux ?"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD03_02_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/03.%20Darw%C3%AEsh%20Muhammad%20al-Har%C3%AEr%C3%AE%20-%20%C3%94%20%C3%A9chanson.mp3
+    title: Ô Échanson / Ami, raconte à celui qui est tiède envers moi / Les étoiles de la nuit
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD03_03_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/04.%20Darw%C3%AEsh%20Muhammad%20al-Har%C3%AEr%C3%AE%20-%20Fais-moi%20boire%20la%20coupe.mp3
+    title: Fais-moi boire la coupe / Ô Gazelle qui a maquillé ses yeux / Le chanteur du cabaret nous a séduits
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD03_04_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/05.%20Darw%C3%AEsh%20Muhammad%20al-Har%C3%AEr%C3%AE%20-%20Nous%20voyons%20le%20collier.mp3
+    title: Nous voyons le collier / Lève-toi et viens vers la taverne
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD03_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/06.%20Darw%C3%AEsh%20Muhammad%20al-Har%C3%AEr%C3%AE%20-%20Elle%20apparut%20dentre%20les%20voiles.mp3
+    title: "Elle apparut d'entre les voiles / Occupe-toi de nous, ô Échanson"
+    artist: Darwîsh Muhammad al-Harîrî
+    scales:
+    - cairo-congress/CD03_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/07.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20Lorigine%20de%20lamour%20est%20un%20regard.mp3
+    title: "L'origine de l'amour est un regard"
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_07_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/08.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20Suite.mp3
+    title: Suite
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_08_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/09.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20Lamour%20ma%20alangui.mp3
+    title: "L'amour m'a Alangui"
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/10.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20Suite.mp3
+    title: Suite
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/11.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20Suite.mp3
+    title: Suite
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_11_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/12.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20%C3%82me%2C%20reprends%20confiance%20en%20ton%20%C3%A9toile.mp3
+    title: Âme, reprends confiance en ton étoile
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_12_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/13.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20Combien%20je%20g%C3%A9missais%20loin%20de%20toi%20.mp3
+    title: Combien je gémissais loin de toi !
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_13_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%203/14.%20Az%C3%AEz%20Uthm%C3%A2n%20-%20Suite.mp3
+    title: Suite
+    artist: Aziz 'Uthmân
+    scales:
+    - cairo-congress/CD03_14_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 4
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/01.%20L%C3%AAtre%20aux%20beaut%C3%A9s%20uniques%20est%20apparu.mp3
+    title: "L'être aux beautés uniques est apparu"
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_01_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/02.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_02_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/03.%20Depuis%20le%20jour%20o%C3%B9%20jai%20connu%20lamour.mp3
+    title: "Depuis le jour où j'ai connu l'amour"
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_03_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/04.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_04_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/05.%20Jai%20bu%20la%20patience%20jusqu%C3%A0%20la%20lie.mp3
+    title: "J'ai bu la patience jusqu'à la lie"
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/06.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/07.%20Le%20prisonnier%20de%20lamour.mp3
+    title: "Le prisonnier de l'amour"
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/08.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_08_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/09.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/10.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/11.%20Chaque%20jour%2C%20je%20me%20plains%20de%20la%20blessure%20de%20mon%20coeur.mp3
+    title: Chaque jour, je me plains de la blessure de mon coeur
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_11_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/12.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_12_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/13.%20Fais%20le%20tour%20de%20lassembl%C3%A9e%20avec%20la%20coupe%20de%20vin.mp3
+    title: "Fais le tour de l'assemblée avec la coupe de vin"
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_13_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/14.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_14_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/15.%20La%20lumi%C3%A8re%20de%20mes%20yeux%20est%20apparue.mp3
+    title: La lumière de mes yeux
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_15_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/16.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_16_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/17.%20Aime%20celui%20qui%20est%20fou%20de%20toi.mp3
+    title: Aime celui qui est fou de toi
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_17_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/18.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_18_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/19.%20Je%20naime%20que%20toi.mp3
+    title: "Je n'aime que toi"
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_19_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%204/20.%20Suite.mp3
+    title: Suite
+    artist: Dâwûd Khudr Husnî
+    scales:
+    - cairo-congress/CD04_20_saba_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 5
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/01.%20Dis-moi%20-%20quas-tu%20gagn%C3%A9%20avec%20tes%20caprices.mp3
+    title: "Dis-moi : qu'as-tu gagné avec tes caprices ?"
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_01_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/02.%20Suite.mp3
+    title: Suite
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_02_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/03.%20Suite.mp3
+    title: Suite
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_03_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/04.%20Suite.mp3
+    title: Suite
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_04_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/05.%20Suite.mp3
+    title: Suite
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_05_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/06.%20Celui%20qui%20ta%20aim%C3%A9%20m%C3%A9rite%20d%C3%AAtre%20aupr%C3%A8s%20de%20toi.mp3
+    title: "Celui qui t'a aimé mérite d'être auprès de toi"
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/07.%20Mon%20coeur%2C%20par%20ton%20regard.mp3
+    title: Mon coeur, par ton regard / Ô liaison qui honore
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/08.%20Elle%20a%20trop%20dur%C3%A9%2C%20la%20froideur%20de%20mon%20aim%C3%A9.mp3
+    title: Elle a trop duré, la froideur de mon Aimé
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_08_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/09.%20Tu%20es%20le%20prince%20des%20beaux%20jeunes%20gens.mp3
+    title: Tu es le prince des beaux jeunes gens
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_09_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/10.%20Suite.mp3
+    title: Suite
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_10_saba_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/11.%20La%20chance%20de%20la%20vie.mp3
+    title: La chance de la vie
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_11_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/12.%20Mon%20seigneur%2C%20je%20suis%20ton%20esclave.mp3
+    title: Mon seigneur, je suis ton esclave
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_12_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/13.%20Sa%20taille%20ondoyante.mp3
+    title: Sa taille ondoyante
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_13_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/14.%20Suite.mp3
+    title: Suite
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_14_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/15.%20Suite.mp3
+    title: Suite
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_15_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%205/16.%20Gens%20de%20beaut%C3%A9%20et%20de%20puret%C3%A9.mp3
+    title: Gens de beauté et de pureté
+    artist: ‘Abduh al-Ḥāmūlī
+    scales:
+    - cairo-congress/CD05_16_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 6
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/01.%20Muhammad%20al-Bahr%20-%20Les%20tambours%20ont%20r%C3%A9sonn%C3%A9.mp3
+    title: Les tambours de guerre ont résonné
+    artist: Muhammad al-Bahr
+    scales:
+    - cairo-congress/CD06_01_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/02.%20Muhammad%20al-Bahr%20-%20Suite.mp3
+    title: Suite
+    artist: Muhammad al-Bahr
+    scales:
+    - cairo-congress/CD06_02_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/03.%20Muhammad%20al-Bahr%20-%20Voici%20le%20Soleil%20et%20la%20Lune.mp3
+    title: Voici le soleil et la lune
+    artist: Muhammad al-Bahr
+    scales:
+    - cairo-congress/CD06_03_rast_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/04.%20Muhammad%20al-Bahr%20-%20Lorsque%20je%20vois%20le%20visage%20de%20mon%20amour.mp3
+    title: Lorsque je vois le visage de mon amour
+    artist: Muhammad al-Bahr
+    scales:
+    - cairo-congress/CD06_04_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/05.%20Muhammad%20al-Bahr%20-%20Moi%2C%20lEgyptien%20%2C%20%C3%94%20vie%20de%20l%C3%A2me.mp3
+    title: "Moi, l'égyptien / Ô vie de l'âme"
+    artist: Muhammad al-Bahr
+    scales:
+    - cairo-congress/CD06_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/06.%20Muhammad%20al-Bahr%20-%20Cest%20ton%20jour%2C%20cest%20ton%20heure.mp3
+    title: "C'est ton jour, c'est ton heure"
+    artist: Muhammad al-Bahr
+    scales:
+    - cairo-congress/CD06_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/07.%20Muhammad%20al-Arab%C3%AE%20and%20balad%C3%AE%20ensemble%20-%20Quy%20a-t-il%20donc%20mon%20amour%2C%20que%20tai-je%20donc%20fait.mp3
+    title: "Qu'y-a-t-il donc mon amour, que t'ai-je donc fait ?"
+    artist: Muhammad Awad Al-Arabî
+    scales:
+    - cairo-congress/CD06_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/08.%20Muhammad%20al-Arab%C3%AE%20and%20balad%C3%AE%20ensemble%20-%20Elles%20sont%20douces%2C%20les%20grenades%20de%20son%20pays.mp3
+    title: Elles sont douces les grenades de son pays
+    artist: Muhammad Awad Al-Arabî
+    scales:
+    - cairo-congress/CD06_08_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/09.%20Muhammad%20al-Arab%C3%AE%20and%20balad%C3%AE%20ensemble%20-%20Patron%2C%20fais-moi%20traverser%20le%20Nil.mp3
+    title: Patron, fais-moi Trvaerser le Nil
+    artist: Muhammad Awad Al-Arabî
+    scales:
+    - cairo-congress/CD06_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/10.%20Muhammad%20al-Arab%C3%AE%20and%20balad%C3%AE%20ensemble%20-%20Danse%20des%20princesses.mp3
+    title: Danse des princesses
+    artist: Muhammad Awad Al-Arabî
+    scales:
+    - cairo-congress/CD06_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/11.%20Muhammad%20al-Arab%C3%AE%20and%20balad%C3%AE%20ensemble%20-%20Que%20lenvieux%20prenne%20une%20poutre%20dans%20loeil.mp3
+    title: "Que l'envieux prenne une poutre dans l'oeil"
+    artist: Muhammad Awad Al-Arabî
+    scales:
+    - cairo-congress/CD06_11_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%206/12.%20Muhammad%20al-Arab%C3%AE%20and%20balad%C3%AE%20ensemble%20-%20Amis%2C%20le%20voyage%20est%20pour%20demain.mp3
+    title: Amis, le voyage est pour demain
+    artist: Muhammad Awad Al-Arabî
+    scales:
+    - cairo-congress/CD06_12_bayati_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 7
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/01.%20The%20Bedouins%20of%20Faiyum%20-%20Le%20rebelle%20dautrefois%20sest%20soumis.mp3
+    title: "Le rebelle d'autrefois s'est soumis"
+    artist: Les Bédouins du Fayyûm
+    scales:
+    - cairo-congress/CD07_01_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/02.%20%20The%20Bedouins%20of%20Faiyum%20-%20%C3%94%20fille%2C%20de%20ton%20nom%20je%20ne%20sais%20rien.mp3
+    title: "Ô fille, de ton nom je ne sais rien / Nous commencerons par l'élégant"
+    artist: Les Bédouins du Fayyûm
+    scales:
+    - cairo-congress/CD07_02_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/03.%20The%20Bedouins%20of%20Faiyum%20-%20Hymne%20des%20paysans.mp3
+    title: Hymne des paysans
+    artist: Les Bédouins du Fayyûm
+    scales:
+    - cairo-congress/CD07_03_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/04.%20The%20Bedouins%20of%20Faiyum%20-%20Suite.mp3
+    title: Suite
+    artist: Les Bédouins du Fayyûm
+    scales:
+    - cairo-congress/CD07_04_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/05.%20The%20Bedouins%20of%20Faiyum%20-%20Nage%2C%20%C3%B4%20Sal%C3%AEm%2C%20dans%20la%20citerne%20.mp3
+    title: Nage, ô Salîm, dans la citerne !
+    artist: Les Bédouins du Fayyûm
+    scales:
+    - cairo-congress/CD07_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/06.%20The%20Bedouins%20of%20Faiyum%20-%20Suite.mp3
+    title: Suite
+    artist: Les Bédouins du Fayyûm
+    scales:
+    - cairo-congress/CD07_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/07.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Air%20de%20procession%20des%20p%C3%A8lerins.mp3
+    title: Air de procession des pélerins
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_07_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/08.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Danse%20alexandrine.mp3
+    title: Danse Alexandrine
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_08_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/09.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Introduction%20instrumentale.mp3
+    title: Introduction instrumentale
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/10.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Danse%20lente.mp3
+    title: Danse lente
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/11.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Danse%2C%20rythme%20ayy%C3%BBb.mp3
+    title: Danse, rythme Ayyûb
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_11_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/12.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Suite.mp3
+    title: Suite
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_12_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/13.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Danse%20b%C3%A9douine.mp3
+    title: Danse bédouine
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_13_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/14.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Suite.mp3
+    title: Suite
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_14_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/15.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Danse%20lente%2C%20rythme%20zar%C3%AE.mp3
+    title: "Danse lente, rythme Zar'î"
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_15_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/16.%20Taha%20Ab%C3%BB%20and%20his%20ensemble%20of%20oboes%20and%20drum%20-%20Pi%C3%A8ce%20instrumentale%2C%20sam%C3%A2%C3%AE.mp3
+    title: "Pièce instrumentale, samâ'î"
+    artist: Taha Abû Mandûr
+    scales:
+    - cairo-congress/CD07_16_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/17.%20Ann%C3%BBsa%20al-Misriyya%20and%20her%20ensemble%20of%20almeh%20-%20Tu%20es%20purifiant%2C%20%C3%B4%20brin%20de%20girofle.mp3
+    title: Tu es purifiant, ô Brin de Girofle
+    artist: Annûsa Al-Misriyya
+    scales:
+    - cairo-congress/CD07_17_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/18.%20Ann%C3%BBsa%20al-Misriyya%20and%20her%20ensemble%20of%20almeh%20-%20Cette%20nuit%2C%20le%20henn%C3%A9.mp3
+    title: Cette nuit, le henné
+    artist: Annûsa Al-Misriyya
+    scales:
+    - cairo-congress/CD07_18_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/19.%20Ann%C3%BBsa%20al-Misriyya%20and%20her%20ensemble%20of%20almeh%20-%20Toi%20qui%20apparais%20semblable%20%C3%A0%20la%20pleine%20lune.mp3
+    title: Toi qui apparais semblable à la pleine lune
+    artist: Annûsa Al-Misriyya
+    scales:
+    - cairo-congress/CD07_19_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%207/20.%20Ann%C3%BBsa%20al-Misriyya%20and%20her%20ensemble%20of%20almeh%20-%20Observe%20de%20tes%20propres%20yeux.mp3
+    title: Observe de tes propres yeux
+    artist: Annûsa Al-Misriyya
+    scales:
+    - cairo-congress/CD07_20_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 8
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/01.%20%C3%94%20Mawl%C3%A2n%C3%A2%2C%20ami%20de%20la%20v%C3%A9rit%C3%A9.mp3
+    title: Ô Mawlânâ, ami de la vérité
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_01_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/02.%20Suite.mp3
+    title: Suite
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_02_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/03.%20Improvisation%20non%20mesur%C3%A9e%2C%20nay.mp3
+    title: Improvisation non mesurée, Nay
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_03_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/04.%20Pi%C3%A8ce%20instrumentale%2C%20bashraf.mp3
+    title: Pièce instrumentale, Bashraf
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_04_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/05.%20Le%20premier%20salut.mp3
+    title: Le premier salut
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/06.%20Le%20deuxi%C3%A8me%20salut.mp3
+    title: Le deuxième salut
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/07.%20Suite.mp3
+    title: Suite
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/08.%20Le%20troisi%C3%A8me%20salut.mp3
+    title: Le troisième salut
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_08_bayati_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/09.%20Suite.mp3
+    title: Suite
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/10.%20Le%20bas%20monde%20a%20%C3%A9t%C3%A9%20illumin%C3%A9.mp3
+    title: Le bas monde a été illuminé
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/11.%20Le%20quatri%C3%A8me%20salut.mp3
+    title: Le quatrième salut
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_11_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/12.%20Pi%C3%A8ce%20instrumentale%20finale%2C%20bashraf.mp3
+    title: Pièce instrumentale finale, Bashraf
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_12_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/13.%20Improvisation%20de%20conclusion%2C%20nay.mp3
+    title: Improvisation de conclusion, Nay
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_13_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/14.%20Hymne%20au%20fils%20de%20Mawl%C3%A2n%C3%A2.mp3
+    title: Hymne au fils de Mawlânâ
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_14_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%208/15.%20Pri%C3%A8re%20commune%20des%20Mawlaw%C3%AE.mp3
+    title: Prière commune des Mawlawî
+    artist: Mustafa Fahreddin Dede
+    scales:
+    - cairo-congress/CD08_15_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 9
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/01.%20The%20Laythiyya%20order%20-%20%C3%94%20Dieu%2C%20par%20lAmi%20tr%C3%A8s%20cher%2C%20Muhammad.mp3
+    title: "Ô Dieu, par l'ami très cher, muhammad"
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_01_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/02.%20The%20Laythiyya%20order%20-%20Le%20seuil%20de%20ton%20sanctuaire%20est%20le%20but.mp3
+    title: Le seuil de ton sanctuaire est le but / Est-ce que la flamme de Laylâ ?
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_02_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/03.%20The%20Laythiyya%20order%20-%20Les%20%C3%A2mes%20de%20Num%C3%A2n%20ne%20sont-elles%20quun%20souffle.mp3
+    title: "Les âmes de nu'Mân ne sont-elles qu'un souffle ?"
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_03_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/04.%20The%20Laythiyya%20order%20-%20%C3%94%20chamelier.mp3
+    title: Ô chamelier
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_04_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/05.%20The%20Laythiyya%20order%20-%20Accours%20te%20r%C3%A9fugier%20au%20sanctuaire.mp3
+    title: Accours te réfugier au sanctuaire
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/06.%20The%20Laythiyya%20order%20-%20Je%20tai%20suppli%C3%A9%20au%20nom%20de%20Dieu.mp3
+    title: "Je t'ai supplié au nom de Dieu"
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/07.%20The%20Laythiyya%20order%20-%20Secours-nous%2C%20aide-nous%20%C3%A0%20comprendre.mp3
+    title: "Secours-nous, aide-nous à comprendre / Ô vent de l'est, transmets-leur mon salut"
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/08.%20The%20Laythiyya%20order%20-%20Suite.mp3
+    title: Suite
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_08_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/09.%20The%20Laythiyya%20order%20-%20Mon%20amour%20pour%20toi%20ma%20fait%20citer%20en%20exemple.mp3
+    title: "Mon amour pour toi m'a fait citer en exemple / Un amour ayant enduré de la peine / Consacre-toi à Dieu"
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/10.%20The%20Laythiyya%20order%20-%20Recommande%20notre%20secours%20aux%20buveurs%20des%20tavernes.mp3
+    title: Recommande notre secours aux buveurs des tavernes / Qui donc a enseigné ? / Ô inconscient
+    artist: La Confrérie Laythiyya
+    scales:
+    - cairo-congress/CD09_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/11.%20Ensemble%20of%20Umm%20Ibr%C3%A2h%C3%AEm%20al-Mahdiyya%20-%20%C3%94%20M%C3%A8re%20%20%C3%94%20Sult%C3%A2n%20.mp3
+    title: Ô mère ! ô Sultân !
+    artist: Umm Ibrâhîm Al-Mahdiyya
+    scales:
+    - cairo-congress/CD09_11_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/12.%20Ensemble%20of%20Umm%20Ibr%C3%A2h%C3%AEm%20al-Mahdiyya%20-%20R%C3%BBm%C3%AEnajd%C3%AE.mp3
+    title: Rûmînajdî
+    artist: Umm Ibrâhîm Al-Mahdiyya
+    scales:
+    - cairo-congress/CD09_12_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/13.%20Ensemble%20of%20F%C3%A2tima%20al-Sh%C3%A2miyya%20-%20Le%20cort%C3%A8ge%20de%20la%20tanb%C3%BBra.mp3
+    title: Le cortège de la Tanburâ
+    artist: Fâtima Al-Shâmiyya
+    scales:
+    - cairo-congress/CD09_13_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%209/14.%20Ensemble%20of%20F%C3%A2tima%20al-Sh%C3%A2miyya%20-%20LHomme%20au%20miroir.mp3
+    title: "L'homme au miroir"
+    artist: Fâtima Al-Shâmiyya
+    scales:
+    - cairo-congress/CD09_14_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 10
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/01.%20Nous%20nous%20prosternons.mp3
+    title: Nous nous prosternons / Salut à Marie / Alléluia
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_01_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/02.%20Salut%20%C3%A0%20Marie.mp3
+    title: Salut à Marie / Bimâyro
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_02_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/03.%20Je%20ef%20ez%20maroot.mp3
+    title: "Je ef Ez Maro'ot / Je peniot / Tihirini"
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_03_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/04.%20D%C3%A9but%20de%20la%20messe%20-%20O%20namo%20t%C3%A2yo%20namo.mp3
+    title: 'Début de la messe : o Namo Tâyo Namo'
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_04_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/05.%20Megalo.mp3
+    title: Megalo
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_05_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/06.%20Ehone.mp3
+    title: Ehone
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_06_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/07.%20Agyos%20esheros.mp3
+    title: Agyos Esheros / Tralmustos Avi
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_07_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/08.%20Eprushte.mp3
+    title: Eprushte
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_08_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/09.%20B%C3%A9n%C3%A9diction%20des%20ch%C3%A9rubins.mp3
+    title: Bénédiction des chérubins
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_09_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/10.%20E%20bedim.mp3
+    title: E Bedim
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_10_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/11.%20Fin%20de%20la%20messe.mp3
+    title: Fin de la messe
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_11_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/12.%20Et%20av%20inhi%C3%A9%20askh%C3%A2i.mp3
+    title: "Et av inhié Askhâ'î / Tok Tatigon / Hen e'i Frân"
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_12_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/13.%20Psaume%20de%20la%20tristesse.mp3
+    title: Psaume de la tristesse / Ariba Mavi
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_13_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/14.%20Obi%20et%20khen%20bi.mp3
+    title: Obi et Khen Bi / Omonogis / Golgotha
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_14_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/15.%20All%C3%A9luia.mp3
+    title: Alléluia / Le christ est ressussité / Fi et é ouon
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_15_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/16.%20Bi%20ovoini.mp3
+    title: "Bi Ovoini / Ton sin / Par l'esprit et l'intercesseur / Ondos"
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_16_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/17.%20Fi%20et%20sh%C3%B4b.mp3
+    title: "Fi et shôb / Pour l'amour de Dieu / Ha an Anchou / En Thok Gâr / Aki"
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_17_Egypt
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2010/18.%20Tihi%20ni%20nak.mp3
+    title: Tihi ni Nak / In iri Gâr / Beklaos Gâr / Ocoti je anon / Afnoti / Fi at Afgor
+    artist: Mîkhâ'îl Jirjis al-Batânûnî
+    scales:
+    - cairo-congress/CD10_18_Egypt
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 11
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/01.%20Toi%20qui%20es%20beau%20comme%20Joseph.mp3
+    title: Toi qui est beau comme Joseph
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_01_rast_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/02.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_02_rast_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/03.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_03_rast_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/04.%20Jamais%20on%20ne%20vit%20de%20beaut%C3%A9%20pareille%2C%20m%C3%AAme%20chez%20les%20Shammar.mp3
+    title: Jamais on ne vit de beauté pareille, même chez les shammar
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_04_bayati_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/05.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_05_bayati_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/06.%20Elles%20se%20sont%20enfuies%2C%20les%20nuits%20de%20bonheur.mp3
+    title: Elles se sont enfuies, les nuits de bonheur
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_06_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/07.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_07_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/08.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_08_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/09.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_09_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/10.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_10_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/11.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_11_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/12.%20Ce%20malheur%20est%20le%20mien.mp3
+    title: Ce malheur est le mien
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_12_bayati_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/13.%20Ne%20me%20crois%20pas%20dupe%20%2C%20Sois%20bon%20avec%20la%20cr%C3%A9ature%20de%20Dieu.mp3
+    title: Ne me crois pas dupe / Soit bon avec la créature de dieu
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_13_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/14.%20Saisis-toi%20de%20la%20vie%20et%20profite%20des%20heures%20claires%20de%20lexistence.mp3
+    title: "Saisis-toi de la vie et profite des heures claires de l'existence"
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_14_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/15.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_15_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/16.%20Comment%20un%20passionn%C3%A9%20peut-il%20triompher%20de%20ta%20froideur.mp3
+    title: Comment un passionné peut-il triompher de ta froideur ?
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_16_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/17.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_17_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/18.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_18_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/19.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_19_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/20.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_20_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2011/21.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD11_21_Iraq
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 12
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/01.%20Pourquoi%20%5Bte%5D%20vois-je%20soucieux.mp3
+    title: Pourquoi [te] vois-je soucieux ?
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_01_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/02.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_02_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/03.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_03_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/04.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_04_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/05.%20Comment%20me%20salues-tu%20sans%20%C3%A9voquer%20la%20m%C3%A9moire%20de%20mes%20parents.mp3
+    title: Comment me salues-tu sans évoquer la mémoire de mes parents ?
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_05_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/06.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_06_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/07.%20Japer%C3%A7ois%20les%20traces%20de%20leur%20campement%20et%20me%20morfonds%20de%20passion.mp3
+    title: "J'aperçois les traces de leur campement et me Morfonds de passion"
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_07_saba_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/08.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_08_saba_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/09.%20Taqs%C3%AEm%2C%20sant%C3%BBr.mp3
+    title: Taqsîm, santûr
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_09_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/10.%20Taqs%C3%AEm%2C%20j%C3%B4za.mp3
+    title: Taqsîm, Jôza
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_10_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/11.%20Taqs%C3%AEm%2C%20%C3%BBd.mp3
+    title: "Taqsîm, 'ûd"
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_11_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/12.%20Taqs%C3%AEm%2C%20q%C3%A2b%C3%BBn.mp3
+    title: Taqsîm, qânûn
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_12_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/13.%20Neuf%20rythmes%20de%20l%C3%A9cole%20de%20Bagdad%2C%20duff%20zinj%C3%A2r%C3%AE.mp3
+    title: "Neuf rythmes de l'école de Bagdad, Duff Zinjârî"
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_13_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/14.%20Neuf%20rythmes%20de%20l%C3%A9cole%20de%20Bagdad%2C%20dumbakk.mp3
+    title: "Neuf rythmes de l'école de Bagdad, Dumbakk"
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_14_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/15.%20Depuis%20le%20jour%20de%20ton%20d%C3%A9part.mp3
+    title: Depuis le jour de ton départ
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_15_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/16.%20%28Suite%29%20Toi%20dont%20le%20front%20est%20plus%20beau%20que%20la%20pleine%20lune.mp3
+    title: (Suite) Toi dont le front est plus beau que la pleine lune
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_16_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/17.%20%28Suite%29%20Hormis%20les%20gens%20de%20passion.mp3
+    title: (Suite) Hormis les gens de passion
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_17_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/18.%20%28Suite%29%20Au-dessus%20de%20toi%2C%20le%20ciel.mp3
+    title: (Suite) Au-dessus de toi, le ciel
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_18_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/19.%20Ami%2C%20ma%20tribu%20me%20bat%20froid.mp3
+    title: Ami, ma tribu me bat Froid
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_19_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/20.%20%28Suite%29%20Le%20luth%20est%20mon%20%C3%A2me%2C%20%C3%B4%20chamelier.mp3
+    title: (Suite) Le Luth est mon âme, ô chamelier
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_20_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/21.%20%28Suite%29%20%C3%94%20toi%20qui%20traverses%20la%20steppe.mp3
+    title: (Suite) Ô toi qui traverses la steppe
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_21_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/22.%20%28Suite%29%20Et%20les%20larmes%20de%20mes%20yeux.mp3
+    title: (Suite) Et les larmes de mes yeux
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_22_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/23.%20Purifie%20ton%20coeur%20avec%20des%20coupes%20de%20vin.mp3
+    title: Purifie ton coeur avec des coupes de vin
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_23_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2012/24.%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD12_24_Iraq
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 13
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/01.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Toi%20aux%20paupi%C3%A8res%20langoureuses.mp3
+    title: Toi aux paupières langoureuses
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_01_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/02.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_02_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/03.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_03_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/04.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_04_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/05.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Cest%20comme%20si%20midi%20%C3%A9tait%20la%20nuit.mp3
+    title: "C'est comme si Midi était la nuit"
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_05_husayni_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/06.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_06_husayni_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/07.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Suite.mp3
+    title: Suite
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_07_husayni_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/08.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Taqs%C3%AEm%2C%20%C3%BBd.mp3
+    title: "Taqsîm, 'ûd"
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_08_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/09.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Taqs%C3%AEm%2C%20q%C3%A2n%C3%BBn.mp3
+    title: Taqsîm, qânûn
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_09_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/10.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Taqs%C3%AEm%20mesur%C3%A9%2C%20sant%C3%BBr.mp3
+    title: Taqsîm mesuré, santûr
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_10_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/11.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Taqs%C3%AEm%20mesur%C3%A9%2C%20sant%C3%BBr.mp3
+    title: Taqsîm mesuré, santûr
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_11_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/12.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Taqs%C3%AEm%20mesur%C3%A9%2C%20sant%C3%BBr.mp3
+    title: Taqsîm mesuré, santûr
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_12_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/13.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Taqs%C3%AEm%20mesur%C3%A9%2C%20j%C3%B4za%2C%20dumbakk.mp3
+    title: Taqsîm mesuré, Jôza, Dumbakk
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_13_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/14.%20Ensemble%20of%20Muhammad%20al-Qubb%C3%A2nj%C3%AE%20and%20Azz%C3%BBr%C3%AE%20al-Aww%C3%A2d%20-%20Taqs%C3%AEm%20mesur%C3%A9%2C%20j%C3%B4za%2C%20dumbakk.mp3
+    title: Taqsîm mesuré, Jôza, Dumbakk
+    artist: Ensemble de Muhammad Al-Qubbbânjî
+    scales:
+    - cairo-congress/CD13_14_Iraq
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/15.%20Fawz%C3%AE%20al-Qaltaqj%C3%AE%20-%20Taqs%C3%AEm%2C%20q%C3%A2n%C3%BBn.mp3
+    title: Taqsîm, qânûn
+    artist: Fawzî al-Qaltaqjî
+    scales:
+    - cairo-congress/CD13_15_Syria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/16.%20Fawz%C3%AE%20al-Qaltaqj%C3%AE%20-%20Taqs%C3%AEm%2C%20q%C3%A2n%C3%BBn.mp3
+    title: Taqsîm, qânûn
+    artist: Fawzî al-Qaltaqjî
+    scales:
+    - cairo-congress/CD13_16_rast_segah_Syria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/17.%20Mesut%20Cemil%20bey%20-%20Pe%C3%A7rev.mp3
+    title: Peçrev
+    artist: Mesut Cemil Bey
+    scales:
+    - cairo-congress/CD13_17_Turkey
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/18.%20Mesut%20Cemil%20bey%20-%20Suite.mp3
+    title: Suite
+    artist: Mesut Cemil Bey
+    scales:
+    - cairo-congress/CD13_18_Turkey
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/19.%20Mesut%20Cemil%20bey%20-%20Semai.mp3
+    title: Semai
+    artist: Mesut Cemil Bey
+    scales:
+    - cairo-congress/CD13_19_Turkey
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/20.%20Mesut%20Cemil%20bey%20-%20Pr%C3%A9lude%2C%20puis%20danse%20zeybek.mp3
+    title: Prélude, puis danse
+    artist: Mesut Cemil Bey
+    scales:
+    - cairo-congress/CD13_20_Turkey
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/21.%20Mesut%20Cemil%20bey%20-%20Pr%C3%A9lude%2C%20puis%20danse%20mandra.mp3
+    title: Prélude, puis danse
+    artist: Mesut Cemil Bey
+    scales:
+    - cairo-congress/CD13_21_Turkey
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2013/22.%20Mesut%20Cemil%20bey%20-%20Peuple%20oriental.mp3
+    title: Peuple oriental
+    artist: Mesut Cemil Bey
+    scales:
+    - cairo-congress/CD13_22_Turkey
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 14
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/01.%20N%C3%BBba%20Raml%20al-ashiyya%20Mustakhbar%20al-sana.mp3
+    title: "Nûba Raml al-'ashiyya / Tûshiya"
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_01_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/02.%20T%C3%BBshiya.mp3
+    title: Tûshiya
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_02_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/03.%20Le%20soleil%20du%20cr%C3%A9puscule%20p%C3%A2lit.mp3
+    title: Le soleil du crépuscule
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_03_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/04.%20Suite.mp3
+    title: Suite
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_04_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/05.%20Le%20mal%20damour%20a%20consum%C3%A9%20mon%20coeur.mp3
+    title: "Le mal d'amour a commencé mon coeur"
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_05_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/06.%20Suite.mp3
+    title: Suite
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_06_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/07.%20Que%20ton%20destin%20te%20soit%20toujours%20favorable.mp3
+    title: Que ton destin te soit toujours favorable
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_07_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/08.%20Suite.mp3
+    title: Suite
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_08_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/09.%20Je%20taime.mp3
+    title: "Je t'aime"
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_09_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/10.%20Suite.mp3
+    title: Suite
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_10_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/11.%20%C3%94%20gens%20de%20lAndalousie.mp3
+    title: "Ô gens de l'Andalousie"
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_11_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/12.%20%C3%94%20ami.mp3
+    title: Ô ami
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_12_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/13.%20Sois%20prudent%20en%20laimant.mp3
+    title: "Sois prudent en l'aimant"
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_13_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/14.%20Nous%20avons%20v%C3%A9cu%20dans%20le%20bonheur.mp3
+    title: Nous avons vécu dans le bonheur
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_14_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/15.%20%C3%80%20qui%20sera%20le%20tour%20pour%20cette%20visite.mp3
+    title: À qui sera le tour pour cette visite ?
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_15_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/16.%20Perle%20de%20ros%C3%A9e.mp3
+    title: Perle de rosée
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_16_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/17.%20Toute%20terre%20revit%20par%20votre%20pr%C3%A9sence.mp3
+    title: Toute terre revit par votre présence
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_17_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/18.%20L-ve-toi%20et%20vois%20les%20fleurs.mp3
+    title: Lève-toi et vois les fleurs
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_18_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/19.%20Les%20violettes%20embaument.mp3
+    title: Les violettes embaument
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_19_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2014/20.%20Les%20roses%20%C3%A9closent%20sur%20les%20joues.mp3
+    title: Les roses éclosent sur les joues
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD14_20_Algeria
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 15
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/01.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20L%C3%A8ve-toi%20et%20fais%20circuler%20les%20coupes.mp3
+    title: Lève-toi et fais circuler les coupes
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_01_husayni_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/02.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20%C3%94%20amoureux.mp3
+    title: Ô amoureux
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_02_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/03.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20Le%20printemps%20est%20arriv%C3%A9%2C%20%C3%B4%20homme.mp3
+    title: Le printemps est arrivé, ô homme
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_03_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/04.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20Console-toi%20de%20tes%20soucis.mp3
+    title: Console-toi de tes soucis
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_04_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/05.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20Pourquoi%20le%20nuage%20pleure-t-il.mp3
+    title: Pourquoi le nuage pleure-t-il ?
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_05_rast_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/06.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20Tlemcen%2C%20%C3%B4%20noble%20cit%C3%A9.mp3
+    title: Tlemcem, ô noble cité
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_06_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/07.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20Ils%20ont%20mont%C3%A9%20contre%20moi%20les%20esprits.mp3
+    title: Ils ont monté contre moi les esprits
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_07_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/08.%20Ensemble%20of%20al-Arab%C3%AE%20Ben%20S%C3%A2r%C3%AE%20-%20Tu%20mas%20meurtri%20sans%20raison.mp3
+    title: "Tu m'as meurtri sans raison"
+    artist: L'ensemble d'Al-'Arabî Ben Sârî
+    scales:
+    - cairo-congress/CD15_08_Algeria
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/09.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Que%20la%20paix%20soit%20avec%20mes%20parents.mp3
+    title: Que la paix soit avec mes parents
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_09_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/10.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Toi%20au%20regard%20%C3%A9tincelant.mp3
+    title: Toi au regard étincelant
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_10_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/11.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Le%20destin%20ma%20exauc%C3%A9.mp3
+    title: "Le destin m'a exaucé / Le zéphyr a présagé votre venue"
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_11_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/12.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Vous%20%C3%AAtes%20le%20refuge%20du%20mystique.mp3
+    title: Vous êtes le refuge du mystique / Sans toi, je ne me serai pas consumé de passion
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_12_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/13.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Ne%20trouble%20pas%20mon%20bonheur%20avec%20elle.mp3
+    title: Ne trouble pas mon bonheur avec elle / Ô soleil du crepuscule
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_13_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/14.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Et%20je%20suis%20devenu%20amoureux.mp3
+    title: Et je suis devenu amoureux
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_14_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/15.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Je%20nai%20plus%20de%20force.mp3
+    title: "Je n'ai plus de force"
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_15_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/16.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Que%20Dieu%20ne%20s%C3%A9pare%20point%20les%20amoureux.mp3
+    title: Que Dieu ne sépare point les amoureux
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_16_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/17.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Dieu%20lui%20r%C3%A9v%C3%A9la%20tous%20les%20secrets.mp3
+    title: Dieu lui révéla tous les secrets
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_17_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/18.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Dieu%20leur%20fit%20appara%C3%AEtre.mp3
+    title: Dieu leur fit apparaître / Une lune parfaite
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_18_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/19.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Ils%20tont%20d%C3%A9rob%C3%A9e%20aux%20regards%20passionn%C3%A9s.mp3
+    title: "Ils t'ont dérobée aux regards passionnés / Ô compagnon qui m'a mis hors de moi"
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_19_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2015/20.%20Ensemble%20of%20Umar%20F%C3%A2id%20al-Juayd%C3%AE%20-%20Jai%20pass%C3%A9%20ma%20vie%20%C3%A0%20taimer.mp3
+    title: "J'ai passé ma vie à t'aimer"
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD15_20_Morocco
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 16
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/01.%20Mon%20coeur%20taime%20et%20ma%20passion%20est%20partag%C3%A9e.mp3
+    title: "Mon coeur t'aime et ma passion est partagée"
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_01_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/02.%20T%C3%BBshiya.mp3
+    title: Tûshiya
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_02_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/03.%20Soyez%20les%20bienvenus.mp3
+    title: Soyez les bienvenus
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_03_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/04.%20Mon%20amour%20est%20avec%20moi.mp3
+    title: Mon amour est avec moi
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_04_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/05.%20Un%20jour%20merveilleux.mp3
+    title: Un jour merveilleux
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_05_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/06.%20Suite.mp3
+    title: Suite
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_06_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/07.%20Une%20Lune%20parfaite.mp3
+    title: Une lune parfaite
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_07_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/08.%20Accours%20te%20r%C3%A9fugier%20au%20sanctuaire.mp3
+    title: Accours te réfugier au sanctuaire
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_08_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/09.%20Les%20lunes%20mont%20fait%20souffrir.mp3
+    title: "Les lunes m'ont fait souffrir"
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_09_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/10.%20Quiconque%20aime.mp3
+    title: Quiconque aime
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_10_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/11.%20Mon%20regard%20ne%20se%20tourne%20vers%20nulle%20autre%20beaut%C3%A9.mp3
+    title: Mon regard ne se tourne vers nulle autre beauté
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_11_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/12.%20Ton%20absence.mp3
+    title: Ton absence
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_12_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/13.%20Nous%20nous%20sommes%20trouv%C3%A9s%20dans%20un%20jardin.mp3
+    title: Nous nous sommes trouvés dans un jardin
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_13_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/14.%20%C3%94%20amoureux.mp3
+    title: Ô amoureux
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_14_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/15.%20La%20brise%20du%20matin%20a%20offert.mp3
+    title: La brise du matin a Offert
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_15_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/16.%20La%20pl%C3%A9iade%20sest%20d%C3%A9tourn%C3%A9e.mp3
+    title: "La pléïade s'est détournée / Comment se reposerait-il ?"
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_16_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/17.%20Mon%20amour%2C%20lorsque%20je%20le%20contemple.mp3
+    title: Mon amour, lorsque je le contemple
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_17_Morocco
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2016/18.%20Parcours%20le%20monde%2C%20tu%20en%20saisiras%20les%20secrets.mp3
+    title: Parcours le Monde, tu en saisiras les secrets
+    artist: L'ensemble de 'Umar Fâ'id Al-Ju'aydî
+    scales:
+    - cairo-congress/CD16_18_Morocco
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 17
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/01.%20La%20n%C3%BBba%20Rasd%20al-dhil%20-%20Introduction%20istift%C3%A2h.mp3
+    title: 'La nûba Rasd al-dhil : introduction Istiftâh'
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_01_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/02.%20Msaddar.mp3
+    title: Msaddar
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_02_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/03.%20Jai%20jur%C3%A9%20de%20ne%20jamais%20aimer%20dautre%20que%20vous.mp3
+    title: "J'ai juré de ne jamais aimé d'autre que vous"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_03_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/04.%20%C3%94%20parfait%20comme%20la%20pleine%20lune.mp3
+    title: Ô parfait comme la pleine lune
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_04_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/05.%20Conclusion%20du%20btayh%C3%AE.mp3
+    title: Conclusion du Btayhî / Ô toi qui es épris du prince des gazelles
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_05_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/06.%20Mon%20amour%20est%20%C3%A0%20lint%C3%A9rieur.mp3
+    title: "Mon amour est à l'intérieur"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_06_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/07.%20Tawshiya%20Ir%C3%A2q.mp3
+    title: "Tawshiya 'Irâq"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_07_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/08.%20Suite.mp3
+    title: Suite
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_08_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/09.%20%C3%94%20lui%20qui%20ma%20rejet%C3%A9.mp3
+    title: "Ô lui qui m'a rejeté : taille élancée, il n'y a pas plus beau"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_09_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/10.%20De%20ma%20crainte%20et%20de%20ma%20passion.mp3
+    title: De ma crainte et de ma passion
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_10_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/11.%20Trois%20choses%20en%20ce%20bas%20monde%20me%20plaisent.mp3
+    title: Trois choses en ce bas monde me plaisent
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_11_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/12.%20%C3%94%20amoureux%2C%20ces%20cheveux.mp3
+    title: Ô amoureux, ces cheveux
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_12_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/13.%20Au%20nom%20de%20Dieu%20et%20par%20Dieu.mp3
+    title: Au nom de Dieu et par Dieu
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_13_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/14.%20%28Suite%29%20All%C3%A2h%2C%20All%C3%A2h%2C%20All%C3%A2h.mp3
+    title: (Suite) Allâh, Allâh, Allâh
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_14_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/15.%20%C3%94%20famille%20r%C3%A9v%C3%A9r%C3%A9e%2C%20vous%20%C3%AAtes%20mon%20espoir.mp3
+    title: Ô famille révérée, vous êtes mon espoir
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_15_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/16.%20La%20pleine%20lune%20est%20apparue%20au%20matin.mp3
+    title: La pleine lune est apparue au matin / Toi qui es brun
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_16_husayni_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/17.%20Combien%20nous%20avons%20%C3%A9t%C3%A9%20appel%C3%A9s.mp3
+    title: Combien nous avons été appelés
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_17_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/18.%20Lobjet%20de%20mes%20d%C3%A9sirs%20ma%20visit%C3%A9.mp3
+    title: "L'objet de mes désirs m'a visité / Quels sont ces gens qui m'ont dérouté ?"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_18_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/19.%20Je%20vois%20une%20petite%20gazelle.mp3
+    title: Je vois une petite gazelle
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_19_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2017/20.%20Regarde%20mon%20%C3%A9tat%20et%20ce%20qui%20mest%20arriv%C3%A9.mp3
+    title: "Regarde mon état et ce qui m'est arrivé / À chaque instant de mon aimé"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD17_20_Tunisia
+- artist: Various artists
+  album: Cairo Congress of Arab Music, CD 18
+  year: 1932
+  tracks:
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/01.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: "Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_01_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/02.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: "Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_02_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/03.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: Istikhbâr, rbâb / De toutes parts tu le vois
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_03_husayni_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/04.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: "Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_04_rast_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/05.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: "Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_05_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/06.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: "Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_06_rasd_al_dhil_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/07.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: "Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_07_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/08.%20Istikhb%C3%A2r%2C%20rb%C3%A2b.mp3
+    title: "Istikhbâr, rbâb / Istikhbâr, 'ûd 'Arabî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_08_muhayyar_sikah_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/09.%20Il%20ny%20a%20de%20dieu%20que%20Dieu.mp3
+    title: "Il n'y a de Dieu que dieu"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_09_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/10.%20Pare-la%2C%20%C3%B4%20coiffeuse%20.mp3
+    title: Pare-là, ô coiffeuse !
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_10_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/11.%20Circoncis%2C%20%C3%B4%20circonciseur%20.mp3
+    title: Circoncis, ô circonciseur !
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_11_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/12.%20Chantez%20la%20grandeur%20de%20Dieu.mp3
+    title: Chantez la grandeur de Dieu
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_12_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/13.%20Ar%C3%BBb%C3%AE.mp3
+    title: "'Arûbî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_13_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/14.%20Tu%20es%20absent%2C%20%C3%B4%20mon%20p%C3%A8re.mp3
+    title: Tu es absent, ô mon père / Celui qui aime est excusé
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_14_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/15.%20Ar%C3%BBb%C3%AE.mp3
+    title: "'Arûbî"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_15_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/16.%20Tatoue%2C%20%C3%B4%20tatoueur%20.mp3
+    title: Tatoue, ô tatoueur ! / Il te parle du temps des fleurs
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_16_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/17.%20Celui%20qui%20a%20commis%20ladult%C3%A8re%20est%20tranquille.mp3
+    title: "Celui qui a commis l'adultère est tranquille"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_17_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/18.%20%C3%94%20mon%20enfer%2C%20ma%20grande%20souffrance.mp3
+    title: Ô mon enfer, ma grande souffrance
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_18_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/19.%20Istikhb%C3%A2r%2C%20Muhayyir%20Ir%C3%A2q.mp3
+    title: "Istikhbâr, Muhayyir 'Irâq / Danse de la Ghayta"
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_19_Tunisia
+  - url: https://archive.org/download/13.PsaumeDeLaTristesse/Congr%C3%A8s%20de%20musique%20arabe%20du%20Caire%20%28The%20Cairo%20congress%20of%20arab%20music%29%20-%201932%20%5BBNF%2001%20CD-01-18%5D%20%282015%29/CD%2018/20.%20Istikhb%C3%A2r%2C%20Rasd%20al-Dh%C3%AEl.mp3
+    title: Istikhbâr, rasd al-Dhîl / Danse Fizzânî
+    artist: L'ensemble de Muhammad Ghânim
+    scales:
+    - cairo-congress/CD18_20_Tunisia

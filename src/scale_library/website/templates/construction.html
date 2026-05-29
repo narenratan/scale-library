@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }} | scale-library{% endblock %}
+
+{% block content %}
+<div class="prose">
+{{ content | safe }}
+</div>
+
+{% if python_code %}
+<details>
+  <summary>Python code</summary>
+  <pre><code>{{ python_code }}</code></pre>
+</details>
+{% endif %}
+
+{% if scales %}
+<h2>Scales</h2>
+<table class="auto filenames">
+  <thead><tr><th>File</th>{% if examples %}<th>Call</th>{% endif %}</tr></thead>
+  <tbody>
+  {% for scale in scales %}
+  <tr>
+    <td><a href="/scales/{{ scale.stem }}/">{{ scale.scl_file[:-4] }}</a></td>
+    {% if examples %}<td>{% set call = examples.get(scale.stem) %}{% if call %}<code>{{ call }}</code>{% endif %}</td>{% endif %}
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% endblock %}

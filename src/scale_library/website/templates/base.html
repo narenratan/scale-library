@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}scale-library{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}A library of microtonal scales with sources attributed.{% endblock %}">
+  {% block og %}
+  <meta property="og:title" content="{% block og_title %}scale-library{% endblock %}">
+  <meta property="og:description" content="{% block og_description %}A library of microtonal scales with sources attributed.{% endblock %}">
+  <meta property="og:url" content="{% block og_url %}{{ prod_base }}/{% endblock %}">
+  <meta property="og:type" content="website">
+  {% endblock %}
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/static/apple-touch-icon.png">
+  <link rel="stylesheet" href="/static/style.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+<nav>
+  <a href="/">scale-library</a>
+  <a href="/definitions/">definitions</a>
+  <a href="/constructions/">constructions</a>
+</nav>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer>
+  <a href="https://github.com/narenratan/scale-library">GitHub</a>
+</footer>
+</body>
+</html>

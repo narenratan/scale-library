@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page_title }} | scale-library{% endblock %}
+
+{% block meta_description %}{{ meta_description if meta_description else (intro if intro else page_title + " — " + (scales | length | string) + " scales from the scale-library collection.") }}{% endblock %}
+
+{% block content %}
+<h1>{{ page_title }}</h1>
+
+{% if ml_lists %}
+<ul>
+  <li><a href="/source/mailing-lists/topics/">All topics</a> — {{ topics_count }} threads containing scales</li>
+  {% for ml in ml_lists %}
+  <li><a href="/source/mailing-lists/{{ ml.name }}/">{{ ml.name }}</a> — {{ ml.count }} scales</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if all_recordings_url %}<p><a href="{{ all_recordings_url }}">All recordings</a></p>{% endif %}
+
+{% if description %}{{ description | safe }}{% endif %}
+
+{% if article_title %}<p><em>{{ article_title }}</em>{% if article_url %} — <a href="{{ article_url }}">{{ article_url | domain }}</a>{% endif %}</p>{% endif %}
+
+{% if intro %}<p>{{ intro | safe }}</p>{% endif %}
+
+{% if not intro %}<p>{{ scales | length }} scale{{ 's' if scales | length != 1 else '' }}</p>{% endif %}
+
+<table class="filenames">
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Description</th>
+      <th>Notes</th>
+      <th>Period (¢)</th>
+      {% if show_limit %}<th>Limit</th>{% endif %}
+      {% if show_source %}<th>Source</th>{% endif %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for s in scales %}
+    <tr>
+      <td><a href="/scales/{{ s.stem }}/">{{ s.scl_file[:-4] }}</a></td>
+      <td>{{ s.description }}</td>
+      <td class="nowrap">{{ s.notes }}</td>
+      <td class="nowrap">{{ "%.1f" | format(s.period) }}</td>
+      {% if show_limit %}<td class="nowrap">{% if s.just %}{{ s.limit }}{% endif %}</td>{% endif %}
+      {% if show_source %}<td class="nowrap">{{ s.info.source }}</td>{% endif %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if thread %}
+<h2>Thread ({{ thread | length }} messages)</h2>
+{% for msg in thread %}
+<pre>From: {{ msg.author }} ({{ msg.date }})
+Subject: {{ msg.subject }}
+
+{{ msg.body }}</pre>
+{% endfor %}
+{% endif %}
+{% endblock %}

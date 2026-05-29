@@ -1,0 +1,208 @@
+{% extends "base.html" %}
+
+{% block title %}{{ scale.scl_file[:-4] }}: {{ scale.description }} | scale-library{% endblock %}
+
+{% block meta_description %}{{ scale.notes }}-note {% if scale.just %}{{ scale.limit }}-limit just intonation scale{% else %}scale{% endif %} from {{ scale.info.source }}{% if scale.reference %} — {{ scale.reference }}{% endif %}.{% endblock %}
+
+{% block og %}
+<meta property="og:title" content="{{ scale.scl_file[:-4] }}: {{ scale.description }}">
+<meta property="og:url" content="{{ prod_base }}/scales/{{ scale.stem }}/">
+<meta property="og:description" content="{{ scale.notes }}-note {% if scale.just %}{{ scale.limit }}-limit just intonation scale{% else %}scale{% endif %} from {{ scale.info.source }}.">
+{% endblock %}
+
+{% block content %}
+<h1>{{ scale.scl_file[:-4] }}</h1>
+<p>{{ scale.description }}</p>
+
+<div class="links">
+  <a href="{{ sw_url }}">Open in Scale Workshop</a>
+  <a href="scala/">Scala analysis</a>
+  <a href="{{ scale.scl_file }}" download>Download scl</a>
+</div>
+
+<h2>Properties</h2>
+<table class="auto properties">
+  <tr><th>Notes</th><td><a href="/notes/{{ scale.notes }}/">{{ scale.notes }}</a></td></tr>
+  <tr><th>Period</th><td>{{ scale.period }} ¢</td></tr>
+  <tr><th>Just</th><td>{% if scale.just %}<a href="/limit/{{ scale.limit }}/">{{ scale.limit }}-limit</a>{% else %}No{% endif %}</td></tr>
+  {% if construction %}
+  <tr><th>Construction</th><td><a style="text-underline-offset: 0.3em;" href="/constructions/{{ construction.slug }}/">{% if construction.call %}<code>{{ construction.call }}</code>{% else %}{{ construction.label }}{% endif %}</a></td></tr>
+  {% endif %}
+  <tr><th>Source</th><td>
+    {% if scale.info.source == "Xenharmonikon" %}
+      <a href="/source/xenharmonikon/{{ xen_issue_slug }}/">Xenharmonikon {{ scale.info.raw.whole_number }}</a>
+    {% elif scale.info.source == "Mailing lists" %}
+      {% set list_name = scale.info.raw.file.split('/')[0] %}
+      <a href="/source/mailing-lists/">Mailing lists</a>
+    {% elif scale.info.source == "DaMuSc" %}
+      <a href="/source/damusc/">Database of Musical Scales</a>
+    {% elif scale.info.source == "Divisions of the Tetrachord" %}
+      <a href="/source/divisions-of-the-tetrachord/">Divisions of the Tetrachord</a>
+    {% elif scale.info.source == "EDO" %}
+      <a href="/source/edos/">EDO</a>
+    {% elif scale.info.source == "ORD-CC32" %}
+      <a href="/source/cairo-congress/">Cairo Congress of Arab Music</a>
+    {% else %}
+      {{ scale.info.source }}
+    {% endif %}
+  </td></tr>
+  {% if div_type %}
+  <tr><th>Type</th><td><a href="/source/divisions-of-the-tetrachord/{{ div_type }}/">{{ div_type_display }}</a></td></tr>
+  {% endif %}
+  {% if scale.reference %}
+  <tr><th>Reference</th><td>{{ scale.reference }}</td></tr>
+  {% endif %}
+  {% if scale.info.raw.doi %}
+  <tr><th>DOI</th><td><a href="{{ scale.info.raw.doi }}">{{ scale.info.raw.doi }}</a></td></tr>
+  {% endif %}
+  {% if country %}
+  <tr><th>Country</th><td><a href="/country/{{ country_slug }}/">{{ country }}</a></td></tr>
+  {% endif %}
+  {% if xen_author_slug %}
+  <tr><th>Author</th><td><a href="/author/{{ xen_author_slug }}/">{{ xen_author_name }}</a></td></tr>
+  {% endif %}
+  {% if xen_article_url %}
+  <tr><th>Read online</th><td><a href="{{ xen_article_url }}">{{ xen_article_url | domain }}</a></td></tr>
+  {% endif %}
+  {% if cc_maqam %}
+  <tr><th>Maqam</th><td><a href="/source/cairo-congress/maqam/{{ cc_maqam_slug }}/">{{ cc_maqam }}</a></td></tr>
+  {% endif %}
+  {% if cc_region %}
+  <tr><th>Country</th><td><a href="/country/{{ cc_region }}/">{{ cc_region }}</a></td></tr>
+  {% endif %}
+  {% if cc_tonic_ref %}
+  <tr><th>Tonic ref</th><td><a href="/source/cairo-congress/tonic_ref/{{ cc_tonic_ref }}/">{{ cc_tonic_ref }}</a></td></tr>
+  {% endif %}
+  {% if related_more_url %}
+  <tr><th>{{ related_label | capitalize }}</th><td><a href="{{ related_more_url }}">{{ related_count }} scale{{ 's' if related_count != 1 else '' }}</a></td></tr>
+  {% endif %}
+</table>
+
+<table class="auto">
+  <thead>
+    <tr>
+      {% if scale.just %}
+      <th>Tone</th>
+      <th>Tone (¢)</th>
+      <th class="step-sep">Step</th>
+      <th>Step (¢)</th>
+      {% else %}
+      <th>Tone (¢)</th>
+      <th class="step-sep">Step (¢)</th>
+      {% endif %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for tone in scale.tones %}
+    {% set step = steps[loop.index0] %}
+    <tr>
+      {% if scale.just %}
+      <td>{{ tone.string_rep }}</td>
+      <td class="num">{{ "%.0f" | format(tone.cents) }}</td>
+      <td class="step-sep">{{ step.ratio if step.ratio else "" }}</td>
+      <td class="num">{{ "%.0f" | format(step.cents) }}</td>
+      {% else %}
+      <td class="num">{{ "%.0f" | format(tone.cents) }}</td>
+      <td class="num step-sep">{{ "%.0f" | format(step.cents) }}</td>
+      {% endif %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% if similar %}
+<h2>Similar scales</h2>
+<table class="auto filenames">
+  <thead><tr><th>File</th><th>Notes</th><th>Rotation</th><th>Max diff (¢)</th></tr></thead>
+  <tbody>
+  {% for s in similar[:10] %}
+  <tr>
+    <td><a href="/scales/{{ s.scale.stem }}/">{{ s.scale.scl_file[:-4] }}</a></td>
+    <td class="num">{{ s.scale.notes }}</td>
+    <td class="num">{{ s.mode }}</td>
+    <td class="num">{{ s.max_diff }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if parents %}
+<h2>Parent scales</h2>
+<table class="auto filenames">
+  <thead><tr><th>File</th><th>Notes</th><th>Max diff (¢)</th></tr></thead>
+  <tbody>
+  {% for s in parents[:10] %}
+  <tr>
+    <td><a href="/scales/{{ s.scale.stem }}/">{{ s.scale.scl_file[:-4] }}</a></td>
+    <td class="num">{{ s.scale.notes }}</td>
+    <td class="num">{{ s.max_diff }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if children %}
+<h2>Child scales</h2>
+<table class="auto filenames">
+  <thead><tr><th>File</th><th>Notes</th><th>Max diff (¢)</th></tr></thead>
+  <tbody>
+  {% for s in children[:10] %}
+  <tr>
+    <td><a href="/scales/{{ s.scale.stem }}/">{{ s.scale.scl_file[:-4] }}</a></td>
+    <td class="num">{{ s.scale.notes }}</td>
+    <td class="num">{{ s.max_diff }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% if post %}
+<details>
+  <summary>Mailing list post</summary>
+  <pre>From: {{ post.author }} ({{ post.date }})
+Subject: {{ post.subject }}
+
+{{ post.body }}</pre>
+</details>
+{% if thread %}
+<details>
+  <summary>Full thread ({{ thread | length }} messages)</summary>
+  {% for msg in thread %}
+  <pre>From: {{ msg.author }} ({{ msg.date }})
+Subject: {{ msg.subject }}
+
+{{ msg.body }}</pre>
+  {% endfor %}
+</details>
+{% endif %}
+{% endif %}
+
+{% if recordings or scale.info.source == "EDO" %}
+<h2>Recordings</h2>
+{% if recordings %}
+<table class="auto">
+  <thead><tr><th>Title</th><th>Artist</th><th>Album</th><th>Year</th>{% if show_reference %}<th>Reference</th>{% endif %}</tr></thead>
+  <tbody>
+  {% for r in recordings %}
+  <tr>
+    <td><a href="{{ r.url }}">{{ r.title }}</a></td>
+    <td>{{ r.artist if r.artist else "" }}</td>
+    <td>{{ r.album if r.album else "" }}</td>
+    <td class="nowrap">{{ r.year if r.year else "" }}</td>
+    {% if show_reference %}<td>{% if r.reference %}{% if r.reference.startswith('http') %}<a href="{{ r.reference }}">{{ r.reference | domain }}</a>{% else %}{{ r.reference }}{% endif %}{% endif %}</td>{% endif %}
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% if scale.info.source == "EDO" %}
+<p><a href="https://en.xen.wiki/w/{{ scale.notes }}edo#Music">Music on the Xen Wiki</a></p>
+{% endif %}
+{% endif %}
+
+<h2>Raw file</h2>
+<pre class="scl">{{ scale.raw_text }}</pre>
+{% endblock %}

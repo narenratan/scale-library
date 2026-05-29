@@ -27,6 +27,18 @@ def write_readme(
     readme_text = f"""# scale-library
 A library of microtonal scales with sources attributed.
 
+The library is available as a [browsable website](https://scalelibrary.org) with:
+
+- Similar and approximate parent/child scales for each scale in the library
+- Links to open scales directly in [Scale Workshop](https://scaleworkshop.plainsound.org)
+- Links to recordings for some scales, including:
+    - Recordings from the 1932 Cairo Congress of Arab Music
+    - Recordings of specific gamelans
+    - Videos and per-singer recordings of Georgian funeral music
+    - Performances of scores from Xenharmonikon
+
+See this [example scale page](https://scalelibrary.org/scales/cairo-congress/CD01_01_hijaz_Egypt/).
+
 The `scales` directory contains the scl files for each scale. The scl files are
 also available for download as a zip on the [releases
 page](https://github.com/narenratan/scale-library/releases). The library

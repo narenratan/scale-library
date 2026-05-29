@@ -94,16 +94,135 @@ JOURNAL = {
     "xen18": (18, "Xenharmonikon 18 (2006)"),
 }
 
+# Maps "{issue_prefix}-{author_slug}" → article title from the scl reference comment.
+# For authors with multiple articles in the same issue the key includes the article slug:
+# "{issue_prefix}-{author_slug}-{article_slug}".
+ARTICLE_TITLES: dict[str, str] = {
+    "xen02-wilson": "Bosanquet - A Bridge - A Doorway To Dialog",
+    "xen03-colvig": "An American Gamelan",
+    "xen03-secor": "A new look at the Partch Monophonic Fabric",
+    "xen03-wilson": "On the development of intonational systems by extended linear mapping",
+    "xen05-harrison": 'Incidental Music for Corneille\'s "Cinna"',
+    "xen05-secor": "The Trouble with Equal Temperaments",
+    "xen05-walker": "The Golden Net",
+    "xen05-wilson": "The Pitches of Meantone Assigned to the 19-tone Generalized Keyboard",
+    "xen06-london": "Eight Pieces for Harp in Ditone Diatonic",
+    "xen06-polansky": "Piano Study #5 (for JPR), for Just Fender Rhodes",
+    "xen06-vyshnegradski": "Manual of Quartertone Harmony, translated by Ivor Darreg",
+    "xen06-wilson": "19-tone Scale for the Clavichord-19",
+    "xen07-chalmers-additional": "Some additional nineteen-tone scales",
+    "xen07-chalmers-collection": "A Collection of Scales With Nineteen Tones",
+    "xen07-forster": "Introduction to Everything",
+    "xen07-harrison": "ITEM: Thoughts while designing a Gamelan",
+    "xen07-london": "Four Pieces in Didymus' Chromatic",
+    "xen07-morrison": "Decimal Music",
+    "xen07-rosenthal-four-duets": "Four duets for bowed psaltery and harp",
+    "xen07-rosenthal-helix": "Helix Song",
+    "xen07-walker": "Out of fathomless dark/into limitless light",
+    "xen09-chalmers": "Tritriadic Scales with Seven Tones",
+    "xen09-grady": "Combination-Product Set Patterns",
+    "xen09-polansky": "Will You Miss Me",
+    "xen09-wilson": "The Marwa Permutations",
+    "xen10-chalmers": "Tritriadic Scales with Seven Tones, Part Two: Derived Forms and Structural Properties",
+    "xen10-wilson": "The Purvi Modulations",
+    "xen10-wolf": "Trio: The Sands",
+    "xen11-chalmers": "Tetrachordal Scales and Complexes",
+    "xen11-garcia": "A Linear Twenty-Nine Tone Scale",
+    "xen11-wilsonsmithgrady": "Notes on a New Marimba, its Tuning, and its Music",
+    "xen11-wolf": "Tetrachordal Scales and Complexes",
+    "xen12-chalmers": "Tritriadic Scales with Seven Tones, Part Three",
+    "xen12-hanson": "Development of a 53-Tone Keyboard Layout",
+    "xen12-wilson": "D'Alessandro, like a Hurricane",
+    "xen13-chalmers": "Three Approaches to Harmony in 13-TET",
+    "xen13-grady": "The Discovery of a 14-Tone Scale",
+    "xen13-mclaren": "General Methods for Generating Musical Scales",
+    "xen13-morrison": "A Graphical Technique for Finding Equally-Tempered Scales by Their Harmonic Resources",
+    "xen13-rapoport": "Notes Towards Quasi-Tonal Treiskaidekaphilia",
+    "xen14-darreg": "Xenharmonic Bulletin No. 12",
+    "xen14-mclaren": "The Uses and Characteristics of Non-Octave Scales",
+    "xen14-polansky": "Horn",
+    "xen15-chalmers-triadic": "The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2",
+    "xen15-chalmers-touch-tone": "The TOUCH-TONE\u00ae Signal Pitches as Subsets of Stretched 14-Tone ET's",
+    "xen15-gilson": "A Numerical Theory of Scale Invention",
+    "xen15-leedy": "Giving Number a Voice",
+    "xen15-mclaren": "The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
+    "xen15-oconnell": "The Tonality of the Golden Section",
+    "xen16-burt-drones": "Drones 1994 #2: Old Commas Inverted and Revisited",
+    "xen16-burt-commas": "COMMAS",
+    "xen16-grady": "CENTAUR - A 7-Limit 12 Tone Tuning",
+    "xen16-hero": "A Brief History of the Lambdoma",
+    "xen16-mclaren": "More About Non-Octave Scales",
+    "xen17-bohlen": "Letter to the Editor",
+    "xen17-chalmers": "Notes & Comments 17",
+    "xen17-erlich": "Tuning, Tonality, and Twenty-Two-Tone Temperament",
+    "xen18-ayers": "Making Scales from Mathematical Means",
+    "xen18-darreg": 'Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
+    "xen18-erlich": "A Middle Path Between Just Intonation and the Equal Temperaments Part 1",
+    "xen18-keenan": "Optimising JI guitar designs using linear microtemperaments",
+    "xen18-mitchell": "Fractal Tone Monochord Octave",
+    "xen18-schulter": "George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
+    "xen18-secor": "The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
+}
+
+# Maps "{issue_prefix}-{author_slug}" (or "{issue_prefix}-{author_slug}-{article_slug}")
+# → URL where the article is freely available online.
+ARTICLE_URLS: dict[str, str] = {
+    "xen09-wilson": "https://www.anaphoria.com/xen9mar.pdf",
+    "xen10-wilson": "https://www.anaphoria.com/xen10pur.pdf",
+    "xen09-chalmers": "https://www.xenharmonikon.org/2024/06/17/tritriadic-scales-with-seven-tones/",
+    "xen10-chalmers": "https://www.xenharmonikon.org/2024/06/17/tritriadic-scales-with-seven-tones/",
+    "xen12-chalmers": "https://www.xenharmonikon.org/2024/06/17/tritriadic-scales-with-seven-tones/",
+    "xen17-erlich": "https://sethares.engr.wisc.edu/paperspdf/Erlich-22.pdf",
+    "xen18-erlich": "https://sethares.engr.wisc.edu/paperspdf/Erlich-MiddlePath.pdf",
+    "xen02-wilson": "https://www.anaphoria.com/xen2.pdf",
+    "xen03-wilson": "https://www.anaphoria.com/xen3b.pdf",
+    "xen05-wilson": "https://www.anaphoria.com/xen456.pdf",
+    "xen06-wilson": "https://www.anaphoria.com/xen456.pdf",
+    "xen11-wilsonsmithgrady": "https://anaphoria.com/xen11.pdf",
+    "xen12-wilson": "https://www.anaphoria.com/dal.pdf",
+    "xen09-grady": "https://anaphoria.com/cps.pdf",
+    "xen16-grady": "https://www.anaphoria.com/centaur.html",
+    "xen03-secor": "https://anaphoria.com/secor.pdf",
+    "xen18-secor": "https://anaphoria.com/Secor17puzzle.pdf",
+    "xen12-hanson": "https://anaphoria.com/hanson.pdf",
+}
+
+# Maps function name prefixes to article slugs for authors with multiple articles
+# in the same issue. Checked longest-first so more specific prefixes take priority.
+_ARTICLE_PREFIXES: list[tuple[str, str]] = [
+    ("xen07_chalmers_diaphonic", "additional"),
+    ("xen07_chalmers", "collection"),
+    ("xen07_rosenthal_four_duets", "four-duets"),
+    ("xen07_rosenthal_helix", "helix"),
+    ("xen15_chalmers_triadic", "triadic"),
+    ("xen15_chalmers_stretched", "touch-tone"),
+    ("xen16_burt_drones", "drones"),
+    ("xen16_burt_commas", "commas"),
+]
+
+
+def _article_slug(function: str) -> Optional[str]:
+    for prefix, slug in _ARTICLE_PREFIXES:
+        if function.startswith(prefix):
+            return slug
+    return None
+
 
 T = Tone
 
 
-def build_scl(*, description, tones, title, function, comments=None, page=None):
+def build_scl(*, description, tones, function, title=None, comments=None, page=None):
     filename = function.replace("_", "-") + ".scl"
     journal, author, *_ = function.split("_")
     author_name = getattr(Author, author)
     journal_name = JOURNAL[journal][1]
     info = {"source": "Xenharmonikon", "whole_number": JOURNAL[journal][0]}
+    article = _article_slug(function)
+    if article:
+        info["article"] = article
+    if title is None:
+        article_key = f"{journal}-{author}-{article}" if article else f"{journal}-{author}"
+        title = ARTICLE_TITLES.get(article_key, "")
     tone_strings = [str(x) for x in sorted(tones)]
     max_len = max(len(x) for x in tone_strings)
     # TODO: require Tones here?
@@ -125,7 +244,9 @@ def build_scl(*, description, tones, title, function, comments=None, page=None):
         + [
             "!",
             f"! {author_name}",
-            f"! {title}",
+        ]
+        + ([f"! {title}"] if title else [])
+        + [
             f"! {journal_name}",
         ]
     )
@@ -134,7 +255,7 @@ def build_scl(*, description, tones, title, function, comments=None, page=None):
     scl_lines += ["!", "! [info]"] + [f"! {k} = {v}" for k, v in info.items()]
     scl_text = "\n".join(scl_lines) + "\n"
 
-    reference = f"{author_name}, {title}, {journal_name}"
+    reference = f"{author_name}, {title}, {journal_name}" if title else f"{author_name}, {journal_name}"
     return filename, scl_text, reference
 
 
@@ -167,7 +288,6 @@ def xen02_wilson_indic(f):
     return build_scl(
         description="Indic system of 22 s'ruti (for you, Lou)",
         tones=tones,
-        title="Bosanquet - A Bridge - A Doorway To Dialog",
         function=f,
     )
 
@@ -196,7 +316,6 @@ def xen02_wilson_arabic(f):
     return build_scl(
         description="Classic Arabic System of 17 tones (for Gary)",
         tones=tones,
-        title="Bosanquet - A Bridge - A Doorway To Dialog",
         function=f,
     )
 
@@ -256,7 +375,6 @@ def xen02_wilson_combination_sets(f):
     return build_scl(
         description="1*3*5*7*9*11 Combination Sets - 1 3 5 7 9 11 Diamondic Cross-Set",
         tones=tones,
-        title="Bosanquet - A Bridge - A Doorway To Dialog",
         function=f,
         comments=["See also Wilson XH12 Figure 21, Beth"],
     )
@@ -274,7 +392,6 @@ def xen03_colvig_gamelan_7_11(f):
     return build_scl(
         description="Colvig's American Gamelan 7-11 scale",
         tones=tones,
-        title="An American Gamelan",
         function=f,
         comments=["Written as A C7 D E G11 A"],
     )
@@ -336,7 +453,6 @@ def xen03_secor_partch(f):
     return build_scl(
         description="Partch Monophonic Fabric",
         tones=tones,
-        title="A new look at the Partch Monophonic Fabric",
         function=f,
     )
 
@@ -365,7 +481,6 @@ def xen03_wilson_baglama(f):
     return build_scl(
         description="Turkish Baglama Scale (as inferred from string lengths by E.W.)",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         function=f,
     )
 
@@ -432,7 +547,6 @@ def xen03_wilson_negative_05(f):
     return build_scl(
         description=f"Negative, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 4"],
         function=f,
     )
@@ -467,7 +581,6 @@ def xen03_wilson_negative_07(f):
     return build_scl(
         description=f"Negative, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 4"],
         function=f,
     )
@@ -512,7 +625,6 @@ def xen03_wilson_negative_12(f):
     return build_scl(
         description=f"Negative, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 4"],
         function=f,
     )
@@ -571,7 +683,6 @@ def xen03_wilson_negative_19(f):
     return build_scl(
         description=f"Negative, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 4"],
         function=f,
     )
@@ -622,7 +733,6 @@ def xen03_wilson_negative_31(f):
     return build_scl(
         description=f"Negative, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagrams 4 and 7"],
         function=f,
     )
@@ -700,7 +810,6 @@ def xen03_wilson_positive_05(f):
     return build_scl(
         description=f"Positive, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 5"],
         function=f,
     )
@@ -735,7 +844,6 @@ def xen03_wilson_positive_07(f):
     return build_scl(
         description=f"Positive, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 5"],
         function=f,
     )
@@ -780,7 +888,6 @@ def xen03_wilson_positive_12(f):
     return build_scl(
         description=f"Positive, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 5"],
         function=f,
     )
@@ -835,7 +942,6 @@ def xen03_wilson_positive_17(f):
     return build_scl(
         description=f"Positive, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 5"],
         function=f,
     )
@@ -914,7 +1020,6 @@ def xen03_wilson_positive_29(f):
     return build_scl(
         description=f"Positive, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 5"],
         function=f,
     )
@@ -975,7 +1080,6 @@ def xen03_wilson_positive_41(f):
     return build_scl(
         description=f"Positive, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagrams 5 and 8"],
         function=f,
     )
@@ -1034,7 +1138,6 @@ def xen03_wilson_acute_05(f):
     return build_scl(
         description=f"Acute, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 6"],
         function=f,
     )
@@ -1069,7 +1172,6 @@ def xen03_wilson_acute_07(f):
     return build_scl(
         description=f"Acute, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 6"],
         function=f,
     )
@@ -1114,7 +1216,6 @@ def xen03_wilson_acute_12(f):
     return build_scl(
         description=f"Acute, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 6"],
         function=f,
     )
@@ -1169,7 +1270,6 @@ def xen03_wilson_acute_17(f):
     return build_scl(
         description=f"Acute, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagram 6"],
         function=f,
     )
@@ -1211,7 +1311,6 @@ def xen03_wilson_acute_22(f):
     return build_scl(
         description=f"Acute, linear-mapped intonational system, {N} notes",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         comments=["Diagrams 6 and 9"],
         function=f,
     )
@@ -1265,7 +1364,6 @@ def xen03_wilson_partch(f):
     return build_scl(
         description="Harry Partch's Scale on the Bosanquet keyboard",
         tones=tones,
-        title="On the development of intonational systems by extended linear mapping",
         function=f,
     )
 
@@ -1301,7 +1399,6 @@ def xen05_walker_golden(f):
     return build_scl(
         description="Scale used in the composition 'The Golden Net'",
         tones=tones,
-        title="The Golden Net",
         function=f,
     )
 
@@ -1332,7 +1429,6 @@ def xen05_wilson_scott(f):
     return build_scl(
         description="A Scale for Scott",
         tones=tones,
-        title="The Pitches of Meantone Assigned to the 19-tone Generalized Keyboard",
         function=f,
     )
 
@@ -1356,7 +1452,6 @@ def xen05_secor_3(f):
     return build_scl(
         description="Secor No. 3",
         tones=tones,
-        title="The Trouble with Equal Temperaments",
         function=f,
     )
 
@@ -1380,7 +1475,6 @@ def xen05_secor_2(f):
     return build_scl(
         description="Secor No. 2",
         tones=tones,
-        title="The Trouble with Equal Temperaments",
         function=f,
     )
 
@@ -1426,7 +1520,6 @@ def xen05_secor_high_tolerance(f):
     return build_scl(
         description="Secor 15-limit high tolerance temperament",
         tones=tones,
-        title="The Trouble with Equal Temperaments",
         function=f,
     )
 
@@ -1437,7 +1530,6 @@ def xen05_secor_high_tolerance_31(f):
     return build_scl(
         description="Secor 15-limit high tolerance temperament, extended for 31-tone keyboard",
         tones=tones,
-        title="The Trouble with Equal Temperaments",
         function=f,
     )
 
@@ -1449,7 +1541,6 @@ def xen05_secor_high_tolerance_19(f):
     return build_scl(
         description="Secor 15-limit high tolerance temperament, 19-tone subset",
         tones=tones,
-        title="The Trouble with Equal Temperaments",
         function=f,
     )
 
@@ -1473,7 +1564,6 @@ def xen05_harrison_cinna(f):
     return build_scl(
         description="Scale for 'Incidental Music for Corneille's \"Cinna\"'",
         tones=tones,
-        title='Incidental Music for Corneille\'s "Cinna"',
         function=f,
     )
 
@@ -1495,7 +1585,6 @@ def xen06_vyshnegradski_nonoctave_1(f):
     return build_scl(
         description="Non-octave scale based on the subminor ninth",
         tones=tones,
-        title="Manual of Quartertone Harmony, translated by Ivor Darreg",
         function=f,
     )
 
@@ -1514,7 +1603,6 @@ def xen06_vyshnegradski_nonoctave_2(f):
     return build_scl(
         description="Non-octave scale based on the neutral sixth",
         tones=tones,
-        title="Manual of Quartertone Harmony, translated by Ivor Darreg",
         function=f,
     )
 
@@ -1539,7 +1627,6 @@ def xen06_vyshnegradski_nonoctave_3(f):
     return build_scl(
         description="Non-octave scale based on the double octave",
         tones=tones,
-        title="Manual of Quartertone Harmony, translated by Ivor Darreg",
         function=f,
     )
 
@@ -1596,7 +1683,6 @@ def xen06_polansky_study_1(f):
     return build_scl(
         description="Octave I and II tuning for 'Piano Study #5 (For JPR)'",
         tones=tones,
-        title="Piano Study #5 (for JPR), for Just Fender Rhodes",
         function=f,
     )
 
@@ -1607,7 +1693,6 @@ def xen06_polansky_study_3(f):
     return build_scl(
         description="Octave III tuning for 'Piano Study #5 (For JPR)'",
         tones=tones,
-        title="Piano Study #5 (for JPR), for Just Fender Rhodes",
         function=f,
     )
 
@@ -1618,7 +1703,6 @@ def xen06_polansky_study_4(f):
     return build_scl(
         description="Octave IV tuning for 'Piano Study #5 (For JPR)'",
         tones=tones,
-        title="Piano Study #5 (for JPR), for Just Fender Rhodes",
         function=f,
     )
 
@@ -1635,7 +1719,6 @@ def xen06_polansky_study_full(f):
     return build_scl(
         description="Full four octave tuning for 'Piano Study #5 (For JPR)'",
         tones=tones,
-        title="Piano Study #5 (for JPR), for Just Fender Rhodes",
         function=f,
     )
 
@@ -1655,7 +1738,6 @@ def xen06_london_ditone_diatonic(f):
     return build_scl(
         description="Tuning for 'Eight Pieces for Harp in Ditone Diatonic'",
         tones=tones,
-        title="Eight Pieces for Harp in Ditone Diatonic",
         function=f,
     )
 
@@ -1705,7 +1787,6 @@ def xen06_wilson_clavichord_19(f):
     return build_scl(
         description="Scale for the Clavichord-19",
         tones=tones,
-        title="19-tone Scale for the Clavichord-19",
         function=f,
     )
 
@@ -1717,7 +1798,6 @@ def xen07_forster_diamond(f):
     return build_scl(
         description="Tuning of the Diamond Marimba II",
         tones=tones,
-        title="Introduction to Everything",
         function=f,
     )
 
@@ -1750,7 +1830,6 @@ def xen07_walker_fathomless(f):
     return build_scl(
         description="Scale for '...out of the fathomless Dark / into the limitless Light...'",
         tones=tones,
-        title="Out of fathomless dark/into limitless light",
         function=f,
     )
 
@@ -1772,7 +1851,6 @@ def xen07_morrison_decimal(f):
     return build_scl(
         description="Just approximation to ten tone equal temperament.",
         tones=tones,
-        title="Decimal Music",
         function=f,
     )
 
@@ -1784,7 +1862,6 @@ def xen07_harrison_thoughts_1(f):
     return build_scl(
         description="Pelog based on partials " + "/".join(str(x) for x in partials),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1796,7 +1873,6 @@ def xen07_harrison_thoughts_2(f):
     return build_scl(
         description="Pelog based on partials " + "/".join(str(x) for x in partials),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1808,7 +1884,6 @@ def xen07_harrison_thoughts_3(f):
     return build_scl(
         description="Pelog based on partials " + "/".join(str(x) for x in partials),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1820,7 +1895,6 @@ def xen07_harrison_thoughts_4(f):
     return build_scl(
         description="Slendro with steps " + ", ".join(str(x) for x in steps),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1832,7 +1906,6 @@ def xen07_harrison_thoughts_5(f):
     return build_scl(
         description="Slendro based on partials " + "/".join(str(x) for x in partials),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1844,7 +1917,6 @@ def xen07_harrison_thoughts_6(f):
     return build_scl(
         description="Slendro based on partials " + "/".join(str(x) for x in partials),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1856,7 +1928,6 @@ def xen07_harrison_thoughts_7(f):
     return build_scl(
         description="Slendro with steps " + ", ".join(str(x) for x in steps),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1868,7 +1939,6 @@ def xen07_harrison_thoughts_8(f):
     return build_scl(
         description="Partials " + "/".join(str(x) for x in partials),
         tones=tones,
-        title="ITEM: Thoughts while designing a Gamelan",
         function=f,
     )
 
@@ -1968,7 +2038,6 @@ def xen07_london_didymus(f):
     return build_scl(
         description="Scale for 'Solo in Didymus's Chromatic'",
         tones=tones,
-        title="Four Pieces in Didymus' Chromatic",
         function=f,
     )
 
@@ -3242,7 +3311,6 @@ def add_tritriadic(a, b, c):
         return build_scl(
             description=f"Tritriadic scale built from {a}:{b}:{c}",
             tones=tones,
-            title="Tritriadic Scales with Seven Tones",
             function=f,
         )
 
@@ -3382,7 +3450,6 @@ def xen09_grady_dekany_a(f):
     return build_scl(
         description="Dekany A",
         tones=tones,
-        title="Combination-Product Set Patterns",
         function=f,
     )
 
@@ -3406,7 +3473,6 @@ def xen09_grady_dekany_b(f):
     return build_scl(
         description="Dekany B",
         tones=tones,
-        title="Combination-Product Set Patterns",
         function=f,
     )
 
@@ -3435,7 +3501,6 @@ def xen09_polansky_will_you_miss_me(f):
     return build_scl(
         description="Scale for 'Will You Miss Me'",
         tones=tones,
-        title="Will You Miss Me",
         function=f,
     )
 
@@ -3579,7 +3644,6 @@ def add_marwa_permutations(label, fourths, description):
             return build_scl(
                 description=f"Marwa permutation {i} from Figure {label}, {description}",
                 tones=tones,
-                title="The Marwa Permutations",
                 function=f,
             )
 
@@ -3602,7 +3666,6 @@ def add_tritriadic_2(a, b, c):
         return build_scl(
             description=f"Tritriadic scale built from {a}:{b}:{c}",
             tones=tones,
-            title="Tritriadic Scales with Seven Tones, Part Two: Derived Forms and Structural Properties",
             function=f,
         )
 
@@ -3787,7 +3850,6 @@ def add_purvi_modulations(label, fourths, description):
             return build_scl(
                 description=f"Purvi modulation {i} from Figure {label}, {description}",
                 tones=tones,
-                title="The Purvi Modulations",
                 function=f,
             )
 
@@ -3817,7 +3879,6 @@ def xen10_wolf_sands(f):
     return build_scl(
         description="Scale from 'Trio: The Sands'",
         tones=tones,
-        title="Trio: The Sands",
         function=f,
     )
 
@@ -3836,7 +3897,6 @@ def xen11_chalmers_tetrachordal_04_01(f):
     return build_scl(
         description="Sterea, a Lyra tuning: Tonic Diatonic",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3855,7 +3915,6 @@ def xen11_chalmers_tetrachordal_04_02a(f):
     return build_scl(
         description="Malaka, a Lyra tuning: Soft or Intense Chromatic and Tonic Diatonic",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3874,7 +3933,6 @@ def xen11_chalmers_tetrachordal_04_02b(f):
     return build_scl(
         description="Malaka, a Lyra tuning: Soft or Intense Chromatic and Tonic Diatonic",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3893,7 +3951,6 @@ def xen11_chalmers_tetrachordal_04_03(f):
     return build_scl(
         description="Metabolika, another Lyra tuning: Soft Diatonic and Tonic Diatonic",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3912,7 +3969,6 @@ def xen11_chalmers_tetrachordal_04_04(f):
     return build_scl(
         description="Iasti-Aiolikai, a Kithara tuning: Tonic Diatonic and Ditonic Diatonic",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3931,7 +3987,6 @@ def xen11_chalmers_tetrachordal_04_05(f):
     return build_scl(
         description="Iastia or Lydia, Kithara tunings: Intense Diatonic and Tonic Diatonic",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3950,7 +4005,6 @@ def xen11_chalmers_tetrachordal_06_01(f):
     return build_scl(
         description="Transposition by A",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3969,7 +4023,6 @@ def xen11_chalmers_tetrachordal_06_02(f):
     return build_scl(
         description="Transposition by B",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -3988,7 +4041,6 @@ def xen11_chalmers_tetrachordal_06_03(f):
     return build_scl(
         description="Transposition by 4/3, Mixolydian Mode",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4007,7 +4059,6 @@ def xen11_chalmers_tetrachordal_06_04(f):
     return build_scl(
         description="Transposition by 3/2, Dorian Mode",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4026,7 +4077,6 @@ def xen11_chalmers_tetrachordal_06_05(f):
     return build_scl(
         description="Transposition by 2/B",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4045,7 +4095,6 @@ def xen11_chalmers_tetrachordal_06_06(f):
     return build_scl(
         description="Transposition by 2/A",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4064,7 +4113,6 @@ def xen11_chalmers_tetrachordal_06_07(f):
     return build_scl(
         description="Transposition by 9/8 & 3/2, Hypodorian Mode",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4083,7 +4131,6 @@ def xen11_chalmers_tetrachordal_06_08(f):
     return build_scl(
         description="Transposition by 4/3B",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4102,7 +4149,6 @@ def xen11_chalmers_tetrachordal_06_09(f):
     return build_scl(
         description="Transposition by 4/3A",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4121,7 +4167,6 @@ def xen11_chalmers_tetrachordal_06_10(f):
     return build_scl(
         description="Transposition by A/B",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4140,7 +4185,6 @@ def xen11_chalmers_tetrachordal_06_11(f):
     return build_scl(
         description="Transposition by B/A",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4158,7 +4202,6 @@ def xen11_chalmers_tetrachordal_08_01(f):
     return build_scl(
         description="Transposition and Inversion by A, 6 tones, a Hexany",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4176,7 +4219,6 @@ def xen11_chalmers_tetrachordal_08_02(f):
     return build_scl(
         description="Transposition and Inversion by B, 6 tones, a Hexany",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4195,7 +4237,6 @@ def xen11_chalmers_tetrachordal_08_03(f):
     return build_scl(
         description="Transposition and Inversion by 4/3, 7 tones, Psi-Mixolydian",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4214,7 +4255,6 @@ def xen11_chalmers_tetrachordal_08_04(f):
     return build_scl(
         description="Transposition and Inversion by 3/2, 7 tones, Psi-Dorian",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4234,7 +4274,6 @@ def xen11_chalmers_tetrachordal_08_05(f):
     return build_scl(
         description="Transposition and Inversion by 2/B, 8 tones, an Octony",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4254,7 +4293,6 @@ def xen11_chalmers_tetrachordal_08_06(f):
     return build_scl(
         description="Transposition and Inversion by 2/A, 8 tones, an Octony",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4273,7 +4311,6 @@ def xen11_chalmers_tetrachordal_08_07(f):
     return build_scl(
         description="Transposition and Inversion by 9/8 & 3/2, 7 tones, Psi-Hypodorian 1",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4292,7 +4329,6 @@ def xen11_chalmers_tetrachordal_08_08(f):
     return build_scl(
         description="Transposition and Inversion by 9/8 & 3/2, 7 tones, Psi-Hypodorian 2",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4310,7 +4346,6 @@ def xen11_chalmers_tetrachordal_08_09(f):
     return build_scl(
         description="Transposition and Inversion by 1/1, 6 tones, a Hexany",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4330,7 +4365,6 @@ def xen11_chalmers_tetrachordal_08_10(f):
     return build_scl(
         description="Transposition and Inversion by 4/3B, 8 tones, an Octony",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4350,7 +4384,6 @@ def xen11_chalmers_tetrachordal_08_11(f):
     return build_scl(
         description="Transposition and Inversion by 4/3A, 8 tones, an Octony",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4368,7 +4401,6 @@ def xen11_chalmers_tetrachordal_08_12(f):
     return build_scl(
         description="Tetrachordal Hexany, 6 tones, A-Mode",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4388,7 +4420,6 @@ def xen11_chalmers_tetrachordal_08_13(f):
     return build_scl(
         description="Euler's Genus Musicum, 8 tones, an Octony",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4408,7 +4439,6 @@ def xen11_chalmers_tetrachordal_08_14(f):
     return build_scl(
         description="Transposition and Inversion by B/A, 8 tones, an Octony",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4428,7 +4458,6 @@ def xen11_chalmers_tetrachordal_08_15(f):
     return build_scl(
         description="Transposition and Inversion by A/B, 8 tones, an Octony",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4453,7 +4482,6 @@ def xen11_chalmers_tetrachordal_10_01(f):
     return build_scl(
         description="Thirteen Tone Octave Modular Diamond",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4473,7 +4501,6 @@ def xen11_chalmers_tetrachordal_10_02(f):
     return build_scl(
         description="Eight Tone Fourth Modular Diamond",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4512,7 +4539,6 @@ def xen11_chalmers_tetrachordal_10_03(f):
     return build_scl(
         description="Prime-Prime and Inverted-Inverted Heptatonic Diamonds, 27 Tones",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4549,7 +4575,6 @@ def xen11_chalmers_tetrachordal_10_04(f):
     return build_scl(
         description="Prime-Inverted Heptatonic Diamond, 25 Tones",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4586,7 +4611,6 @@ def xen11_chalmers_tetrachordal_10_05(f):
     return build_scl(
         description="Inverted-Prime Heptatonic Diamond, 25 Tones",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4612,7 +4636,6 @@ def xen11_chalmers_tetrachordal_10_06(f):
     return build_scl(
         description="Stellated Tetrachordal Hexany, 14 Tones",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4638,7 +4661,6 @@ def xen11_chalmers_tetrachordal_10_07(f):
     return build_scl(
         description="Stellated Hexany, Entry #1 of Table 7., 14 tones, Permuted Tetrachord",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4657,7 +4679,6 @@ def xen11_wolf_pelog(f):
     return build_scl(
         description="Pelog based on stacking 7/6",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4676,7 +4697,6 @@ def xen11_wolf_pelog_2(f):
     return build_scl(
         description="Pelog based on stacking 7/6, pitches 2 and 6 lowered",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4697,7 +4717,6 @@ def xen11_wolf_pelog_extended(f):
     return build_scl(
         description="Pelog based on stacking 7/6, extended to 9 tones",
         tones=tones,
-        title="Tetrachordal Scales and Complexes",
         function=f,
     )
 
@@ -4738,7 +4757,6 @@ def xen11_garcia_linear_29(f):
     return build_scl(
         description="Linear series of alternating 15/13 and 52/45",
         tones=tones,
-        title="A Linear Twenty-Nine Tone Scale",
         function=f,
     )
 
@@ -4849,7 +4867,6 @@ def xen11_wilsonsmithgrady_marimba(f):
     return build_scl(
         description="Marimba design, Inverted D'alessandro Kbd Program",
         tones=tones,
-        title="Notes on a New Marimba, its Tuning, and its Music",
         function=f,
     )
 
@@ -4872,7 +4889,6 @@ def xen12_wilson_02_hexany(f):
     return build_scl(
         description="3-5-7-11 Hexany, Figure 2",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4901,7 +4917,6 @@ def xen12_wilson_06_mandala(f):
     return build_scl(
         description="The 3-5-7-11 Mandala, Figure 6",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4916,7 +4931,6 @@ def xen12_wilson_06b_genus(f):
     return build_scl(
         description="3*5*7*11 Genus, Figure 6b",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4927,7 +4941,6 @@ def xen12_wilson_06c_4C1_tetrany(f):
     return build_scl(
         description="3-5-7-11 4C1 tetrany, Figure 6c",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4938,7 +4951,6 @@ def xen12_wilson_06c_4C3_tetrany(f):
     return build_scl(
         description="3-5-7-11 4C3 tetrany, Figure 6c",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4951,7 +4963,6 @@ def xen12_wilson_06d_diamond(f):
     return build_scl(
         description="1-3-5-7 diamond, Figure 6d",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4964,7 +4975,6 @@ def xen12_wilson_06d_major_tetrad(f):
     return build_scl(
         description="1-3-5-7 major tetrad, Figure 6d",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4977,7 +4987,6 @@ def xen12_wilson_06d_minor_tetrad(f):
     return build_scl(
         description="1-3-5-7 minor tetrad, Figure 6d",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -4988,7 +4997,6 @@ def xen12_wilson_07_eikosany(f):
     return build_scl(
         description="1-3-7-9-11-15 Eikosany, Figure 7",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5009,7 +5017,6 @@ def xen12_wilson_07_eikosany_extended(f):
     return build_scl(
         description="1-3-7-9-11-15 Eikosany with two added tones, Figure 7",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5031,7 +5038,6 @@ def add_hexanies_and_tetranies():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5041,7 +5047,6 @@ def add_hexanies_and_tetranies():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5051,7 +5056,6 @@ def add_hexanies_and_tetranies():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5069,7 +5073,6 @@ def xen12_wilson_13_eikosany(f):
     return build_scl(
         description="1-3-5-7-9-11 Eikosany, Figure 13",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5082,7 +5085,6 @@ def xen12_wilson_14_diamond(f):
     return build_scl(
         description="1-3-5-7-9-11 Diamond, Figure 14",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5101,7 +5103,6 @@ def xen12_wilson_15_diamond_eikosany_intersection(f):
     return build_scl(
         description="Intersection of Diamond & Eikosany (1 3 5 7 9 11), Figure 15",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5120,7 +5121,6 @@ def xen12_wilson_15_diamond_eikosany_union(f):
     return build_scl(
         description="Union of Diamond & Eikosany (1 3 5 7 9 11), see Figure 15",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5141,7 +5141,6 @@ def xen12_wilson_20b_genus(f):
     return build_scl(
         description="Combination-product Sets (0,6) thru (6,6) 1 3 5 7 9 11, Figure 20b",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         comments=['See also "Beth", Figure 21'],
         function=f,
     )
@@ -5228,7 +5227,6 @@ def xen12_wilson_23_dalessandro(f):
     return build_scl(
         description="Genus 3*3*3*5*7*11*11 (& 8 pigtails), D'Alessandro, Figure 23",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5253,7 +5251,6 @@ def xen12_wilson_23_genus(f):
     return build_scl(
         description="Genus 3*3*3*5*7*11*11, subset of D'Alessandro, see Figure 23",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5285,7 +5282,6 @@ def xen12_wilson_23_repeated_1(f):
     return build_scl(
         description='Lattice for Genus 3*3*3*5*7*11 (plus 6 pigtails), Repeated Patterins in "Dalessandro", Figure 23',
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5315,7 +5311,6 @@ def xen12_wilson_23_repeated_2(f):
     return build_scl(
         description='Lattice for Genus 3*3*3*5*7 (plus 4 pigtails), Repeated Patterins in "Dalessandro", Figure 23',
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5380,7 +5375,6 @@ def xen12_wilson_24_dalessandro(f):
     return build_scl(
         description='"D\'alessandro", 1.3.5.7.9.11 Combination-Product Set series, Figure 24',
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         comments=["Note Figure 24 gives other options for some notes"],
         function=f,
     )
@@ -5392,7 +5386,6 @@ def xen12_wilson_25_6C5_hexany(f):
     return build_scl(
         description="1.3.5.7.9.11 6C5 Hexany, Figure 25",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5403,7 +5396,6 @@ def xen12_wilson_25_6C4_pentadekany(f):
     return build_scl(
         description="1.3.5.7.9.11 6C4 Pentadekany, Figure 25",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5414,7 +5406,6 @@ def xen12_wilson_25_6C3_eikosany(f):
     return build_scl(
         description="1.3.5.7.9.11 6C3 Eikosany, Figure 25",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5425,7 +5416,6 @@ def xen12_wilson_25_6C2_pentadekany(f):
     return build_scl(
         description="1.3.5.7.9.11 6C2 Pentadekany, Figure 25",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5436,7 +5426,6 @@ def xen12_wilson_25_6C1_hexany(f):
     return build_scl(
         description="1.3.5.7.9.11 6C1 Hexany, Figure 25",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5499,7 +5488,6 @@ def xen12_wilson_26_inverted_dallesandro(f):
     return build_scl(
         description='inverted "D\'alessandro", Figure 26',
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5528,7 +5516,6 @@ def xen12_wilson_30_double_dekany(f):
     return build_scl(
         description="5C2 + 5C3 1-5-7-11-15 Double-Dekany, Figure 30",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5540,7 +5527,6 @@ def xen12_wilson_31_pentadic_diamond(f):
     return build_scl(
         description="1-5-7-11-15 Pentadic Diamond, Figure 31",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5551,7 +5537,6 @@ def xen12_wilson_32_dekany(f):
     return build_scl(
         description="5C2 1.5.7.11.15 Dekany, Figure 32",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5562,7 +5547,6 @@ def xen12_wilson_33_dekany(f):
     return build_scl(
         description="5C3 1.5.7.11.15 Dekany, Figure 33",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5582,7 +5566,6 @@ def add_hexanies_and_tetranies_2():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5592,7 +5575,6 @@ def add_hexanies_and_tetranies_2():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5602,7 +5584,6 @@ def add_hexanies_and_tetranies_2():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5626,7 +5607,6 @@ def add_dekanies():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5636,7 +5616,6 @@ def add_dekanies():
             return build_scl(
                 description=description,
                 tones=tones,
-                title="D'Alessandro, like a Hurricane",
                 function=f,
             )
 
@@ -5674,7 +5653,6 @@ def xen12_wilson_41_hexadic_tileburst_1(f):
     return build_scl(
         description="Four Hexadic Tilebursts, Figure 41, top left",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5706,7 +5684,6 @@ def xen12_wilson_41_hexadic_tileburst_2(f):
     return build_scl(
         description="Four Hexadic Tilebursts, Figure 41, top right",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5740,7 +5717,6 @@ def xen12_wilson_41_hexadic_tileburst_3(f):
     return build_scl(
         description="Four Hexadic Tilebursts, Figure 41, bottom left",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5773,7 +5749,6 @@ def xen12_wilson_41_hexadic_tileburst_4(f):
     return build_scl(
         description="Four Hexadic Tilebursts, Figure 41, bottom right",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5824,7 +5799,6 @@ def xen12_wilson_42_ogdoadic_tileburst_1(f):
     return build_scl(
         description="Four Ogdoadic Tilebursts, Figure 42, top left",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5873,7 +5847,6 @@ def xen12_wilson_42_ogdoadic_tileburst_2(f):
     return build_scl(
         description="Four Ogdoadic Tilebursts, Figure 42, top right",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5922,7 +5895,6 @@ def xen12_wilson_42_ogdoadic_tileburst_3(f):
     return build_scl(
         description="Four Ogdoadic Tilebursts, Figure 42, bottom left",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -5973,7 +5945,6 @@ def xen12_wilson_42_ogdoadic_tileburst_4(f):
     return build_scl(
         description="Four Ogdoadic Tilebursts, Figure 42, bottom right",
         tones=tones,
-        title="D'Alessandro, like a Hurricane",
         function=f,
     )
 
@@ -6012,7 +5983,6 @@ def add_tritriadic_mt(a, b, c):
         return build_scl(
             description=f"Tritriadic M->T scale built from {a}:{b}:{c}",
             tones=tones,
-            title="Tritriadic Scales with Seven Tones, Part Three",
             function=f,
         )
 
@@ -6031,7 +6001,6 @@ def add_tritriadic_dm(a, b, c):
         return build_scl(
             description=f"Tritriadic D->M scale built from {a}:{b}:{c}",
             tones=tones,
-            title="Tritriadic Scales with Seven Tones, Part Three",
             function=f,
         )
 
@@ -6158,7 +6127,6 @@ def xen12_hanson_02_ten(f):
     return build_scl(
         description="Ten tones, Figure 2",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6191,7 +6159,6 @@ def xen12_hanson_06_basic(f):
     return build_scl(
         description="Basic group of 19 of 53 tones, Figure 6",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6222,7 +6189,6 @@ def xen12_hanson_06_basic_just(f):
     return build_scl(
         description="Basic group of 19 of 53 tones, tonal function, Figure 6",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6287,7 +6253,6 @@ def xen12_hanson_06_53_just(f):
     return build_scl(
         description="53 tones, tonal function, Figure 6",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6300,7 +6265,6 @@ def xen12_hanson_11_chain_19(f):
     return build_scl(
         description="Chain of minor thirds in 19EDO, Figure 11",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6333,7 +6297,6 @@ def xen12_hanson_11_chain_34(f):
     return build_scl(
         description="Chain of minor thirds in 34EDO, Figure 11",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6366,7 +6329,6 @@ def xen12_hanson_11_chain_72(f):
     return build_scl(
         description="Chain of minor thirds in 72EDO, Figure 11",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6399,7 +6361,6 @@ def xen12_hanson_11_chain_87(f):
     return build_scl(
         description="Chain of minor thirds in 87EDO, Figure 11",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6411,7 +6372,6 @@ def xen12_hanson_12_ogdoadic_diamond(f):
     return build_scl(
         description="Ogdoadic Diamond, Figure 12",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6426,7 +6386,6 @@ def xen12_hanson_13_three_ogdoadic_diamonds(f):
     return build_scl(
         description="3 Ogdoadic Diamonds (at 1/1, 4/3 & 3/2), Figure 13",
         tones=tones,
-        title="Development of a 53-Tone Keyboard Layout",
         function=f,
     )
 
@@ -6444,7 +6403,6 @@ def xen13_mclaren_log_factorial_1(f):
     return build_scl(
         description="Log factorial scale #1",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=21,
         function=f,
     )
@@ -6463,7 +6421,6 @@ def xen13_mclaren_log_factorial_2(f):
     return build_scl(
         description="Log factorial scale #2",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=21,
         function=f,
     )
@@ -6482,7 +6439,6 @@ def xen13_mclaren_factorable_numbers(f):
     return build_scl(
         description="Factorable numbers scale",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=22,
         function=f,
     )
@@ -6508,7 +6464,6 @@ def xen13_mclaren_totient(f):
     return build_scl(
         description="n/totient(n) scale",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=23,
         function=f,
     )
@@ -6539,7 +6494,6 @@ def xen13_mclaren_infinite_continued_fraction_1(f):
     return build_scl(
         description="Infinite continued fraction scale #1",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=26,
         function=f,
     )
@@ -6567,7 +6521,6 @@ def xen13_mclaren_infinite_continued_fraction_2(f):
     return build_scl(
         description="Infinite continued fraction scale #2",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=28,
         function=f,
     )
@@ -6597,7 +6550,6 @@ def xen13_mclaren_infinite_continued_fraction_3(f):
     return build_scl(
         description="Infinite continued fraction scale #3",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=29,
         function=f,
     )
@@ -6618,7 +6570,6 @@ def xen13_mclaren_recurrence_1(f):
     return build_scl(
         description="Fibonacci scale (recurrence scale #1)",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=30,
         function=f,
     )
@@ -6643,7 +6594,6 @@ def xen13_mclaren_recurrence_2(f):
     return build_scl(
         description="Recurrence scale #2",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=31,
         function=f,
     )
@@ -6673,7 +6623,6 @@ def xen13_mclaren_prime_indices(f):
     return build_scl(
         description="Prime indices scale",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=32,
         function=f,
     )
@@ -6696,7 +6645,6 @@ def xen13_mclaren_finite_continued_fraction_1(f):
     return build_scl(
         description="Finite continued fraction scale #1",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=33,
         function=f,
     )
@@ -6718,7 +6666,6 @@ def xen13_mclaren_difference_table(f):
     return build_scl(
         description="9-tone difference table scale",
         tones=tones,
-        title="General Methods for Generating Musical Scales",
         page=41,
         function=f,
     )
@@ -6741,7 +6688,6 @@ def xen13_rapoport_13tet_diatonic(f):
     return build_scl(
         description="13-tet diatonic scale",
         tones=tones,
-        title="Notes Towards Quasi-Tonal Treiskaidekaphilia",
         page=47,
         function=f,
     )
@@ -6756,7 +6702,6 @@ def xen13_chalmers_13tet_5L3S(f):
     return build_scl(
         description="5L+3S Eight-Tone Moment of Symmetry (MOS)",
         tones=tones,
-        title="Three Approaches to Harmony in 13-TET",
         page=53,
         function=f,
     )
@@ -6786,7 +6731,6 @@ def xen13_grady_sophia(f):
     return build_scl(
         description="Sophia, 1.3.5.7.9 Double Dexany",
         tones=tones,
-        title="The Discovery of a 14-Tone Scale",
         page=88,
         function=f,
     )
@@ -6837,7 +6781,6 @@ def xen13_grady_19_1(f):
     return build_scl(
         description="19 tone scale 1",
         tones=tones,
-        title="The Discovery of a 14-Tone Scale",
         page=89,
         function=f,
     )
@@ -6882,7 +6825,6 @@ def xen13_grady_19_2(f):
     return build_scl(
         description="19 tone scale 2",
         tones=tones,
-        title="The Discovery of a 14-Tone Scale",
         page=89,
         function=f,
     )
@@ -6897,7 +6839,6 @@ def xen13_morrison_7_steps_per_11_over_5(f):
     return build_scl(
         description="7 steps per 11:5",
         tones=tones,
-        title="A Graphical Technique for Finding Equally-Tempered Scales by Their Harmonic Resources",
         page=94,
         function=f,
     )
@@ -6918,7 +6859,6 @@ def xen14_mclaren_nonoctave_31_5(f):
     return build_scl(
         description="31st root of 5 non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=13,
         function=f,
     )
@@ -6929,7 +6869,6 @@ def xen14_mclaren_nonoctave_13_3(f):
     return build_scl(
         description="Pierce-Bohlen scale, 13th root of 3",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=13,
         function=f,
     )
@@ -6940,7 +6879,6 @@ def xen14_mclaren_nonoctave_25_5(f):
     return build_scl(
         description="Stockhausen's Studie II 25th root of 5 non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=14,
         function=f,
     )
@@ -6951,7 +6889,6 @@ def xen14_mclaren_nonoctave_37_31(f):
     return build_scl(
         description="37th root of 31 non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=14,
         function=f,
     )
@@ -6963,7 +6900,6 @@ def xen14_mclaren_nonoctave_e_pi(f):
     return build_scl(
         description="(e to the pi)th root of pi non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=14,
         function=f,
     )
@@ -6974,7 +6910,6 @@ def xen14_mclaren_nonoctave_30_3(f):
     return build_scl(
         description="Erv Wilson's 30th root of 3 non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=16,
         function=f,
     )
@@ -6985,7 +6920,6 @@ def xen14_mclaren_nonoctave_21_17(f):
     return build_scl(
         description="21st root of 17 non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=16,
         function=f,
     )
@@ -6996,7 +6930,6 @@ def xen14_mclaren_nonoctave_44_5(f):
     return build_scl(
         description="Erv Wilson's 44th root of 5 non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=21,
         function=f,
     )
@@ -7014,7 +6947,6 @@ def xen14_mclaren_nonoctave_phi_9(f):
     return build_scl(
         description="Walter O'Connell's 9 parts of Golden Section",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=22,
         function=f,
     )
@@ -7042,7 +6974,6 @@ def xen14_mclaren_nonoctave_12_3(f):
     return build_scl(
         description="Enrique Moreno's 12th root of 3 non-octave scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=22,
         function=f,
     )
@@ -7064,7 +6995,6 @@ def add_nonoctave():
             return build_scl(
                 description=f"{n}th root of {k} non-octave scale",
                 tones=tones,
-                title="The Uses and Characteristics of Non-Octave Scales",
                 page=22,
                 function=f,
             )
@@ -7084,7 +7014,6 @@ def xen14_mclaren_nonoctave_phi_5(f):
     return build_scl(
         description="John McBryde's 5th root of phi",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=22,
         function=f,
     )
@@ -7099,7 +7028,6 @@ def xen14_mclaren_nonoctave_phi_7(f):
     return build_scl(
         description="John McBryde's 7th root of phi",
         tones=tones,
-        title="The Uses and Characteristics of Non-Octave Scales",
         page=22,
         function=f,
     )
@@ -7120,7 +7048,6 @@ def xen14_darreg_telephone(f):
     return build_scl(
         description="Notes used for two-tone signalling on push-button telephones",
         tones=tones,
-        title="Xenharmonic Bulletin No. 12",
         page=76,
         function=f,
     )
@@ -7134,7 +7061,6 @@ def xen14_darreg_telephone_14(f):
     return build_scl(
         description="Streched 14-tone equal temperament approximating push-button telephone tones",
         tones=tones,
-        title="Xenharmonic Bulletin No. 12",
         page=76,
         function=f,
     )
@@ -7153,7 +7079,6 @@ def xen14_polansky_horn(f):
     return build_scl(
         description="Scale from 'Horn'",
         tones=tones,
-        title="Horn",
         page=83,
         comments=["All pitches reduced to one octave. See the score for octaves used."],
         function=f,
@@ -7169,7 +7094,6 @@ def xen15_oconnell_golden_section_25(f):
     return build_scl(
         description="25 parts of the Golden Section",
         tones=tones,
-        title="The Tonality of the Golden Section",
         page=8,
         function=f,
     )
@@ -7183,7 +7107,6 @@ def xen15_oconnell_golden_section_25_pure(f):
     return build_scl(
         description="25 pure octaves reduced by phi",
         tones=tones,
-        title="The Tonality of the Golden Section",
         page=8,
         function=f,
     )
@@ -7197,7 +7120,6 @@ def xen15_oconnell_golden_section_7(f):
     return build_scl(
         description="7-note scale in 25 parts of Golden Section",
         tones=tones,
-        title="The Tonality of the Golden Section",
         page=9,
         function=f,
     )
@@ -7211,7 +7133,6 @@ def xen15_oconnell_golden_section_9(f):
     return build_scl(
         description="9-note scale in 25 parts of Golden Section",
         tones=tones,
-        title="The Tonality of the Golden Section",
         page=9,
         function=f,
     )
@@ -7225,7 +7146,6 @@ def xen15_oconnell_golden_section_11(f):
     return build_scl(
         description="11-note scale in 25 parts of Golden Section",
         tones=tones,
-        title="The Tonality of the Golden Section",
         page=9,
         function=f,
     )
@@ -7239,7 +7159,6 @@ def xen15_oconnell_golden_section_14(f):
     return build_scl(
         description="14-note scale in 25 parts of Golden Section",
         tones=tones,
-        title="The Tonality of the Golden Section",
         page=9,
         function=f,
     )
@@ -7254,7 +7173,6 @@ def xen15_oconnell_golden_section_18(f):
     return build_scl(
         description="18 parts of the Golden Section",
         tones=tones,
-        title="The Tonality of the Golden Section",
         page=16,
         function=f,
     )
@@ -7275,7 +7193,6 @@ def xen15_mclaren_e(f):
     return build_scl(
         description="e scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
         page=29,
         function=f,
     )
@@ -7296,7 +7213,6 @@ def xen15_mclaren_pi(f):
     return build_scl(
         description="pi scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
         page=29,
         function=f,
     )
@@ -7319,7 +7235,6 @@ def xen15_mclaren_root_3(f):
     return build_scl(
         description="Square root of 3 scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
         page=30,
         function=f,
     )
@@ -7341,7 +7256,6 @@ def xen15_mclaren_root_5(f):
     return build_scl(
         description="Square root of 5 scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
         page=30,
         function=f,
     )
@@ -7362,7 +7276,6 @@ def xen15_mclaren_root_7(f):
     return build_scl(
         description="Square root of 7 scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
         page=30,
         function=f,
     )
@@ -7381,7 +7294,6 @@ def xen15_mclaren_integrated(f):
     return build_scl(
         description="Integrated non-self-similar scale #1",
         tones=tones,
-        title="The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
         page=31,
         function=f,
     )
@@ -7408,7 +7320,6 @@ def xen15_mclaren_metal_bar(f):
     return build_scl(
         description="Metal bar scale",
         tones=tones,
-        title="The Uses and Characteristics of Non-Just Non-Equal-Tempered Scales",
         page=32,
         function=f,
     )
@@ -7428,13 +7339,9 @@ def xen15_leedy_mixolydian(f):
     return build_scl(
         description="Just mixolydian",
         tones=tones,
-        title="Giving Number a Voice",
         page=59,
         function=f,
     )
-
-
-TRIADIC_DIAMOND_TITLE = "The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2"
 
 
 def add_triadic_diamond(M):
@@ -7464,7 +7371,7 @@ def add_triadic_diamond(M):
         return build_scl(
             description=f"Triadic diamond for M={M}, D=3/2",
             tones=tones,
-            title=TRIADIC_DIAMOND_TITLE,
+            title="The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2",
             page=64,
             function=f,
         )
@@ -7480,7 +7387,7 @@ def add_triadic_diamond(M):
         return build_scl(
             description=f"Upper tetrachord {steps_label} of triadic diamond for M={M}, D=3/2",
             tones=tones,
-            title=TRIADIC_DIAMOND_TITLE,
+            title="The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2",
             page=64,
             function=f,
         )
@@ -7559,7 +7466,7 @@ def add_triadic_reversed_diamond(M, i):
         return build_scl(
             description=f"Triadic reversed diamond for M={M}, D=3/2",
             tones=tones,
-            title=TRIADIC_DIAMOND_TITLE,
+            title="The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2",
             page=page,
             function=f,
         )
@@ -7575,7 +7482,7 @@ def add_triadic_reversed_diamond(M, i):
         return build_scl(
             description=f"Tetrachord {steps_label} of triadic reversed diamond for M={M}, D=3/2",
             tones=tones,
-            title=TRIADIC_DIAMOND_TITLE,
+            title="The Triadic Diamond, the Triadic Reversed Diamond, and their Constituent Tetrachords when D=3/2",
             page=page,
             function=f,
         )
@@ -7646,8 +7553,8 @@ def xen15_chalmers_stretched_14_1(f):
     return build_scl(
         description="Least-Squares Stretched 14-Tone Equal Temperament, Table 4",
         tones=tones,
-        title="The TOUCH-TONE(R) Signal Pitches as Subsets of Stretched 14-Tone ET's",
         page=78,
+        title="The TOUCH-TONE(R) Signal Pitches as Subsets of Stretched 14-Tone ET's",
         function=f,
     )
 
@@ -7660,8 +7567,8 @@ def xen15_chalmers_stretched_14_2(f):
     return build_scl(
         description="Least-Squares Stretched 14-Tone Equal Temperament, Table 6",
         tones=tones,
-        title="The TOUCH-TONE(R) Signal Pitches as Subsets of Stretched 14-Tone ET's",
         page=80,
+        title="The TOUCH-TONE(R) Signal Pitches as Subsets of Stretched 14-Tone ET's",
         function=f,
     )
 
@@ -7677,7 +7584,6 @@ def xen15_gilson_pythagorean_diatonic(f):
     return build_scl(
         description="Pythagorean Intonation Diatonic Scale (PIDS)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=102,
         function=f,
     )
@@ -7698,7 +7604,6 @@ def xen15_gilson_pythagorean_chromatic(f):
     return build_scl(
         description="Pythagorean Intonation Chromatic Scale (PICS)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=102,
         function=f,
     )
@@ -7719,7 +7624,6 @@ def xen15_gilson_just_diatonic(f):
     return build_scl(
         description="Just Intonation Diatonic Scale (JIDS)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=105,
         function=f,
     )
@@ -7745,7 +7649,6 @@ def xen15_gilson_just_chromatic(f):
     return build_scl(
         description="Just Intonation Chromatic Scale (JICS)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=105,
         function=f,
     )
@@ -7762,7 +7665,6 @@ def xen15_gilson_pythagorean_pentatonic(f):
     return build_scl(
         description="Pythagorean Intonation Pentatonic Scale (PIPS)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=114,
         function=f,
     )
@@ -7781,7 +7683,6 @@ def xen15_gilson_just_pentatonic(f):
     return build_scl(
         description="Just Intonation Pentatonic Scale (JIPS)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=114,
         function=f,
     )
@@ -7812,7 +7713,6 @@ def add_generalized_pythagorean_scales():
                 return build_scl(
                     description=f"Generalized Pythagorean Scale, {g} stacked {n}={label} times",
                     tones=tones,
-                    title="A Numerical Theory of Scale Invention",
                     page=118,
                     function=f,
                 )
@@ -7841,7 +7741,6 @@ def xen15_gilson_generalized_just_1(f):
     return build_scl(
         description="Ten note just scale, two rows and five columns of chart on p.119",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=120,
         function=f,
     )
@@ -7864,7 +7763,6 @@ def xen15_gilson_generalized_just_2(f):
     return build_scl(
         description="Scale based on product (25/24)**2 * (21/20)**3 * 16/15 * (8/7)**3 = 2",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=121,
         function=f,
     )
@@ -7888,7 +7786,6 @@ def xen15_gilson_generalized_just_3(f):
     return build_scl(
         description="Scale based on product (21/20)**3 * (16/15)**2 * (15/14)**3 * (10/9)**2 = 2",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=121,
         function=f,
     )
@@ -7909,7 +7806,6 @@ def xen15_gilson_archytas_diatonic(f):
     return build_scl(
         description="Archytas' Diatonic (or Ptolemy's Diatonic Tonaion)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=131,
         function=f,
     )
@@ -7930,7 +7826,6 @@ def xen15_gilson_aristoxenus_diatonic_malakon(f):
     return build_scl(
         description="Aristoxenus' Diatonic Malakon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=131,
         function=f,
     )
@@ -7951,7 +7846,6 @@ def xen15_gilson_aristoxenus_diatonic_syntonon(f):
     return build_scl(
         description="Aristoxenus' Diatonic Syntonon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=131,
         function=f,
     )
@@ -7972,7 +7866,6 @@ def xen15_gilson_eratosthenes_diatonic(f):
     return build_scl(
         description="Eratosthenes' Diatonic (or Ptolemy's Diatonic Ditonaion)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=131,
         function=f,
     )
@@ -7993,7 +7886,6 @@ def xen15_gilson_didymus_diatonic(f):
     return build_scl(
         description="Didymus' Diatonic",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=131,
         function=f,
     )
@@ -8021,7 +7913,6 @@ def xen15_gilson_ptolemy_diatonic_malakon(f):
     return build_scl(
         description="Ptolemy's Diatonic Malakon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=131,
         function=f,
     )
@@ -8042,7 +7933,6 @@ def xen15_gilson_ptolemy_diatonic_syntonon(f):
     return build_scl(
         description="Ptolemy's Diatonic Syntonon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=131,
         function=f,
     )
@@ -8063,7 +7953,6 @@ def xen15_gilson_ptolemy_diatonic_hemiolon(f):
     return build_scl(
         description="Ptolemy's Diatonic Hemiolon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8084,7 +7973,6 @@ def xen15_gilson_archytas_chromatic(f):
     return build_scl(
         description="Archytas' Chromatic",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8105,7 +7993,6 @@ def xen15_gilson_aristoxenus_chromatic_malakon(f):
     return build_scl(
         description="Aristoxenus' Chromatic Malakon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8126,7 +8013,6 @@ def xen15_gilson_aristoxenus_chromatic_hemiolon(f):
     return build_scl(
         description="Aristoxenus' Chromatic Hemiolon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8147,7 +8033,6 @@ def xen15_gilson_aristoxenus_chromatic_tonikon(f):
     return build_scl(
         description="Aristoxenus' Chromatic Tonikon (or Eratosthenes' Chromatic)",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8168,7 +8053,6 @@ def xen15_gilson_didymus_chromatic(f):
     return build_scl(
         description="Didymus Chromatic",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8189,7 +8073,6 @@ def xen15_gilson_ptolemy_chromatic_malakon(f):
     return build_scl(
         description="Ptolemy's Chromatic Malakon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8210,7 +8093,6 @@ def xen15_gilson_ptolemy_chromatic_syntonon(f):
     return build_scl(
         description="Ptolemy's Chromatic Syntonon",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8231,7 +8113,6 @@ def xen15_gilson_archytas_enharmonic(f):
     return build_scl(
         description="Archytas' Enharmonic",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8252,7 +8133,6 @@ def xen15_gilson_aristoxenus_enharmonic(f):
     return build_scl(
         description="Aristoxenus' Enharmonic",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8273,7 +8153,6 @@ def xen15_gilson_eratosthenes_enharmonic(f):
     return build_scl(
         description="Eratosthenes' Enharmonic",
         tones=tones,
-        title="A Numerical Theory of Scale Invention",
         page=132,
         function=f,
     )
@@ -8287,7 +8166,6 @@ def xen16_mclaren_carlos_alpha(f):
     return build_scl(
         description="Wendy Carlos' Alpha scale",
         tones=tones,
-        title="More About Non-Octave Scales",
         page=46,
         function=f,
     )
@@ -8301,7 +8179,6 @@ def xen16_mclaren_carlos_beta(f):
     return build_scl(
         description="Wendy Carlos' Beta scale",
         tones=tones,
-        title="More About Non-Octave Scales",
         page=47,
         function=f,
     )
@@ -8315,7 +8192,6 @@ def xen16_mclaren_carlos_gamma(f):
     return build_scl(
         description="Wendy Carlos' Gamma scale",
         tones=tones,
-        title="More About Non-Octave Scales",
         page=47,
         function=f,
     )
@@ -8375,7 +8251,6 @@ def add_more_nonoctave():
             return build_scl(
                 description=desc,
                 tones=tones,
-                title="More About Non-Octave Scales",
                 page=page,
                 function=f,
             )
@@ -8405,7 +8280,6 @@ def xen16_grady_centaur(f):
     return build_scl(
         description="Centaur",
         tones=tones,
-        title="CENTAUR - A 7-Limit 12 Tone Tuning",
         page=93,
         function=f,
     )
@@ -8672,8 +8546,8 @@ def xen16_burt_commas(f):
     return build_scl(
         description="Tuning for COMMAS",
         tones=tones,
-        title="COMMAS",
         page=103,
+        title="COMMAS",
         function=f,
     )
 
@@ -8693,7 +8567,6 @@ def xen16_hero_lambdoma_16(f):
     return build_scl(
         description="16 by 16 Lambdoma matrix",
         tones=tones,
-        title="A Brief History of the Lambdoma",
         page=106,
         function=f,
     )
@@ -8714,7 +8587,6 @@ def xen16_hero_lambdoma_08(f):
     return build_scl(
         description="8 by 8 Lambdoma matrix",
         tones=tones,
-        title="A Brief History of the Lambdoma",
         page=108,
         function=f,
     )
@@ -8739,7 +8611,6 @@ def xen17_chalmers_ursell_quiggle_1(f):
     return build_scl(
         description="Sarn Ursell's Quiggle Temperament, first kind",
         tones=tones,
-        title="Notes & Comments 17",
         page=3,
         function=f,
         comments=["Note the root 1.415114418 is printed as 1.415511418"],
@@ -8778,7 +8649,6 @@ def xen17_chalmers_ursell_quiggle_2(f):
     return build_scl(
         description="Sarn Ursell's Quiggle Temperament, second kind",
         tones=tones,
-        title="Notes & Comments 17",
         page=3,
         function=f,
     )
@@ -8792,7 +8662,6 @@ def xen17_erlich_standard_pentachordal_major(f):
     return build_scl(
         description="Decatonic mode: Standard Pentachordal Major",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=23,
         function=f,
     )
@@ -8806,7 +8675,6 @@ def xen17_erlich_static_symmetrical_major(f):
     return build_scl(
         description="Decatonic mode: Static Symmetrical Major",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=23,
         function=f,
     )
@@ -8820,7 +8688,6 @@ def xen17_erlich_alternate_pentachordal_major(f):
     return build_scl(
         description="Decatonic mode: Alternate Pentachordal Major",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=23,
         function=f,
     )
@@ -8834,7 +8701,6 @@ def xen17_erlich_dynamic_symmetrical_major(f):
     return build_scl(
         description="Decatonic mode: Dynamic Symmetrical Major",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=24,
         function=f,
     )
@@ -8848,7 +8714,6 @@ def xen17_erlich_standard_pentachordal_minor(f):
     return build_scl(
         description="Decatonic mode: Standard Pentachordal Minor",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=24,
         function=f,
     )
@@ -8862,7 +8727,6 @@ def xen17_erlich_static_symmetrical_minor(f):
     return build_scl(
         description="Decatonic mode: Static Symmetrical Minor",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=24,
         function=f,
     )
@@ -8876,7 +8740,6 @@ def xen17_erlich_alternate_pentachordal_minor(f):
     return build_scl(
         description="Decatonic mode: Alternate Pentachordal Minor",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=24,
         function=f,
     )
@@ -8890,7 +8753,6 @@ def xen17_erlich_dynamic_symmetrical_minor(f):
     return build_scl(
         description="Decatonic mode: Dynamic Symmetrical Minor",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=24,
         function=f,
     )
@@ -9001,7 +8863,6 @@ def xen17_erlich_unequal_22(f):
     return build_scl(
         description="Unequal 22-tone tuning, Table 5",
         tones=tones,
-        title="Tuning, Tonality, and Twenty-Two-Tone Temperament",
         page=39,
         function=f,
     )
@@ -9028,7 +8889,6 @@ def xen17_bohlen_harmonic_1(f):
     return build_scl(
         description="13-tone non-tempered scale",
         tones=tones,
-        title="Letter to the Editor",
         page=124,
         function=f,
     )
@@ -9054,7 +8914,6 @@ def xen17_bohlen_harmonic_2(f):
     return build_scl(
         description="12-tone non-tempered scale based on 4:7:10 triad",
         tones=tones,
-        title="Letter to the Editor",
         page=124,
         function=f,
     )
@@ -9178,7 +9037,6 @@ def xen18_secor_13_limit_1_tempered(f):
     return build_scl(
         description="13-limit tempered scale",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=69,
         function=f,
     )
@@ -9198,7 +9056,6 @@ def xen18_secor_13_limit_1_just(f):
     return build_scl(
         description="13-limit just scale",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=69,
         function=f,
     )
@@ -9213,7 +9070,6 @@ def xen18_secor_neutral_third_mos_1_tempered(f):
     return build_scl(
         description="MOS generated by a neutral third, tempered",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=71,
         function=f,
     )
@@ -9233,7 +9089,6 @@ def xen18_secor_neutral_third_mos_1_just(f):
     return build_scl(
         description="MOS generated by a neutral third, just",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=71,
         function=f,
     )
@@ -9248,7 +9103,6 @@ def xen18_secor_neutral_third_mos_2_tempered(f):
     return build_scl(
         description="Transposition of a mode of MOS generated by a neutral third, tempered",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=72,
         function=f,
     )
@@ -9268,7 +9122,6 @@ def xen18_secor_neutral_third_mos_2_just(f):
     return build_scl(
         description="Transposition of a mode of MOS generated by a neutral third, just",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=72,
         function=f,
     )
@@ -9283,7 +9136,6 @@ def xen18_secor_13_limit_2_tempered(f):
     return build_scl(
         description="13-limit tempered scale, enharmonic alteration",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=75,
         function=f,
     )
@@ -9303,7 +9155,6 @@ def xen18_secor_13_limit_2_just(f):
     return build_scl(
         description="13-limit just scale, enharmonic alteration",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=75,
         function=f,
     )
@@ -9318,7 +9169,6 @@ def xen18_secor_neutral_second_mos_1(f):
     return build_scl(
         description="MOS generated by a neutral second",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=76,
         function=f,
     )
@@ -9333,7 +9183,6 @@ def xen18_secor_neutral_second_mos_2(f):
     return build_scl(
         description="MOS generated by a neutral second",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=76,
         function=f,
     )
@@ -9348,7 +9197,6 @@ def xen18_secor_11_17_mos(f):
     return build_scl(
         description="MOS generated by 11o17",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=76,
         function=f,
     )
@@ -9381,7 +9229,6 @@ def xen18_secor_17_wt(f):
     return build_scl(
         description="Secor 17-tone Well Temperament",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=79,
         function=f,
     )
@@ -9419,7 +9266,6 @@ def xen18_secor_17_plus_5_wt(f):
     return build_scl(
         description="Secor 17+5 Temperament",
         tones=tones,
-        title="The 17-tone Puzzle - And the Neo-medieval Key that Unlocks It",
         page=80,
         function=f,
     )
@@ -9444,7 +9290,6 @@ def xen18_schulter_pythagorean(f):
     return build_scl(
         description="12-note Pythagorean tuning",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=83,
         function=f,
     )
@@ -9469,7 +9314,6 @@ def xen18_schulter_pure_11_14(f):
     return build_scl(
         description="Temperament with pure 11:14 major thirds, fifth of 704.377 cents",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=85,
         function=f,
     )
@@ -9500,7 +9344,6 @@ def xen18_schulter_pure_11_14_17(f):
     return build_scl(
         description="Temperament with pure 11:14 major thirds, fifth of 704.377 cents",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=85,
         function=f,
     )
@@ -9511,7 +9354,6 @@ def xen18_schulter_pure_11_14_24(f):
     return build_scl(
         description="Temperament with pure 11:14 major thirds, fifth of 704.377 cents",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=85,
         function=f,
     )
@@ -9543,7 +9385,6 @@ def add_archytan_and_didymic_temperaments():
             return build_scl(
                 description=f"{abs(frac)}-{kind} temperament",
                 tones=tones,
-                title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
                 page=page,
                 function=f,
             )
@@ -9559,7 +9400,6 @@ def xen18_schulter_707_10(f):
     return build_scl(
         description="Ab-B portion in 17-WT",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=89,
         function=f,
     )
@@ -9579,7 +9419,6 @@ def add_707_temperaments():
             return build_scl(
                 description="Temperament with fifth of 707.22045",
                 tones=tones,
-                title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
                 page=90,
                 function=f,
             )
@@ -9604,7 +9443,6 @@ def xen18_schulter_zalzal(f):
     return build_scl(
         description="Zalzal's scale",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=102,
         function=f,
     )
@@ -9620,7 +9458,6 @@ def xen18_schulter_zalzal_d(f):
     return build_scl(
         description="Zalzal's scale in 17-WT, on D",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=102,
         function=f,
     )
@@ -9636,7 +9473,6 @@ def xen18_schulter_zalzal_g(f):
     return build_scl(
         description="Mode of Zalzal's scale in 17-WT, on G",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=104,
         function=f,
     )
@@ -9656,7 +9492,6 @@ def xen18_schulter_symmetrical(f):
     return build_scl(
         description="A JI version of a symmetrical scale in 17-WT",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=105,
         function=f,
     )
@@ -9672,7 +9507,6 @@ def xen18_schulter_pelog_like(f):
     return build_scl(
         description="A Pelog-like pentatonic in 17-WT",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=108,
         function=f,
     )
@@ -9688,7 +9522,6 @@ def xen18_schulter_harrison_17_wt(f):
     return build_scl(
         description="17-WT realization of a JI scale of Lou Harrison",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=108,
         function=f,
     )
@@ -9706,7 +9539,6 @@ def xen18_schulter_harrison(f):
     return build_scl(
         description="A JI scale of Lou Harrison",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=108,
         function=f,
     )
@@ -9736,7 +9568,6 @@ def xen18_schulter_circulating(f):
     return build_scl(
         description="17-note circulating temperament",
         tones=tones,
-        title="George Secor's 17-Tone Well-Temperament and Neo-Medieval Music",
         page=123,
         function=f,
     )
@@ -9796,7 +9627,6 @@ def xen18_keenan_just_blackjack(f):
     return build_scl(
         description="7-limit just-ification of Blackjack",
         tones=tones,
-        title="Optimising JI guitar designs using linear microtemperaments",
         page=145,
         function=f,
     )
@@ -9830,7 +9660,6 @@ def xen18_keenan_blackjack_guitar(f):
     return build_scl(
         description="Fret tunings for a blackjack guitar fretboard",
         tones=tones,
-        title="Optimising JI guitar designs using linear microtemperaments",
         page=146,
         function=f,
     )
@@ -9916,7 +9745,7 @@ TEMPERAMENTS = {
     # "Superpyth": (D("1197.60"), D("708.17"), 1, 27, 198),
     "Sensisept": (D("1198.39"), D("755.23"), 1, 46, 197),
     "Lemba": (D("601.70"), D("230.87"), 2, 42, 189),
-    "Porcupine": (D("1196.91"), D("1034.59"), 1, 37, 196),
+    # "Porcupine": already in Table 1
     "Flattone": (D("1202.54"), D("507.14"), 1, 45, 186),
     # "Magic": (D("1201.28"), D("380.80"), 1, 60, 190),
     "Doublewide": (D("599.28"), D("326.96"), 2, 40, 185),
@@ -9975,7 +9804,6 @@ def add_mos():
                 return build_scl(
                     description=desc,
                     tones=tones,
-                    title="A Middle Path Between Just Intonation and the Equal Temperaments Part 1",
                     page=page,
                     function=f,
                 )
@@ -10001,7 +9829,6 @@ def xen18_ayers_table_04(f):
     return build_scl(
         description="7 Iterated Arithmetic Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=202,
         function=f,
     )
@@ -10021,7 +9848,6 @@ def xen18_ayers_table_05(f):
     return build_scl(
         description="6 Generalized Arithmetic Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=202,
         function=f,
     )
@@ -10061,7 +9887,6 @@ def xen18_ayers_table_11(f):
     return build_scl(
         description="7 Iterated Harmonic Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=204,
         function=f,
     )
@@ -10080,7 +9905,6 @@ def xen18_ayers_table_12(f):
     return build_scl(
         description="5 Generalized Harmonic Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=204,
         function=f,
     )
@@ -10105,7 +9929,6 @@ def xen18_ayers_table_13_14(f):
     return build_scl(
         description="Generalized Harmonic Mean scale from Table 13 and Table 14",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=205,
         function=f,
     )
@@ -10125,7 +9948,6 @@ def xen18_ayers_table_16(f):
     return build_scl(
         description="2nd Iteration of Musical Proportion between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=206,
         function=f,
     )
@@ -10147,7 +9969,6 @@ def xen18_ayers_table_16(f):
 #     return build_scl(
 #         description="7 Iterated Arithmetic Means between 1/1 and 2/1",
 #         tones=tones,
-#         title="Making Scales from Mathematical Means",
 #         page=206,
 #         function=f,
 #     )
@@ -10168,7 +9989,6 @@ def xen18_ayers_table_18(f):
     return build_scl(
         description="7 Iterated Subcontraries to the Harmonic Mean",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=207,
         function=f,
     )
@@ -10188,7 +10008,6 @@ def xen18_ayers_table_19(f):
     return build_scl(
         description="3 Iterated Harmonic Means and 3 Iterated Subcontraries to the Harmonic Mean",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=207,
         function=f,
     )
@@ -10209,7 +10028,6 @@ def xen18_ayers_table_20(f):
     return build_scl(
         description="7 Iterated Geometric Means Between 1/1 and 2/1 (8-tone Equal Temperament)",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=207,
         function=f,
     )
@@ -10231,7 +10049,6 @@ def xen18_ayers_table_23(f):
     return build_scl(
         description="Inverted Geometric Means Between 1/1 and 2/1 Produce a Symmetrical Scale",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=208,
         function=f,
     )
@@ -10249,7 +10066,6 @@ def xen18_ayers_table_24(f):
     return build_scl(
         description="Generalized Geometric Means in Slendro Between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=209,
         function=f,
     )
@@ -10273,7 +10089,6 @@ def xen18_ayers_table_26(f):
     return build_scl(
         description="7 Iterated First Subcontraries to Geometric Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=209,
         function=f,
     )
@@ -10297,7 +10112,6 @@ def xen18_ayers_table_28(f):
     return build_scl(
         description="7 Iterated Second Subcontraries to Geometric Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=210,
         function=f,
     )
@@ -10321,7 +10135,6 @@ def xen18_ayers_table_30(f):
     return build_scl(
         description="7 Iterated Logarithmic Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=210,
         function=f,
     )
@@ -10345,7 +10158,6 @@ def xen18_ayers_table_32(f):
     return build_scl(
         description="7 Iterated Counter-Logarithmic Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=211,
         function=f,
     )
@@ -10368,7 +10180,6 @@ def xen18_ayers_table_33(f):
     return build_scl(
         description="Logarithmic Means scale from Table 33",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=211,
         function=f,
     )
@@ -10392,7 +10203,6 @@ def xen18_ayers_table_34(f):
     return build_scl(
         description="7 Iterated Root Mean Squares between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=211,
         function=f,
     )
@@ -10416,7 +10226,6 @@ def xen18_ayers_table_35(f):
     return build_scl(
         description="7 Generalized Root Mean Squares between 1 and 2.5",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=212,
         function=f,
     )
@@ -10437,7 +10246,6 @@ def xen18_ayers_table_37(f):
     return build_scl(
         description="7 Iterated Harmonic Square Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=213,
         function=f,
     )
@@ -10457,7 +10265,6 @@ def xen18_ayers_table_38(f):
     return build_scl(
         description="Harmonic Square Means in Tetrachords between 1/1 and 4/3 and 3/2 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=213,
         function=f,
     )
@@ -10481,7 +10288,6 @@ def xen18_ayers_table_39(f):
     return build_scl(
         description="7 Iterated Root Harmonic Square Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=213,
         function=f,
     )
@@ -10505,7 +10311,6 @@ def xen18_ayers_table_40(f):
     return build_scl(
         description="7 Generalized Root Harmonic Square Means between 1.0 and 1.6",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=214,
         function=f,
     )
@@ -10525,7 +10330,6 @@ def xen18_ayers_table_41_42(f):
     return build_scl(
         description="Fibonacci-Type Means scale from Table 41 and Table 42",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=214,
         function=f,
     )
@@ -10546,7 +10350,6 @@ def xen18_ayers_table_43(f):
     return build_scl(
         description="7 Fibonacci-Type Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=215,
         function=f,
     )
@@ -10566,7 +10369,6 @@ def xen18_ayers_table_44(f):
     return build_scl(
         description="Transposing 3 Fibonacci-Type Means to Lower Tetrachord Between 1/1 and 4/3",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=215,
         function=f,
     )
@@ -10586,7 +10388,6 @@ def xen18_ayers_table_45(f):
     return build_scl(
         description="Complementary Ratios to 3 Fibonacci-Type Means for Lower Tetrachord Between 1/1 and 4/3",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=215,
         function=f,
     )
@@ -10605,7 +10406,6 @@ def xen18_ayers_table_46(f):
     return build_scl(
         description="Reciprocals of Golden Mean in P4",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=215,
         function=f,
     )
@@ -10626,7 +10426,6 @@ def xen18_ayers_table_47(f):
     return build_scl(
         description="Reciprocals of Golden Mean in Octave",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=215,
         function=f,
     )
@@ -10650,7 +10449,6 @@ def xen18_ayers_table_48(f):
     return build_scl(
         description="7 Iterated Reciprocals of Golden Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=216,
         function=f,
     )
@@ -10671,7 +10469,6 @@ def xen18_ayers_table_49(f):
     return build_scl(
         description="7 Iterated First Unnamed Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=216,
         function=f,
     )
@@ -10692,7 +10489,6 @@ def xen18_ayers_table_54(f):
     return build_scl(
         description="7 Iterated First Unnamed Means between 1/1 and 2/1, Weighted by Ratio 3/2",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=217,
         function=f,
     )
@@ -10712,7 +10508,6 @@ def xen18_ayers_table_55(f):
     return build_scl(
         description="First Unnamed Mean scale from window in Table 55",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=217,
         function=f,
     )
@@ -10733,7 +10528,6 @@ def xen18_ayers_table_56(f):
     return build_scl(
         description="7 Iterated Second Unnamed Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=218,
         function=f,
     )
@@ -10754,7 +10548,6 @@ def xen18_ayers_table_59(f):
     return build_scl(
         description="7 Iterated Second Unnamed Means between 1/1 and 2/1, Weighted by Ratio 3/2",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=218,
         function=f,
     )
@@ -10778,7 +10571,6 @@ def xen18_ayers_table_61(f):
     return build_scl(
         description="7 Iterated Third Unnamed Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=219,
         function=f,
     )
@@ -10799,7 +10591,6 @@ def xen18_ayers_table_62(f):
     return build_scl(
         description="7 Iterated Fourth Unnamed Means between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=220,
         function=f,
     )
@@ -10815,7 +10606,6 @@ def xen18_ayers_table_63(f):
     return build_scl(
         description="Didymos' Chromatic Tetrachord",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=220,
         function=f,
     )
@@ -10831,7 +10621,6 @@ def xen18_ayers_table_64(f):
     return build_scl(
         description="Archytas' Enharmonic Tetrachord",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=220,
         function=f,
     )
@@ -10852,7 +10641,6 @@ def xen18_ayers_table_65(f):
     return build_scl(
         description="7 Iterated Mediants between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=220,
         function=f,
     )
@@ -10873,7 +10661,6 @@ def xen18_ayers_table_71(f):
     return build_scl(
         description="7 Weighted Mediants between 1/1 and 2/1",
         tones=tones,
-        title="Making Scales from Mathematical Means",
         page=222,
         function=f,
     )
@@ -10906,7 +10693,6 @@ def xen18_darreg_djami_17(f):
     return build_scl(
         description="Seventeen-tone system",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=228,
         function=f,
     )
@@ -10921,7 +10707,6 @@ def xen18_darreg_djami_ushshak(f):
     return build_scl(
         description="Maqam Ushshak",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=233,
         function=f,
     )
@@ -10936,7 +10721,6 @@ def xen18_darreg_djami_nawa(f):
     return build_scl(
         description="Maqam Nawa",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=233,
         function=f,
     )
@@ -10951,7 +10735,6 @@ def xen18_darreg_djami_busalik(f):
     return build_scl(
         description="Maqam Busalik",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=233,
         function=f,
     )
@@ -10966,7 +10749,6 @@ def xen18_darreg_djami_rast(f):
     return build_scl(
         description="Maqam Rast",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=234,
         function=f,
     )
@@ -10981,7 +10763,6 @@ def xen18_darreg_djami_husayni(f):
     return build_scl(
         description="Maqam Husayni",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=234,
         function=f,
     )
@@ -10996,7 +10777,6 @@ def xen18_darreg_djami_hidjaz(f):
     return build_scl(
         description="Maqam Hidjaz",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=234,
         function=f,
     )
@@ -11011,7 +10791,6 @@ def xen18_darreg_djami_rahawi(f):
     return build_scl(
         description="Maqam Rahawi",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=234,
         function=f,
     )
@@ -11026,7 +10805,6 @@ def xen18_darreg_djami_zangule(f):
     return build_scl(
         description="Maqam Zangule",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=234,
         function=f,
     )
@@ -11041,7 +10819,6 @@ def xen18_darreg_djami_iraq_1(f):
     return build_scl(
         description="Maqam Iraq, without bakiye",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=234,
         function=f,
     )
@@ -11056,7 +10833,6 @@ def xen18_darreg_djami_iraq_2(f):
     return build_scl(
         description="Maqam Iraq, with bakiye",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=234,
         function=f,
     )
@@ -11071,7 +10847,6 @@ def xen18_darreg_djami_isfahan_1(f):
     return build_scl(
         description="Maqam Isfahan, bakiye between seventh and eighth degrees",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=235,
         function=f,
     )
@@ -11086,7 +10861,6 @@ def xen18_darreg_djami_isfahan_2(f):
     return build_scl(
         description="Maqam Isfahan, bakiye between sixth and seventh degrees",
         tones=tones,
-        title='Abdurakhman Djami\'s "Treatise on Music", translated from the Russian by Ivor Darreg',
         page=235,
         function=f,
     )
@@ -11111,7 +10885,6 @@ def xen18_mitchell_fractal_1(f):
     return build_scl(
         description="Geordan's Scale, by eyeball",
         tones=tones,
-        title="Fractal Tone Monochord Octave",
         page=245,
         function=f,
     )
@@ -11136,7 +10909,6 @@ def xen18_mitchell_fractal_2(f):
     return build_scl(
         description="Geordan's Scale, Erv Wilson's calculation",
         tones=tones,
-        title="Fractal Tone Monochord Octave",
         page=245,
         function=f,
     )

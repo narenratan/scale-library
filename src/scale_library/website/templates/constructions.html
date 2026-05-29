@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Constructions | scale-library{% endblock %}
+
+{% block content %}
+<h1>Constructions</h1>
+<ul>
+  {% for c in constructions %}
+  <li><a href="/constructions/{{ c.slug }}/">{{ c.title }}</a></li>
+  {% endfor %}
+</ul>
+<p><a href="/constructions.md">Download as Markdown</a></p>
+{% endblock %}

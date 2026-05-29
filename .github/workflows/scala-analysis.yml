@@ -1,0 +1,31 @@
+name: Regenerate scala-analysis
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download Scala
+        run: |
+          curl -L https://www.huygens-fokker.org/software/scala-18-pc64-linux.tar.gz | tar -xzf -
+          chmod +x scala-18-pc64-linux/scala
+
+      - uses: astral-sh/setup-uv@v5
+
+      - name: Regenerate scala-analysis
+        env:
+          SCALA_PROGRAM: ${{ github.workspace }}/scala-18-pc64-linux/scala
+        run: uv run python src/scale_library/website/scala_analysis.py
+
+      - name: Create tar.gz
+        run: tar -czf scala-analysis.tar.gz scala-analysis/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: scala-analysis
+          path: scala-analysis.tar.gz

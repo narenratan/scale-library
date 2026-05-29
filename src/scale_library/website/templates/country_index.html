@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Browse by country | scale-library{% endblock %}
+
+{% block content %}
+<h1>Browse by country</h1>
+<p>Scales from the <a href="/source/damusc/">Database of Musical Scales</a> and the <a href="/source/cairo-congress/">Cairo Congress of Arab Music</a>, by country.</p>
+<table>
+  <thead>
+    <tr><th>Country</th><th>Scales</th></tr>
+  </thead>
+  <tbody>
+    {% for c in countries %}
+    <tr>
+      <td><a href="/country/{{ c.slug }}/">{{ c.display }}</a></td>
+      <td>{{ c.count }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

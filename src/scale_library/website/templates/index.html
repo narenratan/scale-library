@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+
+{% block title %}scale-library{% endblock %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "scale-library",
+  "description": "A library of {{ total }} microtonal scales from Xenharmonikon, the Database of Musical Scales, the Xenharmonic mailing lists, and Divisions of the Tetrachord.",
+  "url": "{{ prod_base }}/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {"@type": "Person", "name": "Naren Ratan"},
+  "distribution": [
+    {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "{{ prod_base }}/scale-index.csv"},
+    {"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "{{ prod_base }}/scales.json"}
+  ]
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<h1>scale-library</h1>
+
+<p>A library of microtonal scales with sources attributed.</p>
+
+<p><a href="/recordings/">Scales with recordings</a></p>
+
+
+<h2>Browse by source</h2>
+<ul>
+  <li><a href="/source/xenharmonikon/">Xenharmonikon</a></li>
+  <li><a href="/source/mailing-lists/">Mailing lists</a></li>
+  <li><a href="/source/damusc/">DaMuSc</a></li>
+  <li><a href="/source/cairo-congress/">Cairo Congress of Arab Music</a></li>
+  <li><a href="/source/divisions-of-the-tetrachord/">Divisions of the Tetrachord</a></li>
+  <li><a href="/source/edos/">EDOs</a></li>
+</ul>
+
+<h2>Browse by region</h2>
+<ul>
+  <li><a href="/region/Africa/">Africa</a></li>
+  <li><a href="/region/Asia/">Asia</a></li>
+  <li><a href="/region/Americas/">Americas</a></li>
+  <li><a href="/region/Europe/">Europe</a></li>
+  <li><a href="/region/Oceania/">Oceania</a></li>
+</ul>
+<p><a href="/country/">Browse all countries</a></p>
+
+<h2>Browse by scale size</h2>
+<ul>
+  <li><a href="/notes/5/">5-note scales</a></li>
+  <li><a href="/notes/7/">7-note scales</a></li>
+  <li><a href="/notes/12/">12-note scales</a></li>
+</ul>
+
+<h2>Browse by JI limit</h2>
+<ul>
+  <li><a href="/limit/3/">3-limit</a></li>
+  <li><a href="/limit/5/">5-limit</a></li>
+  <li><a href="/limit/7/">7-limit</a></li>
+  <li><a href="/limit/11/">11-limit</a></li>
+  <li><a href="/limit/13/">13-limit</a></li>
+</ul>
+
+<p class="browse-all"><a href="/scales/">Browse all {{ total }} scales</a></p>
+<p><a href="https://github.com/narenratan/scale-library/releases/latest">Download library</a></p>
+<p><a href="/scales.json" download>Download all scales as JSON</a></p>
+
+<h2>See also</h2>
+<ul>
+  <li><a href="https://isartum.net/leimma">Leimma</a></li>
+  <li><a href="https://sevish.com/music-resources/#tuning-files">Sevish's tuning files</a></li>
+  <li><a href="https://www.huygens-fokker.org/microtonality/scales.html">Scala scale archive</a></li>
+  <li><a href="https://github.com/marcus-w-hobbs/Wilsonic-MTS-ESP">Wilsonic</a></li>
+  <li><a href="https://github.com/surge-synthesizer/surge/tree/main/resources/data/tuning_library">Surge XT tuning library</a></li>
+  <li><a href="https://www.semantic-danielou.com/semantic-danielou-53/download-and-installation-semantic-danielou-53/">Semantic Daniélou-53</a></li>
+  <li><a href="https://tuning.ableton.com">Ableton tunings</a></li>
+</ul>
+{% endblock %}
