@@ -18,7 +18,7 @@ import tuning_library as tl
 from scale_library import SCALES_DIR, SOURCES_DIR, utils
 
 DAMUSC_DIR = SOURCES_DIR / "DaMuSc"
-OUTPUT_DIR = SCALES_DIR / "database-of-musical-scales"
+OUTPUT_DIR = SCALES_DIR / "damusc"
 DAMUSC_SOURCES_CSV = Path(__file__).parent / "damusc_sources.csv"
 
 logger = logging.getLogger(__name__)

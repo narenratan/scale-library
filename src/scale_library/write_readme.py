@@ -127,10 +127,9 @@ Xeno-Gothic rational adaptive tuning, 3-7 ratios (keyboards 64:63 apart)
 ### DaMuSc: {damusc_scl_count} scl files
 [DaMuSc](https://github.com/jomimc/DaMuSc.git) is a database of musical scales.
 It contains cent values for many theoretical and measured scales from around
-the world, along with references to their source. The
-`scales/database-of-musical-scales` directory contains scl files generated from
-the measured scales in the DaMuSc database, each containing the reference to
-the scale's source. For example:
+the world, along with references to their source. The `scales/damusc` directory
+contains scl files generated from the measured scales in the DaMuSc database,
+each containing the reference to the scale's source. For example:
 ```
 ! Georgia_GVM206-M.scl
 !
