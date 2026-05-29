@@ -7519,6 +7519,7 @@ def add_triadic_diamonds():
     assert len(Ms) == 24
 
     for M in Ms:
+        assert 1 < M < F(3, 2)
         add_triadic_diamond(M)
 
 
@@ -7621,7 +7622,7 @@ def add_triadic_reversed_diamonds():
         F(17, 13),
         F(39, 34),
         F(21, 16),
-        F(23, 30),
+        F(23, 20),
         F(23, 18),
         F(27, 23),
         F(23, 19),
@@ -7630,6 +7631,7 @@ def add_triadic_reversed_diamonds():
     assert len(Ms) == 38
 
     for i, M in enumerate(Ms):
+        assert 1 < M < F(3, 2)
         add_triadic_reversed_diamond(M, i)
 
 
