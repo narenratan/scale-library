@@ -93,7 +93,10 @@ def _make_base_stem(row):
                  .replace(".", "")
                  .replace("'", "").replace("\u2019", "")
                  .replace(" ", "_")
-                 .replace("/", "_"))
+                 .replace("/", "_")
+                 .replace("&", "and")
+                 .replace("[", "")
+                 .replace("]", ""))
 
     def pad_numbers(s):
         return re.sub(r'\d+', lambda m: m.group().zfill(2), s)

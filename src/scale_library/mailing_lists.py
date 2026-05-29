@@ -138,6 +138,12 @@ def write_out_results(results):
             first_line.replace("!", "")
             .replace(" ", "")
             .replace("=", "")
+            .replace("#", "s")
+            .replace("[", "")
+            .replace("]", "")
+            .replace("+", "plus")
+            .replace(",", "")
+            .replace("&", "and")
             .replace("\\", "/")
         ).name
         sep = ".scl"
