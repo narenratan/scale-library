@@ -4,12 +4,12 @@ A library of microtonal scales with sources attributed.
 The `scales` directory contains the scl files for each scale. The scl files are
 also available for download as a zip on the [releases
 page](https://github.com/narenratan/scale-library/releases). The library
-currently contains 4520 scl files.
+currently contains 4519 scl files.
 
 ## Sources
 The scales come from the following sources:
 
-### Xenharmonikon: 1697 scl files
+### Xenharmonikon: 1696 scl files
 Xenharmonikon is an informal journal of experimental music. The
 `scales/xenharmonikon` directory contains scl files for all the scales I could
 find while reading the 18 printed issues of Xenharmonikon published 1974-2006

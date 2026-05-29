@@ -9994,9 +9994,10 @@ def xen18_ayers_table_04(f):
         T(3, 2, cents=701.955),
         T(13, 8, cents=840.528),
         T(7, 4, cents=968.826),
+        T(15, 8, cents=1088.269),
         T(2, 1, cents=1200.0),
     ]
-    assert len(tones) == 7
+    assert len(tones) == 8
     return build_scl(
         description="7 Iterated Arithmetic Means between 1/1 and 2/1",
         tones=tones,
@@ -10130,25 +10131,26 @@ def xen18_ayers_table_16(f):
     )
 
 
-def xen18_ayers_table_17(f):
-    tones = [
-        T(9, 8, cents=203.910),
-        T(5, 4, cents=386.314),
-        T(11, 8, cents=551.318),
-        T(3, 2, cents=701.955),
-        T(13, 8, cents=840.528),
-        T(7, 4, cents=968.826),
-        T(15, 8, cents=1088.269),
-        T(2, 1, cents=1200.0),
-    ]
-    assert len(tones) == 8
-    return build_scl(
-        description="7 Iterated Arithmetic Means between 1/1 and 2/1",
-        tones=tones,
-        title="Making Scales from Mathematical Means",
-        page=206,
-        function=f,
-    )
+# Duplicates xen18_ayers_table_04
+# def xen18_ayers_table_17(f):
+#     tones = [
+#         T(9, 8, cents=203.910),
+#         T(5, 4, cents=386.314),
+#         T(11, 8, cents=551.318),
+#         T(3, 2, cents=701.955),
+#         T(13, 8, cents=840.528),
+#         T(7, 4, cents=968.826),
+#         T(15, 8, cents=1088.269),
+#         T(2, 1, cents=1200.0),
+#     ]
+#     assert len(tones) == 8
+#     return build_scl(
+#         description="7 Iterated Arithmetic Means between 1/1 and 2/1",
+#         tones=tones,
+#         title="Making Scales from Mathematical Means",
+#         page=206,
+#         function=f,
+#     )
 
 
 def xen18_ayers_table_18(f):
