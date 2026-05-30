@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Browse by JI limit | scale-library{% endblock %}
+
+{% block content %}
+<h1>Browse by JI limit</h1>
+<table class="auto">
+  <thead>
+    <tr><th>Limit</th><th>Scales</th></tr>
+  </thead>
+  <tbody>
+    {% for row in limits %}
+    <tr>
+      <td><a href="/limit/{{ row.limit }}/">{{ row.limit }}</a></td>
+      <td>{{ row.count }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

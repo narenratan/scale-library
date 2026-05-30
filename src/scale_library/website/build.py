@@ -571,7 +571,7 @@ def _write_supporting_files(scales: list[ScaleData]) -> None:
         url = "/" if rel_str == "." else f"/{rel_str}/"
         if "/scala/" in url:
             continue
-        if any(url.startswith(p) for p in _filter_prefixes) and url not in {"/notes/"}:
+        if any(url.startswith(p) for p in _filter_prefixes) and url not in {"/notes/", "/limit/"}:
             continue
         # /source/damusc/{ref_id}/ — numeric ID, not search-meaningful
         if url.startswith("/source/damusc/") and url != "/source/damusc/":
@@ -1251,6 +1251,13 @@ def build(regenerate_similar: bool = False) -> None:
             subset,
             f"{len(subset)} scales",
         )
+
+    # Limit index page
+    limit_index_html = env.get_template("limit_index.html").render(
+        page_title="Browse by JI limit",
+        limits=[{"limit": lim, "count": len(subset)} for lim, subset in sorted(by_limit.items())],
+    )
+    write_page(SITE_DIR / "limit" / "index.html", limit_index_html)
 
     # Scales with recordings
     recording_scales = sorted(
