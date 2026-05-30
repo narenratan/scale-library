@@ -42,7 +42,6 @@
     - xenharmonikon/xen12-wilson-40-5C3-dekany-
     - xenharmonikon/xen12-wilson-02-hexany
     - xenharmonikon/xen12-wilson-07-eikosany
-    - xenharmonikon/xen12-wilson-07-eikosany-extended
     - xenharmonikon/xen12-wilson-13-eikosany
     - xenharmonikon/xen12-wilson-25-6C1-hexany
     - xenharmonikon/xen12-wilson-25-6C2-pentadekany
@@ -51,6 +50,8 @@
     - xenharmonikon/xen12-wilson-25-6C5-hexany
     - xenharmonikon/xen12-wilson-32-dekany
     - xenharmonikon/xen12-wilson-33-dekany
+  stem_excludes:
+    - -extended
   examples:
     xenharmonikon/xen12-wilson-06c-4C1-tetrany: "cps([3, 5, 7, 11], 1)"
     xenharmonikon/xen12-wilson-06c-4C3-tetrany: "cps([3, 5, 7, 11], 3)"
