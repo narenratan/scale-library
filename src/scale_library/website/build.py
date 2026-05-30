@@ -571,7 +571,7 @@ def _write_supporting_files(scales: list[ScaleData]) -> None:
         url = "/" if rel_str == "." else f"/{rel_str}/"
         if "/scala/" in url:
             continue
-        if any(url.startswith(p) for p in _filter_prefixes):
+        if any(url.startswith(p) for p in _filter_prefixes) and url not in {"/notes/"}:
             continue
         # /source/damusc/{ref_id}/ — numeric ID, not search-meaningful
         if url.startswith("/source/damusc/") and url != "/source/damusc/":
@@ -1231,6 +1231,13 @@ def build(regenerate_similar: bool = False) -> None:
             subset,
             f"{len(subset)} scales",
         )
+
+    # Notes index page
+    notes_index_html = env.get_template("notes_index.html").render(
+        page_title="Browse by scale size",
+        notes=[{"n": n, "count": len(subset)} for n, subset in sorted(by_notes.items())],
+    )
+    write_page(SITE_DIR / "notes" / "index.html", notes_index_html)
 
     # Per-limit (just scales only)
     by_limit: dict[int, list[ScaleData]] = defaultdict(list)

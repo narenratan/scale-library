@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}Browse by scale size | scale-library{% endblock %}
+
+{% block content %}
+<h1>Browse by scale size</h1>
+<table class="auto">
+  <thead>
+    <tr><th>Notes</th><th>Scales</th></tr>
+  </thead>
+  <tbody>
+    {% for row in notes %}
+    <tr>
+      <td><a href="/notes/{{ row.n }}/">{{ row.n }}</a></td>
+      <td>{{ row.count }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
