@@ -41,8 +41,8 @@ See this [example scale page](https://scalelibrary.org/scales/cairo-congress/CD0
 
 The `scales` directory contains the scl files for each scale. The scl files are
 also available for download as a zip on the [releases
-page](https://github.com/narenratan/scale-library/releases). The library
-currently contains {total_scl_count} scl files.
+page](https://github.com/narenratan/scale-library/releases) and as a [Python
+package](#python-package). The library currently contains {total_scl_count} scl files.
 
 ## Sources
 The scales come from the following sources:
@@ -309,5 +309,47 @@ These great scale libraries may also be of interest:
 - Ableton comes with a library of [tunings](https://tuning.ableton.com)
 
 In case it isn't clear, `scale-library` is independent of the Scala scale archive.
+
+## Python package
+
+`scale-library` is available as a Python [package](https://pypi.org/project/scale-library/):
+
+```bash
+$ pip install scale-library
+```
+
+Read an individual scl file:
+
+```python
+>>> import scale_library as sl
+>>>
+>>> scl_path = sl.scale_dir() / "damusc/Georgia_GVM206-M.scl"
+>>> scl_text = scl_path.read_text()
+```
+
+Read the scale index as a dataframe:
+
+```python
+>>> import pandas as pd
+>>> import scale_library as sl
+>>>
+>>> scale_index_df = pd.read_csv(sl.scale_index_path())
+```
+
+Parse a `scale-library` scl file `[info]` block containing structured metadata:
+
+```python
+>>> import scale_library as sl
+>>> from pprint import pprint
+>>>
+>>> scl_text = (sl.scale_dir() / "mailing-lists/xenoga24.scl").read_text()
+>>> info = sl.parse_scl_info(scl_text)
+>>>
+>>> pprint(info)
+{{'file': 'tuning/messages/yahoo_tuning_messages_api_raw_0-19436.json',
+ 'msg_id': '16640',
+ 'source': 'Mailing lists',
+ 'topic_id': '16640'}}
+```
 """
     readme_path.write_text(readme_text)

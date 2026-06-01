@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 packages = ["src/scale_library"]
 
 [project]
-name = "scale-library"
+name = "scale-library-generator"
 version = "0.0.0"
 description = "Generate scale-library scl files from sources"
 readme = "README.md"

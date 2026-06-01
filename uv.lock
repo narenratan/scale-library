@@ -440,7 +440,7 @@ wheels = [
 ]
 
 [[package]]
-name = "scale-library"
+name = "scale-library-generator"
 version = "0.0.0"
 source = { editable = "." }
 dependencies = [
