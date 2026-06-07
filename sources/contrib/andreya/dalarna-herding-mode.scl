@@ -1,0 +1,45 @@
+! dalarna-herding-mode.scl
+!
+Dalarna Herding Mode (Andreya's Interpretation)
+!
+ 21
+!
+ 9/8
+ 13/11
+ 6/5
+ 11/9
+ 5/4
+ 14/11
+ 4/3
+ 11/8
+ 45/32
+ 3/2
+ 52/33
+ 8/5
+ 18/11
+ 5/3
+ 56/33
+ 39/22
+ 9/5
+ 11/6
+ 15/8
+ 21/11
+ 2/1
+!
+! Proposed tuning for the tonality described in Ahlbäck, Tonspråket i äldre
+! svensk folkmusik [The tonal language of older Swedish folk music]. Note: Not a
+! "scale" in the normal sense. It is used as a heptatonic scale, where degrees 3,
+! 6 and 7 are variable with 5 options: Low minor, high minor, neutral, low major,
+! high major. Degree 4 also varies between major, minor and neutral. The tuning
+! of the degree differs depending on where it occurs in the melody. The pitch set
+! is also presented here as an octave-repeating set starting on the tonal center,
+! but in the traditional material, many melodies use a range from a 4th below the
+! root to a 5th above. They also often omit the 6th degree entirely.
+!
+! [info]
+! source = contrib
+! reference = Ahlbäck, S. (1986). Tonspråket i äldre svensk folkmusik. Stockholm, Udda Toner.
+! ref_url = https://uddatoner.com/rapidcartpro/index.php?product/page/161/The+tonal+language
+! country = Sweden
+! contributor = andreya
+! contrib_date = 2026-06-02
