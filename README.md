@@ -16,7 +16,7 @@ See this [example scale page](https://scalelibrary.org/scales/cairo-congress/CD0
 The `scales` directory contains the scl files for each scale. The scl files are
 also available for download as a zip on the [releases
 page](https://github.com/narenratan/scale-library/releases) and as a [Python
-package](#python-package). The library currently contains 4519 scl files.
+package](#python-package). The library currently contains 4529 scl files.
 
 ## Sources
 The scales come from the following sources:
@@ -237,6 +237,9 @@ intervalos 13/12, 34/27, 27/17 y 24/13; puede decirse que se obtienen perfectas
 las relaciones 7/6 y 12/7." (The nine sounds provide approximations to the
 intervals 13/12, 34/27, 27/17 and 24/13; one can say that the relations 7/6 and
 12/7 are obtained perfectly.)
+
+### Contrib: 10 scl files
+Scales people have contributed.
 
 
 ## Scale index

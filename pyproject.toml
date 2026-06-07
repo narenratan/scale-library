@@ -22,7 +22,7 @@ dependencies = [
   "markdown>=3.10.2",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
   "pytest",
 ]

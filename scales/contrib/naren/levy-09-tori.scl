@@ -1,0 +1,20 @@
+! levy-09-tori.scl
+!
+Ex. 9: Bismillah Khan, Toṛi
+ 7
+!
+ 99.0   ! Re♭
+ 303.0  ! Ga♭
+ 617.0  ! Ma♯
+ 705.0  ! Pa
+ 805.0  ! Dha♭
+ 1116.0 ! Ni
+ 1200.0
+!
+! [info]
+! source = contrib
+! reference = Levy, Mark. 1982. Intonation in North Indian Music. Biblia Impex
+! ref_url = https://archive.org/details/intonationinnort0000mark
+! country = India
+! contributor = naren
+! contrib_date = 2026-06-06

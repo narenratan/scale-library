@@ -16,7 +16,7 @@
 
 <div class="links">
   <a href="{{ sw_url }}">Open in Scale Workshop</a>
-  <a href="scala/">Scala analysis</a>
+  {% if has_scala_analysis %}<a href="scala/">Scala analysis</a>{% endif %}
   <a href="{{ scale.scl_file }}" download>Download scl</a>
 </div>
 
@@ -42,6 +42,8 @@
       <a href="/source/edos/">EDO</a>
     {% elif scale.info.source == "ORD-CC32" %}
       <a href="/source/cairo-congress/">Cairo Congress of Arab Music</a>
+    {% elif scale.info.source == "contrib" %}
+      <a href="/source/contrib/">Contrib</a>
     {% else %}
       {{ scale.info.source }}
     {% endif %}
@@ -50,7 +52,7 @@
   <tr><th>Type</th><td><a href="/source/divisions-of-the-tetrachord/{{ div_type }}/">{{ div_type_display }}</a></td></tr>
   {% endif %}
   {% if scale.reference %}
-  <tr><th>Reference</th><td>{{ scale.reference }}</td></tr>
+  <tr><th>Reference</th><td>{% if ref_url %}<a href="{{ ref_url }}">{{ scale.reference }}</a>{% else %}{{ scale.reference }}{% endif %}</td></tr>
   {% endif %}
   {% if scale.info.raw.doi %}
   <tr><th>DOI</th><td><a href="{{ scale.info.raw.doi }}">{{ scale.info.raw.doi }}</a></td></tr>
@@ -109,6 +111,11 @@
     {% endfor %}
   </tbody>
 </table>
+
+{% if details_text %}
+<h2>Details</h2>
+<p>{{ details_text }}</p>
+{% endif %}
 
 {% if similar %}
 <h2>Similar scales</h2>

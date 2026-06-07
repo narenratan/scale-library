@@ -2469,3 +2469,76 @@
     artist: L'ensemble de Muhammad Ghânim
     scales:
     - cairo-congress/CD18_20_Tunisia
+- artist: Amir Khan
+  album: Raga Marwa / Darbari Kanada
+  year: 1960
+  reference: https://www.discogs.com/release/15823927-Ameer-Khan-Raga-Marwa-Darbari-Kanada
+  tracks:
+    - url: https://www.youtube.com/watch?v=fVQD1BblyJw
+      title: Raga Marwa
+      scales:
+        - contrib/naren/levy-01-marva
+    - url: https://www.youtube.com/watch?v=h4Lwx7pkcu0
+      title: Raga Darbari Kanada
+      scales:
+        - contrib/naren/levy-05-darbari
+- artist: Amir Khan
+  album: Bake/Jairazbhoy Digital Archive of South Asian Traditional Music and Arts
+  year: 1963
+  tracks:
+    - url: https://digital.library.ucla.edu/catalog/ark:/21198/z1r84dqc
+      title: N63-37
+      scales:
+        - contrib/naren/levy-02-marva
+- artist: Niaz & Faiyaz Ahmed Khan
+  album: Bake/Jairazbhoy Digital Archive of South Asian Traditional Music and Arts
+  year: 1964
+  tracks:
+    - url: https://digital.library.ucla.edu/catalog/ark:/21198/z1h191jw
+      title: N63-111
+      scales:
+        - contrib/naren/levy-04-malkaus
+- artist: Nazakat & Salamat Ali Khan
+  album: Classical Music From Pakistan
+  year: 1959
+  reference: https://www.discogs.com/release/8414668-Nazakat-Ali-Salamat-Ali-Classical-Music-From-Pakistan
+  tracks:
+    - url: https://www.youtube.com/watch?v=dzHl6OVm1UQ
+      title: Raga Durbari
+      scales:
+        - contrib/naren/levy-06-darbari
+- artist: Niaz & Faiyaz Ahmed Khan
+  album: Jugalbandi
+  year: 1973
+  reference: https://www.discogs.com/release/5066124-Ustad-Fayyaz-Ahmed-Khan-Ustad-Niyaz-Ahmed-Khan-Jugalbandi
+  tracks:
+    - url: https://www.youtube.com/watch?v=eKLvDunGa4w
+      title: Khayal Bageshwari
+      scales:
+        - contrib/naren/levy-07-bagesri
+- artist: Kishori Amonkar
+  album: (Classical) Vocal
+  year: 1971
+  reference: https://www.discogs.com/release/3986239-Kishori-Amonkar-Classical-Vocal
+  tracks:
+    - url: https://www.youtube.com/watch?v=ejib8Tubv7Y
+      title: Raga Bageshri
+      scales:
+        - contrib/naren/levy-08-bagesri
+- artist: Bismillah Khan
+  album: Raga Todi • Mishra Thumri
+  year: 1962
+  reference: https://www.discogs.com/release/8689107-Bismillah-Khan-Raga-Todi-Mishra-Thumri
+  tracks:
+    - url: https://www.youtube.com/watch?v=8WQ6eLsUxVs
+      title: Raga Todi
+      scales:
+        - contrib/naren/levy-09-tori
+- artist: Z.M. Dagar
+  album: Bake/Jairazbhoy Digital Archive of South Asian Traditional Music and Arts
+  year: 1964
+  tracks:
+    - url: https://digital.library.ucla.edu/catalog/ark:/21198/z1wb18p2
+      title: N63-109
+      scales:
+        - contrib/naren/levy-10-abhogi

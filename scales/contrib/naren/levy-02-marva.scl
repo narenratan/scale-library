@@ -1,0 +1,19 @@
+! levy-02-marva.scl
+!
+Ex. 2: Amir Khan, Mārvā
+ 6
+!
+ 96.0   ! Re♭
+ 410.0  ! Ga
+ 605.0  ! Ma♯
+ 901.0  ! Dha
+ 1111.0 ! Ni
+ 1200.0
+!
+! [info]
+! source = contrib
+! reference = Levy, Mark. 1982. Intonation in North Indian Music. Biblia Impex
+! ref_url = https://archive.org/details/intonationinnort0000mark
+! country = India
+! contributor = naren
+! contrib_date = 2026-06-06

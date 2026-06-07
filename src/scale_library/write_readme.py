@@ -21,6 +21,7 @@ def write_readme(
     mailing_lists_scl_count,
     ord_cc32_scl_count,
     xenharmonikon_scl_count,
+    contrib_scl_count,
 ):
     readme_path = Path(__file__).parents[2] / "README.md"
     logger.info("Writing README to %s", readme_path.relative_to(Path.cwd()))
@@ -263,6 +264,9 @@ intervalos 13/12, 34/27, 27/17 y 24/13; puede decirse que se obtienen perfectas
 las relaciones 7/6 y 12/7." (The nine sounds provide approximations to the
 intervals 13/12, 34/27, 27/17 and 24/13; one can say that the relations 7/6 and
 12/7 are obtained perfectly.)
+
+### Contrib: {contrib_scl_count} scl files
+Scales people have contributed.
 
 
 ## Scale index

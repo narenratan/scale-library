@@ -454,7 +454,7 @@ dependencies = [
     { name = "tuning-library" },
 ]
 
-[package.optional-dependencies]
+[package.dev-dependencies]
 dev = [
     { name = "pytest" },
 ]
@@ -465,13 +465,14 @@ requires-dist = [
     { name = "markdown", specifier = ">=3.10.2" },
     { name = "numpy" },
     { name = "pandas" },
-    { name = "pytest", marker = "extra == 'dev'" },
     { name = "pyyaml" },
     { name = "requests" },
     { name = "sympy" },
     { name = "tuning-library" },
 ]
-provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [{ name = "pytest" }]
 
 [[package]]
 name = "six"

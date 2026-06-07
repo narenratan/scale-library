@@ -12,7 +12,8 @@ jobs:
 
       - name: Download Scala
         run: |
-          curl -L https://www.huygens-fokker.org/software/scala-18-pc64-linux.tar.gz | tar -xzf -
+          curl -L --fail --retry 3 -o scala.tar.gz https://www.huygens-fokker.org/software/scala-18-pc64-linux.tar.gz
+          tar -xzf scala.tar.gz
           chmod +x scala-18-pc64-linux/scala
 
       - uses: astral-sh/setup-uv@v5

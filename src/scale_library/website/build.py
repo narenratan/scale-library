@@ -23,6 +23,7 @@ import tuning_library as tl
 import yaml
 from jinja2 import Environment, FileSystemLoader
 
+from scale_library.contrib import parse_details
 from scale_library.website.check_links import check_links
 from scale_library.website.config import PROD_BASE
 from scale_library.website.data import REPO_ROOT, ScaleData, load_all_scales
@@ -59,20 +60,63 @@ _SCALA_COMMAND_ORDER = [
 ]
 
 
-# DaMuSc region → site region
-_DAMUSC_REGION_MAP = {
-    "Africa": "Africa",
-    "South East Asia": "Asia",
-    "East Asia": "Asia",
-    "Middle East": "Asia",
-    "South Asia": "Asia",
-    "Latin America": "Americas",
-    "Western": "Europe",
-    "Oceania": "Oceania",
-}
-
-_DAMUSC_COUNTRY_REGION_OVERRIDE = {
-    "Georgia": "Europe",
+# Country → broad region. Covers all countries across DaMuSc, ORD-CC32, and contrib.
+# Raises KeyError on build if an unrecognised country is encountered.
+_COUNTRY_REGION: dict[str, str] = {
+    # Africa
+    "Algeria": "Africa",
+    "Angola": "Africa",
+    "Benin": "Africa",
+    "Burkina Faso": "Africa",
+    "Central African Republic": "Africa",
+    "Congo": "Africa",
+    "DR Congo": "Africa",
+    "Egypt": "Africa",
+    "Equatorial Guinea": "Africa",
+    "Ethiopia": "Africa",
+    "Gambia": "Africa",
+    "Ghana": "Africa",
+    "Guinea": "Africa",
+    "Malawi": "Africa",
+    "Morocco": "Africa",
+    "Mozambique": "Africa",
+    "Sudan": "Africa",
+    "Tanzania": "Africa",
+    "Tunisia": "Africa",
+    "Uganda": "Africa",
+    "Zimbabwe": "Africa",
+    # Americas
+    "Bolivia": "Americas",
+    "Brazil": "Americas",
+    "Colombia": "Americas",
+    "Guatemala": "Americas",
+    "Peru": "Americas",
+    # Asia
+    "Cambodia": "Asia",
+    "China": "Asia",
+    "India": "Asia",
+    "Indonesia": "Asia",
+    "Iraq": "Asia",
+    "Japan": "Asia",
+    "Korea": "Asia",
+    "Laos": "Asia",
+    "Myanmar": "Asia",
+    "Pakistan": "Asia",
+    "Singapore": "Asia",
+    "Syria": "Asia",
+    "Thailand": "Asia",
+    "Turkey": "Asia",
+    "Vietnam": "Asia",
+    # Europe
+    "Georgia": "Europe",  # DaMuSc classifies as Middle East
+    "Greece": "Europe",
+    "Lithuania": "Europe",
+    "Portugal": "Europe",
+    "Sweden": "Europe",
+    "United Kingdom": "Europe",
+    # Oceania
+    "Papua New Guinea": "Oceania",
+    "Solomon Islands": "Oceania",
 }
 
 # Xenharmonikon author slug → full name
@@ -106,17 +150,15 @@ def _filename_to_command(filename: str) -> str:
     return filename.replace("_", " ").replace("-", "/")
 
 
-def _load_scala_analysis(stem: str) -> list[tuple[str, str]]:
+def _load_scala_analysis(stem: str) -> list[tuple[str, str]] | None:
     """Load Scala command outputs for a scale.
 
-    Returns a list of (command_name, content) pairs in display order.
-    Raises FileNotFoundError if the scale's scala-analysis directory is missing.
+    Returns a list of (command_name, content) pairs in display order,
+    or None if no scala-analysis directory exists for this scale.
     """
     scale_dir = SCALA_ANALYSIS_DIR / stem
     if not scale_dir.exists():
-        raise FileNotFoundError(
-            f"No scala-analysis directory for {stem!r} — regenerate scala-analysis.tar.gz"
-        )
+        return None
     result = []
     for filename in _SCALA_COMMAND_ORDER:
         content = (scale_dir / filename).read_text(encoding="utf-8")
@@ -293,19 +335,6 @@ def _xen_issue_slug(issue) -> str:
     return str(issue).replace(" & ", "-and-")
 
 
-def load_country_map() -> dict[str, tuple[str, str]]:
-    """Return measured_id → (country_display, site_region) from DaMuSc CSV."""
-    damusc_csv = REPO_ROOT / "sources/DaMuSc/Data/measured_scales.csv"
-    result: dict[str, tuple[str, str]] = {}
-    with open(damusc_csv, newline="", encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            mid = row["MeasuredID"]
-            country = row["Country"]
-            region = _DAMUSC_COUNTRY_REGION_OVERRIDE.get(
-                country, _DAMUSC_REGION_MAP.get(row["Region"], row["Region"])
-            )
-            result[mid] = (country, region)
-    return result
 
 
 def write_page(path: Path, html: str) -> None:
@@ -318,9 +347,9 @@ def render_scale_page(
     scales_by_stem: dict[str, ScaleData],
     env: Environment,
     similar_data: dict,
-    country_lookup: dict,
     recordings: dict,
     construction_lookup: dict,
+    has_scala_analysis: bool = True,
 ) -> str:
     lines = [t.string_rep for t in scale.tones]
     sw_url = scale_workshop_url(scale.description, lines)
@@ -399,12 +428,16 @@ def render_scale_page(
         related_label = "reference"
         related_more_url = f"/source/damusc/{ref_id}/"
 
-    # Country (DaMuSc only)
+    # Country (DaMuSc and contrib)
     country = None
     country_slug = None
     if src == "DaMuSc":
         country = scale.info.raw["country"]
         country_slug = country.replace(" ", "_")
+    elif src == "contrib":
+        country = scale.info.raw.get("country")
+        if country:
+            country_slug = country.replace(" ", "_")
 
     # Mailing list post + thread (mailing-lists source only)
     post = None
@@ -457,6 +490,13 @@ def render_scale_page(
         cc_region = scale.info.raw.get("region")
         cc_tonic_ref = scale.info.raw.get("tonic_ref")
 
+    # Contrib fields
+    details_text = None
+    ref_url = None
+    if src == "contrib":
+        details_text = parse_details(scale.raw_text) or None
+        ref_url = scale.info.raw.get("ref_url")
+
     construction = construction_lookup.get(scale.stem)
 
     tmpl = env.get_template("scale.html")
@@ -490,6 +530,9 @@ def render_scale_page(
             for r in recordings.get(scale.stem, [])
         ),
         construction=construction,
+        details_text=details_text,
+        ref_url=ref_url,
+        has_scala_analysis=has_scala_analysis,
     )
 
 
@@ -596,66 +639,111 @@ def _write_supporting_files(scales: list[ScaleData]) -> None:
     )
 
     # llms.txt — machine-readable summary for LLMs / crawlers
-    llms_lines = [
-        "# scale-library",
-        "",
-        f"> A collection of {len(scales)} microtonal scales from six sources:",
-        "> Xenharmonikon (journal), the tuning mailing lists, the Database of",
-        "> Musical Scales (DaMuSc), Divisions of the Tetrachord, EDOs, and the",
-        "> ORD-CC32 dataset of the Cairo Congress of Arab Music.",
-        "",
-        "## Data files",
-        "",
-        f"- [{prod_base}/scale-index.csv]({prod_base}/scale-index.csv): CSV index of all scales",
-        f"- [{prod_base}/scales.json]({prod_base}/scales.json): JSON array of all scales with tones",
-        f"- [{prod_base}/similar.json]({prod_base}/similar.json): JSON map of similar/parent/child scales (keyed by stem, top 10 by max cent diff)",
-        f"- [{prod_base}/recordings.json]({prod_base}/recordings.json): JSON array of recordings linked to scales (album-centric; each track has a scales array of full scale page URLs)",
-        "",
-        "## Browse",
-        "",
-        f"- [{prod_base}/]({prod_base}/): Front page",
-        f"- [{prod_base}/scales/]({prod_base}/scales/): All {len(scales)} scales",
-        f"- [{prod_base}/constructions/]({prod_base}/constructions/): Scale construction methods with examples",
-        f"- [{prod_base}/definitions/]({prod_base}/definitions/): Definitions of terms used on scale pages",
-        f"- [{prod_base}/source/mailing-lists/topics/]({prod_base}/source/mailing-lists/topics/): Index of mailing list threads containing scales",
-        "",
-        "## Full content",
-        "",
-        f"- [{prod_base}/constructions.md]({prod_base}/constructions.md): All scale construction explanations and Python code. Load into context first when answering questions about microtonal theory or scale construction.",
-        f"- [{prod_base}/definitions.md]({prod_base}/definitions.md): Definitions of terms used on scale pages (max diff, period, rotation, similar, parent/child).",
-        f"- [{prod_base}/mailing-list-threads.txt]({prod_base}/mailing-list-threads.txt): Full text of all mailing list threads containing scales (for RAG / offline use)",
-        "",
-        "## Scale page format",
-        "",
-        "Each scale at `/scales/<source>/<slug>/` has (e.g. `/scales/xenharmonikon/xen02-wilson-arabic/`):",
-        "- `index.html`: human-readable page with tones, steps, Scale Workshop link",
-        "- `<slug>.scl`: raw Scala scl file",
-        "- `scale.json`: machine-readable JSON (description, notes, tones, steps, source, similar/parent/child scales with max cent diff)",
-        "",
-        "Use `scale.json` for the authoritative tones/steps of a specific scale — the HTML page may include mailing list threads that contain other scales, so parsing the page prose is not a reliable way to identify which scale belongs to this URL.",
-        "",
-        "## Sources",
-        "",
-        "- **Xenharmonikon**: peer-reviewed microtonal journal, 18 issues (1974–2006)",
-        "- **Mailing lists**: archived discussions from the Yahoo microtonal tuning communities",
-        "- **DaMuSc**: measured scales from world music traditions, with country metadata",
-        "- **Divisions of the Tetrachord**: catalog from John Chalmers' book",
-        "- **EDO**: equal divisions of the octave (1-EDO through 72-EDO)",
-        "- **Cairo Congress of Arab Music**: measured maqams from the 1932 Cairo Congress, from the ORD-CC32 dataset",
-        "",
-        "## [info] block format",
-        "",
-        "Each scl file ends with a machine-readable `[info]` block embedded in scl comment",
-        "lines (lines starting with `!`). The block uses INI-style `key = value` pairs.",
-        "This is a lightweight way to add structured metadata to any scl file. Example:",
-        "",
-        "```",
-        "! [info]",
-        "! source = Xenharmonikon",
-        "! whole_number = 12",
-        "```",
-    ]
-    (SITE_DIR / "llms.txt").write_text("\n".join(llms_lines) + "\n", encoding="utf-8")
+    llms_text = f"""\
+# scale-library
+
+> A collection of {len(scales)} microtonal scales from seven sources:
+> Xenharmonikon (journal), the tuning mailing lists, the Database of
+> Musical Scales (DaMuSc), Divisions of the Tetrachord, EDOs, the
+> ORD-CC32 dataset of the Cairo Congress of Arab Music, and Contrib
+> (scales contributed by users).
+
+## Python package
+
+If you are running in a sandbox with internet access, install the `scale-library`
+Python package to get direct access to all scl files and the scale index without
+fetching remote URLs:
+
+```
+pip install scale-library
+```
+
+```python
+import scale_library as sl
+
+scale_dir = sl.scale_dir()          # pathlib.Path to directory of all scl files
+index_path = sl.scale_index_path()  # pathlib.Path to scale-index.csv
+```
+
+scale-index.csv columns:
+- `directory`: source subdirectory (e.g. `xenharmonikon`, `mailing-lists`, `damusc`, `contrib`)
+- `scl_file`: scl filename within that directory
+- `notes`: number of notes (int)
+- `period`: period in cents (float)
+- `just`: `True` if all tones are pure ratios, `False` otherwise
+- `limit`: prime limit (int); 0 if not just
+- `description`: human-readable description of the scale
+- `tones`: space-separated tone values (ratios e.g. `11/10 5/4 2/1` if just, cents if not)
+- `reference`: bibliographic reference
+
+## Data files
+
+- {prod_base}/scale-index.csv: CSV index of all scales
+- {prod_base}/scales.json: JSON array of all scales with tones
+- {prod_base}/similar.json: JSON map of similar/parent/child scales (keyed by stem, top 10 by max cent diff)
+- {prod_base}/recordings.json: JSON array of recordings linked to scales (album-centric; each track has a scales array of full scale page URLs)
+
+## Browse
+
+- {prod_base}/: Front page
+- {prod_base}/scales/: All {len(scales)} scales
+- {prod_base}/constructions/: Scale construction methods with examples
+- {prod_base}/definitions/: Definitions of terms used on scale pages
+- {prod_base}/source/mailing-lists/topics/: Index of mailing list threads containing scales
+
+## Full content
+
+- {prod_base}/constructions.md: All scale construction explanations and Python code. Load into context first when answering questions about microtonal theory or scale construction.
+- {prod_base}/definitions.md: Definitions of terms used on scale pages (max diff, period, rotation, similar, parent/child).
+- {prod_base}/mailing-list-threads.txt: Full text of all mailing list threads containing scales (for RAG / offline use)
+
+## Scale page format
+
+Each scale at `/scales/<source>/<slug>/` has (e.g. `/scales/xenharmonikon/xen02-wilson-arabic/`):
+- `index.html`: human-readable page with tones, steps, Scale Workshop link
+- `<slug>.scl`: raw Scala scl file
+- `scale.json`: machine-readable JSON (description, notes, tones, steps, source, similar/parent/child scales with max cent diff)
+
+Use `scale.json` for the authoritative tones/steps of a specific scale — the HTML page may include mailing list threads that contain other scales, so parsing the page prose is not a reliable way to identify which scale belongs to this URL.
+
+scale.json schema:
+- `stem`: `"directory/slug"` identifier (e.g. `"xenharmonikon/xen02-wilson-arabic"`)
+- `description`: human-readable description
+- `notes`: number of notes (int)
+- `period`: period in cents (float)
+- `just`: bool — whether all tones are pure ratios
+- `limit`: prime limit (int); 0 if not just
+- `source`: source name
+- `reference`: bibliographic reference
+- `tones`: list of `{{"scl": "<ratio or cents>", "cents": <float>}}` — one entry per tone
+- `steps`: list of `{{"cents": <float>, "ratio": "<ratio or cents>"}}` — intervals between consecutive tones
+- `similar`: list of `{{"stem": "...", "max_diff": <float>, "mode": <int>}}` — scales similar by max cent diff, with the mode (rotation) of that scale that is closest
+- `parents`: list of `{{"stem": "...", "max_diff": <float>}}` — scales that are subsets of this one
+- `children`: list of `{{"stem": "...", "max_diff": <float>}}` — scales that are supersets of this one
+
+## Sources
+
+- **Xenharmonikon**: peer-reviewed microtonal journal, 18 issues (1974–2006)
+- **Mailing lists**: archived discussions from the Yahoo microtonal tuning communities
+- **DaMuSc**: measured scales from world music traditions, with country metadata
+- **Divisions of the Tetrachord**: catalog from John Chalmers' book
+- **EDO**: equal divisions of the octave (1-EDO through 72-EDO)
+- **Cairo Congress of Arab Music**: measured maqams from the 1932 Cairo Congress, from the ORD-CC32 dataset
+- **Contrib**: scales contributed by users
+
+## [info] block format
+
+Each scl file ends with a machine-readable `[info]` block embedded in scl comment
+lines (lines starting with `!`). The block uses INI-style `key = value` pairs.
+This is a lightweight way to add structured metadata to any scl file. Example:
+
+```
+! [info]
+! source = Xenharmonikon
+! whole_number = 12
+```
+"""
+    (SITE_DIR / "llms.txt").write_text(llms_text, encoding="utf-8")
 
     # scale-index.csv
     shutil.copy(REPO_ROOT / "scale-index.csv", SITE_DIR / "scale-index.csv")
@@ -687,7 +775,7 @@ def _write_supporting_files(scales: list[ScaleData]) -> None:
     _write_recordings_json()
 
 
-def build(regenerate_similar: bool = False) -> None:
+def build(regenerate_similar: bool = False, allow_missing_scala: bool = False) -> None:
     t0 = time.time()
 
     # ── 1. Load data ───────────────────────────────────────────────────────────
@@ -697,7 +785,6 @@ def build(regenerate_similar: bool = False) -> None:
     total = len(scales)
     print(f"  {total} scales loaded", file=sys.stderr)
 
-    country_lookup = load_country_map()
     recordings = _load_recordings()
     print(
         f"  {sum(len(v) for v in recordings.values())} recordings loaded",
@@ -748,14 +835,20 @@ def build(regenerate_similar: bool = False) -> None:
         if i % 500 == 0:
             print(f"  {i}/{total}…", file=sys.stderr)
 
+        scala_commands = _load_scala_analysis(scale.stem)
+        if scala_commands is None and not allow_missing_scala:
+            raise FileNotFoundError(
+                f"No scala-analysis data for {scale.stem!r}. "
+                "Run with --allow-missing-scala to skip missing analyses."
+            )
         html = render_scale_page(
             scale,
             scales_by_stem,
             env,
             similar_data,
-            country_lookup,
             recordings,
             construction_lookup,
+            has_scala_analysis=scala_commands is not None,
         )
         out_dir = SITE_DIR / "scales" / scale.stem
         write_page(out_dir / "index.html", html)
@@ -787,10 +880,10 @@ def build(regenerate_similar: bool = False) -> None:
             json.dumps(scale_json, indent=2), encoding="utf-8"
         )
 
-        # Scala analysis page
-        scala_commands = _load_scala_analysis(scale.stem)
-        sa_html = _render_scala_analysis_page(scale, scala_commands, env)
-        write_page(out_dir / "scala" / "index.html", sa_html)
+        # Scala analysis page (skipped if no analysis data available)
+        if scala_commands is not None:
+            sa_html = _render_scala_analysis_page(scale, scala_commands, env)
+            write_page(out_dir / "scala" / "index.html", sa_html)
 
     print(f"  Scale pages done ({time.time()-t0:.1f}s)", file=sys.stderr)
 
@@ -861,6 +954,13 @@ def build(regenerate_similar: bool = False) -> None:
             "edos",
             "<p>Equal divisions of the octave from 1-EDO through 72-EDO.</p>",
         ),
+        (
+            "contrib",
+            "Contrib",
+            "contrib",
+            "contrib",
+            "<p>Scales people have contributed.</p>",
+        ),
     ]:
         subset = [s for s in scales if s.info.source == src_name]
         _write_filter(
@@ -869,6 +969,19 @@ def build(regenerate_similar: bool = False) -> None:
             subset,
             intro=f"{len(subset)} scales",
             description=src_desc,
+        )
+
+    # Per-contributor pages
+    contrib_scales = [s for s in scales if s.info.source == "contrib"]
+    by_contributor: dict[str, list[ScaleData]] = defaultdict(list)
+    for s in contrib_scales:
+        by_contributor[s.info.raw["contributor"]].append(s)
+    for contributor, subset in by_contributor.items():
+        _write_filter(
+            f"contributor/{contributor}",
+            f"Contributor: {contributor}",
+            subset,
+            f"{len(subset)} scale{'s' if len(subset) != 1 else ''}",
         )
 
     # Cairo Congress of Arab Music
@@ -1126,35 +1239,22 @@ def build(regenerate_similar: bool = False) -> None:
     # Per-country and per-region (DaMuSc + ORD-CC32)
     damusc_scales = [s for s in scales if s.info.source == "DaMuSc"]
 
-    # Build country slug → (display_name, region) lookup using country_lookup
+    # Build country slug → (display_name, region) lookup
     country_slug_info: dict[str, tuple[str, str]] = {}
     for s in damusc_scales:
         country = s.info.raw["country"]
         slug = country.replace(" ", "_")
-        mid = s.info.raw["measured_id"]
-        region = country_lookup[mid][1]
         if slug not in country_slug_info:
-            country_slug_info[slug] = (country, region)
+            country_slug_info[slug] = (country, _COUNTRY_REGION[country])
 
-    # ORD-CC32 regions are country names; map to broad region via DaMuSc's region map
-    _CC_COUNTRY_REGION = {
-        "Algeria": "Africa",
-        "Egypt": "Africa",
-        "Iraq": "Asia",
-        "Morocco": "Africa",
-        "Syria": "Asia",
-        "Tunisia": "Africa",
-        "Turkey": "Asia",
-    }
+    # ORD-CC32 regions are country names
     for s in cc_scales:
         country = s.info.raw.get("region")
         if not country:
             continue
         slug = country.replace(" ", "_")
-        if country in _CC_COUNTRY_REGION:
-            country_slug_info[slug] = (country, _CC_COUNTRY_REGION[country])
-        elif slug not in country_slug_info:
-            country_slug_info[slug] = (country, "Asia")
+        if slug not in country_slug_info:
+            country_slug_info[slug] = (country, _COUNTRY_REGION[country])
 
     by_country: dict[str, list[ScaleData]] = defaultdict(list)
     by_region: dict[str, list[ScaleData]] = defaultdict(list)
@@ -1169,6 +1269,18 @@ def build(regenerate_similar: bool = False) -> None:
             continue
         slug = country.replace(" ", "_")
         display, region = country_slug_info[slug]
+        by_country[slug].append(s)
+        by_region[region].append(s)
+
+    # Add contrib scales with country
+    for s in contrib_scales:
+        country = s.info.raw.get("country")
+        if not country:
+            continue
+        slug = country.replace(" ", "_")
+        if slug not in country_slug_info:
+            country_slug_info[slug] = (country, _COUNTRY_REGION[country])  # raises KeyError if country unrecognised
+        _, region = country_slug_info[slug]
         by_country[slug].append(s)
         by_region[region].append(s)
 
@@ -1360,6 +1472,7 @@ def build(regenerate_similar: bool = False) -> None:
         ),
         "EDO": sum(1 for s in scales if s.info.source == "EDO"),
         "ORD-CC32": sum(1 for s in scales if s.info.source == "ORD-CC32"),
+        "contrib": sum(1 for s in scales if s.info.source == "contrib"),
     }
     notes_counts = Counter(s.notes for s in scales)
     index_html = env.get_template("index.html").render(
@@ -1389,9 +1502,10 @@ def build(regenerate_similar: bool = False) -> None:
     print(f"  ✓ {len(scale_pages)} scale pages generated", file=sys.stderr)
 
     sa_pages = list((SITE_DIR / "scales").rglob("scala/index.html"))
-    assert (
-        len(sa_pages) == total
-    ), f"Expected {total} scala-analysis pages, got {len(sa_pages)}"
+    if not allow_missing_scala:
+        assert (
+            len(sa_pages) == total
+        ), f"Expected {total} scala-analysis pages, got {len(sa_pages)}"
     print(f"  ✓ {len(sa_pages)} scala-analysis pages generated", file=sys.stderr)
 
     scl_copies = list((SITE_DIR / "scales").rglob("*.scl"))

@@ -28,7 +28,7 @@ def main():
     for i, p in enumerate(Path("scales").rglob("*.scl")):
         if i % 100 == 0:
             print(i)
-        analysis_dir = OUTPUT_DIR / p.parent.name / p.stem
+        analysis_dir = OUTPUT_DIR / p.relative_to("scales").with_suffix("")
         analysis_dir.mkdir(parents=True)
         for command in COMMANDS:
             output_file = analysis_dir / command.replace(" ", "_").replace("/", "-")
