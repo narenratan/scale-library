@@ -25,6 +25,23 @@ def _tone_cents(tones) -> tuple[np.ndarray, float]:
     return np.sort(arr[:-1]), period  # exclude period tone
 
 
+def _canonical_mode_key(cents: np.ndarray, period: float) -> tuple:
+    """
+    Return a tuple identifying the modal equivalence class of a scale.
+
+    Two scales are exact modes of each other iff they share the same key.
+    Uses the lexicographically largest rotation of the step-interval vector,
+    rounded to 4 decimal places to absorb float noise.
+    """
+    if len(cents) == 0:
+        return (round(period, 4),)
+    assert cents[0] != 0.0
+    assert cents[-1] != period
+    full = np.concatenate([[0.0], cents, [period]])
+    steps = tuple(round(float(s), 4) for s in np.diff(full))
+    return max(steps[i:] + steps[:i] for i in range(len(steps)))
+
+
 def _min_mode_distance(
     a: np.ndarray, b: np.ndarray, period_a: float, period_b: float
 ) -> tuple[float, int]:
@@ -110,6 +127,9 @@ def compute_similar(
         _tone_cents(s.tones) if s.tones else (np.array([]), 1200.0) for s in scales
     ]
     notes_counts = [len(arr) for arr, _ in cents_arrays]
+    canonical_keys = [
+        _canonical_mode_key(arr, period) for arr, period in cents_arrays
+    ]
 
     # Group by note count for O(n_group²) similar search
     from collections import defaultdict
@@ -145,6 +165,16 @@ def compute_similar(
         j, dist, *_ = item
         return (dist, notes_counts[j], stems[j].split("/")[-1])
 
+    def _dedup_by_modal_class(candidates):
+        """Keep only the closest candidate per modal equivalence class."""
+        best: dict[tuple, tuple] = {}
+        for item in candidates:
+            j, dist, mode = item
+            key = canonical_keys[j]
+            if key not in best or (round(dist, 4), mode) < (round(best[key][1], 4), best[key][2]):
+                best[key] = item
+        return list(best.values())
+
     def _sort_key_parent(item, ni):
         j, dist = item
         nj = notes_counts[j]
@@ -156,7 +186,7 @@ def compute_similar(
         return (dist, -notes_counts[j], stems[j].split("/")[-1])
 
     for i in similar:
-        similar[i] = sorted(similar[i], key=_sort_key)[:SIMILAR_CAP]
+        similar[i] = sorted(_dedup_by_modal_class(similar[i]), key=_sort_key)[:SIMILAR_CAP]
 
     # Parent/child: collect all, then keep closest SIMILAR_CAP
     for i in range(len(scales)):
