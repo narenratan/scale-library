@@ -355,5 +355,7 @@ Parse a `scale-library` scl file `[info]` block containing structured metadata:
  'source': 'Mailing lists',
  'topic_id': '16640'}}
 ```
+
+*Naren Ratan*
 """
     readme_path.write_text(readme_text)

@@ -340,43 +340,13 @@
   album: Georgian Vocal Music (GVM) Dataset
   year: 2016
   tracks:
-    - url: https://lazardb.gbv.de/detail/9074
-      title: "Zari Kala — Kala Village (video)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM198_ZariKala_KalaVillage_FuneralSingersKala_20160809
+      title: "Zari Kala"
       scales:
         - damusc/Georgia_GVM198-H
         - damusc/Georgia_GVM198-M
-    - url: https://lazardb.gbv.de/detail/10554
-      title: "Zari Kala — Kala Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM198-H
-        - damusc/Georgia_GVM198-M
-    - url: https://lazardb.gbv.de/detail/10555
-      title: "Zari Kala — Kala Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM198-H
-        - damusc/Georgia_GVM198-M
-    - url: https://lazardb.gbv.de/detail/10556
-      title: "Zari Kala — Kala Village (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM198-H
-        - damusc/Georgia_GVM198-M
-    - url: https://lazardb.gbv.de/detail/9073
-      title: "Zari Ushguli — Kala Village (video)"
-      scales:
-        - damusc/Georgia_GVM207-H
-        - damusc/Georgia_GVM207-M
-    - url: https://lazardb.gbv.de/detail/10557
-      title: "Zari Ushguli — Kala Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM207-H
-        - damusc/Georgia_GVM207-M
-    - url: https://lazardb.gbv.de/detail/10558
-      title: "Zari Ushguli — Kala Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM207-H
-        - damusc/Georgia_GVM207-M
-    - url: https://lazardb.gbv.de/detail/10559
-      title: "Zari Ushguli — Kala Village (singer 3, larynx mic)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM207_ZariUshguli_KalaVillage_FuneralSingersKala_20160809
+      title: "Zari Ushguli"
       scales:
         - damusc/Georgia_GVM207-H
         - damusc/Georgia_GVM207-M
@@ -384,53 +354,13 @@
   album: Georgian Vocal Music (GVM) Dataset
   year: 2016
   tracks:
-    - url: https://lazardb.gbv.de/detail/9101
-      title: "Zari Latali — Latali Village (video)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM199_ZariLatali_LataliVillage_FuneralSingersLatali_20160811
+      title: "Zari Latali"
       scales:
         - damusc/Georgia_GVM199-H
         - damusc/Georgia_GVM199-M
-    - url: https://lazardb.gbv.de/detail/10561
-      title: "Zari Latali — Latali Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM199-H
-        - damusc/Georgia_GVM199-M
-    - url: https://lazardb.gbv.de/detail/10562
-      title: "Zari Latali — Latali Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM199-H
-        - damusc/Georgia_GVM199-M
-    - url: https://lazardb.gbv.de/detail/10563
-      title: "Zari Latali — Latali Village (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM199-H
-        - damusc/Georgia_GVM199-M
-    - url: https://lazardb.gbv.de/detail/10564
-      title: "Zari Latali — Latali Village (ambient stereo)"
-      scales:
-        - damusc/Georgia_GVM199-H
-        - damusc/Georgia_GVM199-M
-    - url: https://lazardb.gbv.de/detail/9102
-      title: "Zari Lower Bal — Latali Village (video)"
-      scales:
-        - damusc/Georgia_GVM203-H
-        - damusc/Georgia_GVM203-M
-    - url: https://lazardb.gbv.de/detail/10565
-      title: "Zari Lower Bal — Latali Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM203-H
-        - damusc/Georgia_GVM203-M
-    - url: https://lazardb.gbv.de/detail/10566
-      title: "Zari Lower Bal — Latali Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM203-H
-        - damusc/Georgia_GVM203-M
-    - url: https://lazardb.gbv.de/detail/10567
-      title: "Zari Lower Bal — Latali Village (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM203-H
-        - damusc/Georgia_GVM203-M
-    - url: https://lazardb.gbv.de/detail/10568
-      title: "Zari Lower Bal — Latali Village (ambient stereo)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM203_ZariLowerBal_LataliVillage_FuneralSingersLatali_20160811
+      title: "Zari Lower Bal"
       scales:
         - damusc/Georgia_GVM203-H
         - damusc/Georgia_GVM203-M
@@ -438,48 +368,8 @@
   album: Georgian Vocal Music (GVM) Dataset
   year: 2016
   tracks:
-    - url: https://lazardb.gbv.de/detail/9065
-      title: "Zari Lower Bal — Etseri Village (video)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10361
-      title: "Zari Lower Bal — Etseri Village (singer 1, headset mic)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10362
-      title: "Zari Lower Bal — Etseri Village (singer 2, headset mic)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10363
-      title: "Zari Lower Bal — Etseri Village (singer 3, headset mic)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10364
-      title: "Zari Lower Bal — Etseri Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10365
-      title: "Zari Lower Bal — Etseri Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10366
-      title: "Zari Lower Bal — Etseri Village (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10367
-      title: "Zari Lower Bal — Etseri Village (singer 4, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM202-H
-        - damusc/Georgia_GVM202-M
-    - url: https://lazardb.gbv.de/detail/10331
-      title: "Zari Lower Bal — Etseri Village (ambient stereo)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM202_ZariLowerBal_EtseriVillage_Kaltid_20160802
+      title: "Zari Lower Bal"
       scales:
         - damusc/Georgia_GVM202-H
         - damusc/Georgia_GVM202-M
@@ -487,68 +377,13 @@
   album: Georgian Vocal Music (GVM) Dataset
   year: 2016
   tracks:
-    - url: https://lazardb.gbv.de/detail/9063
-      title: "Zari Mestia Take 1 — Zargash (video)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM205_ZariMestiaTake1_Zargash_MestiaSingers_20160814
+      title: "Zari Mestia Take 1"
       scales:
         - damusc/Georgia_GVM205-H
         - damusc/Georgia_GVM205-M
-    - url: https://lazardb.gbv.de/detail/11117
-      title: "Zari Mestia Take 1 — Zargash (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM205-H
-        - damusc/Georgia_GVM205-M
-    - url: https://lazardb.gbv.de/detail/11118
-      title: "Zari Mestia Take 1 — Zargash (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM205-H
-        - damusc/Georgia_GVM205-M
-    - url: https://lazardb.gbv.de/detail/11119
-      title: "Zari Mestia Take 1 — Zargash (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM205-H
-        - damusc/Georgia_GVM205-M
-    - url: https://lazardb.gbv.de/detail/11120
-      title: "Zari Mestia Take 1 — Zargash (ambient stereo)"
-      scales:
-        - damusc/Georgia_GVM205-H
-        - damusc/Georgia_GVM205-M
-    - url: https://lazardb.gbv.de/detail/9062
-      title: "Zari Mestia Take 2 — Zargash (video)"
-      scales:
-        - damusc/Georgia_GVM206-H
-        - damusc/Georgia_GVM206-M
-    - url: https://lazardb.gbv.de/detail/11121
-      title: "Zari Mestia Take 2 — Zargash (singer 1, headset mic)"
-      scales:
-        - damusc/Georgia_GVM206-H
-        - damusc/Georgia_GVM206-M
-    - url: https://lazardb.gbv.de/detail/11122
-      title: "Zari Mestia Take 2 — Zargash (singer 2, headset mic)"
-      scales:
-        - damusc/Georgia_GVM206-H
-        - damusc/Georgia_GVM206-M
-    - url: https://lazardb.gbv.de/detail/11123
-      title: "Zari Mestia Take 2 — Zargash (singer 3, headset mic)"
-      scales:
-        - damusc/Georgia_GVM206-H
-        - damusc/Georgia_GVM206-M
-    - url: https://lazardb.gbv.de/detail/11124
-      title: "Zari Mestia Take 2 — Zargash (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM206-H
-        - damusc/Georgia_GVM206-M
-    - url: https://lazardb.gbv.de/detail/11125
-      title: "Zari Mestia Take 2 — Zargash (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM206-H
-        - damusc/Georgia_GVM206-M
-    - url: https://lazardb.gbv.de/detail/11126
-      title: "Zari Mestia Take 2 — Zargash (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM206-H
-        - damusc/Georgia_GVM206-M
-    - url: https://lazardb.gbv.de/detail/11127
-      title: "Zari Mestia Take 2 — Zargash (ambient stereo)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM206_ZariMestiaTake2_Zargash_MestiaSingers_20160814
+      title: "Zari Mestia Take 2"
       scales:
         - damusc/Georgia_GVM206-H
         - damusc/Georgia_GVM206-M
@@ -556,43 +391,8 @@
   album: Georgian Vocal Music (GVM) Dataset
   year: 2016
   tracks:
-    - url: https://lazardb.gbv.de/detail/8219
-      title: "Zari Lenjeri — Mestia (video)"
-      scales:
-        - damusc/Georgia_GVM201-H
-        - damusc/Georgia_GVM201-M
-    - url: https://lazardb.gbv.de/detail/10667
-      title: "Zari Lenjeri — Mestia (singer 1, headset mic)"
-      scales:
-        - damusc/Georgia_GVM201-H
-        - damusc/Georgia_GVM201-M
-    - url: https://lazardb.gbv.de/detail/10668
-      title: "Zari Lenjeri — Mestia (singer 2, headset mic)"
-      scales:
-        - damusc/Georgia_GVM201-H
-        - damusc/Georgia_GVM201-M
-    - url: https://lazardb.gbv.de/detail/10669
-      title: "Zari Lenjeri — Mestia (singer 3, headset mic)"
-      scales:
-        - damusc/Georgia_GVM201-H
-        - damusc/Georgia_GVM201-M
-    - url: https://lazardb.gbv.de/detail/10670
-      title: "Zari Lenjeri — Mestia (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM201-H
-        - damusc/Georgia_GVM201-M
-    - url: https://lazardb.gbv.de/detail/10671
-      title: "Zari Lenjeri — Mestia (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM201-H
-        - damusc/Georgia_GVM201-M
-    - url: https://lazardb.gbv.de/detail/10672
-      title: "Zari Lenjeri — Mestia (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM201-H
-        - damusc/Georgia_GVM201-M
-    - url: https://lazardb.gbv.de/detail/10673
-      title: "Zari Lenjeri — Mestia (ambient stereo)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM201_ZariLenjeri_Mestia_RihoMembers_20160813
+      title: "Zari Lenjeri"
       scales:
         - damusc/Georgia_GVM201-H
         - damusc/Georgia_GVM201-M
@@ -600,43 +400,8 @@
   album: Georgian Vocal Music (GVM) Dataset
   year: 2016
   tracks:
-    - url: https://lazardb.gbv.de/detail/9053
-      title: "Zari Lower Bal — Tsalka Village (video)"
-      scales:
-        - damusc/Georgia_GVM204-H
-        - damusc/Georgia_GVM204-M
-    - url: https://lazardb.gbv.de/detail/11538
-      title: "Zari Lower Bal — Tsalka Village (singer 1, headset mic)"
-      scales:
-        - damusc/Georgia_GVM204-H
-        - damusc/Georgia_GVM204-M
-    - url: https://lazardb.gbv.de/detail/11539
-      title: "Zari Lower Bal — Tsalka Village (singer 2, headset mic)"
-      scales:
-        - damusc/Georgia_GVM204-H
-        - damusc/Georgia_GVM204-M
-    - url: https://lazardb.gbv.de/detail/11540
-      title: "Zari Lower Bal — Tsalka Village (singer 3, headset mic)"
-      scales:
-        - damusc/Georgia_GVM204-H
-        - damusc/Georgia_GVM204-M
-    - url: https://lazardb.gbv.de/detail/11541
-      title: "Zari Lower Bal — Tsalka Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM204-H
-        - damusc/Georgia_GVM204-M
-    - url: https://lazardb.gbv.de/detail/11542
-      title: "Zari Lower Bal — Tsalka Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM204-H
-        - damusc/Georgia_GVM204-M
-    - url: https://lazardb.gbv.de/detail/11543
-      title: "Zari Lower Bal — Tsalka Village (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM204-H
-        - damusc/Georgia_GVM204-M
-    - url: https://lazardb.gbv.de/detail/11544
-      title: "Zari Lower Bal — Tsalka Village (ambient stereo)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM204_ZariLowerBal_TsalkaVillage_TsalkaPeople_20160909
+      title: "Zari Lower Bal"
       scales:
         - damusc/Georgia_GVM204-H
         - damusc/Georgia_GVM204-M
@@ -644,83 +409,13 @@
   album: Georgian Vocal Music (GVM) Dataset
   year: 2016
   tracks:
-    - url: https://lazardb.gbv.de/detail/8166
-      title: "Zari Latali — Udabno Village (video)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM200_ZariLatali_UdabnoVillage_UdabnoMen_20160922
+      title: "Zari Latali"
       scales:
         - damusc/Georgia_GVM200-H
         - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/11091
-      title: "Zari Latali — Udabno Village (singer 1, headset mic)"
-      scales:
-        - damusc/Georgia_GVM200-H
-        - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/11092
-      title: "Zari Latali — Udabno Village (singer 2, headset mic)"
-      scales:
-        - damusc/Georgia_GVM200-H
-        - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/11093
-      title: "Zari Latali — Udabno Village (singer 3, headset mic)"
-      scales:
-        - damusc/Georgia_GVM200-H
-        - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/11094
-      title: "Zari Latali — Udabno Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM200-H
-        - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/11095
-      title: "Zari Latali — Udabno Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM200-H
-        - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/11096
-      title: "Zari Latali — Udabno Village (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM200-H
-        - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/11097
-      title: "Zari Latali — Udabno Village (ambient stereo)"
-      scales:
-        - damusc/Georgia_GVM200-H
-        - damusc/Georgia_GVM200-M
-    - url: https://lazardb.gbv.de/detail/8165
-      title: "Zari Ushguli — Udabno Village (video)"
-      scales:
-        - damusc/Georgia_GVM208-H
-        - damusc/Georgia_GVM208-M
-    - url: https://lazardb.gbv.de/detail/11098
-      title: "Zari Ushguli — Udabno Village (singer 1, headset mic)"
-      scales:
-        - damusc/Georgia_GVM208-H
-        - damusc/Georgia_GVM208-M
-    - url: https://lazardb.gbv.de/detail/11099
-      title: "Zari Ushguli — Udabno Village (singer 2, headset mic)"
-      scales:
-        - damusc/Georgia_GVM208-H
-        - damusc/Georgia_GVM208-M
-    - url: https://lazardb.gbv.de/detail/11100
-      title: "Zari Ushguli — Udabno Village (singer 3, headset mic)"
-      scales:
-        - damusc/Georgia_GVM208-H
-        - damusc/Georgia_GVM208-M
-    - url: https://lazardb.gbv.de/detail/11101
-      title: "Zari Ushguli — Udabno Village (singer 1, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM208-H
-        - damusc/Georgia_GVM208-M
-    - url: https://lazardb.gbv.de/detail/11102
-      title: "Zari Ushguli — Udabno Village (singer 2, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM208-H
-        - damusc/Georgia_GVM208-M
-    - url: https://lazardb.gbv.de/detail/11103
-      title: "Zari Ushguli — Udabno Village (singer 3, larynx mic)"
-      scales:
-        - damusc/Georgia_GVM208-H
-        - damusc/Georgia_GVM208-M
-    - url: https://lazardb.gbv.de/detail/11104
-      title: "Zari Ushguli — Udabno Village (ambient stereo)"
+    - url: https://www.audiolabs-erlangen.de/resources/MIR/2017-GeorgianMusic-Scherbaum/GVM208_ZariUshguli_UdabnoVillage_UdabnoMen_20160922
+      title: "Zari Ushguli"
       scales:
         - damusc/Georgia_GVM208-H
         - damusc/Georgia_GVM208-M
