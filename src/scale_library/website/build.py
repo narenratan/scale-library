@@ -493,9 +493,11 @@ def render_scale_page(
     # Contrib fields
     details_text = None
     ref_url = None
+    contributor = None
     if src == "contrib":
         details_text = parse_details(scale.raw_text) or None
-        ref_url = scale.info.raw.get("ref_url")
+        ref_url = scale.info.raw["ref_url"]
+        contributor = scale.info.raw["contributor"]
 
     construction = construction_lookup.get(scale.stem)
 
@@ -532,6 +534,7 @@ def render_scale_page(
         construction=construction,
         details_text=details_text,
         ref_url=ref_url,
+        contributor=contributor,
         has_scala_analysis=has_scala_analysis,
     )
 
@@ -954,13 +957,6 @@ def build(regenerate_similar: bool = False, allow_missing_scala: bool = False) -
             "edos",
             "<p>Equal divisions of the octave from 1-EDO through 72-EDO.</p>",
         ),
-        (
-            "contrib",
-            "Contrib",
-            "contrib",
-            "contrib",
-            "<p>Scales people have contributed.</p>",
-        ),
     ]:
         subset = [s for s in scales if s.info.source == src_name]
         _write_filter(
@@ -971,8 +967,15 @@ def build(regenerate_similar: bool = False, allow_missing_scala: bool = False) -
             description=src_desc,
         )
 
-    # Per-contributor pages
     contrib_scales = [s for s in scales if s.info.source == "contrib"]
+    _write_filter(
+        "source/contrib",
+        "Contrib",
+        contrib_scales,
+        intro=f"{len(contrib_scales)} scales",
+        description="<p>Scales people have contributed.</p>",
+        show_contributor=True,
+    )
     by_contributor: dict[str, list[ScaleData]] = defaultdict(list)
     for s in contrib_scales:
         by_contributor[s.info.raw["contributor"]].append(s)

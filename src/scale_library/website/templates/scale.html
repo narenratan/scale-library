@@ -48,6 +48,9 @@
       {{ scale.info.source }}
     {% endif %}
   </td></tr>
+  {% if contributor %}
+  <tr><th>Contributor</th><td><a href="/contributor/{{ contributor }}/">{{ contributor }}</a></td></tr>
+  {% endif %}
   {% if div_type %}
   <tr><th>Type</th><td><a href="/source/divisions-of-the-tetrachord/{{ div_type }}/">{{ div_type_display }}</a></td></tr>
   {% endif %}

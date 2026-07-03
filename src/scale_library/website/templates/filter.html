@@ -29,6 +29,7 @@
 <table class="filenames">
   <thead>
     <tr>
+      {% if show_contributor %}<th>Contributor</th>{% endif %}
       <th>File</th>
       <th>Description</th>
       <th>Notes</th>
@@ -40,6 +41,7 @@
   <tbody>
     {% for s in scales %}
     <tr>
+      {% if show_contributor %}<td class="nowrap"><a href="/contributor/{{ s.info.raw.contributor }}/">{{ s.info.raw.contributor }}</a></td>{% endif %}
       <td><a href="/scales/{{ s.stem }}/">{{ s.scl_file[:-4] }}</a></td>
       <td>{{ s.description }}</td>
       <td class="nowrap">{{ s.notes }}</td>
