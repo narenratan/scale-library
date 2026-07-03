@@ -117,6 +117,29 @@
 <p>{{ details_text }}</p>
 {% endif %}
 
+{% if recordings or scale.info.source == "EDO" %}
+<h2>Recordings</h2>
+{% if recordings %}
+<table class="auto">
+  <thead><tr><th>Title</th><th>Artist</th><th>Album</th><th>Year</th>{% if show_reference %}<th>Reference</th>{% endif %}</tr></thead>
+  <tbody>
+  {% for r in recordings %}
+  <tr>
+    <td><a href="{{ r.url }}">{{ r.title }}</a></td>
+    <td>{{ r.artist if r.artist else "" }}</td>
+    <td>{{ r.album if r.album else "" }}</td>
+    <td class="nowrap">{{ r.year if r.year else "" }}</td>
+    {% if show_reference %}<td>{% if r.reference %}{% if r.reference.startswith('http') %}<a href="{{ r.reference }}">{{ r.reference | domain }}</a>{% else %}{{ r.reference }}{% endif %}{% endif %}</td>{% endif %}
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+{% if scale.info.source == "EDO" %}
+<p><a href="https://en.xen.wiki/w/{{ scale.notes }}edo#Music">Music on the Xen Wiki</a></p>
+{% endif %}
+{% endif %}
+
 {% if similar %}
 <h2>Similar scales</h2>
 <table class="auto filenames">
@@ -184,29 +207,6 @@ Subject: {{ msg.subject }}
 {{ msg.body }}</pre>
   {% endfor %}
 </details>
-{% endif %}
-{% endif %}
-
-{% if recordings or scale.info.source == "EDO" %}
-<h2>Recordings</h2>
-{% if recordings %}
-<table class="auto">
-  <thead><tr><th>Title</th><th>Artist</th><th>Album</th><th>Year</th>{% if show_reference %}<th>Reference</th>{% endif %}</tr></thead>
-  <tbody>
-  {% for r in recordings %}
-  <tr>
-    <td><a href="{{ r.url }}">{{ r.title }}</a></td>
-    <td>{{ r.artist if r.artist else "" }}</td>
-    <td>{{ r.album if r.album else "" }}</td>
-    <td class="nowrap">{{ r.year if r.year else "" }}</td>
-    {% if show_reference %}<td>{% if r.reference %}{% if r.reference.startswith('http') %}<a href="{{ r.reference }}">{{ r.reference | domain }}</a>{% else %}{{ r.reference }}{% endif %}{% endif %}</td>{% endif %}
-  </tr>
-  {% endfor %}
-  </tbody>
-</table>
-{% endif %}
-{% if scale.info.source == "EDO" %}
-<p><a href="https://en.xen.wiki/w/{{ scale.notes }}edo#Music">Music on the Xen Wiki</a></p>
 {% endif %}
 {% endif %}
 
