@@ -28,23 +28,40 @@
       scales:
         - xenharmonikon/xen12-wilson-40-5C2-dekany-03
 - artist: Sevish
-  album: Bubble
-  year: 2021
-  reference: https://sevish.com/stuff/Bubble_Liner_Notes.pdf
-  tracks:
-    - url: https://sevish.bandcamp.com/track/you-tell-me
-      title: You Tell Me
-      scales:
-        - xenharmonikon/xen16-grady-centaur
-- artist: Sevish
   album: Horixens
   year: 2019
   reference: https://sevish.com/stuff/Horixens_Liner_Notes.pdf
   tracks:
+    - url: https://sevish.bandcamp.com/track/come-on-a-journey
+      title: Come on a Journey
+      scales:
+        - contrib/sevish/horixens-01-come-on-a-journey
+    - url: https://sevish.bandcamp.com/track/baobaoshuijiaojiao
+      title: Baobaoshuijiaojiao
+      scales:
+        - contrib/sevish/horixens-02-baobaoshuijiaojiao
+    - url: https://sevish.bandcamp.com/track/in-the-zoon
+      title: In the Zoon
+      scales:
+        - contrib/sevish/horixens-03-in-the-zoon-1
+        - contrib/sevish/horixens-03-in-the-zoon-2
     - url: https://sevish.bandcamp.com/track/unreality
       title: Unreality
       scales:
+        - contrib/sevish/horixens-04-unreality
         - xenharmonikon/xen18-secor-13-limit-2-just
+    - url: https://sevish.bandcamp.com/track/better-left-unanswered
+      title: Better Left Unanswered
+      scales:
+        - contrib/sevish/horixens-05-better-left-unanswered
+    - url: https://sevish.bandcamp.com/track/outside
+      title: Outside
+      scales:
+        - contrib/sevish/horixens-06-outside
+    - url: https://sevish.bandcamp.com/track/septillion-reptilians
+      title: Septillion Reptilians
+      scales:
+        - contrib/sevish/horixens-07-septillion-reptilians
 - artist: Sevish
   album: Murmurations
   year: 2023
@@ -74,6 +91,77 @@
       title: Murmurations 1 3 5 9 Reprise
       scales:
         - xenharmonikon/xen12-wilson-39-4C2-hexany-01
+- artist: Sevish
+  album: One With the Fractal
+  year: 2025
+  reference: https://sevish.com/stuff/One_With_the_Fractal_liner_notes.txt
+  tracks:
+    - url: https://sevish.bandcamp.com/track/this-track
+      title: This Track
+      scales:
+        - contrib/sevish/fractal-01-this-track
+    - url: https://sevish.bandcamp.com/track/the-dreamer
+      title: The Dreamer
+      scales:
+        - contrib/sevish/fractal-01-this-track
+    - url: https://sevish.bandcamp.com/track/day-for-night
+      title: Day for Night
+      scales:
+        - contrib/sevish/fractal-03-day-for-night
+    - url: https://sevish.bandcamp.com/track/wait-what
+      title: Wait What
+      scales:
+        - contrib/sevish/fractal-08-wait-what
+    - url: https://sevish.bandcamp.com/track/durationplex
+      title: Durationplex
+      scales:
+        - contrib/sevish/fractal-09-durationplex
+    - url: https://sevish.bandcamp.com/track/triple-trouble
+      title: Triple Trouble
+      scales:
+        - contrib/sevish/fractal-10-triple-trouble
+    - url: https://sevish.bandcamp.com/track/false-awakening
+      title: False Awakening
+      scales:
+        - contrib/sevish/fractal-12-false-awakening
+- artist: Sevish
+  album: Morphable
+  year: 2022
+  reference: https://sevish.com/stuff/Morphable_Liner_Notes.txt
+  tracks:
+    - url: https://sevish.bandcamp.com/track/everyone
+      title: Everyone
+      scales:
+        - contrib/sevish/morphable-02-everyone
+    - url: https://sevish.bandcamp.com/track/rain-pitted-99
+      title: Rain Pitted 99
+      scales:
+        - contrib/sevish/morphable-05-rain-pitted-99
+    - url: https://sevish.bandcamp.com/track/tritavium
+      title: Tritavium
+      scales:
+        - contrib/sevish/morphable-06-tritavium
+- artist: Sevish
+  album: Bubble
+  year: 2021
+  reference: https://sevish.com/stuff/Bubble_Liner_Notes.pdf
+  tracks:
+    - url: https://sevish.bandcamp.com/track/plot-hole
+      title: Plot Hole
+      scales:
+        - contrib/sevish/bubble-01-plot-hole
+    - url: https://sevish.bandcamp.com/track/you-tell-me
+      title: You Tell Me
+      scales:
+        - xenharmonikon/xen16-grady-centaur
+    - url: https://sevish.bandcamp.com/track/dream-up
+      title: Dream Up
+      scales:
+        - contrib/sevish/bubble-06-dream-up
+    - url: https://sevish.bandcamp.com/track/almighty-fractal
+      title: Almighty Fractal
+      scales:
+        - contrib/sevish/bubble-08-almighty-fractal
 - artist: Honk Yonder
   album: The Honk Tapes
   year: 2025

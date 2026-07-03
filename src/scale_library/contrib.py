@@ -47,6 +47,27 @@ def parse_details(scl_text: str) -> str:
     return "\n".join(line[2:] if line.startswith("! ") else "" for line in detail_lines).strip("\n")
 
 
+def _assert_line_after_period_is_comment(p, scl_text):
+    lines = scl_text.splitlines()
+    non_comment_seen = 0
+    note_count = 0
+    tones_seen = 0
+    for i, line in enumerate(lines):
+        if line.startswith("!"):
+            continue
+        non_comment_seen += 1
+        if non_comment_seen == 2:
+            note_count = int(line.strip())
+        elif non_comment_seen > 2:
+            tones_seen += 1
+            if tones_seen == note_count:
+                assert i + 1 < len(lines) and lines[i + 1] == "!", (
+                    f"{p}: line after period is not '!'"
+                )
+                return
+    raise AssertionError(f"{p}: could not find period line")
+
+
 def main():
     logger.info("Building contrib scales")
     shutil.rmtree(OUTPUT_DIR, ignore_errors=True)
@@ -67,9 +88,7 @@ def main():
         assert 'reference' in info_dict, f"{p}: missing 'reference' in info block"
         references[p.name] = info_dict['reference']
 
-        # Check for putting a smaller number of tones and so getting an unexpected period
-        # Remove/refine if non-octave scales contributed
-        assert abs(tl.parse_scl_data(scl).tones[-1].cents - 1200.0) <= 25.0
+        _assert_line_after_period_is_comment(p, scl)
 
         output_path = OUTPUT_DIR / "/".join(p.parts[-2:])
         output_path.parent.mkdir(parents=True, exist_ok=True)
