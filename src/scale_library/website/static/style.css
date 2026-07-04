@@ -103,7 +103,7 @@ details[open] summary { margin-bottom: 0.5rem; }
 table.auto { width: auto; }
 .prose { max-width: 65ch; }
 .prose table { width: auto; }
-table.filenames td:first-child { min-width: 14rem; }
+table.filenames .col-file { min-width: 14rem; }
 table.properties { margin-bottom: 2rem; }
 table.spacious td, table.spacious th { padding-right: 1.25rem; }
 .step-sep { border-left: 2px solid var(--border); padding-left: 2rem; }
