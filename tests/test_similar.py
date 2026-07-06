@@ -1,9 +1,11 @@
 """Unit tests for similar-scales similarity logic."""
 
+from dataclasses import dataclass
+
 import numpy as np
 import pytest
 
-from scale_library.website.similar import CENTS_TOL, _max_nearest_distance, _min_mode_distance
+from scale_library.website.similar import CENTS_TOL, MIN_CHILD_NOTES, _max_nearest_distance, _min_mode_distance, compute_similar
 
 
 # --- _min_mode_distance ---
@@ -49,10 +51,18 @@ def test_non_octave_period_identical():
     assert mode == 0
 
 
-def test_empty_scale():
+def test_empty_scale_same_period():
     a = np.array([])
     dist, mode = _min_mode_distance(a, a.copy(), period_a=1200.0, period_b=1200.0)
     assert dist == pytest.approx(0.0)
+    assert mode == 0
+
+
+def test_empty_scale_different_periods():
+    # Two 1-note scales with different periods: dist = period difference
+    a = np.array([])
+    dist, mode = _min_mode_distance(a, a.copy(), period_a=78.0, period_b=1200.0)
+    assert dist == pytest.approx(1122.0)
     assert mode == 0
 
 
@@ -135,3 +145,25 @@ def test_definitions_4():
     parent = np.array([203.9, 386.3, 498.0, 702.0, 884.4, 1088.3])
     dist = _max_nearest_distance(parent, child, 1200.0, 1200.0)
     assert dist == pytest.approx(15.6)
+
+
+# --- compute_similar ---
+
+@dataclass
+class _Tone:
+    cents: float
+
+@dataclass
+class _Scale:
+    stem: str
+    tones: list
+
+
+def test_parent_found_for_small_scale():
+    # A scale with fewer than MIN_CHILD_NOTES inner notes should still have parents listed.
+    # 2-note scale [400, 700] (period 1200) is exactly contained in the 4-note parent.
+    small = _Scale(stem='small', tones=[_Tone(400), _Tone(700), _Tone(1200)])
+    large = _Scale(stem='large', tones=[_Tone(200), _Tone(400), _Tone(700), _Tone(900), _Tone(1200)])
+    assert len(small.tones) - 1 < MIN_CHILD_NOTES  # confirm small has fewer than MIN_CHILD_NOTES inner notes
+    result = compute_similar([small, large])
+    assert result['small']['parents'], "scale with fewer than MIN_CHILD_NOTES notes should still have parents"

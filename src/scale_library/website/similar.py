@@ -8,14 +8,16 @@ Three relationships, all capped at 10 results:
                here (inverse of parent), sorted largest-first
 """
 
+import math
+from collections import defaultdict
+
 import numpy as np
 
-import math as _math
 
 CENTS_TOL = 25.0
 SIMILAR_CAP = 10
 MIN_CHILD_NOTES = 4
-_PARENT_SIZE_K = 10.0 / _math.log(2)  # cents cost per doubling of parent size
+_PARENT_SIZE_K = 10.0 / math.log(2)  # cents cost per doubling of parent size
 
 
 def _tone_cents(tones) -> tuple[np.ndarray, float]:
@@ -58,10 +60,11 @@ def _min_mode_distance(
     if len(b):
         assert b[0] != 0.0
         assert b[-1] != period_b
+    assert len(a) == len(b)
 
     n = len(a)
     if n == 0:
-        return 0.0, 0
+        return abs(period_a - period_b), 0
     # Include implicit root (0¢) to allow rotations starting from it
     full_b = np.concatenate([[0.0], b])  # n+1 notes
     best = np.inf
@@ -74,16 +77,21 @@ def _min_mode_distance(
         if d < best:
             best = d
             best_mode = r
+    max_diff = max(best, abs(period_a - period_b))
+
     # Validate: best rotation of b achieves the reported mode distance
     pivot = full_b[best_mode]
     rot_full = np.sort((full_b - pivot) % period_b)
     rot = rot_full[1:]
-    returned = max(best, abs(period_a - period_b))
+    reconstruction_error = np.max(
+        np.abs(np.concatenate([a, [period_a]]) - np.concatenate([rot, [period_b]]))
+    )
     assert (
-        float(np.max(np.abs(a - rot))) <= returned + 1e-9
-    ), f"Mode reconstruction error {np.max(np.abs(a - rot)):.6f}¢ > reported {returned:.6f}¢"
+        abs(reconstruction_error - max_diff) <= 1e-9
+    ), f"Reconstruction error inconsistent with max_diff"
+
     # Period difference counts toward overall distance (as in the reference)
-    return returned, best_mode
+    return max_diff, best_mode
 
 
 def _max_nearest_distance(
@@ -107,7 +115,7 @@ def _max_nearest_distance(
 
     assert len(parent_cents) >= len(child_cents)
     full_parent = np.concatenate([[0.0], parent_cents])
-    diffs = np.abs(child_cents[:, None] - full_parent[None, :])
+    diffs = np.abs(np.subtract.outer(child_cents, full_parent))
     min_per_child = diffs.min(axis=1)
     return float(max(min_per_child.max(), abs(parent_period - child_period)))
 
@@ -123,16 +131,11 @@ def compute_similar(
         where each list contains up to SIMILAR_CAP stems.
     """
     stems = [s.stem for s in scales]
-    cents_arrays = [
-        _tone_cents(s.tones) if s.tones else (np.array([]), 1200.0) for s in scales
-    ]
+    cents_arrays = [_tone_cents(s.tones) for s in scales]
     notes_counts = [len(arr) for arr, _ in cents_arrays]
-    canonical_keys = [
-        _canonical_mode_key(arr, period) for arr, period in cents_arrays
-    ]
+    canonical_keys = [_canonical_mode_key(arr, period) for arr, period in cents_arrays]
 
     # Group by note count for O(n_group²) similar search
-    from collections import defaultdict
 
     by_count: dict[int, list[int]] = defaultdict(list)
     for i, n in enumerate(notes_counts):
@@ -144,8 +147,6 @@ def compute_similar(
 
     # Similar: same note count — collect all matches, then keep closest SIMILAR_CAP
     for n, group in by_count.items():
-        if n == 0:
-            continue
         for pos_a, i in enumerate(group):
             a, period_a = cents_arrays[i]
             for j in group[pos_a + 1 :]:
@@ -171,14 +172,17 @@ def compute_similar(
         for item in candidates:
             j, dist, mode = item
             key = canonical_keys[j]
-            if key not in best or (round(dist, 4), mode) < (round(best[key][1], 4), best[key][2]):
+            if key not in best or (round(dist, 4), mode) < (
+                round(best[key][1], 4),
+                best[key][2],
+            ):
                 best[key] = item
         return list(best.values())
 
     def _sort_key_parent(item, ni):
         j, dist = item
         nj = notes_counts[j]
-        score = dist + _PARENT_SIZE_K * _math.log(nj / ni)
+        score = dist + _PARENT_SIZE_K * math.log(nj / ni)
         return (score, stems[j].split("/")[-1])
 
     def _sort_key_children(item):
@@ -186,7 +190,9 @@ def compute_similar(
         return (dist, -notes_counts[j], stems[j].split("/")[-1])
 
     for i in similar:
-        similar[i] = sorted(_dedup_by_modal_class(similar[i]), key=_sort_key)[:SIMILAR_CAP]
+        similar[i] = sorted(_dedup_by_modal_class(similar[i]), key=_sort_key)[
+            :SIMILAR_CAP
+        ]
 
     # Parent/child: collect all, then keep closest SIMILAR_CAP
     for i in range(len(scales)):
@@ -202,13 +208,14 @@ def compute_similar(
                 continue
             if nj <= ni:
                 continue
-            if ni < MIN_CHILD_NOTES:
-                continue
             parent_cents, period_j = cents_arrays[j]
-            result = _max_nearest_distance(parent_cents, child_cents, period_j, period_i)
+            result = _max_nearest_distance(
+                parent_cents, child_cents, period_j, period_i
+            )
             if result <= CENTS_TOL:
                 parents[i].append((j, result))
-                children[j].append((i, result))
+                if ni >= MIN_CHILD_NOTES:
+                    children[j].append((i, result))
 
     for i in parents:
         ni = notes_counts[i]
