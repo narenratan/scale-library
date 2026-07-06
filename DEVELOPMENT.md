@@ -10,7 +10,7 @@ Build the website:
 
 Run a local http server to look at the website:
 
-> python3 -m http.server 8000 --bind 127.0.0.1 --directory site
+> python3 src/scale_library/website/serve.py
 
 Build the data Python package:
 

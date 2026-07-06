@@ -683,6 +683,7 @@ scale-index.csv columns:
 
 - {prod_base}/scale-index.csv: CSV index of all scales
 - {prod_base}/scales.json: JSON array of all scales with tones
+- {prod_base}/scale-cents.json: compact JSON array of all scales with stem, sorted cents arrays and period (no url; derive as /scales/{{stem}}/ on scalelibrary.org)
 - {prod_base}/similar.json: JSON map of similar/parent/child scales (keyed by stem, top 10 by max cent diff)
 - {prod_base}/recordings.json: JSON array of recordings linked to scales (album-centric; each track has a scales array of full scale page URLs)
 
@@ -771,11 +772,27 @@ This is a lightweight way to add structured metadata to any scl file. Example:
         json.dumps(scales_data, indent=2), encoding="utf-8"
     )
 
+    # scale-cents.json — compact cents-only json
+    scale_cents_data = [
+        {
+            "stem": s["stem"],
+            "cents": sorted(round(t["cents"], 3) for t in s["tones"][:-1]),
+            "period": round(s["tones"][-1]["cents"], 3),
+        }
+        for s in scales_data
+    ]
+    (SITE_DIR / "scale-cents.json").write_text(
+        json.dumps(scale_cents_data), encoding="utf-8"
+    )
+
     # similar.json — precomputed similar/parent/child (generated separately, committed to repo)
     shutil.copy(SIMILAR_JSON, SITE_DIR / "similar.json")
 
     # recordings.json — album-centric recording data with full scale URLs
     _write_recordings_json()
+
+    # _headers — Cloudflare Pages CORS headers for JSON files
+    (SITE_DIR / "_headers").write_text("/*.json\n  Access-Control-Allow-Origin: *\n", encoding="utf-8")
 
 
 def build(regenerate_similar: bool = False, allow_missing_scala: bool = False) -> None:
