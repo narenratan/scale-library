@@ -114,7 +114,7 @@ def _max_nearest_distance(
         assert child_cents[-1] != child_period
 
     assert len(parent_cents) >= len(child_cents)
-    full_parent = np.concatenate([[0.0], parent_cents])
+    full_parent = np.concatenate([[0.0], parent_cents, [parent_period]])
     diffs = np.abs(np.subtract.outer(child_cents, full_parent))
     min_per_child = diffs.min(axis=1)
     return float(max(min_per_child.max(), abs(parent_period - child_period)))
@@ -170,12 +170,9 @@ def compute_similar(
         """Keep only the closest candidate per modal equivalence class."""
         best: dict[tuple, tuple] = {}
         for item in candidates:
-            j, dist, mode = item
+            j, _, mode = item
             key = canonical_keys[j]
-            if key not in best or (round(dist, 4), mode) < (
-                round(best[key][1], 4),
-                best[key][2],
-            ):
+            if key not in best or mode < best[key][2]:
                 best[key] = item
         return list(best.values())
 
