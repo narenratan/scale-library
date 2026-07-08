@@ -48,6 +48,8 @@ SIMILAR_JSON = REPO_ROOT / "similar.json"
 SCALA_ANALYSIS_DIR = REPO_ROOT / "scala-analysis"
 SCALA_ANALYSIS_TAR = REPO_ROOT / "scala-analysis.tar.gz"
 
+SCALE_CENTS_PRECISION = 7
+
 _SCALA_COMMAND_ORDER = [
     "SHOW",
     "SHOW-INTERVAL",
@@ -774,8 +776,8 @@ This is a lightweight way to add structured metadata to any scl file. Example:
 
     # scale-cents.json — compact cents-only json
     scale_cents_data = {
-        s["stem"]: [round(t["cents"], 3) for t in s["tones"]]
-        for s in scales_data
+        s.stem: [round(t.cents, SCALE_CENTS_PRECISION) for t in s.tones]
+        for s in scales
     }
     (SITE_DIR / "scale-cents.json").write_text(
         json.dumps(scale_cents_data), encoding="utf-8"
