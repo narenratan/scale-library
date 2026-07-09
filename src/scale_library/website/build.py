@@ -783,6 +783,9 @@ This is a lightweight way to add structured metadata to any scl file. Example:
         json.dumps(scale_cents_data), encoding="utf-8"
     )
 
+    # npm-package/scale-cents.json — copy for npm publishing
+    shutil.copy(SITE_DIR / "scale-cents.json", REPO_ROOT / "npm-package" / "scale-cents.json")
+
     # similar.json — precomputed similar/parent/child (generated separately, committed to repo)
     shutil.copy(SIMILAR_JSON, SITE_DIR / "similar.json")
 
