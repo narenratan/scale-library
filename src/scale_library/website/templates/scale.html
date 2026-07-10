@@ -160,12 +160,12 @@
 </table>
 {% endif %}
 
-{% if parents %}
-<h2>Parent scales</h2>
+{% if children %}
+<h2>Child scales</h2>
 <table class="auto filenames">
   <thead><tr><th>File</th><th>Notes</th><th>Max diff (¢)</th></tr></thead>
   <tbody>
-  {% for s in parents[:10] %}
+  {% for s in children[:10] %}
   <tr>
     <td><a href="/scales/{{ s.scale.stem }}/">{{ s.scale.scl_file[:-4] }}</a></td>
     <td class="num">{{ s.scale.notes }}</td>
@@ -176,12 +176,12 @@
 </table>
 {% endif %}
 
-{% if children %}
-<h2>Child scales</h2>
+{% if parents %}
+<h2>Parent scales</h2>
 <table class="auto filenames">
   <thead><tr><th>File</th><th>Notes</th><th>Max diff (¢)</th></tr></thead>
   <tbody>
-  {% for s in children[:10] %}
+  {% for s in parents[:10] %}
   <tr>
     <td><a href="/scales/{{ s.scale.stem }}/">{{ s.scale.scl_file[:-4] }}</a></td>
     <td class="num">{{ s.scale.notes }}</td>

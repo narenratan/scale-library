@@ -5,7 +5,7 @@ from dataclasses import dataclass
 import numpy as np
 import pytest
 
-from scale_library.website.similar import CENTS_TOL, MIN_CHILD_NOTES, _max_nearest_distance, _min_mode_distance, compute_similar
+from scale_library.website.similar import CENTS_TOL, MIN_PARENT_NOTES, _max_nearest_distance, _min_mode_distance, compute_similar
 
 
 # --- _min_mode_distance ---
@@ -85,33 +85,33 @@ def test_different_periods_within_tolerance():
 # --- _max_nearest_distance ---
 
 
-def test_child_exactly_inside_parent():
-    parent = np.array([200.0, 400.0, 500.0, 700.0, 900.0, 1100.0])
-    child = np.array([200.0, 700.0])
-    result = _max_nearest_distance(parent, child, 1200.0, 1200.0)
+def test_parent_exactly_inside_child():
+    child = np.array([200.0, 400.0, 500.0, 700.0, 900.0, 1100.0])
+    parent = np.array([200.0, 700.0])
+    result = _max_nearest_distance(child, parent, 1200.0, 1200.0)
     assert result == pytest.approx(0.0)
 
 
-def test_child_within_tolerance():
-    parent = np.array([200.0, 700.0, 900.0])
-    child = np.array([210.0, 715.0])  # 10¢ and 15¢ off
-    result = _max_nearest_distance(parent, child, 1200.0, 1200.0)
+def test_parent_within_tolerance():
+    child = np.array([200.0, 700.0, 900.0])
+    parent = np.array([210.0, 715.0])  # 10¢ and 15¢ off
+    result = _max_nearest_distance(child, parent, 1200.0, 1200.0)
     assert result == pytest.approx(15.0)
 
 
-def test_child_outside_tolerance():
-    parent = np.array([200.0, 700.0, 900.0])
-    child = np.array([200.0, 740.0])  # 740 is 40¢ from nearest parent note (700)
-    result = _max_nearest_distance(parent, child, 1200.0, 1200.0)
+def test_parent_outside_tolerance():
+    child = np.array([200.0, 700.0, 900.0])
+    parent = np.array([200.0, 740.0])  # 740 is 40¢ from nearest child note (700)
+    result = _max_nearest_distance(child, parent, 1200.0, 1200.0)
     assert result == pytest.approx(40.0)
 
 
 def test_peru27_not_contained_in_octave_scale():
     # Peru_27 raw tones (period 1136¢, unnormalised). 931¢ is 55¢ from nearest
-    # note in terrain — should not be considered a child.
-    parent = np.array([35.0, 182.0, 214.0, 399.0, 435.0, 583.0, 617.0, 801.0, 835.0, 986.0, 1018.0])
-    child = np.array([212.0, 400.0, 590.0, 778.0, 931.0])
-    result = _max_nearest_distance(parent, child, 1200.0, 1136.0)
+    # note in terrain.
+    child = np.array([35.0, 182.0, 214.0, 399.0, 435.0, 583.0, 617.0, 801.0, 835.0, 986.0, 1018.0])
+    parent = np.array([212.0, 400.0, 590.0, 778.0, 931.0])
+    result = _max_nearest_distance(child, parent, 1200.0, 1136.0)
     assert result == pytest.approx(64.0)  # period diff (64¢) dominates note distance (55¢)
 
 
@@ -134,16 +134,16 @@ def test_definitions_2():
 
 
 def test_definitions_3():
-    child = np.array([200.0, 400.0, 700.0, 900.0])
-    parent = np.array([200.0, 400.0, 500.0, 700.0, 900.0, 1100.0])
-    dist = _max_nearest_distance(parent, child, 1200.0, 1200.0)
+    parent = np.array([200.0, 400.0, 700.0, 900.0])
+    child = np.array([200.0, 400.0, 500.0, 700.0, 900.0, 1100.0])
+    dist = _max_nearest_distance(child, parent, 1200.0, 1200.0)
     assert dist == pytest.approx(0.0)
 
 
 def test_definitions_4():
-    child = np.array([200.0, 400.0, 700.0, 900.0])
-    parent = np.array([203.9, 386.3, 498.0, 702.0, 884.4, 1088.3])
-    dist = _max_nearest_distance(parent, child, 1200.0, 1200.0)
+    parent = np.array([200.0, 400.0, 700.0, 900.0])
+    child = np.array([203.9, 386.3, 498.0, 702.0, 884.4, 1088.3])
+    dist = _max_nearest_distance(child, parent, 1200.0, 1200.0)
     assert dist == pytest.approx(15.6)
 
 
@@ -160,10 +160,10 @@ class _Scale:
 
 
 def test_parent_found_for_small_scale():
-    # A scale with fewer than MIN_CHILD_NOTES inner notes should still have parents listed.
+    # A scale with fewer than MIN_PARENT_NOTES inner notes should still have parents listed.
     # 2-note scale [400, 700] (period 1200) is exactly contained in the 4-note parent.
     small = _Scale(stem='small', tones=[_Tone(400), _Tone(700), _Tone(1200)])
     large = _Scale(stem='large', tones=[_Tone(200), _Tone(400), _Tone(700), _Tone(900), _Tone(1200)])
-    assert len(small.tones) - 1 < MIN_CHILD_NOTES  # confirm small has fewer than MIN_CHILD_NOTES inner notes
+    assert len(small.tones) - 1 < MIN_PARENT_NOTES  # confirm small has fewer than MIN_PARENT_NOTES inner notes
     result = compute_similar([small, large])
-    assert result['small']['parents'], "scale with fewer than MIN_CHILD_NOTES notes should still have parents"
+    assert result['small']['children'], "scale with fewer than MIN_PARENT_NOTES notes should still have children"

@@ -3,9 +3,9 @@ Similar-scales precomputation.
 
 Three relationships, all capped at 10 results:
   - similar: same note count, every tone within 25 cents in some mode rotation
-  - parents: larger scales that contain all notes of this scale within 25 cents
-  - children: smaller scales whose notes are all within 25 cents of some note
-               here (inverse of parent), sorted largest-first
+  - children: larger scales that contain all notes of this scale within 25 cents
+  - parents: smaller scales whose notes are all within 25 cents of some note
+               here (inverse of child), sorted largest-first
 """
 
 import math
@@ -16,8 +16,8 @@ import numpy as np
 
 CENTS_TOL = 25.0
 SIMILAR_CAP = 10
-MIN_CHILD_NOTES = 4
-_PARENT_SIZE_K = 10.0 / math.log(2)  # cents cost per doubling of parent size
+MIN_PARENT_NOTES = 4
+_CHILD_SIZE_K = 10.0 / math.log(2)  # cents cost per doubling of child size
 
 
 def _tone_cents(tones) -> tuple[np.ndarray, float]:
@@ -95,39 +95,39 @@ def _min_mode_distance(
 
 
 def _max_nearest_distance(
-    parent_cents: np.ndarray,
     child_cents: np.ndarray,
-    parent_period: float,
+    parent_cents: np.ndarray,
     child_period: float,
+    parent_period: float,
 ) -> float:
     """
-    Return the worst-case nearest-note distance from child to parent, including periods.
+    Return the worst-case nearest-note distance from parent to child, including periods.
 
-    For each child note, finds the nearest parent note (root 0¢ included). Returns the
+    For each parent note, finds the nearest child note (root 0¢ included). Returns the
     max of those distances and the absolute period difference.
     """
-    if len(parent_cents):
-        assert parent_cents[0] != 0.0
-        assert parent_cents[-1] != parent_period
     if len(child_cents):
         assert child_cents[0] != 0.0
         assert child_cents[-1] != child_period
+    if len(parent_cents):
+        assert parent_cents[0] != 0.0
+        assert parent_cents[-1] != parent_period
 
-    assert len(parent_cents) >= len(child_cents)
-    full_parent = np.concatenate([[0.0], parent_cents, [parent_period]])
-    diffs = np.abs(np.subtract.outer(child_cents, full_parent))
-    min_per_child = diffs.min(axis=1)
-    return float(max(min_per_child.max(), abs(parent_period - child_period)))
+    assert len(child_cents) >= len(parent_cents)
+    full_child = np.concatenate([[0.0], child_cents, [child_period]])
+    diffs = np.abs(np.subtract.outer(parent_cents, full_child))
+    min_per_parent = diffs.min(axis=1)
+    return float(max(min_per_parent.max(), abs(child_period - parent_period)))
 
 
 def compute_similar(
     scales,
 ) -> dict[str, dict[str, list[str]]]:
     """
-    Compute similar/parent/child relationships for all scales.
+    Compute similar/child/parent relationships for all scales.
 
     Returns:
-        Dict mapping stem → {"similar": [...], "parents": [...], "children": [...]}
+        Dict mapping stem → {"similar": [...], "children": [...], "parents": [...]}
         where each list contains up to SIMILAR_CAP stems.
     """
     stems = [s.stem for s in scales]
@@ -142,8 +142,8 @@ def compute_similar(
         by_count[n].append(i)
 
     similar: dict[int, list[tuple[int, float]]] = {i: [] for i in range(len(scales))}
-    parents: dict[int, list[tuple[int, float]]] = {i: [] for i in range(len(scales))}
     children: dict[int, list[tuple[int, float]]] = {i: [] for i in range(len(scales))}
+    parents: dict[int, list[tuple[int, float]]] = {i: [] for i in range(len(scales))}
 
     # Similar: same note count — collect all matches, then keep closest SIMILAR_CAP
     for n, group in by_count.items():
@@ -176,13 +176,13 @@ def compute_similar(
                 best[key] = item
         return list(best.values())
 
-    def _sort_key_parent(item, ni):
+    def _sort_key_child(item, ni):
         j, dist = item
         nj = notes_counts[j]
-        score = dist + _PARENT_SIZE_K * math.log(nj / ni)
+        score = dist + _CHILD_SIZE_K * math.log(nj / ni)
         return (score, stems[j].split("/")[-1])
 
-    def _sort_key_children(item):
+    def _sort_key_parent(item):
         j, dist, *_ = item
         return (dist, -notes_counts[j], stems[j].split("/")[-1])
 
@@ -191,12 +191,12 @@ def compute_similar(
             :SIMILAR_CAP
         ]
 
-    # Parent/child: collect all, then keep closest SIMILAR_CAP
+    # Child/parent: collect all, then keep closest SIMILAR_CAP
     for i in range(len(scales)):
         ni = notes_counts[i]
         if ni == 0:
             continue
-        child_cents, period_i = cents_arrays[i]
+        parent_cents, period_i = cents_arrays[i]
         for j in range(len(scales)):
             if i == j:
                 continue
@@ -205,22 +205,22 @@ def compute_similar(
                 continue
             if nj <= ni:
                 continue
-            parent_cents, period_j = cents_arrays[j]
+            child_cents, period_j = cents_arrays[j]
             result = _max_nearest_distance(
-                parent_cents, child_cents, period_j, period_i
+                child_cents, parent_cents, period_j, period_i
             )
             if result <= CENTS_TOL:
-                parents[i].append((j, result))
-                if ni >= MIN_CHILD_NOTES:
-                    children[j].append((i, result))
+                children[i].append((j, result))
+                if ni >= MIN_PARENT_NOTES:
+                    parents[j].append((i, result))
 
-    for i in parents:
+    for i in children:
         ni = notes_counts[i]
-        parents[i] = sorted(parents[i], key=lambda item: _sort_key_parent(item, ni))[
+        children[i] = sorted(children[i], key=lambda item: _sort_key_child(item, ni))[
             :SIMILAR_CAP
         ]
-    for i in children:
-        children[i] = sorted(children[i], key=_sort_key_children)[:SIMILAR_CAP]
+    for i in parents:
+        parents[i] = sorted(parents[i], key=_sort_key_parent)[:SIMILAR_CAP]
 
     return {
         stems[i]: {
@@ -228,12 +228,12 @@ def compute_similar(
                 {"stem": stems[j], "max_diff": round(dist, 1), "mode": mode}
                 for j, dist, mode in similar[i]
             ],
-            "parents": [
-                {"stem": stems[j], "max_diff": round(dist, 1)} for j, dist in parents[i]
-            ],
             "children": [
+                {"stem": stems[j], "max_diff": round(dist, 1)} for j, dist in children[i]
+            ],
+            "parents": [
                 {"stem": stems[j], "max_diff": round(dist, 1)}
-                for j, dist in children[i]
+                for j, dist in parents[i]
             ],
         }
         for i in range(len(scales))

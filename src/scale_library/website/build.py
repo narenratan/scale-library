@@ -686,7 +686,7 @@ scale-index.csv columns:
 - {prod_base}/scale-index.csv: CSV index of all scales
 - {prod_base}/scales.json: JSON array of all scales with tones
 - {prod_base}/scale-cents.json: compact JSON dict of all scale stems mapped to cents arrays (no url; derive as /scales/{{stem}}/ on scalelibrary.org)
-- {prod_base}/similar.json: JSON map of similar/parent/child scales (keyed by stem, top 10 by max cent diff)
+- {prod_base}/similar.json: JSON map of similar/child/parent scales (keyed by stem, top 10 by max cent diff)
 - {prod_base}/recordings.json: JSON array of recordings linked to scales (album-centric; each track has a scales array of full scale page URLs)
 
 ## Browse
@@ -700,7 +700,7 @@ scale-index.csv columns:
 ## Full content
 
 - {prod_base}/constructions.md: All scale construction explanations and Python code. Load into context first when answering questions about microtonal theory or scale construction.
-- {prod_base}/definitions.md: Definitions of terms used on scale pages (max diff, period, rotation, similar, parent/child).
+- {prod_base}/definitions.md: Definitions of terms used on scale pages (max diff, period, rotation, similar, child/parent).
 - {prod_base}/mailing-list-threads.txt: Full text of all mailing list threads containing scales (for RAG / offline use)
 
 ## Scale page format
@@ -708,7 +708,7 @@ scale-index.csv columns:
 Each scale at `/scales/<source>/<slug>/` has (e.g. `/scales/xenharmonikon/xen02-wilson-arabic/`):
 - `index.html`: human-readable page with tones, steps, Scale Workshop link
 - `<slug>.scl`: raw Scala scl file
-- `scale.json`: machine-readable JSON (description, notes, tones, steps, source, similar/parent/child scales with max cent diff)
+- `scale.json`: machine-readable JSON (description, notes, tones, steps, source, similar/child/parent scales with max cent diff)
 
 Use `scale.json` for the authoritative tones/steps of a specific scale — the HTML page may include mailing list threads that contain other scales, so parsing the page prose is not a reliable way to identify which scale belongs to this URL.
 
@@ -786,7 +786,7 @@ This is a lightweight way to add structured metadata to any scl file. Example:
     # npm-package/scale-cents.json — copy for npm publishing
     shutil.copy(SITE_DIR / "scale-cents.json", REPO_ROOT / "npm-package" / "scale-cents.json")
 
-    # similar.json — precomputed similar/parent/child (generated separately, committed to repo)
+    # similar.json — precomputed similar/child/parent (generated separately, committed to repo)
     shutil.copy(SIMILAR_JSON, SITE_DIR / "similar.json")
 
     # recordings.json — album-centric recording data with full scale URLs
@@ -824,12 +824,12 @@ def build(regenerate_similar: bool = False, allow_missing_scala: bool = False) -
 
     # ── 2. Similar scales ──────────────────────────────────────────────────────
     if regenerate_similar or not SIMILAR_JSON.exists():
-        print("Computing similar/parent/child scales…", file=sys.stderr)
+        print("Computing similar/child/parent scales…", file=sys.stderr)
         similar_data = compute_similar(scales)
         SIMILAR_JSON.write_text(json.dumps(similar_data))
         print(f"  Done ({time.time()-t0:.1f}s) → {SIMILAR_JSON}", file=sys.stderr)
     else:
-        print(f"Loading similar/parent/child from {SIMILAR_JSON}…", file=sys.stderr)
+        print(f"Loading similar/child/parent from {SIMILAR_JSON}…", file=sys.stderr)
         similar_data = json.loads(SIMILAR_JSON.read_text())
 
     missing = [s.stem for s in scales if s.stem not in similar_data]
@@ -894,8 +894,8 @@ def build(regenerate_similar: bool = False, allow_missing_scala: bool = False) -
             ],
             "steps": compute_steps(scale.tones),
             "similar": similar_data[scale.stem]["similar"],
-            "parents": similar_data[scale.stem]["parents"],
             "children": similar_data[scale.stem]["children"],
+            "parents": similar_data[scale.stem]["parents"],
         }
         (out_dir / "scale.json").write_text(
             json.dumps(scale_json, indent=2), encoding="utf-8"

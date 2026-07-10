@@ -29,9 +29,9 @@ similar with rotation 1 and max diff 15.6¢.
 ## Parent and child scales
 
 If a larger scale contains an approximation of a smaller scale, both starting
-on the same root, we say the smaller scale is a child of the larger, and the
-larger a parent of the smaller. For example, the equal-tempered major
-pentatonic scale 0, 200, 400, 700, 900, 1200 is a child of the equal-tempered
-major scale 0, 200, 400, 500, 700, 900, 1100, 1200 with max diff 0¢, and a
-child of the just major scale 0, 203.9, 386.3, 498.0, 702.0, 884.4, 1088.3,
-1200 with max diff 15.6¢.
+on the same root, we say the smaller scale is a parent of the larger, and the
+larger a child of the smaller. For example, the equal-tempered major pentatonic
+scale 0, 200, 400, 700, 900, 1200 is a parent of the equal-tempered major scale
+0, 200, 400, 500, 700, 900, 1100, 1200 with max diff 0¢, and a parent of the
+just major scale 0, 203.9, 386.3, 498.0, 702.0, 884.4, 1088.3, 1200 with max
+diff 15.6¢.
