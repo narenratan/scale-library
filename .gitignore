@@ -1,8 +1,11 @@
 **/__pycache__
 **/.DS_Store
 **/*.swp
+**/node_modules/
 site/
 scala-analysis.tar.gz
 scala-analysis
 similar.json
 sources/ORD-CC32/
+npm-package/dist/
+npm-package/package-lock.json

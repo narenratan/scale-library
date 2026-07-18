@@ -1,6 +1,25 @@
 {
   "name": "@narenratan/scale-library",
-  "version": "1.3.0",
-  "files": ["scale-cents.json"],
+  "version": "1.3.1",
+  "type": "module",
+  "files": ["dist", "scale-cents.json"],
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./scale-cents.json": "./scale-cents.json"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.10"
+  },
   "publishConfig": { "access": "public" }
 }
