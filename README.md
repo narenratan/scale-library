@@ -3,7 +3,7 @@ A library of microtonal scales with sources attributed.
 
 The library is available as a [browsable website](https://scalelibrary.org) with:
 
-- Similar and approximate parent/child scales for each scale in the library
+- Similar and approximate child/parent scales for each scale in the library
 - Links to open scales directly in [Scale Workshop](https://scaleworkshop.plainsound.org)
 - Links to recordings for some scales, including:
     - Recordings from the 1932 Cairo Congress of Arab Music
